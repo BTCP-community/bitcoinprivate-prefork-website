@@ -1,0 +1,37 @@
+/*
+ * Layout
+ */
+
+.section {
+  padding: 90px 0;
+
+  p {
+    font-weight: 300;
+  }
+}
+
+.section-heading {
+  margin: 0 0 60px 0;
+}
+
+.visual-grouping {
+  margin-bottom: 65px;
+  text-align: center;
+
+  .visual {
+    color: $color-primary;
+    margin-bottom: 20px;
+  }
+
+  .content {
+    margin-left: 0 !important;
+
+    h3 {
+      margin-top: 0;
+    }
+
+    p {
+      font-weight: 300;
+    }
+  }
+}

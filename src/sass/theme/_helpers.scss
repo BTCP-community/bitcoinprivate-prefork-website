@@ -1,0 +1,122 @@
+/*
+ * Helpers
+ */
+
+.color-black {
+  color: $color-black !important;
+}
+
+.color-dark-gray {
+  color: $color-dark-gray !important;
+}
+
+.color-light-gray {
+  color: $color-light-gray !important;
+}
+
+.color-layout-gray {
+  color: $color-layout-gray !important;
+}
+
+.color-primary {
+  color: $color-primary !important;
+}
+
+.color-secondary {
+  color: $color-secondary !important;
+}
+
+.color-accent {
+  color: $color-accent !important;
+}
+
+.color-white {
+  color: $color-white !important;
+}
+
+.color-twitter {
+  color: $color-twitter !important;
+
+  &:hover {
+    color: darken($color-twitter, 15%) !important;
+  }
+}
+
+.color-reddit {
+  color: $color-reddit !important;
+
+  &:hover {
+    color: darken($color-reddit, 15%) !important;
+  }
+}
+
+.color-telegram {
+  color: $color-telegram !important;
+
+  &:hover {
+    color: darken($color-telegram, 15%) !important;
+  }
+}
+
+.color-github {
+  color: $color-github !important;
+
+  &:hover {
+    color: darken($color-github, 15%) !important;
+  }
+}
+
+.color-discord {
+  color: $color-discord !important;
+
+  &:hover {
+    color: darken($color-discord, 15%) !important;
+  }
+}
+
+.font-weight-bold {
+  font-weight: 500;
+}
+
+.font-weight-light {
+  font-weight: 300;
+}
+
+.btn-accent {
+  @extend .btn-primary;
+  color: $color-primary;
+  background: $color-accent;
+  border-color: $color-accent;
+
+  &:hover, &:active, &:focus {
+    color: $color-primary;
+    background: $color-white;
+    border-color: $color-accent;
+  }
+}
+
+p.x-large {
+  color: $color-black;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 23px;
+}
+
+p.large {
+  color: $color-black;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+p.small {
+  color: $color-dark-gray;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+p.x-small {
+  color: $color-dark-gray;
+  font-size: 12px;
+  line-height: 13px;
+}

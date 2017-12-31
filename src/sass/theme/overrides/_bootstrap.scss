@@ -1,0 +1,115 @@
+/*
+ * Overrides - Bootstrap
+ */
+
+a, .btn {
+  @include transition(all .25s);
+}
+
+
+
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 15px;
+}
+
+h1 {
+  color: $color-black;
+  font-size: 48px;
+  line-height: 54px;
+  font-weight: medium;
+}
+
+h2 {
+  color: $color-black;
+  font-size: 36px;
+  line-height: 41px;
+  font-weight: medium;
+}
+
+h3 {
+  color: $color-primary;
+  font-size: 20px;
+  line-height: 23px;
+  font-weight: medium;
+}
+
+h4 {
+  color: $color-dusty-gray;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: bold;
+}
+
+h5 {
+  color: $color-dusty-gray;
+  font-size: 14px;
+  line-height: 19px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+a {
+  color: $color-accent;
+
+  &:hover {
+    color: darken($color-accent, 10%);
+    text-decoration: none;
+  }
+}
+
+p {
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.btn {
+  font-weight: bold;
+  padding: 13px 23px;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-radius: 8px;
+}
+
+.btn-primary {
+  background: $color-primary;
+  border-color: $color-primary;
+}
+
+.container {
+  @media (max-width: $screen-sm-min) {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: transparent;
+  border: none;
+  z-index: 99;
+
+  .container-fluid {
+    padding: 0 40px;
+  }
+
+  .navbar-brand {
+    padding: 15px;
+  }
+
+  .nav {
+    & > li > a {
+      color: $color-primary;
+      font-size: 16px;
+      text-transform: uppercase;
+      font-weight: bold;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}

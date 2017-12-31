@@ -1,0 +1,19 @@
+# OSX
+#
+.DS_Store
+
+# bower
+#
+src/dependencies/
+build/dependencies/
+
+# node.js
+#
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Application
+#
+build/
+

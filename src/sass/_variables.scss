@@ -1,0 +1,34 @@
+/*
+ * Variables
+ */
+
+// Core Colors
+$color-black: #000000;
+$color-dark-gray: #666666;
+$color-dusty-gray: #999999;
+$color-light-gray: #C1C1C1;
+$color-layout-gray: #EEEEEE;
+$color-primary: #272D63;
+$color-secondary: #75A0D5;
+$color-accent: #FFAD05;
+$color-white: #FFFFFF;
+
+$color-link: $color-accent;
+$color-nav-item-active: $color-primary;
+$color-nav-item-regular: $color-dusty-gray;
+
+// Social Colors
+$color-twitter: #1DA1F2;
+$color-reddit: #FF5700;
+$color-telegram: #0088CC;
+$color-github: #4078C0;
+$color-discord: #7289DA;
+
+// Navigation
+$navbar-height: 80px;
+
+// Font
+$font-family-sans-serif: "Ubuntu", sans-serif;
+
+// Font Awesome
+$fa-font-path: "/dependencies/font-awesome/fonts";

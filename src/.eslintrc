@@ -1,0 +1,46 @@
+{
+    "env": {
+      "browser": true,
+      "jquery": true
+    },
+    "extends": "eslint:recommended",
+    "parserOptions": {
+        "sourceType": "module"
+    },
+    "globals": {
+      "API": true,
+      "Configuration": true,
+      "Module": true,
+      "Scaling": true,
+      "UI": true,
+      "doT": true,
+      "dot": true,
+      "url": true
+    },
+    "rules": {
+        "no-console": 0,
+        "comma-dangle": ["error", "never"],
+        "newline-before-return": "error",
+        "indent": [
+            "error",
+            2
+        ],
+        "linebreak-style": [
+            "error",
+            "unix"
+        ],
+        "quotes": [
+            "error",
+            "single"
+        ],
+        "semi": [
+            "error",
+            "always"
+        ],
+        "arrow-parens": [
+          "error",
+          "as-needed"
+        ],
+    }
+}
+
