@@ -1,6 +1,6 @@
 # Bitcoin Private Pre-Fork Website
 
-bitcoinprivate.github.io
+bitcoinprivate-prefork.github.io
 
 ## Testing Locally
 
