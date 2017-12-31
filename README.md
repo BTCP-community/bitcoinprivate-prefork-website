@@ -1,6 +1,6 @@
 # Bitcoin Private Pre-Fork Website
 
-bitcoinprivate-prefork.github.io
+<a href="https://btcp-community.github.io/bitcoinprivate-prefork.github.io/">https://btcp-community.github.io/bitcoinprivate-prefork.github.io/</a>
 
 ## Testing Locally
 
