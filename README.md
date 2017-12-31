@@ -10,8 +10,6 @@ You can quickly get a local server running for testing and developing using the 
 
 **You'll also need to have the latest version of Bower installed.** Bower is also not required in production, only for building.
 
-You'll need to be in the dev directory to test or build.
-
 ```
 cd dev
 npm install
@@ -21,7 +19,9 @@ npm run dev
 
 ## Deploying
 
-The website is currently hosted with github pages. Use `npm run build` from the `dev` directory, this will update the root directory with the latest src changes.
+The website is currently hosted with github pages. Use `npm run build`, this will update the docs directory with the latest src changes.
+
+The docs directory is what github pages hosts from.
 
 ```
 npm run build
