@@ -57,6 +57,12 @@
 #hard-fork {
   background: rgba(117, 160, 213, 0.25);
 
+  @media (max-width: $screen-sm-min) {
+    img {
+      margin-bottom: 40px;
+    }
+  }
+
   h3:not(:first-child) {
     margin-top: 40px;
   }

@@ -8417,6 +8417,9 @@ html, body {
 
 #hard-fork {
   background: rgba(117, 160, 213, 0.25); }
+  @media (max-width: 768px) {
+    #hard-fork img {
+      margin-bottom: 40px; } }
   #hard-fork h3:not(:first-child) {
     margin-top: 40px; }
 
