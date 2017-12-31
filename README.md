@@ -1,6 +1,6 @@
 # Bitcoin Private Pre-Fork Website
 
-<a href="https://btcp-community.github.io/bitcoinprivate-prefork.github.io/">https://btcp-community.github.io/bitcoinprivate-prefork.github.io/</a>
+Github Pages URL to point Bitcoin Private domain to: <a href="https://btcp-community.github.io/bitcoinprivate-prefork.github.io/">https://btcp-community.github.io/bitcoinprivate-prefork.github.io/</a>
 
 ## Testing Locally
 
