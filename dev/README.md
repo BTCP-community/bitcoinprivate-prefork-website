@@ -10,7 +10,10 @@ You can quickly get a local server running for testing and developing using the 
 
 **You'll also need to have the latest version of Bower installed.** Bower is also not required in production, only for building.
 
+You'll need to be in the dev directory to test or build.
+
 ```
+cd dev
 npm install
 bower install
 npm run dev
@@ -18,9 +21,7 @@ npm run dev
 
 ## Deploying
 
-If you want to host the static files yourself, you can simply build from `src` and upload the generated `build` directory to wherever you're hosting.
-
-To generate the build directory, run
+The website is currently hosted with github pages. Use `npm run build` from the `dev` directory, this will update the root directory with the latest src changes.
 
 ```
 npm run build
