@@ -22,6 +22,7 @@ module.exports = new CloudForge({
     ['./src/javascript', './docs/javascript'],
     ['./src/dependencies', './docs/dependencies'],
     ['./src/favicons', './docs/favicons'],
+    ['./src/presskit', './docs/presskit'],
     ['./src/DNS', './docs'],
   ],
 });
