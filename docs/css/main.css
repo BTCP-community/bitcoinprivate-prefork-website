@@ -8225,6 +8225,7 @@ p {
   padding: 13px 23px;
   font-size: 16px;
   text-transform: uppercase;
+  text-decoration: none;
   letter-spacing: 2px;
   border-radius: 8px; }
 
