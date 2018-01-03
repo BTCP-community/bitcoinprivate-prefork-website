@@ -8210,9 +8210,10 @@ h5 {
   text-transform: uppercase; }
 
 a {
-  color: #FFAD05; }
+  color: #75A0D5;
+  text-decoration: underline; }
   a:hover {
-    color: #d18c00;
+    color: #272D63;
     text-decoration: none; }
 
 p {
