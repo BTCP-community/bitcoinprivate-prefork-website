@@ -8416,7 +8416,8 @@ html, body {
   color: #272D63; }
 
 #hard-fork {
-  background: rgba(117, 160, 213, 0.25); }
+  background: rgba(117, 160, 213, 0.25);
+  text-decoration: none; }
   @media (max-width: 768px) {
     #hard-fork img {
       margin-bottom: 40px; } }
