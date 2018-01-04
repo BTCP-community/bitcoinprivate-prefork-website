@@ -9,7 +9,10 @@ const Localizations = {
     'ms', // Malaysian
     'nl', // Dutch
     'sr', // Serbian
-    'zh_CN' // Chinese Simplified
+    'zh_CN', // Chinese Simplified,
+    'it', // Italian
+    'pt', // Portuguese
+    'ko' // Korean
   ],
   'page-title': {
     'ar': 'بتكوين برايفت',
@@ -21,7 +24,10 @@ const Localizations = {
     'ms': 'Bitcoin Private',
     'nl': 'Bitcoin Private',
     'sr': 'Bitcoin Private',
-    'zh_CN': 'Bitcoin Private'
+    'zh_CN': 'Bitcoin Private',
+    'it': 'Bitcoin Private ',
+    'pt': 'Bitcoin Private',
+    'ko': '비트코인 프라이빗'
   },
   'navigation-about': {
     'ar': 'عن',
@@ -33,7 +39,10 @@ const Localizations = {
     'ms': 'Tentang',
     'nl': 'Over ons',
     'sr': 'Osnovno',
-    'zh_CN': '关于'
+    'zh_CN': '关于',
+    'it': 'Dettagli',
+    'pt': 'Sobre',
+    'ko': '소개'
   },
   'navigation-hard-fork': {
     'ar': 'تقنية "الهارد فورك',
@@ -45,7 +54,10 @@ const Localizations = {
     'ms': 'Hard Fork',
     'nl': 'Hard Fork',
     'sr': 'Hard Fork',
-    'zh_CN': '硬分叉'
+    'zh_CN': '硬分叉',
+    'it': 'Hard Fork',
+    'pt': 'Hard Fork',
+    'ko': '하드포크'
   },
   'navigation-faq': {
     'ar': 'أسئلة متكررة',
@@ -57,7 +69,10 @@ const Localizations = {
     'ms': 'Soal Jawab',
     'nl': 'Veelgestelde vragen (FAQ)',
     'sr': 'Najčešće postavljana pitanja',
-    'zh_CN': '常见问题'
+    'zh_CN': '常见问题',
+    'it': 'FAQ',
+    'pt': 'Perguntas Frequentes',
+    'ko': '질문과 답변'
   },
   'navigation-resources': {
     'ar': 'موارد',
@@ -69,7 +84,10 @@ const Localizations = {
     'ms': 'Sumber',
     'nl': 'Bronnen',
     'sr': 'Resursi',
-    'zh_CN': '资源'
+    'zh_CN': '资源',
+    'it': 'Risorse',
+    'pt': 'Recursos',
+    'ko': '자료'
   },
   'navigation-language': {
     'ar': 'العربية',
@@ -81,7 +99,10 @@ const Localizations = {
     'ms': 'Malay',
     'nl': 'Nederlands',
     'sr': 'српски',
-    'zh_CN': '简体中文'
+    'zh_CN': '简体中文',
+    'it': 'Italiano',
+    'pt': 'Português',
+    'ko': '한국어'
   },
   'hero-blurb': {
     'ar': '"بتكوين برايفت"  تهتم بالخصوصية، غير متمركزة، سريعة، مفتوحة المصدر عملة قائمة على عامة المستخدمين ',
@@ -93,7 +114,10 @@ const Localizations = {
     'ms': 'privasi, desentralisasi, pantas, sumber terbuka, syiling dipacu oleh komuniti',
     'nl': 'Privaat, gedecentraliseerd, snel, open source, community-gestuurde munt',
     'sr': 'Coin koji je privatan, decentralizovan, brz, otvorenog koda i vodjen zajednicom',
-    'zh_CN': '私密，去中心化，高速，开源 社区主导的加密币'
+    'zh_CN': '私密，去中心化，高速，开源 社区主导的加密币',
+    'it': 'privato, decentralizzato, veloce, open source, guidato dalla comunità',
+    'pt': 'privado, descentralizado, rápido, de código aberto, governado pela comunidade',
+    'ko': '익명성이 강하며, 탈중앙화 되었고, 빠르며, 오픈소스인, 커뮤니티 중심의 코인'
   },
   'hero-coming-soon': {
     'ar': 'قادمة قريبا ',
@@ -105,7 +129,10 @@ const Localizations = {
     'ms': 'Akan Datang',
     'nl': 'Binnenkort',
     'sr': 'Uskoro dostupan',
-    'zh_CN': '即将揭晓'
+    'zh_CN': '即将揭晓',
+    'it': 'Prossimamente',
+    'pt': 'Em Breve',
+    'ko': '곧 출시됩니다 '
   },
   'hero-hard-fork-details': {
     'ar': 'تفاصيل تقنية "الهارد فورك"',
@@ -117,7 +144,10 @@ const Localizations = {
     'ms': 'Butiran Hard Fork',
     'nl': 'Hard Fork Details',
     'sr': 'Detalji',
-    'zh_CN': '硬分叉详情'
+    'zh_CN': '硬分叉详情',
+    'it': 'Hard Fork - I Dettagli',
+    'pt': 'Detalhes do Hard Fork',
+    'ko': '하드포크 소개'
   },
   'why-btcp-header-title': {
     'ar': 'لماذا "بتكوين برايفت" ؟',
@@ -129,7 +159,10 @@ const Localizations = {
     'ms': 'Kenapa $BTCP?',
     'nl': 'Waarom $BTCP?',
     'sr': 'Zašto $BTCP?',
-    'zh_CN': '为什么 $BTCP?'
+    'zh_CN': '为什么 $BTCP?',
+    'it': 'Perché $BTCP? ',
+    'pt': 'Por que $BTCP?',
+    'ko': '왜 BTCP인가'
   },
   'why-btcp-private-title': {
     'ar': 'خصوصية',
@@ -141,7 +174,10 @@ const Localizations = {
     'ms': 'Privasi',
     'nl': 'Privacy',
     'sr': 'Privatan',
-    'zh_CN': '私密性'
+    'zh_CN': '私密性',
+    'it': 'Privato',
+    'pt': 'Privado',
+    'ko': '익명성'
   },
   'why-btcp-private-text': {
     'ar': '“بتكوين برايفت" ستستخدم ذات التقنية المستخدمة في عملة "زي كلاسيك" (الزي-سنارك). وهذا يعني أن الدفع يكون في الشبكة العامة وفي الوقت ذاته يكون المرسل ومعلوماته يبقون مجهولين.',
@@ -153,7 +189,10 @@ const Localizations = {
     'ms': 'Bitcoin Private akan menggunakan teknologi privasi yang sama seperti ZClassic (zk-snarks). Ini bermakna maklumat bayaran akan dipaparkan pada blockchain awam, namun bagi maklumat penghantar, penerima dan transaksi metadata lain tetap dirahsiakan.',
     'nl': 'Bitcoin Private gebruikt privacy technologie zoals ZClassic (zk-snarks). Dit betekent dat betalingen worden gepubliceerd op een openbare blockchain, waarbij de zender, ontvanger en andere transactie metadata niet kunnen worden geïdentificeerd.',
     'sr': 'Bitcoin Private će koristiti istu tehnologiju za privatnost kao ZClassic (zk-snarks). Ovo znači da će transakcije bite objavljene na javnom blokčejnu (blockchain), ali pošiljalac novca, kao i onaj koji novac prima, a i sam iznos poslatog novca, ostaće nepoznati tj. anonimni.',
-    'zh_CN': 'Bitcoin Private将使用和ZClassic (zk-snarks)同样的私密性技术。这意味着交易支付将会被公 布在公共区域链上，但是支付方、收款方、以及其他支付细节数据将会保持私密而无法被识别'
+    'zh_CN': 'Bitcoin Private将使用和ZClassic (zk-snarks)同样的私密性技术。这意味着交易支付将会被公 布在公共区域链上，但是支付方、收款方、以及其他支付细节数据将会保持私密而无法被识别',
+    'it': 'Bitcoin Private utilizzerà la stessa tecnologia per la privacy di ZClassic (zk-snarks). Questo significa che i pagamenti saranno pubblici nella blockchain, ma mittente, destinatario e gli altri metadati della transazione rimarranno non identificabili.',
+    'pt': 'Bitcoin Private usará a mesma tecnologia de privacidade que o ZClassic (zk-snarks). Significa que os pagamentos serão registrados em um blockchain público, mas que os identificadores de pagador, de recebedor e outros metadados da transação permanecerão não identificáveis.',
+    'ko': '비트코인 프라이빗은 제트캐시나 ZClassic 과 같은 zk-snarks 기술을 씁니다. 이것은 거래 내역이 공공 블록체인에 등록된다는것을 의미하지만, 소유주나 수취인, 그 이외 개인에 관한 정보는 알기 힌들다는것을 의미합니다'
   },
   'why-btcp-decentralized-title': {
     'ar': ' غير متمركزة',
@@ -165,7 +204,10 @@ const Localizations = {
     'ms': 'Desentralisasi',
     'nl': 'Gedecentraliseerd',
     'sr': 'Decentralizovan',
-    'zh_CN': '去中心化'
+    'zh_CN': '去中心化',
+    'it': 'Decentralizzato',
+    'pt': 'Descentralizado',
+    'ko': '탈중앙화된'
   },
   'why-btcp-decentralized-text': {
     'ar': 'تماما مثل بيتكوين، "بتكوين برايفت" ستدعم التحويلات بين المتعاملين فيها دون الحاجة إلى وسيط. وسيتم التحقق من هذه التحويلات في نقاط الالتقاء الشبكية من عن طريق التشفير وتسجيلها في السجل العام',
@@ -177,7 +219,10 @@ const Localizations = {
     'ms': 'Sama seperti Bitcoin, Bitcoin Private akan menyokong transaksi peer-to-peer tanpa perantara. Transaksi ini akan disahkan oleh nod rangkaian melalui penggunaan kriptografi dan direkodkan di dalam lejar awam.',
     'nl': 'Net als Bitcoin ondersteunt Bitcoin Private peer-to-peer transacties zonder een tussenpersoon. Deze transacties worden geverifieerd door netwerk nodes door gebruik te maken van cryptografie, en worden vastgelegd in een openbaar grootboek.',
     'sr': 'Poput Bitcoin-a, Bitcoin Private će podržavati peer-to-peer transakcije bez posrednika. Ove transakcije će biti verifikovane od strane “čvorova” (node) na mrži i obeležene u javnoj knjizi (ledger).',
-    'zh_CN': '和比特币一样，Bitcoin Private支持无需中介的个人与个人之间直接交易。所有交易支付将会 通过密码学被各个网络节点验证并在公共记帐薄上存档。'
+    'zh_CN': '和比特币一样，Bitcoin Private支持无需中介的个人与个人之间直接交易。所有交易支付将会 通过密码学被各个网络节点验证并在公共记帐薄上存档。',
+    'it': 'Esattamente come Bitcoin, anche Bitcoin Private supporterà transazioni peer-to-peer senza alcun intermediario. Queste transazioni saranno verificate dai nodi della rete attraverso sistemi crittografici e salvate su di un registro pubblico (public ledger).',
+    'pt': 'Como o Bitcoin, o Bitcoin Private suportará transações ponto a ponto, sem intermediários. Essas transações serão verificadas pelos nós da rede através de criptografia e serão armazenadas no registro público.',
+    'ko': '비트코인과 같이, 비트코인 프라이빗은 유저 대 유저(P2P) 거래를 다른 중개인 없이 가능하게끔 합니다. 이러한 거래 내역은 암호학을 바탕으로 네트워크 노드에 의해 승인되며 공공 장부에 기록됩니다.'
   },
   'why-btcp-fast-title': {
     'ar': 'سريعة',
@@ -189,7 +234,10 @@ const Localizations = {
     'ms': 'Pantas',
     'nl': 'Snel',
     'sr': 'Brz',
-    'zh_CN': '高速'
+    'zh_CN': '高速',
+    'it': 'Veloce',
+    'pt': 'Fast',
+    'ko': '빠른 전송'
   },
   'why-btcp-fast-text': {
     'ar': 'على خلاف عملة "البتكوين"، "بتكوين برايفت ستدعم الزيادة المتدرجة في حجم التحويلات وفي الوقت ذاته تزداد سريتها وأمنها المعلوماتي أكثر من أي عملة أخرى مبنية على "البتكوين" دون أي خسارة في سرعة التحويلات!',
@@ -201,7 +249,10 @@ const Localizations = {
     'ms': 'Berbeza dengan Bitcoin, Bitcoin Private akan menyokong peningkatan saiz blok yang sederhana namun tetap lebih anonim dan selamat berbanding mana-mana mata wang kripto berasaskan Bitcoin sedia ada tanpa perlu mengorbankan kelajuan transaksi.',
     'nl': 'In tegenstelling tot Bitcoin ondersteunt Bitcoin Private een grotere block size en is deze tegelijkertijd anoniemer en veiliger dan welke Bitcoin-gebaseerde valuta dan ook, zonder in te boeten op de transactiesnelheid. ',
     'sr': 'Nasuprot Bitcoin-u, Bitcoin Private će podržavati umereno povećanj veličinu bloka dok će biti mnogo anonimniji i bezbedniji od bilo koje verzije Bitcoin-a koja trenutno postoji, što neće smanjiti brzinu transakcija.',
-    'zh_CN': '与比特币不同，Bitcoin Private将支持更大的区块尺寸，并且在不影响交易速度的同时比目前 任何在比特币基础上发行的货币都更私密和安全。'
+    'zh_CN': '与比特币不同，Bitcoin Private将支持更大的区块尺寸，并且在不影响交易速度的同时比目前 任何在比特币基础上发行的货币都更私密和安全。',
+    'it': 'Diversamente da Bitcoin, Bitcoin Private supporterà un piccolo incremento della dimensione del blocco e con livelli di anonimato e sicurezza superiori a qualsiasi altra moneta basata su Bitcoin, non sacrificherà la velocità delle transazioni.',
+    'pt': 'Diferente do Bitcoin, o Bitcoin Private irá permitir um modesto incremento de tamanho nos blocos ao mesmo tempo em que será mais anônimo e seguro do que qualquer outra moeda baseada no Bitcoin, tudo isso sem sacrificar a velocidade das transações.',
+    'ko': '기존 비트코인과 달리, 비트코인 프라이빗은 최소한의 증가된 블록 크기로 다른 비트코인 파생 코인보다 더 강한 익명성과 보안성을 거래 전송 속도를 희생하지 않으면서 지원하게 될 것입니다.'
   },
   'why-btcp-open-source-title': {
     'ar': 'مفتوحة المصدر',
@@ -213,7 +264,10 @@ const Localizations = {
     'ms': 'Sumber Terbuka',
     'nl': 'Open-Source',
     'sr': 'Otvorenog koda',
-    'zh_CN': '开源'
+    'zh_CN': '开源',
+    'it': 'Open Source',
+    'pt': 'Código Aberto',
+    'ko': '오픈 소스'
   },
   'why-btcp-open-source-text': {
     'ar': 'كامل قاعدة بيانات "بتكوين برايفت" البرمجية مفتوح للعامة ويمكن الاطلاع عليها والتأكد منها في أي وقت. قاعدة البيانات البرمجية ستبقى مفتوحة المصدر لتمكن المطورون حول العالم من تحسينها والحفاظ عليها.',
@@ -225,7 +279,10 @@ const Localizations = {
     'ms': 'Seluruh kod asas Bitcoin Private terbuka untuk tontonan dan pengesahan oleh sesiapa sahaja. Ia akan kekal sebagai sumber terbuka dan diuruskan oleh komuniti yang semakin berkembang.',
     'nl': 'Bitcoin Private’s volledige broncode is voor iedereen openbaar toegankelijk voor naslag en verificatie. Het blijft altijd open-source en zal onderhouden worden door een steeds groeiende community.',
     'sr': 'Kompletan kod Bitcoin Private-a je dostupan javnosti na pregled i verifikaciju od strane bilo koga. Uvek će ostati takav, otvorenog koda, i održavan od strane zajednice i time koji konstantno rastu.',
-    'zh_CN': 'Bitcoin Private 的源代码公开供所有人浏览和验证。该源代码将永远保持开源，由一个不断壮 大的社区共同维护。'
+    'zh_CN': 'Bitcoin Private 的源代码公开供所有人浏览和验证。该源代码将永远保持开源，由一个不断壮 大的社区共同维护。',
+    'it': 'L’intero codice di Bitcoin Private è pubblico, visibile e verificabile da chiunque. Il codice rimarrà open source e mantenuto da una comunità in continua crescita. ',
+    'pt': 'Todo o código base do Bitcoin Private estará disponível para visualização e verificação por qualquer um. O código permanecerá aberto sempre e será mantido por uma comunidade sempre crescente.',
+    'ko': '비트코인 프라이빗의 전체 코드는 대중에게 공개되어 있으며 이는 누구나 공개적으로 검증할 수 있는 기회를 제공합니다. 또한 비트코인 프라이빗은 항상 오픈소스화 되어 있으면서 점점 커지는 커뮤니티를 기반으로 성장할 것입니다.'
   },
   'why-btcp-community-driven-title': {
     'ar': 'قائمة على عامة المستخدمين',
@@ -237,7 +294,10 @@ const Localizations = {
     'ms': 'Dipacu Oleh Komuniti',
     'nl': 'Community-gestuurd',
     'sr': 'Vodjen zajednicom',
-    'zh_CN': '社区主导'
+    'zh_CN': '社区主导',
+    'it': 'Guidato dalla Comunità',
+    'pt': 'Governado pela Comunidade',
+    'ko': '커뮤니티 주축의 운영'
   },
   'why-btcp-community-driven-text': {
     'ar': 'إن هذه العملة تتصف بالشفافية، فهي مطورة من قبل مطورين من جميع أنحاء الأرض. كل عضو يملأ فراغ ويشارك بناءً على خبراته ومهاراته.',
@@ -249,7 +309,10 @@ const Localizations = {
     'ms': 'Sesuai dengan sifat ketelusan dan keterbukaan, Bitcoin Private dibangunkan oleh ahli pasukan dari seluruh dunia. Setiap ahli mengisi peranan dan menyumbang sesuai dengan kemahiran masing-masing.',
     'nl': 'Met als kenmerken transparantie en open source is Bitcoin Private ontwikkeld door teamleden van over de hele wereld. Elk teamlid vervult een rol en draagt bij op basis van zijn of haar expertise.',
     'sr': 'Po prirodi transparentan i otvorenog koda, Bitcoin Private je razvijen od strane tima čiji članovi dolaze sa svih strana sveta. Svaki član ispunjava svoju ulogu i doprinosi u skladu sa svojim veštinama.',
-    'zh_CN': '源于其透明和开源的属性，Bitcoin Private由来自全世界的开发团队共同开发。每个团队成员 根据他们自己的技能分担不同的职能来对项目做出贡献。'
+    'zh_CN': '源于其透明和开源的属性，Bitcoin Private由来自全世界的开发团队共同开发。每个团队成员 根据他们自己的技能分担不同的职能来对项目做出贡献。',
+    'it': 'Nello spirito della trasparenza e dell’open source, Bitcoin Private è sviluppato da un team internazionale con membri da tutto il mondo. Ciascuno assume incarichi e apporta contributi in base alle proprie competenze.',
+    'pt': 'Tendo como fundamentos a transparência e o código aberto, o Bitcoin Private é desenvolvido por equipes de todo o mundo. Cada membro preenche papéis e contribui com base em seu conjunto de habilidades.',
+    'ko': '투명성과 오픈 소스를 바탕으로, 비트코인 프라이빗은 전 세계에 있는 다양한 개발팀 구성원들에 의해 만들어 집니다. 각 구성원은 자신의 역할을 다하며 자신의 능력을 바탕으로 코인 발전에 기여하게 됩니다.'
   },
   'why-btcp-fair-start-title': {
     'ar': 'بداية عادلة',
@@ -261,7 +324,10 @@ const Localizations = {
     'ms': 'Permulaan Yang Adil',
     'nl': 'Een eerlijk begin',
     'sr': 'Fer start',
-    'zh_CN': '公平的起点'
+    'zh_CN': '公平的起点',
+    'it': 'Un Equo Inizio',
+    'pt': 'Um começo justo',
+    'ko': '공정한 출발'
   },
   'why-btcp-fair-start-text': {
     'ar': 'لن يكون هناك ضريبة ولا إتاوة مؤسس. سيتم اطلاق سراح "بيتكوين برايفت" بطريقة عادلة للجميع. وسيتم توزيع النقود بنسبة ١ إلى ١أي لكل حامل عملة "بتكوين" أو "زيكلاسيك" عملة "بتكوين برايفت" واحدة.',
@@ -273,7 +339,10 @@ const Localizations = {
     'ms': 'Tidak ada pralombong, dan tidak ada ganjaran khusus untuk pengasas. Bitcoin Private akan dilancarkan secara adil untuk semua. Syiling akan diedarkan pada asas 1:1 untuk semua pemilik BTC dan ZCL.',
     'nl': 'Er zal geen pre-mine periode zijn en er is geen beloning voor de oprichters. Bitcoin Private wordt gelanceerd op een eerlijke manier voor iedereen. De munt zal op een 1:1 basis worden gedistribueerd aan houders van BTC en ZCL.',
     'sr': 'Nema “premine” i nema nadoknade za osnivače. Bitcoin Private će biti podjednako day svima. Coin će biti dodjeljivan na bazi 1:1 svim ljudima koji u trenutku hard forka poseduju BTC ili ZCL.',
-    'zh_CN': '没有预先挖矿，没有创始人奖励。Bitcoin Private的发放将对所有人保持公平。Bitcoin Private 将会按照1:1的比例对持有比特币和ZCL的持币人发放。'
+    'zh_CN': '没有预先挖矿，没有创始人奖励。Bitcoin Private的发放将对所有人保持公平。Bitcoin Private 将会按照1:1的比例对持有比特币和ZCL的持币人发放。',
+    'it': 'Non ci sarà premine e nessun premio per i founder. Bitcoin Private sarà rilasciato in modalità totalmente paritaria per tutti. I gettoni verranno distribuiti sulla base di 1:1 a tutti i possessori di BTC e ZCL.',
+    'pt': 'Não haverá mineração prévia  e nenhuma recompensa aos fundadores. O Bitcoin Private será lançado de forma justa para todos. As moedas serão distribuídas em uma base 1: 1 para os detentores de BTC e ZCL.',
+    'ko': '비트코인 프라이빗은 개인의 선 채굴이나 초기 개발자 할당량 없이 출시되며 이는 모두에게 더 나은 기회와 평등을 제공합니다. 비트코인 프라이빗은 모든 비트코인과 ZClassic 보유자들에게 1대1의 비율로 지급됩니다.'
   },
   'why-btcp-whitepaper-button': {
     'ar': 'ويتيبابر قريبا',
@@ -285,7 +354,10 @@ const Localizations = {
     'ms': 'whitepaper akan datang tidak lama lagi',
     'nl': 'whitepaper komt binnenkort',
     'sr': 'ускоро ће се појавити беле боје',
-    'zh_CN': '白皮书即将推出'
+    'zh_CN': '白皮书即将推出',
+    'it': 'Whitepaper In Arrivo',
+    'pt': 'Whitepaper Em Breve',
+    'ko': '백서 제공 예정'
   },
   'hard-fork-header-title': {
     'ar': '"هارد فورك"',
@@ -297,7 +369,10 @@ const Localizations = {
     'ms': 'Hard Fork',
     'nl': 'Hard Fork',
     'sr': 'Hard Fork',
-    'zh_CN': '硬分叉'
+    'zh_CN': '硬分叉',
+    'it': 'Hard Fork ',
+    'pt': 'Hard Fork',
+    'ko': '하드포크 소개'
   },
   'hard-fork-what-is-title': {
     'ar': 'ماهية تقنية “هارد فودك” ؟',
@@ -309,7 +384,10 @@ const Localizations = {
     'ms': 'Apa itu hard fork?',
     'nl': 'Wat is een Hard Fork?',
     'sr': 'Šta je hard fork?',
-    'zh_CN': '什么是硬分叉？'
+    'zh_CN': '什么是硬分叉？',
+    'it': 'Cosa è un hard fork?',
+    'pt': 'O que é um “Hard Fork”?',
+    'ko': '하드포크가 무엇인가요?'
   },
   'hard-fork-what-is-text': {
     'ar': 'عملية انقسام عملة إلكترونية  لقسمين تدعى “هارد فورك”. تحدث هذه العملية عندما تتغير شيفرة العملة وتصنع نسخة جديدة مضافة للأصلية. هذه الحالة فريدة بنوعها حيث أن عملة “بتكوين” و”زيكلاسيك” يتحدون لصنع “بتكوين برايفت',
@@ -321,7 +399,10 @@ const Localizations = {
     'ms': 'Hard fork adalah apabila satu cryptocurrency tunggal berpisah kepada dua. Ia berlaku apabila kod mata wang kripto sedia ada diubah, mengakibatkan ia berpisah menjadi versi lama dan versi baru. Hal ini agak unik, di mana ZCL dan BTC akan fork bersama dan bergabung menjadi Bitcoin Private (BTCP).',
     'nl': 'Een hard fork ontstaat wanneer een cryptovaluta in tweeën splitst. Dit gebeurt wanneer de bestaande programmatuur van de munt wordt veranderd en dit resulteert in een oude en nieuwe versie van de munt. De hard fork van Bitcoin Private is een iets aangepaste variant, waarbij ZCL en BTC beide worden geforked in Bitcoin Private (BTCP).',
     'sr': 'Hard fork je kada se jedna kriptovaluta podeli na dvije. Ovo se dešava kada je kod postojeće kriptovalute izmijenjen, što rezultira u trenutoj i novoj verziji te valute. Slučaj BTCP-a je na neki način specifičan, jer će se dvije valute - ZCL i BTC zajedno forkovati u Bitcoin Private (BTCP).',
-    'zh_CN': '当一个加密币一分为二时，被称为硬分叉。当硬分叉发生时，该加密币的源代码将被改动，进 而出现新和旧两个版本。此次Bitcoin Private硬分叉稍微独特，ZCL和比特币将会共同分叉而 产生Bitcoin Private (BTCP).'
+    'zh_CN': '当一个加密币一分为二时，被称为硬分叉。当硬分叉发生时，该加密币的源代码将被改动，进 而出现新和旧两个版本。此次Bitcoin Private硬分叉稍微独特，ZCL和比特币将会共同分叉而 产生Bitcoin Private (BTCP).',
+    'it': 'Un hard fork avviene quando una singola criptovaluta si divide in due. Questo accade quando il codice esistente viene sostituito e il risultato è quello di ottenere una vecchia ed una nuova versione. Il nostro caso è in qualche modo unico in quanto ZCL e BTC vedranno un co-fork in Bitcoin Private (BTCP).',
+    'pt': 'Um “Hard Fork” é quando uma única criptomoeda se divide em duas. Ocorre quando o código existente de uma criptomoeda é alterado, resultando em duas versões, a nova (alterada), e a antiga. Este caso é singular, já que ZCL e BTC serão co-bifurcados gerando uma nova e única moeda, o Bitcoin Private (BTCP).',
+    'ko': '하드포크는 기존 암호화폐가 둘로 나뉘는 것을 말합니다. 이는 기존 암호화폐의 코드 변경으로 일어나며, 이로 인해 신 버전과 구 버전으로 나뉘게 됩니다. 비트코인 프라이빗은 특이하게도, ZClassic과 비트코인의 교집합적 하드포크로 인해 탄생하게 됩니다.'
   },
   'hard-fork-when-is-title': {
     'ar': 'متى تبدأ التقنية ؟',
@@ -333,7 +414,10 @@ const Localizations = {
     'ms': 'Bila hard fork akan terjadi?',
     'nl': 'Wanneer is de Hard Fork?',
     'sr': 'Kada će se desiti ovaj hard fork?',
-    'zh_CN': '什么时候硬分叉？'
+    'zh_CN': '什么时候硬分叉？',
+    'it': 'Quando è previsto l’hard fork?',
+    'pt': 'Quando é o Hard Fork?',
+    'ko': '하드포크는 언제 일어납니까?'
   },
   'hard-fork-when-is-text': {
     'ar': 'لا يوجد تاريخ محدد في الوقت الحالي. فريق "بتكوين برايفت" يعمل على مدار الساعة لإتمام العملية بنجاح وسيتم الإعلان قريباً.',
@@ -345,7 +429,10 @@ const Localizations = {
     'ms': 'Pada masa ini, tiada tarikh rasmi diumumkan. Pasukan Private Bitcoin sedang bekerja keras untuk menyiapkan segala-galanya untuk pelancaran kelak.',
     'nl': 'Op dit moment is er nog geen officiële datum bekendgemaakt. Het Bitcoin Private team gaat onvermoeibaar door om alles klaar te maken voor de komende release.',
     'sr': 'Trenutno još nije objavljen zvaničan datum. Bitcoin Private tim vrijedno radi da bi sve bilo spremno za hard fork.',
-    'zh_CN': '当前，硬分叉的官方时间还没有公布。Bitcoin Private团队正在不知疲惫地为即将到来的发布 一切就绪做准备。'
+    'zh_CN': '当前，硬分叉的官方时间还没有公布。Bitcoin Private团队正在不知疲惫地为即将到来的发布 一切就绪做准备。',
+    'it': 'Al momento, non è stata annunciata una data ufficiale. Il Team di Bitcoin Private sta lavorando senza sosta per avere ogni cosa pronta per l’imminente rilascio.',
+    'pt': 'Neste momento, nenhuma data oficial foi anunciada. O time do Bitcoin private está trabalhando incansavelmente para preparar tudo para um lançamento iminente.',
+    'ko': '현재로서는, 아직 공식 날짜가 발표되지 않았습니다. 비트코인 프라이빗 개발팀은 현재 비트코인 프라이빗의 성공적인 출시를 위하여 최선을 다하고 있습니다.'
   },
   'hard-fork-receive-title': {
     'ar': 'كيف أحصل على "بيتكوين برايفت" ؟',
@@ -357,7 +444,10 @@ const Localizations = {
     'ms': 'Bagaimana saya boleh mendapatkan BTCP?',
     'nl': 'Hoe ontvang ik BTCP?',
     'sr': 'Kako da dobijem BTCP?',
-    'zh_CN': '如何获得BTCP?'
+    'zh_CN': '如何获得BTCP?',
+    'it': 'Come ricevere i BTCP?',
+    'pt': 'Como recebo o BTCP?',
+    'ko': '어떻게 하면 비트코인 프라이빗을 얻을 수 있나요?'
   },
   'hard-fork-receive-text': {
     'ar': 'بعد إتمام عملية "الهارد فورك" سيتم تسجيل كل عمل "زيكلاسك" و"بتكوين" وإعطاء "بتكوين برايفت" لكل حاملين لأحد هاتين العملتين داخل محفظة تدعم التداول بعدد مالديهم من عمل.',
@@ -369,7 +459,10 @@ const Localizations = {
     'ms': 'Apabila hard fork berlaku, snapshot dari semua pemilik ZCL dan BTC akan berlaku. Sesiapa yang memiliki ZCL atau BTC di dalam dompet atau bursa yang disokong akan dikreditkan Bitcoin Private (BTCP) pada nisbah 1:1. Sebagai contoh, jika anda memiliki 15.4 ZCL, anda akan menerima 15.4 BTCP.',
     'nl': 'Tijdens de hard fork wordt er een snapshot van de bestaande ZCL en BTC blockchain gemaakt. Iedereen die ZCL of BTC in een wallet, of op een ondersteunende exchange heeft, krijgt Bitcoin Private (BTCP) in een 1:1 ratio. Als voorbeeld: Indien je 15,4 ZCL en 0,1 BTC hebt, ontvang je 15,5 BTCP.',
     'sr': 'Kada se hard fork desi, biće uzet presek svih poseda ZCL i BTC. Svakome ko u tom trenutku bude posedovao ZCL i/ili BTC u wallet-u ili podržanom exchange-u biće dodeljeno Bitcoin Private (BTCP) u razmeru 1:1. Na primer, ukoliko posedujete 15.4 ZCL (ZClassic), dobićege 15.4 BTCP.',
-    'zh_CN': '当硬分叉发生时，会对所有ZCL和比特币的持有进行一次快照(snapshot)。所有在钱包中或者 支持该硬分叉的交易平台上持有ZCL和比特币的持币者都会按照1:1的比例获得Bitcoin Private (BTCP)。例如：如果你持有15.4个ZCL, 你将会获得15.4个BTCP。'
+    'zh_CN': '当硬分叉发生时，会对所有ZCL和比特币的持有进行一次快照(snapshot)。所有在钱包中或者 支持该硬分叉的交易平台上持有ZCL和比特币的持币者都会按照1:1的比例获得Bitcoin Private (BTCP)。例如：如果你持有15.4个ZCL, 你将会获得15.4个BTCP。',
+    'it': 'Nel momento dell’hard fork, verrà fatta una copia esatta dei possessori di ZCL e BTC. Chi manterrà ZCL o BTC in un wallet o presso un exchange supportato riceverà Bitcoin Private (BTCP) con un rapporto di cambio di 1:1. Per esempio, se tu possiedi 15.4 ZCL, riceverai 15.4 BTCP.',
+    'pt': 'Quando ocorrer o Hard Fork, será registrado um retrato das inscrições de propriedade de ZCL e BTC naquele instante. Qualquer detentor de ZCL ou BTC em uma carteira ou corretora suportadas será creditado com Bitcoin Private (BTCP) em uma proporção de 1 para 1. Por exemplo, se você tiver 15,4 ZCL, você receberá 15,4 BTCP.',
+    'ko': '하드포크가 일어나면, 비트코인 보유자와 ZClassic 보유자의 잔고가 기록됩니다. 따라서 지갑속이나 거래소에 비트코인이나 ZClassic을 보유하고 계신 분이라면 비트코인 프라이빗의 잔고가 1대1의 비율로 적립됩니다. 예로 들어, 당신이 15.4개의 ZClassic 을 보유하고 계셨다면 15.4개의 비트코인 프라이빗을 보유하게 되실 겁니다.'
   },
   'faq-header-title': {
     'ar': 'أسئلة متكررة',
@@ -381,7 +474,10 @@ const Localizations = {
     'ms': 'Soal Jawab',
     'nl': 'Vaak Gestelde Vragen (FAQ)',
     'sr': 'Često postavljana pitanja',
-    'zh_CN': '常见问题'
+    'zh_CN': '常见问题',
+    'it': 'Frequently Asked Questions ',
+    'pt': 'Perguntas Frequentes',
+    'ko': '자주 묻는 질문'
   },
   'faq-who-runs-title': {
     'ar': 'من هم العاملين على هذا المشروع؟',
@@ -393,7 +489,10 @@ const Localizations = {
     'ms': 'Siapa yang menjalankan projek ini?',
     'nl': 'Wie runt het project?',
     'sr': 'Ko je na čelu ovog projekta?',
-    'zh_CN': '谁在运行这个项目？'
+    'zh_CN': '谁在运行这个项目？',
+    'it': 'Chi sta sviluppando il progetto?',
+    'pt': 'Quem está executando o projeto?',
+    'ko': '이 프로젝트는 누구에 의해 운영되나요?'
   },
   'faq-who-runs-text': {
     'ar': 'ريت كريتون هو المطور القائد للمشروع لكن بشكل عام المطورون حول العالم كثر حوالي ٥٠ مطور مشارك ألى الآن. إن هذا المشروع قائم على المشاركة وفي النهاية كلنا نعمل على إتمام المشروع في المستقبل القريب.',
@@ -405,7 +504,10 @@ const Localizations = {
     'ms': 'Rhett Creighton adalah developer utama. Secara keseluruhannya, pasukan kami adalah sangat besar, hampir 50 orang ahli aktif pada masa ini. Ini adalah projek yang benar-benar didorong oleh komuniti, dan kita semua menyumbang dalam merialisasikan fork ini menjadi kenyataan dan BTCP masa depan.',
     'nl': 'Rhett Creighton is de hoofdontwikkelaar. Daarnaast is het bijdragende team enorm; bijna 50 actieve leden op dit moment. Het project is werkelijk community gestuurd en wij zijn allemaal betrokken om de hard fork en de toekomst van BTCP mogelijk te maken.',
     'sr': 'Ret Krigton (Rhett Creighton) je glavni programer. Sveukupno, naš tim je ogroman, sa skoro 50 aktivnih člankva koji doprinose ovom projektu. Ovo je projekat u potpunosti vodjen zajednicom, i svi smo beskrajno posvećeni tome da napravimo ovaj hard fork i BTCP.',
-    'zh_CN': 'Rhett Creighton是项目主要开发者。总的来说，我们的开发贡献团队庞大，目前有大约50个 活跃的团队成员。这是一个真正属于社区主导的项目，我们所有人都做出了投入来确保硬分叉 的顺利发布和BTCP的未来成功。'
+    'zh_CN': 'Rhett Creighton是项目主要开发者。总的来说，我们的开发贡献团队庞大，目前有大约50个 活跃的团队成员。这是一个真正属于社区主导的项目，我们所有人都做出了投入来确保硬分叉 的顺利发布和BTCP的未来成功。',
+    'it': 'Rhett Creighton è il principale developer. Complessivamente, contribuiscono al team un numero impressionante di persone, quasi 50 membri attivi. Questo è un vero progetto portato avanti dalla comunità e tutti siamo totalmente impegnati nel realizzare questo fork e per il futuro di BTCP.',
+    'pt': 'Rhett Creighton é o desenvolvedor principal. No geral, nossa equipe de contribuição é enorme, quase 50 membros ativos até o momento. Este é um projeto verdadeiramente governado por sua comunidade e todos nós estamos imbuídos em fazer esse “Hard Fork” acontecer e tornar o BTCP o futuro.',
+    'ko': 'Rhett Creighton님이 현재 최고 개발자 입니다. 전체적으로, 저희 개발팀의 규모는 크며, 현재 50명의 활발한 멤버수를 보유하고 있습니다. 이것은 이 프로젝트가 진짜 커뮤니티 중심의 프로젝트임을 의미하며 우리가 이 파생코인을 만드는데 투자하고 더 나아가 비트코인 프라이빗에 새로운 미래를 여는 계기를 만들어 줍니다.'
   },
   'faq-what-exchanges-title': {
     'ar': 'ماهي التداولات الداعمة لل"فورك"',
@@ -417,7 +519,10 @@ const Localizations = {
     'ms': 'Bursa apa yang menyokong fork ini?',
     'nl': 'Welke exchanges ondersteunen de fork?',
     'sr': 'Koji exchange-ovi (betze) će podržati fork?',
-    'zh_CN': '哪些交易平台会支持这次分叉？'
+    'zh_CN': '哪些交易平台会支持这次分叉？',
+    'it': 'Quali exchange supporteranno il fork?',
+    'pt': 'Quais corretoras apoiarão o “Hard Fork”?',
+    'ko': '어떤 거래소가 비트코인 프라이빗을 지원하나요?'
   },
   'faq-what-exchanges-text': {
     'ar': 'حتى الآن نحن نتناقش مع متداولين أفراد في هذا الخصوص. لطفا تحلو بالصبر فحتى الأن لم نصرح بدعم أى تداول بعينه.',
@@ -429,7 +534,10 @@ const Localizations = {
     'ms': 'Setakat ini, kami secara aktif telah berbincang dengan banyak bursa tentang perkara ini. Mohon bersabar, kami belum membuat sebarang kenyataan mengenai sokongan daripada mana-mana bursa.',
     'nl': 'Op dit moment zijn wij actief aan het onderhandelen met diverse exchanges en doen wij geen uitspraken over ondersteuning van specifieke exchanges.',
     'sr': 'Trenutno smo u razgovorima sa exchange-ovima tj. berzama o ovoj temi. Molimo Vas za strplienje, jer još uvek nećemo davati izjave o podršsci od strane individualnih exchange-ova.',
-    'zh_CN': '就目前而言，我们正在积极地与各个交易平台进行沟通。我们现在还不会发布关于哪个交易平 台会支持分叉的申明，请耐心等待。'
+    'zh_CN': '就目前而言，我们正在积极地与各个交易平台进行沟通。我们现在还不会发布关于哪个交易平 台会支持分叉的申明，请耐心等待。',
+    'it': 'Siamo già attivamente in contatto con diversi exchange approfondendo le varie questioni. Vi preghiamo di essere pazienti al momento non possiamo dare alcuna conferma. ',
+    'pt': 'A partir de agora, estamos conversando individualmente com cada corretora sobre este assunto. Sejamos pacientes, pois ainda não estamos anunciando individualmente quais corretoras darão suporte.',
+    'ko': '현재로선, 저희는 개별 거래소에 연락을 취하고 있습니다. 우리가 거래소 지원에 관한 공지를 띄울떄까지 기다려 주십시요.'
   },
   'faq-how-mine-title': {
     'ar': 'كيف أنقب عن ال"زيكلاسيك"',
@@ -441,19 +549,25 @@ const Localizations = {
     'ms': 'Bagaimana cara untuk melombong ZCL?',
     'nl': 'Hoe mine ik ZCL?',
     'sr': 'Kako rudarim (mine) ZCL?',
-    'zh_CN': '如何挖矿ZCL?'
+    'zh_CN': '如何挖矿ZCL?',
+    'it': 'Come posso minare ZCL?',
+    'pt': 'Como faço para minerar o ZCL?',
+    'ko': 'ZClassic은 어떻게 채굴합니까?'
   },
   'faq-how-mine-text': {
-    'ar': '<a href="https://www.reddit.com/r/ZClassic/comments/7mfmyb/how_to_mine_zcl_using_nvidia_or_amd_gpus_on/?ref=share&ref_source=link" target="_blank"هنا تجد دليل التنقيب. كما أن التنقيب عن "بتكوين برايفت" سيكون مشابه. ترقب المزيد لاحقا.</a>',
-    'es': 'Aquí hay una guía para minar ZCL en miningpoolhub. BTCP también será extraído de manera similar. <a href="https://www.reddit.com/r/ZClassic/comments/7mfmyb/how_to_mine_zcl_using_nvidia_or_amd_gpus_on/?ref=share&ref_source=link" target="_blank"Estén atentos para más información</a>.',
-    'fr': '<a href="https://www.reddit.com/r/ZClassic/comments/7mfmyb/how_to_mine_zcl_using_nvidia_or_amd_gpus_on/?ref=share&ref_source=link" target="_blank"Ici se trouve un guide pour miner du ZCL sur miningpoolhub</a>. BTCP sera aussi miné de la même façon. Restez connecté pour de plus amples informations.',
-    'he': '<a href="https://www.reddit.com/r/ZClassic/comments/7mfmyb/how_to_mine_zcl_using_nvidia_or_amd_gpus_on/?ref=share&ref_source=link" target="_blank"מצ"ב מדריך לכריית מטבע ZCL ב-miningpoolhub. מטבע ה-BTCP "ייכרה" באופן דומה. הישאר/י מעודכן/נת לקבלת מידע נוסף.</a>',
-    'hu': '<a href="https://www.reddit.com/r/ZClassic/comments/7mfmyb/how_to_mine_zcl_using_nvidia_or_amd_gpus_on/?ref=share&ref_source=link" target="_blank"Itt található az útmutató ZCL bányászáshoz a miningpoolhub-on</a>. A BTCP is hasonló módon bányászható. Légy készen további információkért.',
-    'id': '<a href="https://www.reddit.com/r/ZClassic/comments/7mfmyb/how_to_mine_zcl_using_nvidia_or_amd_gpus_on/?ref=share&ref_source=link" target="_blank"Ini adalah panduang untuk menambang ZCL di miningpoolhub.</a> BTCP juga akan ditambang dengan cara yang mirip. Terus simak web ini untuk informasi lebih lanjut.',
-    'ms': '<a href="https://www.reddit.com/r/ZClassic/comments/7mfmyb/how_to_mine_zcl_using_nvidia_or_amd_gpus_on/?ref=share&ref_source=link" target="_blank"Berikut adalah panduan untuk melombong ZCL di miningpoolhub</a>. BTCP juga akan dilombong dengan cara yang sama. Nantikan maklumat selanjutnya.',
-    'nl': '<a href="https://www.reddit.com/r/ZClassic/comments/7mfmyb/how_to_mine_zcl_using_nvidia_or_amd_gpus_on/?ref=share&ref_source=link" target="_blank"Hier is een beschrijving voor het minen van ZCL via miningpoolhub</a>. BTCP zal op vergelijkbare manier kunnen worden gemined. Meer informatie volgt.',
-    'sr': '<a href="https://www.reddit.com/r/ZClassic/comments/7mfmyb/how_to_mine_zcl_using_nvidia_or_amd_gpus_on/?ref=share&ref_source=link" target="_blank"Ovo je uputstvonkako da rudarite ZCL na miningpoolhub.com</a>. BTCP će biti rudaren na isti odnosno sličan način. Pratite nas za više informacija.',
-    'zh_CN': '这里有一份在<a href="https://www.reddit.com/r/ZClassic/comments/7mfmyb/how_to_mine_zcl_using_nvidia_or_amd_gpus_on/?ref=share&ref_source=link" target="_blank"mingingpoolhub上的挖ZCL指南</a>。BTCP将会有类似的挖矿方式。保持更新以 获得更多详情。'
+    'ar': '<a href="https://www.reddit.com/r/ZClassic/comments/7mfmyb/how_to_mine_zcl_using_nvidia_or_amd_gpus_on/?ref=share&ref_source=link" target="_blank">هنا تجد دليل التنقيب. كما أن التنقيب عن "بتكوين برايفت" سيكون مشابه. ترقب المزيد لاحقا.</a>',
+    'es': 'Aquí hay una guía para minar ZCL en miningpoolhub. BTCP también será extraído de manera similar. <a href="https://www.reddit.com/r/ZClassic/comments/7mfmyb/how_to_mine_zcl_using_nvidia_or_amd_gpus_on/?ref=share&ref_source=link" target="_blank">Estén atentos para más información</a>.',
+    'fr': '<a href="https://www.reddit.com/r/ZClassic/comments/7mfmyb/how_to_mine_zcl_using_nvidia_or_amd_gpus_on/?ref=share&ref_source=link" target="_blank">Ici se trouve un guide pour miner du ZCL sur miningpoolhub</a>. BTCP sera aussi miné de la même façon. Restez connecté pour de plus amples informations.',
+    'he': '<a href="https://www.reddit.com/r/ZClassic/comments/7mfmyb/how_to_mine_zcl_using_nvidia_or_amd_gpus_on/?ref=share&ref_source=link" target="_blank">מצ"ב מדריך לכריית מטבע ZCL ב-miningpoolhub. מטבע ה-BTCP "ייכרה" באופן דומה. הישאר/י מעודכן/נת לקבלת מידע נוסף.</a>',
+    'hu': '<a href="https://www.reddit.com/r/ZClassic/comments/7mfmyb/how_to_mine_zcl_using_nvidia_or_amd_gpus_on/?ref=share&ref_source=link" target="_blank">Itt található az útmutató ZCL bányászáshoz a miningpoolhub-on</a>. A BTCP is hasonló módon bányászható. Légy készen további információkért.',
+    'id': '<a href="https://www.reddit.com/r/ZClassic/comments/7mfmyb/how_to_mine_zcl_using_nvidia_or_amd_gpus_on/?ref=share&ref_source=link" target="_blank">Ini adalah panduang untuk menambang ZCL di miningpoolhub.</a> BTCP juga akan ditambang dengan cara yang mirip. Terus simak web ini untuk informasi lebih lanjut.',
+    'ms': '<a href="https://www.reddit.com/r/ZClassic/comments/7mfmyb/how_to_mine_zcl_using_nvidia_or_amd_gpus_on/?ref=share&ref_source=link" target="_blank">Berikut adalah panduan untuk melombong ZCL di miningpoolhub</a>. BTCP juga akan dilombong dengan cara yang sama. Nantikan maklumat selanjutnya.',
+    'nl': '<a href="https://www.reddit.com/r/ZClassic/comments/7mfmyb/how_to_mine_zcl_using_nvidia_or_amd_gpus_on/?ref=share&ref_source=link" target="_blank">Hier is een beschrijving voor het minen van ZCL via miningpoolhub</a>. BTCP zal op vergelijkbare manier kunnen worden gemined. Meer informatie volgt.',
+    'sr': '<a href="https://www.reddit.com/r/ZClassic/comments/7mfmyb/how_to_mine_zcl_using_nvidia_or_amd_gpus_on/?ref=share&ref_source=link" target="_blank">Ovo je uputstvonkako da rudarite ZCL na miningpoolhub.com</a>. BTCP će biti rudaren na isti odnosno sličan način. Pratite nas za više informacija.',
+    'zh_CN': '这里有一份在<a href="https://www.reddit.com/r/ZClassic/comments/7mfmyb/how_to_mine_zcl_using_nvidia_or_amd_gpus_on/?ref=share&ref_source=link" target="_blank">mingingpoolhub上的挖ZCL指南</a>。BTCP将会有类似的挖矿方式。保持更新以 获得更多详情。',
+    'it': '<a href="https://www.reddit.com/r/ZClassic/comments/7mfmyb/how_to_mine_zcl_using_nvidia_or_amd_gpus_on/?ref=share&ref_source=link" target="_blank">Qui è disponibile una guida al mining di ZCL su miningpoolhub</a>. BTCP potrà essere minato in modo del tutto simile. Presto rilasceremo ulteriori informazioni, rimanete sintonizzati.',
+    'pt': '<a href="https://www.reddit.com/r/ZClassic/comments/7mfmyb/how_to_mine_zcl_using_nvidia_or_amd_gpus_on/?ref=share&ref_source=link" target="_blank">Aqui está um guia para mineração da ZCL no miningpoolhub</a>. O BTCP também será minerado de forma semelhante. Mantenha-se atento para mais informações. ',
+    'ko': '<a href="https://www.reddit.com/r/ZClassic/comments/7mfmyb/how_to_mine_zcl_using_nvidia_or_amd_gpus_on/?ref=share&ref_source=link" target="_blank">여기에 miningpoolhub에서 ZClassic을 채굴하는 방법을 보실 수 있습니다</a>. 비트코인 프라이빗 또한 같은 방식으로 채굴될 겁니다. 추가 정보가 나오기 전까지는 기다려 주십시요.'
   },
   'faq-where-buy-title': {
     'ar': 'أين يمكن شراء عملة "زيكلاسيك"',
@@ -465,19 +579,25 @@ const Localizations = {
     'ms': 'Bagaimana cara untuk melombong ZCL?',
     'nl': 'Waar kan ik ZCL kopen?',
     'sr': 'Gde trenutno mogu kupiti ZCL?',
-    'zh_CN': '现在哪里可以买ZCL?'
+    'zh_CN': '现在哪里可以买ZCL?',
+    'it': 'Dove posso acquistare ZCL in questo momento?',
+    'pt': 'Onde posso comprar ZCL no momento?',
+    'ko': 'ZClassic은 어디서 구매할 수 있습니까?'
   },
   'faq-where-buy-text': {
-    'ar': '<a href="https://bittrex.com/Market/Index?MarketName=BTC-ZCL" target="_blank"Bittrex</a>, <a href="https://www.cryptopia.co.nz/Exchange?market=ZCL_BTC" target="_blank"Cryptopia</a> e <a href="https://www.coinexchange.io/market/ZCL/BTC" target="_blank"Coinexchange.io</a>',
-    'es': '<a href="https://bittrex.com/Market/Index?MarketName=BTC-ZCL" target="_blank"Bittrex</a>, <a href="https://www.cryptopia.co.nz/Exchange?market=ZCL_BTC" target="_blank"Cryptopia</a> y <a href="https://www.coinexchange.io/market/ZCL/BTC" target="_blank"Coinexchange.io</a>',
-    'fr': '<a href="https://bittrex.com/Market/Index?MarketName=BTC-ZCL" target="_blank"Bittrex</a>, <a href="https://www.cryptopia.co.nz/Exchange?market=ZCL_BTC" target="_blank"Cryptopia</a> et <a href="https://www.coinexchange.io/market/ZCL/BTC" target="_blank"Coinexchange.io</a>',
-    'he': '<a href="https://bittrex.com/Market/Index?MarketName=BTC-ZCL" target="_blank"Bittrex</a>, <a href="https://www.cryptopia.co.nz/Exchange?market=ZCL_BTC" target="_blank"Cryptopia</a>, <a href="https://www.coinexchange.io/market/ZCL/BTC" target="_blank"Coinexchange.io</a>',
-    'hu': '<a href="https://bittrex.com/Market/Index?MarketName=BTC-ZCL" target="_blank"Bittrex</a>, <a href="https://www.cryptopia.co.nz/Exchange?market=ZCL_BTC" target="_blank"Cryptopia</a> és <a href="https://www.coinexchange.io/market/ZCL/BTC" target="_blank"Coinexchange.io</a>',
-    'id': '<a href="https://bittrex.com/Market/Index?MarketName=BTC-ZCL" target="_blank"Bittrex</a>, <a href="https://www.cryptopia.co.nz/Exchange?market=ZCL_BTC" target="_blank"Cryptopia</a> dan <a href="https://www.coinexchange.io/market/ZCL/BTC" target="_blank"Coinexchange.io</a>',
-    'ms': '<a href="https://bittrex.com/Market/Index?MarketName=BTC-ZCL" target="_blank"Bittrex</a>, <a href="https://www.cryptopia.co.nz/Exchange?market=ZCL_BTC" target="_blank"Cryptopia</a> and <a href="https://www.coinexchange.io/market/ZCL/BTC" target="_blank"Coinexchange.io</a>',
-    'nl': '<a href="https://bittrex.com/Market/Index?MarketName=BTC-ZCL" target="_blank"Bittrex</a>, <a href="https://www.cryptopia.co.nz/Exchange?market=ZCL_BTC" target="_blank"Cryptopia</a> en <a href="https://www.coinexchange.io/market/ZCL/BTC" target="_blank"Coinexchange.io</a>',
-    'sr': '<a href="https://bittrex.com/Market/Index?MarketName=BTC-ZCL" target="_blank"Bittrex</a>, <a href="https://www.cryptopia.co.nz/Exchange?market=ZCL_BTC" target="_blank"Cryptopia</a> i <a href="https://www.coinexchange.io/market/ZCL/BTC" target="_blank"Coinexchange.io</a>',
-    'zh_CN': '<a href="https://bittrex.com/Market/Index?MarketName=BTC-ZCL" target="_blank"Bittrex</a>, <a href="https://www.cryptopia.co.nz/Exchange?market=ZCL_BTC" target="_blank"Cryptopia</a> 和 <a href="https://www.coinexchange.io/market/ZCL/BTC" target="_blank"Coinexchange.io</a>'
+    'ar': '<a href="https://bittrex.com/Market/Index?MarketName=BTC-ZCL" target="_blank">Bittrex</a>, <a href="https://www.cryptopia.co.nz/Exchange?market=ZCL_BTC" target="_blank">Cryptopia</a> e <a href="https://www.coinexchange.io/market/ZCL/BTC" target="_blank">Coinexchange.io</a>',
+    'es': '<a href="https://bittrex.com/Market/Index?MarketName=BTC-ZCL" target="_blank">Bittrex</a>, <a href="https://www.cryptopia.co.nz/Exchange?market=ZCL_BTC" target="_blank">Cryptopia</a> y <a href="https://www.coinexchange.io/market/ZCL/BTC" target="_blank">Coinexchange.io</a>',
+    'fr': '<a href="https://bittrex.com/Market/Index?MarketName=BTC-ZCL" target="_blank">Bittrex</a>, <a href="https://www.cryptopia.co.nz/Exchange?market=ZCL_BTC" target="_blank">Cryptopia</a> et <a href="https://www.coinexchange.io/market/ZCL/BTC" target="_blank">Coinexchange.io</a>',
+    'he': '<a href="https://bittrex.com/Market/Index?MarketName=BTC-ZCL" target="_blank">Bittrex</a>, <a href="https://www.cryptopia.co.nz/Exchange?market=ZCL_BTC" target="_blank">Cryptopia</a>, <a href="https://www.coinexchange.io/market/ZCL/BTC" target="_blank">Coinexchange.io</a>',
+    'hu': '<a href="https://bittrex.com/Market/Index?MarketName=BTC-ZCL" target="_blank">Bittrex</a>, <a href="https://www.cryptopia.co.nz/Exchange?market=ZCL_BTC" target="_blank">Cryptopia</a> és <a href="https://www.coinexchange.io/market/ZCL/BTC" target="_blank">Coinexchange.io</a>',
+    'id': '<a href="https://bittrex.com/Market/Index?MarketName=BTC-ZCL" target="_blank">Bittrex</a>, <a href="https://www.cryptopia.co.nz/Exchange?market=ZCL_BTC" target="_blank">Cryptopia</a> dan <a href="https://www.coinexchange.io/market/ZCL/BTC" target="_blank">Coinexchange.io</a>',
+    'ms': '<a href="https://bittrex.com/Market/Index?MarketName=BTC-ZCL" target="_blank">Bittrex</a>, <a href="https://www.cryptopia.co.nz/Exchange?market=ZCL_BTC" target="_blank">Cryptopia</a> and <a href="https://www.coinexchange.io/market/ZCL/BTC" target="_blank">Coinexchange.io</a>',
+    'nl': '<a href="https://bittrex.com/Market/Index?MarketName=BTC-ZCL" target="_blank">Bittrex</a>, <a href="https://www.cryptopia.co.nz/Exchange?market=ZCL_BTC" target="_blank">Cryptopia</a> en <a href="https://www.coinexchange.io/market/ZCL/BTC" target="_blank">Coinexchange.io</a>',
+    'sr': '<a href="https://bittrex.com/Market/Index?MarketName=BTC-ZCL" target="_blank">Bittrex</a>, <a href="https://www.cryptopia.co.nz/Exchange?market=ZCL_BTC" target="_blank">Cryptopia</a> i <a href="https://www.coinexchange.io/market/ZCL/BTC" target="_blank">Coinexchange.io</a>',
+    'zh_CN': '<a href="https://bittrex.com/Market/Index?MarketName=BTC-ZCL" target="_blank">Bittrex</a>, <a href="https://www.cryptopia.co.nz/Exchange?market=ZCL_BTC" target="_blank">Cryptopia</a> 和 <a href="https://www.coinexchange.io/market/ZCL/BTC" target="_blank">Coinexchange.io</a>',
+    'it': '<a href="https://bittrex.com/Market/Index?MarketName=BTC-ZCL" target="_blank">Bittrex</a>, <a href="https://www.cryptopia.co.nz/Exchange?market=ZCL_BTC" target="_blank">Cryptopia</a> e <a href="https://www.coinexchange.io/market/ZCL/BTC" target="_blank">Coinexchange.io</a>',
+    'pt': '<a href="https://bittrex.com/Market/Index?MarketName=BTC-ZCL" target="_blank">Bittrex</a>, <a href="https://www.cryptopia.co.nz/Exchange?market=ZCL_BTC" target="_blank">Cryptopia</a> e <a href="https://www.coinexchange.io/market/ZCL/BTC" target="_blank">Coinexchange.io</a>',
+    'ko': '<a href="https://bittrex.com/Market/Index?MarketName=BTC-ZCL" target="_blank">비트렉스</a>, <a href="https://www.cryptopia.co.nz/Exchange?market=ZCL_BTC" target="_blank">크립토피아</a>, 그리고 <a href="https://www.coinexchange.io/market/ZCL/BTC" target="_blank">Coinexchange.io</a> 에서 구매하실 수 있습니다.'
   },
   'faq-how-development-title': {
     'ar': 'كيف يمكنني المساعدة في تطوير "بتكوين برايفت" ؟',
@@ -489,19 +609,25 @@ const Localizations = {
     'ms': 'Bagaimana saya boleh membantu membangunkan BTCP?',
     'nl': 'Hoe kan ik helpen met de ontwikkeling van BTCP?',
     'sr': 'Kako mogu pomoći razvijanju BTCP?',
-    'zh_CN': '我如何参与帮助BTCP的开发？'
+    'zh_CN': '我如何参与帮助BTCP的开发？',
+    'it': 'Come posso aiutare lo sviluppo (development) di BTCP?',
+    'pt': 'Como posso ajudar com o desenvolvimento do BTCP?',
+    'ko': '제가 비트코인 프라이빗 개발에 기여하는 방법이 있나요?'
   },
   'faq-how-development-text': {
-    'ar': '<a href="https://github.com/BTCPrivate/BitcoinPrivate/issues" target="_blank"ادخل على رابط github واقرأ المشاكل التي يواجهها المطورون في الوقت الحالي.</a>',
-    'es': '<a href="https://github.com/BTCPrivate/BitcoinPrivate/issues" target="_blank"Vea los problemas publicados en github que necesitamos resolver para BTCP.</a>',
-    'fr': 'Allez voir les problémes postés <a href="https://github.com/BTCPrivate/BitcoinPrivate/issues" target="_blank"sur github</a> que nous avons besoin de résoudre pour le BTCP.',
-    'he': '<a href="https://github.com/BTCPrivate/BitcoinPrivate/issues" target="_blank"ראה/י את הבעיות שפורסמו ב-github שצריכות להפתר עבור BTCP.</a>',
-    'hu': 'A BTCP megoldásra váró kérdésiet / feladatokat megtekintheted <a href="https://github.com/BTCPrivate/BitcoinPrivate/issues" target="_blank"a github-on megosztva</a>.',
-    'id': 'Lihat <a href="https://github.com/BTCPrivate/BitcoinPrivate/issues" target="_blank"isu-isu di github</a> yang kami butuh bantuan untuk BTCP.',
-    'ms': 'Lihat <a href="https://github.com/BTCPrivate/BitcoinPrivate/issues" target="_blank"isu yang dipaparkan di github</a> yang kami perlukan bantuan untuk BTCP.',
-    'nl': 'Bekijk hier de <a href="https://github.com/BTCPrivate/BitcoinPrivate/issues" target="_blank"issues geplaatst op github</a> die nog moeten worden opgelost voor BTCP.',
+    'ar': '<a href="https://github.com/BTCPrivate/BitcoinPrivate/issues" target="_blank">ادخل على رابط github واقرأ المشاكل التي يواجهها المطورون في الوقت الحالي.</a>',
+    'es': '<a href="https://github.com/BTCPrivate/BitcoinPrivate/issues" target="_blank">Vea los problemas publicados en github que necesitamos resolver para BTCP.</a>',
+    'fr': 'Allez voir les problémes postés <a href="https://github.com/BTCPrivate/BitcoinPrivate/issues" target="_blank">sur github</a> que nous avons besoin de résoudre pour le BTCP.',
+    'he': '<a href="https://github.com/BTCPrivate/BitcoinPrivate/issues" target="_blank">ראה/י את הבעיות שפורסמו ב-github שצריכות להפתר עבור BTCP.</a>',
+    'hu': 'A BTCP megoldásra váró kérdésiet / feladatokat megtekintheted <a href="https://github.com/BTCPrivate/BitcoinPrivate/issues" target="_blank">a github-on megosztva</a>.',
+    'id': 'Lihat <a href="https://github.com/BTCPrivate/BitcoinPrivate/issues" target="_blank">isu-isu di github</a> yang kami butuh bantuan untuk BTCP.',
+    'ms': 'Lihat <a href="https://github.com/BTCPrivate/BitcoinPrivate/issues" target="_blank">isu yang dipaparkan di github</a> yang kami perlukan bantuan untuk BTCP.',
+    'nl': 'Bekijk hier de <a href="https://github.com/BTCPrivate/BitcoinPrivate/issues" target="_blank">issues geplaatst op github</a> die nog moeten worden opgelost voor BTCP.',
     'sr': 'Pogledajte zadatke postavljene na github koji se trenutno trebaju odraditi.',
-    'zh_CN': '参见发布在github上那些BTCP需要解决的issues.'
+    'zh_CN': '参见发布在github上那些BTCP需要解决的issues.',
+    'it': '<a href="https://github.com/BTCPrivate/BitcoinPrivate/issues" target="_blank">Guarda le “issues” postate su github che devono essere ancora risolte per BTCP</a>.',
+    'pt': 'Veja no <a href="https://github.com/BTCPrivate/BitcoinPrivate/issues" target="_blank">github os problemas publicados</a> que aguardam solução.',
+    'ko': '<a href="https://github.com/BTCPrivate/BitcoinPrivate/issues" target="_blank">비트코인 프라이빗 개발을 위해 깃허브에 올려둔 이슈를 참고하시기 바랍니다.</a>'
   },
   'faq-where-store-title': {
     'ar': 'أين يمكن الاحتفاظ بعملة "زيكلاسيك" ؟',
@@ -513,19 +639,25 @@ const Localizations = {
     'ms': 'Di mana saya boleh menyimpan ZCL untuk memastikan saya menerima BTCP saya?',
     'nl': 'Waar kan ik mijn ZCL bewaren om er zeker van te zijn dat ik mijn BTCP krijg?',
     'sr': 'Gde mogu držatu moje ZCL da bih se osigurao da ću dobiti BTCP?',
-    'zh_CN': '我需要在哪里保存ZCL才能确保获得BTCP?'
+    'zh_CN': '我需要在哪里保存ZCL才能确保获得BTCP?',
+    'it': 'Come devo salvare i miei ZCL per essere sicuro di ricevere i BTCP?',
+    'pt': 'Onde posso armazenar os meus ZCL para garantir o meus BTCP?',
+    'ko': '비트코인 프라이빗을 받기 위해서는 어디에 ZClassic을 보관해야 됩니까?'
   },
   'faq-where-store-text': {
-    'ar': '<a href="https://redd.it/7kynho" target="_blank"الرجاء الاطلاع على دليل الاستخدام. بينما تواجهنا حاليا مشاكل بسيطة في المحفظة الحالية، نعدكم بمحافظ تعمل بنسبة ١٠٠٪ لأنظمة تشغيل "وندوز" و "ماك" قبل إتمام المشروع .</a>',
-    'es': 'Utilice la siguiente guía simple sobre cómo <a href="https://redd.it/7kynho" target="_blank"instalar la billetera de Windows</a>. Si bien ha habido algunos problemas con la billetera ZCL actual, le prometemos que se liberará una billetera que funcione al 100% para Mac y Windows antes de el Hard Fork.',
-    'fr': 'Utilisez ici notre guide pour savoir comment <a href="https://redd.it/7kynho" target="_blank"installer le wallet pour Windows</a>. Même s’il y a eu des problèmes avec l’actuel Wallet ZCL, nous vous promettons un wallet qui fonctionnera à 100% pour Mac et Windows et qui sera distribué avant le fork.',
-    'he': '<a href="https://redd.it/7kynho" target="_blank"אנא השתמש/י במדריך הבא על אופן התקנת ארנק Windows. אמנם קיימות מספר בעיות עם הארנק הנוכחי של ZCL, אך אנו מבטיחים כי לפני הפיצול תשוחרר גרסה עובדת ב-100% עבור Mac ו-Windows.</a>',
-    'hu': 'Kérlek használd a következő útmutatót: <a href="https://redd.it/7kynho" target="_blank"hogyan telepítsem a Windows pénztárcát</a>. Amíg volt néhány probléma a jelenlegi ZCL pénztárcával, ígérhetjük egy 100%-ban működő pénztárca kiadását Mac-re és Windows-ra még a “fork”-ot megelőzően.',
-    'id': 'Silakan gunakan panduan sederhana ini untuk <a href="https://redd.it/7kynho" target="_blank"bagaimana menginstall dompet di windows</a>. Meskipun ada beberapa isu dengan dompet ZCL versi sekarang, kami menjamin bahwa dompet yang 100% berfungsi untuk Mac dan Windows akan dirilis sebelum fork.',
-    'ms': 'Sila gunakan panduan ringkas berikut mengenai <a href="https://redd.it/7kynho" target="_blank"cara memasang dompet di Windows</a>. Walaupun terdapat beberapa isu dengan dompet ZCL versi sekarang, kami berjanji bahawa dompet yang berfungsi 100% untuk Mac dan Windows akan dikeluarkan sebelum fork.',
-    'nl': 'U kunt deze eenvoudige handleiding gebruiken: “<a href="https://redd.it/7kynho" target="_blank"Hoe installeer ik de Windows wallet?</a>” Op dit moment zijn er wat problemen met de huidige ZCL wallet. We garanderen dat voor de hard fork een 100% werkende wallet beschikbaar zal zijn.',
+    'ar': '<a href="https://redd.it/7kynho" target="_blank">الرجاء الاطلاع على دليل الاستخدام. بينما تواجهنا حاليا مشاكل بسيطة في المحفظة الحالية، نعدكم بمحافظ تعمل بنسبة ١٠٠٪ لأنظمة تشغيل "وندوز" و "ماك" قبل إتمام المشروع .</a>',
+    'es': 'Utilice la siguiente guía simple sobre cómo <a href="https://redd.it/7kynho" target="_blank">instalar la billetera de Windows</a>. Si bien ha habido algunos problemas con la billetera ZCL actual, le prometemos que se liberará una billetera que funcione al 100% para Mac y Windows antes de el Hard Fork.',
+    'fr': 'Utilisez ici notre guide pour savoir comment <a href="https://redd.it/7kynho" target="_blank">installer le wallet pour Windows</a>. Même s’il y a eu des problèmes avec l’actuel Wallet ZCL, nous vous promettons un wallet qui fonctionnera à 100% pour Mac et Windows et qui sera distribué avant le fork.',
+    'he': '<a href="https://redd.it/7kynho" target="_blank">אנא השתמש/י במדריך הבא על אופן התקנת ארנק Windows. אמנם קיימות מספר בעיות עם הארנק הנוכחי של ZCL, אך אנו מבטיחים כי לפני הפיצול תשוחרר גרסה עובדת ב-100% עבור Mac ו-Windows.</a>',
+    'hu': 'Kérlek használd a következő útmutatót: <a href="https://redd.it/7kynho" target="_blank">hogyan telepítsem a Windows pénztárcát</a>. Amíg volt néhány probléma a jelenlegi ZCL pénztárcával, ígérhetjük egy 100%-ban működő pénztárca kiadását Mac-re és Windows-ra még a “fork”-ot megelőzően.',
+    'id': 'Silakan gunakan panduan sederhana ini untuk <a href="https://redd.it/7kynho" target="_blank">bagaimana menginstall dompet di windows</a>. Meskipun ada beberapa isu dengan dompet ZCL versi sekarang, kami menjamin bahwa dompet yang 100% berfungsi untuk Mac dan Windows akan dirilis sebelum fork.',
+    'ms': 'Sila gunakan panduan ringkas berikut mengenai <a href="https://redd.it/7kynho" target="_blank">cara memasang dompet di Windows</a>. Walaupun terdapat beberapa isu dengan dompet ZCL versi sekarang, kami berjanji bahawa dompet yang berfungsi 100% untuk Mac dan Windows akan dikeluarkan sebelum fork.',
+    'nl': 'U kunt deze eenvoudige handleiding gebruiken: “<a href="https://redd.it/7kynho" target="_blank">Hoe installeer ik de Windows wallet?</a>” Op dit moment zijn er wat problemen met de huidige ZCL wallet. We garanderen dat voor de hard fork een 100% werkende wallet beschikbaar zal zijn.',
     'sr': 'Molimo vas da iskoristite ovo jednostavno uputstvo kako da instalirate windows wallet. Trenutno još uvijek postoje neki problemi sa trenutnim ZCL wallet-om, ali obećavamo da će wallet za Mac i Windows koji 100% radi biti objavljen prije fork-a.',
-    'zh_CN': '请参照该指南<a href="https://redd.it/7kynho" target="_blank"如何安装windows wallet</a>. 当前的ZCL钱包可能还存在一些小问题，但是我们保 证Windows和Mac钱包将会在分叉前100%运作正常。'
+    'zh_CN': '请参照该指南<a href="https://redd.it/7kynho" target="_blank">如何安装windows wallet</a>. 当前的ZCL钱包可能还存在一些小问题，但是我们保 证Windows和Mac钱包将会在分叉前100%运作正常。',
+    'it': 'Puoi usare la seguente <a href="https://redd.it/7kynho" target="_blank">semplice guida all’installazione del wallet per windows</a>. Nonostante il wallet attuale presenti alcuni problemi, possiamo assicurare al 100% che rilasceremo dei wallet funzionanti sia per Mac che per Windows prima del fork.',
+    'pt': 'Use este guia simples de <a href="https://redd.it/7kynho" target="_blank">como instalar a carteira Windows</a>. Embora tenha havido alguns problemas com a carteira ZCL atual, prometemos que uma carteira 100% operacional para Mac e Windows será lançada antes do “Hard Fork”.',
+    'ko': '<a href="https://redd.it/7kynho" target="_blank">윈도우 지갑을 설치하기 위한 방법을 참고해 주세요. 현재 100프로의 확률로 하드포크를 지원하는 ZClassic 지갑 프로그램을 개발중에 있으며, 이는 빠른 시일 이내 출시될 것입니다.</a>'
   },
   'faq-get-involved-title': {
     'ar': 'كيف أشارك في ال “فورك” ؟',
@@ -537,19 +669,25 @@ const Localizations = {
     'ms': 'Bagaimana cara untuk saya turut serta di dalam fork ini?',
     'nl': 'Hoe raak ik betrokken bij de fork?',
     'sr': 'Kako da se uključim u fork?',
-    'zh_CN': '我如何参与这次分叉？'
+    'zh_CN': '我如何参与这次分叉？',
+    'it': 'Come posso essere coinvolto nel fork?',
+    'pt': 'Como faço para me envolver no “Fork”?',
+    'ko': '어떻게 하드포크 이벤트에 참여할 수 있을까요?'
   },
   'faq-get-involved-text': {
-    'ar': '<a href="https://www.reddit.com/r/ZClassic/comments/7kt1ge/call_for_bitcoin_private_fork_volunteers/" target="_blank"أدخل على هذا الرابط واكتب تعليق (ارغب في المشاركة).</a>',
-    'es': '<a href="https://www.reddit.com/r/ZClassic/comments/7kt1ge/call_for_bitcoin_private_fork_volunteers/" target="_blank"Por favor, mira el enlace aquí y comenta para participar.</a>',
-    'fr': '<a href="https://www.reddit.com/r/ZClassic/comments/7kt1ge/call_for_bitcoin_private_fork_volunteers/" target="_blank"Vous trouverez ici les liens et commentaires pour vous investir.</a>',
-    'he': '<a href="https://www.reddit.com/r/ZClassic/comments/7kt1ge/call_for_bitcoin_private_fork_volunteers/" target="_blank"עיין בהתכתבות כאן וציין/ני כי ברצונך להיות מעורב/ת.</a>',
-    'hu': '<a href="https://www.reddit.com/r/ZClassic/comments/7kt1ge/call_for_bitcoin_private_fork_volunteers/" target="_blank"Kérlek tekintsd meg a thread-et itt és szólj hozzá, vegyél benne részt.</a>',
-    'id': 'Silakan lihat <a href="https://www.reddit.com/r/ZClassic/comments/7kt1ge/call_for_bitcoin_private_fork_volunteers/" target="_blank"thread ini</a> dan berikan komentar untuk terlibat.',
-    'ms': 'Sila lihat <a href="https://www.reddit.com/r/ZClassic/comments/7kt1ge/call_for_bitcoin_private_fork_volunteers/" target="_blank"thread ini</a> dan komen untuk turut serta.',
-    'nl': 'Bekijk de <a href="https://www.reddit.com/r/ZClassic/comments/7kt1ge/call_for_bitcoin_private_fork_volunteers/" target="_blank"thread hier</a> en reageer om mee te doen.',
-    'sr': '<a href="https://www.reddit.com/r/ZClassic/comments/7kt1ge/call_for_bitcoin_private_fork_volunteers/" target="_blank"Molimo vas pogledajte ovu objavu i komentarišite da biste se uključili.</a>',
-    'zh_CN': '请浏览<a href="https://www.reddit.com/r/ZClassic/comments/7kt1ge/call_for_bitcoin_private_fork_volunteers/" target="_blank"这里的帖子</a>并参与评论进行参与。'
+    'ar': '<a href="https://www.reddit.com/r/ZClassic/comments/7kt1ge/call_for_bitcoin_private_fork_volunteers/" target="_blank">أدخل على هذا الرابط واكتب تعليق (ارغب في المشاركة).</a>',
+    'es': '<a href="https://www.reddit.com/r/ZClassic/comments/7kt1ge/call_for_bitcoin_private_fork_volunteers/" target="_blank">Por favor, mira el enlace aquí y comenta para participar.</a>',
+    'fr': '<a href="https://www.reddit.com/r/ZClassic/comments/7kt1ge/call_for_bitcoin_private_fork_volunteers/" target="_blank">Vous trouverez ici les liens et commentaires pour vous investir.</a>',
+    'he': '<a href="https://www.reddit.com/r/ZClassic/comments/7kt1ge/call_for_bitcoin_private_fork_volunteers/" target="_blank">עיין בהתכתבות כאן וציין/ני כי ברצונך להיות מעורב/ת.</a>',
+    'hu': '<a href="https://www.reddit.com/r/ZClassic/comments/7kt1ge/call_for_bitcoin_private_fork_volunteers/" target="_blank">Kérlek tekintsd meg a thread-et itt és szólj hozzá, vegyél benne részt.</a>',
+    'id': 'Silakan lihat <a href="https://www.reddit.com/r/ZClassic/comments/7kt1ge/call_for_bitcoin_private_fork_volunteers/" target="_blank">thread ini</a> dan berikan komentar untuk terlibat.',
+    'ms': 'Sila lihat <a href="https://www.reddit.com/r/ZClassic/comments/7kt1ge/call_for_bitcoin_private_fork_volunteers/" target="_blank">thread ini</a> dan komen untuk turut serta.',
+    'nl': 'Bekijk de <a href="https://www.reddit.com/r/ZClassic/comments/7kt1ge/call_for_bitcoin_private_fork_volunteers/" target="_blank">thread hier</a> en reageer om mee te doen.',
+    'sr': '<a href="https://www.reddit.com/r/ZClassic/comments/7kt1ge/call_for_bitcoin_private_fork_volunteers/" target="_blank">Molimo vas pogledajte ovu objavu i komentarišite da biste se uključili.</a>',
+    'zh_CN': '请浏览<a href="https://www.reddit.com/r/ZClassic/comments/7kt1ge/call_for_bitcoin_private_fork_volunteers/" target="_blank">这里的帖子</a>并参与评论进行参与。',
+    'it': 'Puoi leggere e commentare <a href="https://www.reddit.com/r/ZClassic/comments/7kt1ge/call_for_bitcoin_private_fork_volunteers/" target="_blank">questo thread</a> se desideri essere coinvolto, grazie.',
+    'pt': '<a href="https://www.reddit.com/r/ZClassic/comments/7kt1ge/call_for_bitcoin_private_fork_volunteers/" target="_blank">Veja este tópico e participe para se envolver</a>.',
+    'ko': '<a href="https://www.reddit.com/r/ZClassic/comments/7kt1ge/call_for_bitcoin_private_fork_volunteers/" target="_blank">이 게시물을 참고하시고 댓글을 다셔서 참여하시면 됩니다.</a>'
   },
   'faq-after-fork-title': {
     'ar': 'ماذا سيحدث ل"زيكلاسيك" بعد ال"فورك" ؟',
@@ -561,7 +699,10 @@ const Localizations = {
     'ms': 'Apa yang akan terjadi kepada ZCL selepas fork?',
     'nl': 'Wat gebeurt er met ZCL na de fork?',
     'sr': 'Šta će biti sa ZCL nakon forka?',
-    'zh_CN': 'ZCL在分叉后将会怎样？'
+    'zh_CN': 'ZCL在分叉后将会怎样？',
+    'it': 'Cosa succederà a ZCL dopo il fork?',
+    'pt': 'O que acontece com o ZCL após o “Hard Fork”?',
+    'ko': '하드포크 이후에 ZClassic은 어떻게 되는것입니까?'
   },
   'faq-after-fork-text': {
     'ar': 'ستبقى "زيكلاسيك" موجودة. كما أن المشاركين قد تناولوا كيفية الحفاظ على "زيكلاسيك" وإبقائها في سلك التطوير المستمر بعد ال"فورك". نحن ندعم هذا الأمر ونستبشر به الخير.',
@@ -573,7 +714,10 @@ const Localizations = {
     'ms': 'ZClassic akan tetap wujud. Komuniti telah berbincang akan tetap memelihara dan terus aktif membangunkan ZCL selepas fork. Kami fikir hal ini bagus dan menyokong sepenuhnya.',
     'nl': 'ZClassic zal blijven bestaan. De community heeft besloten ZCL actief te blijven ontwikkelen na de fork. Dit vinden wij geweldig en blijven dit volledig ondersteunen.',
     'sr': 'ZClassic će i dalje postojati. Zajednica je izrazila želju da ZCL ostane u aktivnom razvijanj nakon forka. Mi mislimo da je ova ideja sjajna i u potpunosti je podržavamo i saglasni smo s njom.',
-    'zh_CN': 'ZCL会照样存在。社区对此进行了讨论，并认为保持对分叉后的ZCL进行持续活跃开发。我们 高度认同并会全力支持。'
+    'zh_CN': 'ZCL会照样存在。社区对此进行了讨论，并认为保持对分叉后的ZCL进行持续活跃开发。我们 高度认同并会全力支持。',
+    'it': 'ZClassic continuerà ad esistere. La comunità ha discusso e manterrà ZCL attivo e ne continuerà lo sviluppo anche dopo il fork. Noi pensiamo che sia una grande cosa e la supportiamo completamente.',
+    'pt': 'O ZClassic continuará existindo. A comunidade decidiu manter ativo o desenvolvimento do ZCL após o “Fork”. Pensamos que isto é ótimo e apoiamos totalmente.',
+    'ko': 'ZClassic은 포크 이후에도 ZClassic으로서 존재할 것입니다. 현재 커뮤니티는 포크 이후에도 ZClassic에 관한 계속적인 지원을 하기로 합의하였습니다. 저희는 이것을 최선이라 여기며 꾸준히 개발해 나갈 것입니다.'
   },
   'faq-replay-protection-title': {
     'ar': 'هل ستتوفر تقنية التحقق الثنائي "ريبلاي بروتيكشن" في "بتكوين برايفت؟',
@@ -585,7 +729,10 @@ const Localizations = {
     'ms': 'Adakah ia akan mempunyai perlindungan replay?',
     'nl': 'Ondersteund BTCP replay-protectie?',
     'sr': 'Da li će biti replay protection?',
-    'zh_CN': '会有(replay protection)重放攻击保护吗？'
+    'zh_CN': '会有(replay protection)重放攻击保护吗？',
+    'it': 'Ci sarà la “replay protection”?',
+    'pt': 'Haverá “Replay Protection”?',
+    'ko': '혹시 리플레이 공격 방지책이 존재하나요?'
   },
   'faq-replay-protection-text': {
     'ar': 'نعم تقنية التحقق الثنائى (two-way replay protection) ستكون متوفرة في "بتكوين برايفت".',
@@ -597,7 +744,10 @@ const Localizations = {
     'ms': 'Ya, Bitcoin Private akan mempunyai perlindungan replay dua-arah.',
     'nl': 'Ja, Bitcoin Private heeft two-way replay protection.',
     'sr': 'Da, Bitcoin Private će imati replay protection u oba smera.',
-    'zh_CN': '有，Bitcoin Private会有双向重放攻击保护(two-way replay protection).'
+    'zh_CN': '有，Bitcoin Private会有双向重放攻击保护(two-way replay protection).',
+    'it': 'Sì, Bitcoin Private avrà una “two-way replay protection”.',
+    'pt': 'Sim, o Bitcoin Private terá “Replay Protection” de dois sentidos.',
+    'ko': '네, 비트코인 프라이빗은 양뱡향 리플레이 공격 방지책을 지원할 것입니다.'
   },
   'resources-header-title': {
     'ar': 'BTCP موارد',
@@ -609,7 +759,10 @@ const Localizations = {
     'ms': 'Sumber BTCP',
     'nl': 'BTCP Bronnen',
     'sr': 'BTCP Resursi',
-    'zh_CN': 'BTCP资源'
+    'zh_CN': 'BTCP资源',
+    'it': 'BTCP Risorse',
+    'pt': 'Recursos BTCP',
+    'ko': 'BTCP에 관한 참고 자료'
   },
   'resources-zclassic-cap-title': {
     'ar': 'ZCLassic Market Cap',
@@ -621,7 +774,10 @@ const Localizations = {
     'ms': 'Permodalan Pasaran ZClassic',
     'nl': 'ZClassic beurswaarde.',
     'sr': 'ZClassic Market Cap',
-    'zh_CN': 'Zclassic市场总值'
+    'zh_CN': 'Zclassic市场总值',
+    'it': 'ZCLassic Market Cap',
+    'pt': 'ZClassic Market Cap',
+    'ko': 'ZClassic 시가총액'
   },
   'resources-zclassic-cap-text': {
     'ar': 'في الأسفل قيمة “زيكلاسيك” الحالية ورأس المال',
@@ -633,7 +789,10 @@ const Localizations = {
     'ms': 'Berikut adalah harga dagangan semasa ZClassic dan permodalan pasarannya.',
     'nl': 'Onderstaand is de huidige koers van ZClassic en de beurswaarde.',
     'sr': 'Ispod možete naći trenutnu cenu ZClassic-a i njegovu marke cap.',
-    'zh_CN': '下面是当前Zclassic的交易价格和市场总值。'
+    'zh_CN': '下面是当前Zclassic的交易价格和市场总值。',
+    'it': 'In basso il valore di mercato di ZClassic e il suo market cap.',
+    'pt': 'Abaixo está o preço atual de negociação do ZClassic e seu tamanho de mercado.',
+    'ko': '아래는 현재 ZClassic의 현재가격과 시가총액을 나타냅니다.'
   },
   'resources-press-inquiries-title': {
     'ar': 'استفسارات صحافية',
@@ -645,19 +804,25 @@ const Localizations = {
     'ms': 'Pertanyaan Media',
     'nl': 'Persverzoeken',
     'sr': 'Za medije',
-    'zh_CN': '媒体联系'
+    'zh_CN': '媒体联系',
+    'it': 'Informazioni per la stampa',
+    'pt': 'Perguntas da imprensa',
+    'ko': '언론 문의'
   },
   'resources-press-inquiries-text': {
-    'ar': 'للتواصل مع منظمين الفريق لما يخص الصحافة والنشر عن طريق تويتر <a href="https://twitter.com/bitcoinprivate" target="_blank"@bitcoinprivate</a>',
-    'es': 'Para ponerse en contacto con los coordinadores principales del equipo para cualquier consulta relacionada con la prensa, contáctenos en Twitter <a href="https://twitter.com/bitcoinprivate" target="_blank"@bitcoinprivate</a>.',
-    'fr': 'Pour contacter les principaux coordinateurs de l’équipe concernant toute question relative à la presse,  veuillez nous contacter sur Twitter <a href="https://twitter.com/bitcoinprivate" target="_blank"@bitcoinprivate.</a>',
-    'he': 'כדי ליצור קשר עם מתאם הראשי של הצוות עבור בירורים הקשורים לעיתונות,  אנא צרו איתנו קשר בטוויטר <a href="https://twitter.com/bitcoinprivate" target="_blank"@bitcoinprivate</a>.',
-    'hu': 'Az elsődleges csapat koordinátorok eléréséhez bármilyen sajtóval kapcsolatos megkeresésben, kérlek lépj velünk kapcsolatba a Twitter-en <a href="https://twitter.com/bitcoinprivate" target="_blank"@bitcoinprivate</a>.',
-    'id': 'Silakan kontak kami di twitter <a href="https://twitter.com/bitcoinprivate" target="_blank"@bitcoinprivate</a> untuk menghubungi koordinator utama tim untuk semua pertanyaan terkait pers. ',
-    'ms': 'Untuk menghubungi penyelaras utama pasukan bagi sebarang pertanyaan berkaitan media, sila hubungi kami di Twitter <a href="https://twitter.com/bitcoinprivate" target="_blank"@bitcoinprivate</a>.',
-    'nl': 'Om contact op te nemen met de coördinatoren van het team, voor pers gerelateerde zaken, maakt u het beste gebruik van Twitter via: <a href="https://twitter.com/bitcoinprivate" target="_blank"@bitcoinprivate</a>.',
-    'sr': 'Da biste nas kontaktirali sa bilo kakvim pitanjima vezanim za medije, molimo Vas da nam se obratite preko Twitter-a <a href="https://twitter.com/bitcoinprivate" target="_blank"@bitcoinprivate</a>',
-    'zh_CN': '如有任何媒体发布相关的问题和事宜想与团队主要协调人员取得联系，请联系 Twitter账号 <a href="https://twitter.com/bitcoinprivate" target="_blank"@bitcoinprivate</a>'
+    'ar': 'للتواصل مع منظمين الفريق لما يخص الصحافة والنشر عن طريق تويتر <a href="https://twitter.com/bitcoinprivate" target="_blank">@bitcoinprivate</a>',
+    'es': 'Para ponerse en contacto con los coordinadores principales del equipo para cualquier consulta relacionada con la prensa, contáctenos en Twitter <a href="https://twitter.com/bitcoinprivate" target="_blank">@bitcoinprivate</a>.',
+    'fr': 'Pour contacter les principaux coordinateurs de l’équipe concernant toute question relative à la presse,  veuillez nous contacter sur Twitter <a href="https://twitter.com/bitcoinprivate" target="_blank">@bitcoinprivate.</a>',
+    'he': 'כדי ליצור קשר עם מתאם הראשי של הצוות עבור בירורים הקשורים לעיתונות,  אנא צרו איתנו קשר בטוויטר <a href="https://twitter.com/bitcoinprivate" target="_blank">@bitcoinprivate</a>.',
+    'hu': 'Az elsődleges csapat koordinátorok eléréséhez bármilyen sajtóval kapcsolatos megkeresésben, kérlek lépj velünk kapcsolatba a Twitter-en <a href="https://twitter.com/bitcoinprivate" target="_blank">@bitcoinprivate</a>.',
+    'id': 'Silakan kontak kami di twitter <a href="https://twitter.com/bitcoinprivate" target="_blank">@bitcoinprivate</a> untuk menghubungi koordinator utama tim untuk semua pertanyaan terkait pers. ',
+    'ms': 'Untuk menghubungi penyelaras utama pasukan bagi sebarang pertanyaan berkaitan media, sila hubungi kami di Twitter <a href="https://twitter.com/bitcoinprivate" target="_blank">@bitcoinprivate</a>.',
+    'nl': 'Om contact op te nemen met de coördinatoren van het team, voor pers gerelateerde zaken, maakt u het beste gebruik van Twitter via: <a href="https://twitter.com/bitcoinprivate" target="_blank">@bitcoinprivate</a>.',
+    'sr': 'Da biste nas kontaktirali sa bilo kakvim pitanjima vezanim za medije, molimo Vas da nam se obratite preko Twitter-a <a href="https://twitter.com/bitcoinprivate" target="_blank">@bitcoinprivate</a>',
+    'zh_CN': '如有任何媒体发布相关的问题和事宜想与团队主要协调人员取得联系，请联系 Twitter账号 <a href="https://twitter.com/bitcoinprivate" target="_blank">@bitcoinprivate</a>',
+    'it': 'Per mettersi in contatto con il team e per qualsiasi richiesta di informazioni stampa, potete contattarci su Twitter <a href="https://twitter.com/bitcoinprivate" target="_blank">@bitcoinprivate</a>',
+    'pt': 'Para contactar os principais coordenadores da equipe sobre qualquer consulta relacionada à imprensa, entre em contato pelo Twitter <a href="https://twitter.com/bitcoinprivate" target="_blank">@bitcoinprivate</a>.',
+    'ko': '개발팀에 관한 문의를 하실려면 Twitter <a href="https://twitter.com/bitcoinprivate" target="_blank">@bitcoinprivate</a> 로 연락해 주십시요'
   },
   'resources-press-kit-title': {
     'ar': 'تحميل (Press Kit)',
@@ -669,7 +834,10 @@ const Localizations = {
     'ms': 'Kit Media',
     'nl': 'Persmap',
     'sr': 'Press Kit',
-    'zh_CN': '媒体素材'
+    'zh_CN': '媒体素材',
+    'it': 'Press Kit',
+    'pt': 'Kit de imprensa',
+    'ko': '배포 자료'
   },
   'resources-press-kit-text': {
     'ar': '<a href="presskit/presskit.zip" download>لتحميل نسخة مضغوطة لموارد "بتكوين برايفت" اضغط هنا.</a>',
@@ -681,7 +849,10 @@ const Localizations = {
     'ms': '<a href="presskit/presskit.zip" download>Anda boleh muat turun file zip berisi aset penjenamaan Bitcoin Private di sini.</a>',
     'nl': '<a href="presskit/presskit.zip" download>U kunt hier een zip-file met de merk-items van Bitcoin Private downloaden.</a>',
     'sr': '<a href="presskit/presskit.zip" download>Možete preuzeti zip fajl sa Bitcoin Private brending sredstvima  ovde.</a>',
-    'zh_CN': '<a href="presskit/presskit.zip" download>此处可下载Bitcoin Private的品牌素材压缩文件</a>'
+    'zh_CN': '<a href="presskit/presskit.zip" download>此处可下载Bitcoin Private的品牌素材压缩文件</a>',
+    'it': '<a href="presskit/presskit.zip" download>Potete scaricare il file zip - “Bitcoin Private\'s branding assets” qui.</a>',
+    'pt': 'Você pode baixar um arquivo zip contendo os <a href="presskit/presskit.zip" download>arquivos de marca do Bitcoin Private aqui</a>.',
+    'ko': '비트코인 프라이빗과 관련한 디자인 자료를 여기서 다운로드하실 수 있습니다.'
   },
   'resources-official-links-title': {
     'ar': 'الروابط الرسمية',
@@ -693,7 +864,10 @@ const Localizations = {
     'ms': 'Pautan Rasmi',
     'nl': 'Officiële links',
     'sr': 'Службене везе',
-    'zh_CN': '官方链接'
+    'zh_CN': '官方链接',
+    'it': 'Collegamenti Ufficiali',
+    'pt': 'Links Oficiais',
+    'ko': '공식 링크'
   },
   'resources-official-links-text': {
     'ar': '<a href="https://github.com/BTCP-community/official-links/blob/master/README.md" target="_blank">يمكنك عرض دليل الرسمي بيتكوين الروابط الخاصة هنا.</a>',
@@ -705,7 +879,10 @@ const Localizations = {
     'ms': '<a href="https://github.com/BTCP-community/official-links/blob/master/README.md" target="_blank">Anda boleh melihat direktori pautan peribadi Bitcoin Persendirian di sini.</a>',
     'nl': '<a href="https://github.com/BTCP-community/official-links/blob/master/README.md" target="_blank">U kunt hier een lijst met officiële Bitcoin Private-links bekijken.</a>',
     'sr': '<a href="https://github.com/BTCP-community/official-links/blob/master/README.md" target="_blank">Овде можете погледати каталог званичних Битцоин Приватних линкова.</a>',
-    'zh_CN': '<a href="https://github.com/BTCP-community/official-links/blob/master/README.md" target="_blank">您可以在这里查看官方比特币私人链接的目录。'
+    'zh_CN': '<a href="https://github.com/BTCP-community/official-links/blob/master/README.md" target="_blank">您可以在这里查看官方比特币私人链接的目录。',
+    'it': 'È possibile visualizzare una <a href="https://github.com/BTCP-community/official-links/blob/master/README.md" target="_blank">directory di collegamenti privati Bitcoin ufficiali qui</a>.',
+    'pt': 'Você pode ver um <a href="https://github.com/BTCP-community/official-links/blob/master/README.md" target="_blank">diretório dos links oficiais do Bitcoin Private aqui</a>.',
+    'ko': '<a href="https://github.com/BTCP-community/official-links/blob/master/README.md" target="_blank">공식 BitCin Private 링크 디렉토리를 여기에서 볼 수 있습니다</a>.'
   },
   'resources-social-title': {
     'ar': 'التواصل الاجتماعي',
@@ -717,7 +894,10 @@ const Localizations = {
     'ms': 'We\'re Social',
     'nl': 'Volg Ons Op ',
     'sr': 'Društveni Smo',
-    'zh_CN': '我们的社交网络'
+    'zh_CN': '我们的社交网络',
+    'it': 'Ci trovatei su',
+    'pt': 'Estamos nas redes sociais',
+    'ko': '우리는 사교적이다'
   }
 };
 
