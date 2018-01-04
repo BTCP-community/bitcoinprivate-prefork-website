@@ -8,13 +8,7 @@
         "sourceType": "module"
     },
     "globals": {
-      "API": true,
-      "Configuration": true,
-      "Module": true,
-      "Scaling": true,
-      "UI": true,
-      "doT": true,
-      "dot": true,
+      "Localizations": true,
       "url": true
     },
     "rules": {
@@ -43,4 +37,3 @@
         ],
     }
 }
-

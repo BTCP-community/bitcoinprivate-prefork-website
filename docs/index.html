@@ -26,12 +26,14 @@
     <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
     <link rel="manifest" href="favicons/manifest.json">
 
-    <title>Bitcoin Private</title>
+    <title localization-tag="page-title">Bitcoin Private</title>
 
     <link href="css/main.css" rel="stylesheet" type="text/css" />
 
     <script type="text/javascript" src="dependencies/jquery/dist/jquery.min.js"></script>
     <script type="text/javascript" src="dependencies/bootstrap-sass/assets/javascripts/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/dependencies/js-url/url.min.js"></script>
+    <script type="text/javascript" src="javascript/Localizations.js"></script>
     <script type="text/javascript" src="javascript/Main.js"></script>
   </head>
   <body>
@@ -52,10 +54,33 @@
 
     <div id="navbar-collapse" class="collapse navbar-collapse">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#why-btcp" class="view-section">About</a></li>
-        <li><a href="#hard-fork" class="view-section">Hard Fork</a></li>
-        <li><a href="#faq" class="view-section">FAQ</a></li>
-        <li><a href="#resources" class="view-section">Resources</a></li>
+        <li><a href="#why-btcp" class="view-section" localization-tag="navigation-about">About</a></li>
+        <li><a href="#hard-fork" class="view-section" localization-tag="navigation-hard-fork">Hard Fork</a></li>
+        <li><a href="#faq" class="view-section" localization-tag="navigation-faq">FAQ</a></li>
+        <li><a href="#resources" class="view-section" localization-tag="navigation-resources">Resources</a></li>
+        <li style="position: relative;">
+          <a href="#" id="language-button" class="dropdown-toggle" data-toggle="dropdown"><span localization-tag="navigation-language">English</span> <i class="fa fa-caret-down"></i></a>
+          <div id="language-dropdown" class="dropdown-menu">
+            <div class="row">
+              <div class="col-xs-6">
+                <a href="/?lang=en">English</a>
+                <a href="/?lang=zh_CN">简体中文</a>
+                <a href="/?lang=nl">Nederlands</a>
+                <a href="/?lang=ar">العربية</a>
+                <a href="/?lang=he">עִבְרִית</a>
+                <a href="/?lang=ms">Malay</a>
+              </div>
+
+              <div class="col-xs-6">
+                <a href="/?lang=es">Español</a>
+                <a href="/?lang=fr">Français</a>
+                <a href="/?lang=sr">српски</a>
+                <a href="/?lang=id">Bahasa Indonesia</a>
+                <a href="/?lang=hu">magyar nyelv</a>
+              </div>
+            </div>
+          </div>
+        </li>
       </ul>
     </div>
   </div>
@@ -66,9 +91,9 @@
     <div class="col-xs-10 col-xs-push-1 col-sm-6 col-sm-push-3 text-center">
       <img src="images/icon.svg" height="160px" />
       <h1><span class="color-primary">Bitcoin</span> <span class="color-secondary">Private</span></h1>
-      <p class="x-large color-primary">private, decentralized, fast, open source,<br class="hidden-xs" />community-driven coin</p>
-      <h3 class="color-primary font-weight-bold">Coming Soon</h3>
-      <a href="#hard-fork" class="btn btn-accent view-section">Hard Fork Details</a>
+      <p class="x-large color-primary" localization-tag="hero-blurb">private, decentralized, fast, open source,<br class="hidden-xs" />community-driven coin</p>
+      <h3 class="color-primary font-weight-bold" localization-tag="hero-coming-soon">Coming Soon</h3>
+      <a href="#hard-fork" class="btn btn-accent view-section" localization-tag="hero-hard-fork-details">Hard Fork Details</a>
     </div>
   </div>
 
@@ -76,7 +101,7 @@
     <div class="container">
       <div class="row">
         <div class="col-xs-12">
-          <h1 class="section-heading text-center"><span class="color-primary">Why</span> <span class="color-secondary">$BTCP?</span></h1>
+          <h1 class="section-heading text-center" localization-tag="why-btcp-header-title"><span class="color-primary">Why</span> <span class="color-secondary">$BTCP?</span></h1>
         </div>
       </div>
 
@@ -84,24 +109,24 @@
         <div class="col-xs-12 col-sm-4 visual-grouping">
           <i class="fa fa-lock visual" style="font-size: 79px"></i>
           <div class="content">
-            <h3>Private</h3>
-            <p>Bitcoin Private will use the same privacy technology as ZClassic (zk-snarks). This means payments are published on a public blockchain, but the sender, recipient and other transactional metadata remain unidentifiable.</p>
+            <h3 localization-tag="why-btcp-private-title">Private</h3>
+            <p localization-tag="why-btcp-private-text">Bitcoin Private will use the same privacy technology as ZClassic (zk-snarks). This means payments are published on a public blockchain, but the sender, recipient and other transactional metadata remain unidentifiable.</p>
           </div>
         </div>
 
         <div class="col-xs-12 col-sm-4 visual-grouping">
           <i class="fa fa-arrows visual" style="font-size: 79px"></i>
           <div class="content">
-            <h3>Decentralized</h3>
-            <p>Just like Bitcoin, Bitcoin Private will support peer-to-peer transactions without an intermediary. These transactions will be verified by network nodes through the use of cryptography and recorded in a public ledger.</p>
+            <h3 localization-tag="why-btcp-decentralized-title">Decentralized</h3>
+            <p localization-tag="why-btcp-decentralized-text">Just like Bitcoin, Bitcoin Private will support peer-to-peer transactions without an intermediary. These transactions will be verified by network nodes through the use of cryptography and recorded in a public ledger.</p>
           </div>
         </div>
 
         <div class="col-xs-12 col-sm-4 visual-grouping">
           <i class="fa fa-tachometer visual" style="font-size: 79px"></i>
           <div class="content">
-            <h3>Fast</h3>
-            <p>Unlike Bitcoin, Bitcoin Private will support a slightly increased block size while being more anonymous and secure than any existing Bitcoin-based currency without sacrificing transaction speeds.</p>
+            <h3 localization-tag="why-btcp-fast-title">Fast</h3>
+            <p localization-tag="why-btcp-fast-text">Unlike Bitcoin, Bitcoin Private will support a slightly increased block size while being more anonymous and secure than any existing Bitcoin-based currency without sacrificing transaction speeds.</p>
           </div>
         </div>
       </div>
@@ -110,29 +135,29 @@
         <div class="col-xs-12 col-sm-4 visual-grouping">
           <i class="fa fa-comments-o visual" style="font-size: 79px"></i>
           <div class="content">
-            <h3>Open Source</h3>
-            <p>Bitcoin Private's entire codebase is publicly available for viewing and verification by anyone. It will always remain open source and be maintained by an ever growing community.</p>
+            <h3 localization-tag="why-btcp-open-source-title">Open Source</h3>
+            <p localization-tag="why-btcp-open-source-text">Bitcoin Private's entire codebase is publicly available for viewing and verification by anyone. It will always remain open source and be maintained by an ever growing community.</p>
           </div>
         </div>
 
         <div class="col-xs-12 col-sm-4 visual-grouping">
           <i class="fa fa-users visual" style="font-size: 79px"></i>
           <div class="content">
-            <h3>Community Driven</h3>
-            <p>In the nature of transparency and open source, Bitcoin Private is developed by team members all over the world. Each member fills roles and contributes based on his or her skill sets.</p>
+            <h3 localization-tag="why-btcp-community-driven-title">Community Driven</h3>
+            <p localization-tag="why-btcp-community-driven-text">In the nature of transparency and open source, Bitcoin Private is developed by team members all over the world. Each member fills roles and contributes based on his or her skill sets.</p>
           </div>
         </div>
 
         <div class="col-xs-12 col-sm-4 visual-grouping">
           <i class="fa fa-heart visual" style="font-size: 74px"></i>
           <div class="content">
-            <h3>A Fair Start</h3>
-            <p>There will be no premine, and no founder's reward. Bitcoin Private will be released in a fair manner to all. Coins will be distributed on a 1:1 basis to BTC and ZCL holders.</p>
+            <h3 localization-tag="why-btcp-fair-start-title">A Fair Start</h3>
+            <p localization-tag="why-btcp-fair-start-text">There will be no premine, and no founder's reward. Bitcoin Private will be released in a fair manner to all. Coins will be distributed on a 1:1 basis to BTC and ZCL holders.</p>
           </div>
         </div>
 
         <div class="col-xs-12 text-center whitepaper">
-          <button class="btn btn-primary">Whitepaper Coming Soon</button>
+          <button class="btn btn-primary" localization-tag="why-btcp-whitepaper-button">Whitepaper Coming Soon</button>
         </div>
       </div>
     </div>
@@ -142,7 +167,7 @@
     <div class="container">
       <div class="row">
         <div class="col-xs-12">
-          <h1 class="section-heading text-center"><span class="color-primary">Hard</span> <span class="color-secondary">Fork</span></h1>
+          <h1 class="section-heading text-center" localization-tag="hard-fork-header-title"><span class="color-primary">Hard</span> <span class="color-secondary">Fork</span></h1>
         </div>
       </div>
 
@@ -152,14 +177,14 @@
         </div>
 
         <div class="col-xs-12 col-sm-6 col-sm-pull-5 col-md-6 col-md-pull-4">
-          <h3>What is a hard fork?</h3>
-          <p>A hard fork is when a single cryptocurrency splits in two. It occurs when a cryptocurrency’s existing code is changed, resulting in both an old and new version. This case is somewhat unique, whereby ZCL and BTC will be co-forked into Bitcoin Private (BTCP).</p>
+          <h3 localization-tag="hard-fork-what-is-title">What is a hard fork?</h3>
+          <p localization-tag="hard-fork-what-is-text">A hard fork is when a single cryptocurrency splits in two. It occurs when a cryptocurrency’s existing code is changed, resulting in both an old and new version. This case is somewhat unique, whereby ZCL and BTC will be co-forked into Bitcoin Private (BTCP).</p>
 
-          <h3>When is the hard fork?</h3>
-          <p>At this time, no official date has been announced. The Bitcoin Private team is working tirelessly to get everything ready for the impending release.</p>
+          <h3 localization-tag="hard-fork-when-is-title">When is the hard fork?</h3>
+          <p localization-tag="hard-fork-when-is-text">At this time, no official date has been announced. The Bitcoin Private team is working tirelessly to get everything ready for the impending release.</p>
 
-          <h3>How do I receive BTCP?</h3>
-          <p>When the hard fork occurs, a snapshot of all existing ZCL and BTC holdings will occur. Anyone holding ZCL or BTC in a wallet or supported exchange will be credited Bitcoin Private (BTCP) at a 1:1 ratio. For example, if you hold 15.4 ZCL and 0.1 BTC, you will receive 15.5 BTCP.</p>
+          <h3 localization-tag="hard-fork-receive-title">How do I receive BTCP?</h3>
+          <p localization-tag="hard-fork-receive-text">When the hard fork occurs, a snapshot of all existing ZCL and BTC holdings will occur. Anyone holding ZCL or BTC in a wallet or supported exchange will be credited Bitcoin Private (BTCP) at a 1:1 ratio. For example, if you hold 15.4 ZCL and 0.1 BTC, you will receive 15.5 BTCP.</p>
         </div>
       </div>
     </div>
@@ -169,43 +194,43 @@
     <div class="container">
       <div class="row">
         <div class="col-xs-12">
-          <h1 class="section-heading text-center"><span class="color-primary">Frequently Asked</span> <span class="color-secondary">Questions</span></h1>
+          <h1 class="section-heading text-center" localization-tag="faq-header-title"><span class="color-primary">Frequently Asked</span> <span class="color-secondary">Questions</span></h1>
         </div>
       </div>
 
       <div class="row">
         <div class="col-xs-12 col-sm-5">
-          <h3>Who runs Bitcoin Private?</h3>
-          <p>Bitcoin Private is a community-driven BTC/ZCL fork consisting of over 50 talented contributors currently. We are fully transparent to the community and often allow them to make decisions regarding the fork and the future of Bitcoin Private.</p>
+          <h3 localization-tag="faq-who-runs-title">Who runs Bitcoin Private?</h3>
+          <p localization-tag="faq-who-runs-text">Bitcoin Private is a community-driven BTC/ZCL fork consisting of over 50 talented contributors currently. We are fully transparent to the community and often allow them to make decisions regarding the fork and the future of Bitcoin Private.</p>
 
-          <h3>What exchanges will support the fork?</h3>
-          <p>Currently, we are engaged in active discussions with individual exchanges but please be patient as we are not yet releasing statements regarding support from individual exchanges.</p>
+          <h3 localization-tag="faq-what-exchanges-title">What exchanges will support the fork?</h3>
+          <p localization-tag="faq-what-exchanges-text">Currently, we are engaged in active discussions with individual exchanges but please be patient as we are not yet releasing statements regarding support from individual exchanges.</p>
 
-          <h3>How do I mine ZCL?</h3>
-          <p><a href="https://www.reddit.com/r/ZClassic/comments/7mfmyb/how_to_mine_zcl_using_nvidia_or_amd_gpus_on/?ref=share&ref_source=link" target="_blank">Here is a guide for mining ZCL on miningpoolhub</a>. BTCP will also be mined in a similar fashion. Stay tuned for more information.</p>
+          <h3 localization-tag="faq-how-mine-title">How do I mine ZCL?</h3>
+          <p localization-tag="faq-how-mine-text"><a href="https://www.reddit.com/r/ZClassic/comments/7mfmyb/how_to_mine_zcl_using_nvidia_or_amd_gpus_on/?ref=share&ref_source=link" target="_blank">Here is a guide for mining ZCL on miningpoolhub</a>. BTCP will also be mined in a similar fashion. Stay tuned for more information.</p>
 
-          <h3>Where can I buy ZCL right now?</h3>
-          <p><a href="https://bittrex.com/Market/Index?MarketName=BTC-ZCL" target="_blank">Bittrex</a>, <a href="https://www.cryptopia.co.nz/Exchange?market=ZCL_BTC" target="_blank">Cryptopia</a> and <a href="https://www.coinexchange.io/market/ZCL/BTC" target="_blank">Coinexchange.io</a></p>
+          <h3 localization-tag="faq-where-buy-title">Where can I buy ZCL right now?</h3>
+          <p localization-tag="faq-where-buy-text"><a href="https://bittrex.com/Market/Index?MarketName=BTC-ZCL" target="_blank">Bittrex</a>, <a href="https://www.cryptopia.co.nz/Exchange?market=ZCL_BTC" target="_blank">Cryptopia</a> and <a href="https://www.coinexchange.io/market/ZCL/BTC" target="_blank">Coinexchange.io</a></p>
 
-          <h3>How can I help with development of BTCP?</h3>
-          <p>See the <a href="https://github.com/BTCPrivate/BitcoinPrivate/issues" target="_blank">issues posted on github</a> that we need resolved for BTCP.</p>
+          <h3 localization-tag="faq-how-development-title">How can I help with development of BTCP?</h3>
+          <p localization-tag="faq-how-development-text">See the <a href="https://github.com/BTCPrivate/BitcoinPrivate/issues" target="_blank">issues posted on github</a> that we need resolved for BTCP.</p>
         </div>
 
         <div class="col-xs-12 col-sm-5 col-sm-push-2">
-          <h3>Where can I store my ZCL to ensure I get my BTCP?</h3>
-          <p>Please use the following simple guide on <a href="https://redd.it/7kynho" target="_blank">how to install the windows wallet</a>. While there have been some issues with the current ZCL wallet, we guarantee that a 100% working wallet for Mac and Windows will be released prior to the fork.</p>
+          <h3 localization-tag="faq-where-store-title">Where can I store my ZCL to ensure I get my BTCP?</h3>
+          <p localization-tag="faq-where-store-text">Please use the following simple guide on <a href="https://redd.it/7kynho" target="_blank">how to install the windows wallet</a>. While there have been some issues with the current ZCL wallet, we guarantee that a 100% working wallet for Mac and Windows will be released prior to the fork.</p>
 
-          <h3>How do I get involved in the fork?</h3>
-          <p>Please see the <a href="https://www.reddit.com/r/ZClassic/comments/7kt1ge/call_for_bitcoin_private_fork_volunteers/" target="_blank">thread here</a> and comment to get involved.</p>
+          <h3 localization-tag="faq-get-involved-title">How do I get involved in the fork?</h3>
+          <p localization-tag="faq-get-involved-text">Please see the <a href="https://www.reddit.com/r/ZClassic/comments/7kt1ge/call_for_bitcoin_private_fork_volunteers/" target="_blank">thread here</a> and comment to get involved.</p>
 
-          <h3>What happens to ZCL after the fork?</h3>
-          <p>ZClassic will still exist. The community has discussed keeping ZCL in active development after the fork. We think this is great and fully support this.</p>
+          <h3 localization-tag="faq-after-fork-title">What happens to ZCL after the fork?</h3>
+          <p localization-tag="faq-after-fork-text">ZClassic will still exist. The community has discussed keeping ZCL in active development after the fork. We think this is great and fully support this.</p>
           <!--
           <h3>How many BTCP will there be after the fork?</h3>
           <p>The amount of circulating BTCP after the fork will be the sum of circulating ZCL and BTC resulting in 18,500,000 BTCP. The total lifetime supply will be approximately 21,000,000 BTCP.</p>
           -->
-          <h3>Will there be replay protection?</h3>
-          <p>Yes, Bitcoin Private will have two-way replay protection.</p>
+          <h3 localization-tag="faq-replay-protection-title">Will there be replay protection?</h3>
+          <p localization-tag="faq-replay-protection-text">Yes, Bitcoin Private will have two-way replay protection.</p>
         </div>
       </div>
     </div>
@@ -215,27 +240,27 @@
     <div class="container">
       <div class="row">
         <div class="col-xs-12">
-          <h1 class="section-heading text-center"><span class="color-primary">BTCP</span> <span class="color-secondary">Resources</span></h1>
+          <h1 class="section-heading text-center" localization-tag="resources-header-title"><span class="color-primary">BTCP</span> <span class="color-secondary">Resources</span></h1>
         </div>
       </div>
 
       <div class="row">
         <div class="col-xs-12 col-sm-5">
-          <h3>ZClassic Market Cap</h3>
-          <p>Below is the current trading price of ZClassic and its market cap.</p>
+          <h3 localization-tag="resources-zclassic-cap-title">ZClassic Market Cap</h3>
+          <p localization-tag="resources-zclassic-cap-text">Below is the current trading price of ZClassic and its market cap.</p>
           <script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/currency.js"></script>
           <div class="coinmarketcap-currency-widget" data-currency="zclassic" data-base="USD"  data-secondary="BTC"></div>
         </div>
 
         <div class="col-xs-12 col-sm-3 col-sm-push-1">
-          <h3>Press Inquiries</h3>
-          <p>To reach out to the primary coordinators of the team for any inquiries related to press, please contact us on Twitter <a href="https://twitter.com/bitcoinprivate" target="_blank">@bitcoinprivate</a>.</p>
+          <h3 localization-tag="resources-press-inquiries-title">Press Inquiries</h3>
+          <p localization-tag="resources-press-inquiries-text">To reach out to the primary coordinators of the team for any inquiries related to press, please contact us on Twitter <a href="https://twitter.com/bitcoinprivate" target="_blank">@bitcoinprivate</a>.</p>
 
-          <h3>Press Kit</h3>
-          <p>You can download a zip file containing <a href="presskit/presskit.zip" download>Bitcoin Private's branding assets here</a>.</p>
+          <h3 localization-tag="resources-press-kit-title">Press Kit</h3>
+          <p localization-tag="resources-press-kit-text">You can download a zip file containing <a href="presskit/presskit.zip" download>Bitcoin Private's branding assets here</a>.</p>
         </div>
         <div class="col-xs-12 col-sm-3 col-sm-push-1 links">
-          <h3>We're Social</h3>
+          <h3 localization-tag="resources-social-title">We're Social</h3>
           <a href="https://twitter.com/bitcoinprivate" class="color-twitter" target="_blank"><i class="fa fa-twitter"></i> Twitter</a>
           <a href="https://www.reddit.com/r/BitcoinPrivate/" class="color-reddit" target="_blank"><i class="fa fa-reddit-alien"></i> Reddit</a>
           <a href="https://discord.gg/uYT8pHS" class="color-discord" target="_blank"><i class="fa fa-comments"></i> Discord</a>
@@ -258,10 +283,10 @@
         <div class="hidden-xs col-sm-9 text-right">
           <ul class="links">
             <li>
-              <a href="#why-btcp" class="view-section">About</a>
-              <a href="#hard-fork" class="view-section">Hard Fork</a>
-              <a href="#faq" class="view-section">FAQ</a>
-              <a href="#resources" class="view-section">Resources</a>
+              <a href="#why-btcp" class="view-section" localization-tag="navigation-about">About</a>
+              <a href="#hard-fork" class="view-section" localization-tag="navigation-hard-fork">Hard Fork</a>
+              <a href="#faq" class="view-section" localization-tag="navigation-faq">FAQ</a>
+              <a href="#resources" class="view-section" localization-tag="navigation-resources">Resources</a>
             </li>
           </ul>
         </div>
@@ -270,7 +295,7 @@
   </div>
 </div>
 
-    
+
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-111728706-1"></script>
   <script>

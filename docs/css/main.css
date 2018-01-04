@@ -8250,14 +8250,15 @@ p {
     padding: 0 40px; }
   .navbar .navbar-brand {
     padding: 15px; }
+  .navbar .nav .open > a {
+    color: #272D63 !important;
+    background: transparent !important; }
   .navbar .nav > li > a {
     color: #272D63;
     font-size: 16px;
     text-transform: uppercase;
     font-weight: bold;
     text-decoration: none; }
-    .navbar .nav > li > a:hover {
-      text-decoration: underline; }
 
 /*
  * Helpers
@@ -8397,6 +8398,23 @@ html, body {
   #navbar-collapse {
     background: #FFFFFF;
     border-radius: 10px; } }
+
+#language-button i {
+  margin-left: 5px; }
+
+#language-dropdown {
+  border-radius: 4px !important;
+  width: 320px;
+  padding: 0; }
+  #language-dropdown a {
+    display: block;
+    line-height: 40px;
+    color: #272D63;
+    text-align: center;
+    text-decoration: none; }
+    #language-dropdown a:hover {
+      background: #272D63;
+      color: #FFFFFF; }
 
 #hero {
   background: url(../images/hero-background.jpg);

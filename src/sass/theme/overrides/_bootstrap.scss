@@ -101,16 +101,17 @@ p {
   }
 
   .nav {
+    .open > a {
+      color: $color-primary !important;
+      background: transparent !important;
+    }
+
     & > li > a {
       color: $color-primary;
       font-size: 16px;
       text-transform: uppercase;
       font-weight: bold;
       text-decoration: none;
-
-      &:hover {
-        text-decoration: underline;
-      }
     }
   }
 }
