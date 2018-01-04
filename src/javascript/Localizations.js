@@ -444,16 +444,16 @@ const Localizations = {
     'zh_CN': '如何挖矿ZCL?'
   },
   'faq-how-mine-text': {
-    'ar': '<a href="https://www.reddit.com/r/ZClassic/comments/7mfmyb/how_to_mine_zcl_using_nvidia_or_amd_gpus_on/?ref=share&ref_source=link">هنا تجد دليل التنقيب. كما أن التنقيب عن "بتكوين برايفت" سيكون مشابه. ترقب المزيد لاحقا.</a>',
-    'es': 'Aquí hay una guía para minar ZCL en miningpoolhub. BTCP también será extraído de manera similar. <a href="https://www.reddit.com/r/ZClassic/comments/7mfmyb/how_to_mine_zcl_using_nvidia_or_amd_gpus_on/?ref=share&ref_source=link">Estén atentos para más información</a>.',
-    'fr': '<a href="https://www.reddit.com/r/ZClassic/comments/7mfmyb/how_to_mine_zcl_using_nvidia_or_amd_gpus_on/?ref=share&ref_source=link">Ici se trouve un guide pour miner du ZCL sur miningpoolhub</a>. BTCP sera aussi miné de la même façon. Restez connecté pour de plus amples informations.',
-    'he': '<a href="https://www.reddit.com/r/ZClassic/comments/7mfmyb/how_to_mine_zcl_using_nvidia_or_amd_gpus_on/?ref=share&ref_source=link">מצ"ב מדריך לכריית מטבע ZCL ב-miningpoolhub. מטבע ה-BTCP "ייכרה" באופן דומה. הישאר/י מעודכן/נת לקבלת מידע נוסף.</a>',
-    'hu': '<a href="https://www.reddit.com/r/ZClassic/comments/7mfmyb/how_to_mine_zcl_using_nvidia_or_amd_gpus_on/?ref=share&ref_source=link">Itt található az útmutató ZCL bányászáshoz a miningpoolhub-on</a>. A BTCP is hasonló módon bányászható. Légy készen további információkért.',
-    'id': '<a href="https://www.reddit.com/r/ZClassic/comments/7mfmyb/how_to_mine_zcl_using_nvidia_or_amd_gpus_on/?ref=share&ref_source=link">Ini adalah panduang untuk menambang ZCL di miningpoolhub.</a> BTCP juga akan ditambang dengan cara yang mirip. Terus simak web ini untuk informasi lebih lanjut.',
-    'ms': '<a href="https://www.reddit.com/r/ZClassic/comments/7mfmyb/how_to_mine_zcl_using_nvidia_or_amd_gpus_on/?ref=share&ref_source=link">Berikut adalah panduan untuk melombong ZCL di miningpoolhub</a>. BTCP juga akan dilombong dengan cara yang sama. Nantikan maklumat selanjutnya.',
-    'nl': '<a href="https://www.reddit.com/r/ZClassic/comments/7mfmyb/how_to_mine_zcl_using_nvidia_or_amd_gpus_on/?ref=share&ref_source=link">Hier is een beschrijving voor het minen van ZCL via miningpoolhub</a>. BTCP zal op vergelijkbare manier kunnen worden gemined. Meer informatie volgt.',
-    'sr': '<a href="https://www.reddit.com/r/ZClassic/comments/7mfmyb/how_to_mine_zcl_using_nvidia_or_amd_gpus_on/?ref=share&ref_source=link">Ovo je uputstvonkako da rudarite ZCL na miningpoolhub.com</a>. BTCP će biti rudaren na isti odnosno sličan način. Pratite nas za više informacija.',
-    'zh_CN': '这里有一份在<a href="https://www.reddit.com/r/ZClassic/comments/7mfmyb/how_to_mine_zcl_using_nvidia_or_amd_gpus_on/?ref=share&ref_source=link">mingingpoolhub上的挖ZCL指南</a>。BTCP将会有类似的挖矿方式。保持更新以 获得更多详情。'
+    'ar': '<a href="https://www.reddit.com/r/ZClassic/comments/7mfmyb/how_to_mine_zcl_using_nvidia_or_amd_gpus_on/?ref=share&ref_source=link" target="_blank"هنا تجد دليل التنقيب. كما أن التنقيب عن "بتكوين برايفت" سيكون مشابه. ترقب المزيد لاحقا.</a>',
+    'es': 'Aquí hay una guía para minar ZCL en miningpoolhub. BTCP también será extraído de manera similar. <a href="https://www.reddit.com/r/ZClassic/comments/7mfmyb/how_to_mine_zcl_using_nvidia_or_amd_gpus_on/?ref=share&ref_source=link" target="_blank"Estén atentos para más información</a>.',
+    'fr': '<a href="https://www.reddit.com/r/ZClassic/comments/7mfmyb/how_to_mine_zcl_using_nvidia_or_amd_gpus_on/?ref=share&ref_source=link" target="_blank"Ici se trouve un guide pour miner du ZCL sur miningpoolhub</a>. BTCP sera aussi miné de la même façon. Restez connecté pour de plus amples informations.',
+    'he': '<a href="https://www.reddit.com/r/ZClassic/comments/7mfmyb/how_to_mine_zcl_using_nvidia_or_amd_gpus_on/?ref=share&ref_source=link" target="_blank"מצ"ב מדריך לכריית מטבע ZCL ב-miningpoolhub. מטבע ה-BTCP "ייכרה" באופן דומה. הישאר/י מעודכן/נת לקבלת מידע נוסף.</a>',
+    'hu': '<a href="https://www.reddit.com/r/ZClassic/comments/7mfmyb/how_to_mine_zcl_using_nvidia_or_amd_gpus_on/?ref=share&ref_source=link" target="_blank"Itt található az útmutató ZCL bányászáshoz a miningpoolhub-on</a>. A BTCP is hasonló módon bányászható. Légy készen további információkért.',
+    'id': '<a href="https://www.reddit.com/r/ZClassic/comments/7mfmyb/how_to_mine_zcl_using_nvidia_or_amd_gpus_on/?ref=share&ref_source=link" target="_blank"Ini adalah panduang untuk menambang ZCL di miningpoolhub.</a> BTCP juga akan ditambang dengan cara yang mirip. Terus simak web ini untuk informasi lebih lanjut.',
+    'ms': '<a href="https://www.reddit.com/r/ZClassic/comments/7mfmyb/how_to_mine_zcl_using_nvidia_or_amd_gpus_on/?ref=share&ref_source=link" target="_blank"Berikut adalah panduan untuk melombong ZCL di miningpoolhub</a>. BTCP juga akan dilombong dengan cara yang sama. Nantikan maklumat selanjutnya.',
+    'nl': '<a href="https://www.reddit.com/r/ZClassic/comments/7mfmyb/how_to_mine_zcl_using_nvidia_or_amd_gpus_on/?ref=share&ref_source=link" target="_blank"Hier is een beschrijving voor het minen van ZCL via miningpoolhub</a>. BTCP zal op vergelijkbare manier kunnen worden gemined. Meer informatie volgt.',
+    'sr': '<a href="https://www.reddit.com/r/ZClassic/comments/7mfmyb/how_to_mine_zcl_using_nvidia_or_amd_gpus_on/?ref=share&ref_source=link" target="_blank"Ovo je uputstvonkako da rudarite ZCL na miningpoolhub.com</a>. BTCP će biti rudaren na isti odnosno sličan način. Pratite nas za više informacija.',
+    'zh_CN': '这里有一份在<a href="https://www.reddit.com/r/ZClassic/comments/7mfmyb/how_to_mine_zcl_using_nvidia_or_amd_gpus_on/?ref=share&ref_source=link" target="_blank"mingingpoolhub上的挖ZCL指南</a>。BTCP将会有类似的挖矿方式。保持更新以 获得更多详情。'
   },
   'faq-where-buy-title': {
     'ar': 'أين يمكن شراء عملة "زيكلاسيك"',
@@ -468,16 +468,16 @@ const Localizations = {
     'zh_CN': '现在哪里可以买ZCL?'
   },
   'faq-where-buy-text': {
-    'ar': '<a href="https://bittrex.com/Market/Index?MarketName=BTC-ZCL">Bittrex</a>, <a href="https://www.cryptopia.co.nz/Exchange?market=ZCL_BTC">Cryptopia</a> e <a href="https://www.coinexchange.io/market/ZCL/BTC">Coinexchange.io</a>',
-    'es': '<a href="https://bittrex.com/Market/Index?MarketName=BTC-ZCL">Bittrex</a>, <a href="https://www.cryptopia.co.nz/Exchange?market=ZCL_BTC">Cryptopia</a> y <a href="https://www.coinexchange.io/market/ZCL/BTC">Coinexchange.io</a>',
-    'fr': '<a href="https://bittrex.com/Market/Index?MarketName=BTC-ZCL">Bittrex</a>, <a href="https://www.cryptopia.co.nz/Exchange?market=ZCL_BTC">Cryptopia</a> et <a href="https://www.coinexchange.io/market/ZCL/BTC">Coinexchange.io</a>',
-    'he': '<a href="https://bittrex.com/Market/Index?MarketName=BTC-ZCL">Bittrex</a>, <a href="https://www.cryptopia.co.nz/Exchange?market=ZCL_BTC">Cryptopia</a>, <a href="https://www.coinexchange.io/market/ZCL/BTC">Coinexchange.io</a>',
-    'hu': '<a href="https://bittrex.com/Market/Index?MarketName=BTC-ZCL">Bittrex</a>, <a href="https://www.cryptopia.co.nz/Exchange?market=ZCL_BTC">Cryptopia</a> és <a href="https://www.coinexchange.io/market/ZCL/BTC">Coinexchange.io</a>',
-    'id': '<a href="https://bittrex.com/Market/Index?MarketName=BTC-ZCL">Bittrex</a>, <a href="https://www.cryptopia.co.nz/Exchange?market=ZCL_BTC">Cryptopia</a> dan <a href="https://www.coinexchange.io/market/ZCL/BTC">Coinexchange.io</a>',
-    'ms': '<a href="https://bittrex.com/Market/Index?MarketName=BTC-ZCL">Bittrex</a>, <a href="https://www.cryptopia.co.nz/Exchange?market=ZCL_BTC">Cryptopia</a> and <a href="https://www.coinexchange.io/market/ZCL/BTC">Coinexchange.io</a>',
-    'nl': '<a href="https://bittrex.com/Market/Index?MarketName=BTC-ZCL">Bittrex</a>, <a href="https://www.cryptopia.co.nz/Exchange?market=ZCL_BTC">Cryptopia</a> en <a href="https://www.coinexchange.io/market/ZCL/BTC">Coinexchange.io</a>',
-    'sr': '<a href="https://bittrex.com/Market/Index?MarketName=BTC-ZCL">Bittrex</a>, <a href="https://www.cryptopia.co.nz/Exchange?market=ZCL_BTC">Cryptopia</a> i <a href="https://www.coinexchange.io/market/ZCL/BTC">Coinexchange.io</a>',
-    'zh_CN': '<a href="https://bittrex.com/Market/Index?MarketName=BTC-ZCL">Bittrex</a>, <a href="https://www.cryptopia.co.nz/Exchange?market=ZCL_BTC">Cryptopia</a> 和 <a href="https://www.coinexchange.io/market/ZCL/BTC">Coinexchange.io</a>'
+    'ar': '<a href="https://bittrex.com/Market/Index?MarketName=BTC-ZCL" target="_blank"Bittrex</a>, <a href="https://www.cryptopia.co.nz/Exchange?market=ZCL_BTC" target="_blank"Cryptopia</a> e <a href="https://www.coinexchange.io/market/ZCL/BTC" target="_blank"Coinexchange.io</a>',
+    'es': '<a href="https://bittrex.com/Market/Index?MarketName=BTC-ZCL" target="_blank"Bittrex</a>, <a href="https://www.cryptopia.co.nz/Exchange?market=ZCL_BTC" target="_blank"Cryptopia</a> y <a href="https://www.coinexchange.io/market/ZCL/BTC" target="_blank"Coinexchange.io</a>',
+    'fr': '<a href="https://bittrex.com/Market/Index?MarketName=BTC-ZCL" target="_blank"Bittrex</a>, <a href="https://www.cryptopia.co.nz/Exchange?market=ZCL_BTC" target="_blank"Cryptopia</a> et <a href="https://www.coinexchange.io/market/ZCL/BTC" target="_blank"Coinexchange.io</a>',
+    'he': '<a href="https://bittrex.com/Market/Index?MarketName=BTC-ZCL" target="_blank"Bittrex</a>, <a href="https://www.cryptopia.co.nz/Exchange?market=ZCL_BTC" target="_blank"Cryptopia</a>, <a href="https://www.coinexchange.io/market/ZCL/BTC" target="_blank"Coinexchange.io</a>',
+    'hu': '<a href="https://bittrex.com/Market/Index?MarketName=BTC-ZCL" target="_blank"Bittrex</a>, <a href="https://www.cryptopia.co.nz/Exchange?market=ZCL_BTC" target="_blank"Cryptopia</a> és <a href="https://www.coinexchange.io/market/ZCL/BTC" target="_blank"Coinexchange.io</a>',
+    'id': '<a href="https://bittrex.com/Market/Index?MarketName=BTC-ZCL" target="_blank"Bittrex</a>, <a href="https://www.cryptopia.co.nz/Exchange?market=ZCL_BTC" target="_blank"Cryptopia</a> dan <a href="https://www.coinexchange.io/market/ZCL/BTC" target="_blank"Coinexchange.io</a>',
+    'ms': '<a href="https://bittrex.com/Market/Index?MarketName=BTC-ZCL" target="_blank"Bittrex</a>, <a href="https://www.cryptopia.co.nz/Exchange?market=ZCL_BTC" target="_blank"Cryptopia</a> and <a href="https://www.coinexchange.io/market/ZCL/BTC" target="_blank"Coinexchange.io</a>',
+    'nl': '<a href="https://bittrex.com/Market/Index?MarketName=BTC-ZCL" target="_blank"Bittrex</a>, <a href="https://www.cryptopia.co.nz/Exchange?market=ZCL_BTC" target="_blank"Cryptopia</a> en <a href="https://www.coinexchange.io/market/ZCL/BTC" target="_blank"Coinexchange.io</a>',
+    'sr': '<a href="https://bittrex.com/Market/Index?MarketName=BTC-ZCL" target="_blank"Bittrex</a>, <a href="https://www.cryptopia.co.nz/Exchange?market=ZCL_BTC" target="_blank"Cryptopia</a> i <a href="https://www.coinexchange.io/market/ZCL/BTC" target="_blank"Coinexchange.io</a>',
+    'zh_CN': '<a href="https://bittrex.com/Market/Index?MarketName=BTC-ZCL" target="_blank"Bittrex</a>, <a href="https://www.cryptopia.co.nz/Exchange?market=ZCL_BTC" target="_blank"Cryptopia</a> 和 <a href="https://www.coinexchange.io/market/ZCL/BTC" target="_blank"Coinexchange.io</a>'
   },
   'faq-how-development-title': {
     'ar': 'كيف يمكنني المساعدة في تطوير "بتكوين برايفت" ؟',
@@ -492,14 +492,14 @@ const Localizations = {
     'zh_CN': '我如何参与帮助BTCP的开发？'
   },
   'faq-how-development-text': {
-    'ar': '<a href="https://github.com/BTCPrivate/BitcoinPrivate/issues">ادخل على رابط github واقرأ المشاكل التي يواجهها المطورون في الوقت الحالي.</a>',
-    'es': '<a href="https://github.com/BTCPrivate/BitcoinPrivate/issues">Vea los problemas publicados en github que necesitamos resolver para BTCP.</a>',
-    'fr': 'Allez voir les problémes postés <a href="https://github.com/BTCPrivate/BitcoinPrivate/issues">sur github</a> que nous avons besoin de résoudre pour le BTCP.',
-    'he': '<a href="https://github.com/BTCPrivate/BitcoinPrivate/issues">ראה/י את הבעיות שפורסמו ב-github שצריכות להפתר עבור BTCP.</a>',
-    'hu': 'A BTCP megoldásra váró kérdésiet / feladatokat megtekintheted <a href="https://github.com/BTCPrivate/BitcoinPrivate/issues">a github-on megosztva</a>.',
-    'id': 'Lihat <a href="https://github.com/BTCPrivate/BitcoinPrivate/issues">isu-isu di github</a> yang kami butuh bantuan untuk BTCP.',
-    'ms': 'Lihat <a href="https://github.com/BTCPrivate/BitcoinPrivate/issues">isu yang dipaparkan di github</a> yang kami perlukan bantuan untuk BTCP.',
-    'nl': 'Bekijk hier de <a href="https://github.com/BTCPrivate/BitcoinPrivate/issues">issues geplaatst op github</a> die nog moeten worden opgelost voor BTCP.',
+    'ar': '<a href="https://github.com/BTCPrivate/BitcoinPrivate/issues" target="_blank"ادخل على رابط github واقرأ المشاكل التي يواجهها المطورون في الوقت الحالي.</a>',
+    'es': '<a href="https://github.com/BTCPrivate/BitcoinPrivate/issues" target="_blank"Vea los problemas publicados en github que necesitamos resolver para BTCP.</a>',
+    'fr': 'Allez voir les problémes postés <a href="https://github.com/BTCPrivate/BitcoinPrivate/issues" target="_blank"sur github</a> que nous avons besoin de résoudre pour le BTCP.',
+    'he': '<a href="https://github.com/BTCPrivate/BitcoinPrivate/issues" target="_blank"ראה/י את הבעיות שפורסמו ב-github שצריכות להפתר עבור BTCP.</a>',
+    'hu': 'A BTCP megoldásra váró kérdésiet / feladatokat megtekintheted <a href="https://github.com/BTCPrivate/BitcoinPrivate/issues" target="_blank"a github-on megosztva</a>.',
+    'id': 'Lihat <a href="https://github.com/BTCPrivate/BitcoinPrivate/issues" target="_blank"isu-isu di github</a> yang kami butuh bantuan untuk BTCP.',
+    'ms': 'Lihat <a href="https://github.com/BTCPrivate/BitcoinPrivate/issues" target="_blank"isu yang dipaparkan di github</a> yang kami perlukan bantuan untuk BTCP.',
+    'nl': 'Bekijk hier de <a href="https://github.com/BTCPrivate/BitcoinPrivate/issues" target="_blank"issues geplaatst op github</a> die nog moeten worden opgelost voor BTCP.',
     'sr': 'Pogledajte zadatke postavljene na github koji se trenutno trebaju odraditi.',
     'zh_CN': '参见发布在github上那些BTCP需要解决的issues.'
   },
@@ -516,16 +516,16 @@ const Localizations = {
     'zh_CN': '我需要在哪里保存ZCL才能确保获得BTCP?'
   },
   'faq-where-store-text': {
-    'ar': '<a href="https://redd.it/7kynho">الرجاء الاطلاع على دليل الاستخدام. بينما تواجهنا حاليا مشاكل بسيطة في المحفظة الحالية، نعدكم بمحافظ تعمل بنسبة ١٠٠٪ لأنظمة تشغيل "وندوز" و "ماك" قبل إتمام المشروع .</a>',
-    'es': 'Utilice la siguiente guía simple sobre cómo <a href="https://redd.it/7kynho">instalar la billetera de Windows</a>. Si bien ha habido algunos problemas con la billetera ZCL actual, le prometemos que se liberará una billetera que funcione al 100% para Mac y Windows antes de el Hard Fork.',
-    'fr': 'Utilisez ici notre guide pour savoir comment <a href="https://redd.it/7kynho">installer le wallet pour Windows</a>. Même s’il y a eu des problèmes avec l’actuel Wallet ZCL, nous vous promettons un wallet qui fonctionnera à 100% pour Mac et Windows et qui sera distribué avant le fork.',
-    'he': '<a href="https://redd.it/7kynho">אנא השתמש/י במדריך הבא על אופן התקנת ארנק Windows. אמנם קיימות מספר בעיות עם הארנק הנוכחי של ZCL, אך אנו מבטיחים כי לפני הפיצול תשוחרר גרסה עובדת ב-100% עבור Mac ו-Windows.</a>',
-    'hu': 'Kérlek használd a következő útmutatót: <a href="https://redd.it/7kynho">hogyan telepítsem a Windows pénztárcát</a>. Amíg volt néhány probléma a jelenlegi ZCL pénztárcával, ígérhetjük egy 100%-ban működő pénztárca kiadását Mac-re és Windows-ra még a “fork”-ot megelőzően.',
-    'id': 'Silakan gunakan panduan sederhana ini untuk <a href="https://redd.it/7kynho">bagaimana menginstall dompet di windows</a>. Meskipun ada beberapa isu dengan dompet ZCL versi sekarang, kami menjamin bahwa dompet yang 100% berfungsi untuk Mac dan Windows akan dirilis sebelum fork.',
-    'ms': 'Sila gunakan panduan ringkas berikut mengenai <a href="https://redd.it/7kynho">cara memasang dompet di Windows</a>. Walaupun terdapat beberapa isu dengan dompet ZCL versi sekarang, kami berjanji bahawa dompet yang berfungsi 100% untuk Mac dan Windows akan dikeluarkan sebelum fork.',
-    'nl': 'U kunt deze eenvoudige handleiding gebruiken: “<a href="https://redd.it/7kynho">Hoe installeer ik de Windows wallet?</a>” Op dit moment zijn er wat problemen met de huidige ZCL wallet. We garanderen dat voor de hard fork een 100% werkende wallet beschikbaar zal zijn.',
+    'ar': '<a href="https://redd.it/7kynho" target="_blank"الرجاء الاطلاع على دليل الاستخدام. بينما تواجهنا حاليا مشاكل بسيطة في المحفظة الحالية، نعدكم بمحافظ تعمل بنسبة ١٠٠٪ لأنظمة تشغيل "وندوز" و "ماك" قبل إتمام المشروع .</a>',
+    'es': 'Utilice la siguiente guía simple sobre cómo <a href="https://redd.it/7kynho" target="_blank"instalar la billetera de Windows</a>. Si bien ha habido algunos problemas con la billetera ZCL actual, le prometemos que se liberará una billetera que funcione al 100% para Mac y Windows antes de el Hard Fork.',
+    'fr': 'Utilisez ici notre guide pour savoir comment <a href="https://redd.it/7kynho" target="_blank"installer le wallet pour Windows</a>. Même s’il y a eu des problèmes avec l’actuel Wallet ZCL, nous vous promettons un wallet qui fonctionnera à 100% pour Mac et Windows et qui sera distribué avant le fork.',
+    'he': '<a href="https://redd.it/7kynho" target="_blank"אנא השתמש/י במדריך הבא על אופן התקנת ארנק Windows. אמנם קיימות מספר בעיות עם הארנק הנוכחי של ZCL, אך אנו מבטיחים כי לפני הפיצול תשוחרר גרסה עובדת ב-100% עבור Mac ו-Windows.</a>',
+    'hu': 'Kérlek használd a következő útmutatót: <a href="https://redd.it/7kynho" target="_blank"hogyan telepítsem a Windows pénztárcát</a>. Amíg volt néhány probléma a jelenlegi ZCL pénztárcával, ígérhetjük egy 100%-ban működő pénztárca kiadását Mac-re és Windows-ra még a “fork”-ot megelőzően.',
+    'id': 'Silakan gunakan panduan sederhana ini untuk <a href="https://redd.it/7kynho" target="_blank"bagaimana menginstall dompet di windows</a>. Meskipun ada beberapa isu dengan dompet ZCL versi sekarang, kami menjamin bahwa dompet yang 100% berfungsi untuk Mac dan Windows akan dirilis sebelum fork.',
+    'ms': 'Sila gunakan panduan ringkas berikut mengenai <a href="https://redd.it/7kynho" target="_blank"cara memasang dompet di Windows</a>. Walaupun terdapat beberapa isu dengan dompet ZCL versi sekarang, kami berjanji bahawa dompet yang berfungsi 100% untuk Mac dan Windows akan dikeluarkan sebelum fork.',
+    'nl': 'U kunt deze eenvoudige handleiding gebruiken: “<a href="https://redd.it/7kynho" target="_blank"Hoe installeer ik de Windows wallet?</a>” Op dit moment zijn er wat problemen met de huidige ZCL wallet. We garanderen dat voor de hard fork een 100% werkende wallet beschikbaar zal zijn.',
     'sr': 'Molimo vas da iskoristite ovo jednostavno uputstvo kako da instalirate windows wallet. Trenutno još uvijek postoje neki problemi sa trenutnim ZCL wallet-om, ali obećavamo da će wallet za Mac i Windows koji 100% radi biti objavljen prije fork-a.',
-    'zh_CN': '请参照该指南<a href="https://redd.it/7kynho">如何安装windows wallet</a>. 当前的ZCL钱包可能还存在一些小问题，但是我们保 证Windows和Mac钱包将会在分叉前100%运作正常。'
+    'zh_CN': '请参照该指南<a href="https://redd.it/7kynho" target="_blank"如何安装windows wallet</a>. 当前的ZCL钱包可能还存在一些小问题，但是我们保 证Windows和Mac钱包将会在分叉前100%运作正常。'
   },
   'faq-get-involved-title': {
     'ar': 'كيف أشارك في ال “فورك” ؟',
@@ -540,16 +540,16 @@ const Localizations = {
     'zh_CN': '我如何参与这次分叉？'
   },
   'faq-get-involved-text': {
-    'ar': '<a href="https://www.reddit.com/r/ZClassic/comments/7kt1ge/call_for_bitcoin_private_fork_volunteers/">أدخل على هذا الرابط واكتب تعليق (ارغب في المشاركة).</a>',
-    'es': '<a href="https://www.reddit.com/r/ZClassic/comments/7kt1ge/call_for_bitcoin_private_fork_volunteers/">Por favor, mira el enlace aquí y comenta para participar.</a>',
-    'fr': '<a href="https://www.reddit.com/r/ZClassic/comments/7kt1ge/call_for_bitcoin_private_fork_volunteers/">Vous trouverez ici les liens et commentaires pour vous investir.</a>',
-    'he': '<a href="https://www.reddit.com/r/ZClassic/comments/7kt1ge/call_for_bitcoin_private_fork_volunteers/">עיין בהתכתבות כאן וציין/ני כי ברצונך להיות מעורב/ת.</a>',
-    'hu': '<a href="https://www.reddit.com/r/ZClassic/comments/7kt1ge/call_for_bitcoin_private_fork_volunteers/">Kérlek tekintsd meg a thread-et itt és szólj hozzá, vegyél benne részt.</a>',
-    'id': 'Silakan lihat <a href="https://www.reddit.com/r/ZClassic/comments/7kt1ge/call_for_bitcoin_private_fork_volunteers/">thread ini</a> dan berikan komentar untuk terlibat.',
-    'ms': 'Sila lihat <a href="https://www.reddit.com/r/ZClassic/comments/7kt1ge/call_for_bitcoin_private_fork_volunteers/">thread ini</a> dan komen untuk turut serta.',
-    'nl': 'Bekijk de <a href="https://www.reddit.com/r/ZClassic/comments/7kt1ge/call_for_bitcoin_private_fork_volunteers/">thread hier</a> en reageer om mee te doen.',
-    'sr': '<a href="https://www.reddit.com/r/ZClassic/comments/7kt1ge/call_for_bitcoin_private_fork_volunteers/">Molimo vas pogledajte ovu objavu i komentarišite da biste se uključili.</a>',
-    'zh_CN': '请浏览<a href="https://www.reddit.com/r/ZClassic/comments/7kt1ge/call_for_bitcoin_private_fork_volunteers/">这里的帖子</a>并参与评论进行参与。'
+    'ar': '<a href="https://www.reddit.com/r/ZClassic/comments/7kt1ge/call_for_bitcoin_private_fork_volunteers/" target="_blank"أدخل على هذا الرابط واكتب تعليق (ارغب في المشاركة).</a>',
+    'es': '<a href="https://www.reddit.com/r/ZClassic/comments/7kt1ge/call_for_bitcoin_private_fork_volunteers/" target="_blank"Por favor, mira el enlace aquí y comenta para participar.</a>',
+    'fr': '<a href="https://www.reddit.com/r/ZClassic/comments/7kt1ge/call_for_bitcoin_private_fork_volunteers/" target="_blank"Vous trouverez ici les liens et commentaires pour vous investir.</a>',
+    'he': '<a href="https://www.reddit.com/r/ZClassic/comments/7kt1ge/call_for_bitcoin_private_fork_volunteers/" target="_blank"עיין בהתכתבות כאן וציין/ני כי ברצונך להיות מעורב/ת.</a>',
+    'hu': '<a href="https://www.reddit.com/r/ZClassic/comments/7kt1ge/call_for_bitcoin_private_fork_volunteers/" target="_blank"Kérlek tekintsd meg a thread-et itt és szólj hozzá, vegyél benne részt.</a>',
+    'id': 'Silakan lihat <a href="https://www.reddit.com/r/ZClassic/comments/7kt1ge/call_for_bitcoin_private_fork_volunteers/" target="_blank"thread ini</a> dan berikan komentar untuk terlibat.',
+    'ms': 'Sila lihat <a href="https://www.reddit.com/r/ZClassic/comments/7kt1ge/call_for_bitcoin_private_fork_volunteers/" target="_blank"thread ini</a> dan komen untuk turut serta.',
+    'nl': 'Bekijk de <a href="https://www.reddit.com/r/ZClassic/comments/7kt1ge/call_for_bitcoin_private_fork_volunteers/" target="_blank"thread hier</a> en reageer om mee te doen.',
+    'sr': '<a href="https://www.reddit.com/r/ZClassic/comments/7kt1ge/call_for_bitcoin_private_fork_volunteers/" target="_blank"Molimo vas pogledajte ovu objavu i komentarišite da biste se uključili.</a>',
+    'zh_CN': '请浏览<a href="https://www.reddit.com/r/ZClassic/comments/7kt1ge/call_for_bitcoin_private_fork_volunteers/" target="_blank"这里的帖子</a>并参与评论进行参与。'
   },
   'faq-after-fork-title': {
     'ar': 'ماذا سيحدث ل"زيكلاسيك" بعد ال"فورك" ؟',
@@ -648,16 +648,16 @@ const Localizations = {
     'zh_CN': '媒体联系'
   },
   'resources-press-inquiries-text': {
-    'ar': 'للتواصل مع منظمين الفريق لما يخص الصحافة والنشر عن طريق تويتر <a href="https://twitter.com/bitcoinprivate">@bitcoinprivate</a>',
-    'es': 'Para ponerse en contacto con los coordinadores principales del equipo para cualquier consulta relacionada con la prensa, contáctenos en Twitter <a href="https://twitter.com/bitcoinprivate">@bitcoinprivate</a>.',
-    'fr': 'Pour contacter les principaux coordinateurs de l’équipe concernant toute question relative à la presse,  veuillez nous contacter sur Twitter <a href="https://twitter.com/bitcoinprivate">@bitcoinprivate.</a>',
-    'he': 'כדי ליצור קשר עם מתאם הראשי של הצוות עבור בירורים הקשורים לעיתונות,  אנא צרו איתנו קשר בטוויטר <a href="https://twitter.com/bitcoinprivate">@bitcoinprivate</a>.',
-    'hu': 'Az elsődleges csapat koordinátorok eléréséhez bármilyen sajtóval kapcsolatos megkeresésben, kérlek lépj velünk kapcsolatba a Twitter-en <a href="https://twitter.com/bitcoinprivate">@bitcoinprivate</a>.',
-    'id': 'Silakan kontak kami di twitter <a href="https://twitter.com/bitcoinprivate">@bitcoinprivate</a> untuk menghubungi koordinator utama tim untuk semua pertanyaan terkait pers. ',
-    'ms': 'Untuk menghubungi penyelaras utama pasukan bagi sebarang pertanyaan berkaitan media, sila hubungi kami di Twitter <a href="https://twitter.com/bitcoinprivate">@bitcoinprivate</a>.',
-    'nl': 'Om contact op te nemen met de coördinatoren van het team, voor pers gerelateerde zaken, maakt u het beste gebruik van Twitter via: <a href="https://twitter.com/bitcoinprivate">@bitcoinprivate</a>.',
-    'sr': 'Da biste nas kontaktirali sa bilo kakvim pitanjima vezanim za medije, molimo Vas da nam se obratite preko Twitter-a <a href="https://twitter.com/bitcoinprivate">@bitcoinprivate</a>',
-    'zh_CN': '如有任何媒体发布相关的问题和事宜想与团队主要协调人员取得联系，请联系 Twitter账号 <a href="https://twitter.com/bitcoinprivate">@bitcoinprivate</a>'
+    'ar': 'للتواصل مع منظمين الفريق لما يخص الصحافة والنشر عن طريق تويتر <a href="https://twitter.com/bitcoinprivate" target="_blank"@bitcoinprivate</a>',
+    'es': 'Para ponerse en contacto con los coordinadores principales del equipo para cualquier consulta relacionada con la prensa, contáctenos en Twitter <a href="https://twitter.com/bitcoinprivate" target="_blank"@bitcoinprivate</a>.',
+    'fr': 'Pour contacter les principaux coordinateurs de l’équipe concernant toute question relative à la presse,  veuillez nous contacter sur Twitter <a href="https://twitter.com/bitcoinprivate" target="_blank"@bitcoinprivate.</a>',
+    'he': 'כדי ליצור קשר עם מתאם הראשי של הצוות עבור בירורים הקשורים לעיתונות,  אנא צרו איתנו קשר בטוויטר <a href="https://twitter.com/bitcoinprivate" target="_blank"@bitcoinprivate</a>.',
+    'hu': 'Az elsődleges csapat koordinátorok eléréséhez bármilyen sajtóval kapcsolatos megkeresésben, kérlek lépj velünk kapcsolatba a Twitter-en <a href="https://twitter.com/bitcoinprivate" target="_blank"@bitcoinprivate</a>.',
+    'id': 'Silakan kontak kami di twitter <a href="https://twitter.com/bitcoinprivate" target="_blank"@bitcoinprivate</a> untuk menghubungi koordinator utama tim untuk semua pertanyaan terkait pers. ',
+    'ms': 'Untuk menghubungi penyelaras utama pasukan bagi sebarang pertanyaan berkaitan media, sila hubungi kami di Twitter <a href="https://twitter.com/bitcoinprivate" target="_blank"@bitcoinprivate</a>.',
+    'nl': 'Om contact op te nemen met de coördinatoren van het team, voor pers gerelateerde zaken, maakt u het beste gebruik van Twitter via: <a href="https://twitter.com/bitcoinprivate" target="_blank"@bitcoinprivate</a>.',
+    'sr': 'Da biste nas kontaktirali sa bilo kakvim pitanjima vezanim za medije, molimo Vas da nam se obratite preko Twitter-a <a href="https://twitter.com/bitcoinprivate" target="_blank"@bitcoinprivate</a>',
+    'zh_CN': '如有任何媒体发布相关的问题和事宜想与团队主要协调人员取得联系，请联系 Twitter账号 <a href="https://twitter.com/bitcoinprivate" target="_blank"@bitcoinprivate</a>'
   },
   'resources-press-kit-title': {
     'ar': 'تحميل (Press Kit)',
@@ -682,6 +682,30 @@ const Localizations = {
     'nl': '<a href="presskit/presskit.zip" download>U kunt hier een zip-file met de merk-items van Bitcoin Private downloaden.</a>',
     'sr': '<a href="presskit/presskit.zip" download>Možete preuzeti zip fajl sa Bitcoin Private brending sredstvima  ovde.</a>',
     'zh_CN': '<a href="presskit/presskit.zip" download>此处可下载Bitcoin Private的品牌素材压缩文件</a>'
+  },
+  'resources-official-links-title': {
+    'ar': 'الروابط الرسمية',
+    'es': 'Enlaces oficiales',
+    'fr': 'Liens officiels',
+    'he': 'קישורים רשמיים',
+    'hu': 'Hivatalos linkek',
+    'id': 'Link resmi',
+    'ms': 'Pautan Rasmi',
+    'nl': 'Officiële links',
+    'sr': 'Службене везе',
+    'zh_CN': '官方链接'
+  },
+  'resources-official-links-text': {
+    'ar': '<a href="https://github.com/BTCP-community/official-links/blob/master/README.md" target="_blank">يمكنك عرض دليل الرسمي بيتكوين الروابط الخاصة هنا.</a>',
+    'es': '<a href="https://github.com/BTCP-community/official-links/blob/master/README.md" target="_blank">Puede ver un directorio de enlaces privados de Bitcoin aquí.</a>',
+    'fr': '<a href="https://github.com/BTCP-community/official-links/blob/master/README.md" target="_blank">You can view a directory of official Bitcoin Private links here.</a>',
+    'he': '<a href="https://github.com/BTCP-community/official-links/blob/master/README.md" target="_blank">אתה יכול להציג ספרייה של קישורים רשמיים Bitcoin פרטיות כאן.</a>',
+    'hu': '<a href="https://github.com/BTCP-community/official-links/blob/master/README.md" target="_blank">You can view a directory of official Bitcoin Private links here.</a>',
+    'id': '<a href="https://github.com/BTCP-community/official-links/blob/master/README.md" target="_blank">Anda dapat melihat direktori tautan resmi Bitcoin Pribadi di sini.</a>',
+    'ms': '<a href="https://github.com/BTCP-community/official-links/blob/master/README.md" target="_blank">Anda boleh melihat direktori pautan peribadi Bitcoin Persendirian di sini.</a>',
+    'nl': '<a href="https://github.com/BTCP-community/official-links/blob/master/README.md" target="_blank">U kunt hier een lijst met officiële Bitcoin Private-links bekijken.</a>',
+    'sr': '<a href="https://github.com/BTCP-community/official-links/blob/master/README.md" target="_blank">Овде можете погледати каталог званичних Битцоин Приватних линкова.</a>',
+    'zh_CN': '<a href="https://github.com/BTCP-community/official-links/blob/master/README.md" target="_blank">您可以在这里查看官方比特币私人链接的目录。'
   },
   'resources-social-title': {
     'ar': 'التواصل الاجتماعي',
