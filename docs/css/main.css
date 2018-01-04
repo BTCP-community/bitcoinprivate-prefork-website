@@ -8210,9 +8210,10 @@ h5 {
   text-transform: uppercase; }
 
 a {
-  color: #FFAD05; }
+  color: #75A0D5;
+  text-decoration: underline; }
   a:hover {
-    color: #d18c00;
+    color: #272D63;
     text-decoration: none; }
 
 p {
@@ -8224,6 +8225,7 @@ p {
   padding: 13px 23px;
   font-size: 16px;
   text-transform: uppercase;
+  text-decoration: none;
   letter-spacing: 2px;
   border-radius: 8px; }
 
@@ -8248,13 +8250,15 @@ p {
     padding: 0 40px; }
   .navbar .navbar-brand {
     padding: 15px; }
+  .navbar .nav .open > a {
+    color: #272D63 !important;
+    background: transparent !important; }
   .navbar .nav > li > a {
     color: #272D63;
     font-size: 16px;
     text-transform: uppercase;
-    font-weight: bold; }
-    .navbar .nav > li > a:hover {
-      text-decoration: underline; }
+    font-weight: bold;
+    text-decoration: none; }
 
 /*
  * Helpers
@@ -8395,6 +8399,23 @@ html, body {
     background: #FFFFFF;
     border-radius: 10px; } }
 
+#language-button i {
+  margin-left: 5px; }
+
+#language-dropdown {
+  border-radius: 4px !important;
+  width: 320px;
+  padding: 0; }
+  #language-dropdown a {
+    display: block;
+    line-height: 40px;
+    color: #272D63;
+    text-align: center;
+    text-decoration: none; }
+    #language-dropdown a:hover {
+      background: #272D63;
+      color: #FFFFFF; }
+
 #hero {
   background: url(../images/hero-background.jpg);
   background-size: cover;
@@ -8410,6 +8431,8 @@ html, body {
     margin-bottom: 18px; }
   #hero h3 {
     margin-bottom: 30px; }
+  #hero .btn {
+    text-decoration: none; }
 
 #why-btcp .visual-grouping .content h3 {
   color: #272D63; }
@@ -8438,7 +8461,8 @@ html, body {
     font-size: 20px;
     line-height: 32px;
     margin-bottom: 20px;
-    display: block; }
+    display: block;
+    text-decoration: none; }
     #resources .links a i {
       font-size: 32px;
       width: 50px;
@@ -8460,7 +8484,8 @@ html, body {
       font-weight: 700;
       color: #FFFFFF;
       line-height: 48px;
-      text-transform: uppercase; }
+      text-transform: uppercase;
+      text-decoration: none; }
       #footer .links a:hover {
         color: #d9d9d9; }
 

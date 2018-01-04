@@ -26,17 +26,19 @@
     <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
     <link rel="manifest" href="favicons/manifest.json">
 
-    <title><{=it.metadata.title || ''}></title>
+    <title localization-tag="page-title"><{=it.metadata.title || ''}></title>
 
-    <link href="css/main.css" rel="stylesheet" type="text/css" />
+    <link href="css/main.css?cachebreaker=1231263" rel="stylesheet" type="text/css" />
 
     <script type="text/javascript" src="dependencies/jquery/dist/jquery.min.js"></script>
     <script type="text/javascript" src="dependencies/bootstrap-sass/assets/javascripts/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/dependencies/js-url/url.min.js"></script>
+    <script type="text/javascript" src="javascript/Localizations.js?cachbreaker=12412"></script>
     <script type="text/javascript" src="javascript/Main.js"></script>
   </head>
   <body>
     <{=it.content || ''}>
-    
+
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-111728706-1"></script>
   <script>
