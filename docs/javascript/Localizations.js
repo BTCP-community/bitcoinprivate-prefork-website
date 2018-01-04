@@ -94,7 +94,7 @@ const Localizations = {
     'es': 'Español',
     'fr': 'Français',
     'he': 'עִבְרִית',
-    'hu': 'magyar',
+    'hu': 'Magyar',
     'id': 'Bahasa Indonesia',
     'ms': 'Malay',
     'nl': 'Nederlands',
