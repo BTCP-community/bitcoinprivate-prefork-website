@@ -94,7 +94,7 @@ const Localizations = {
     'es': 'Español',
     'fr': 'Français',
     'he': 'עִבְרִית',
-    'hu': 'magyar',
+    'hu': 'Magyar',
     'id': 'Bahasa Indonesia',
     'ms': 'Malay',
     'nl': 'Nederlands',
@@ -560,7 +560,7 @@ const Localizations = {
     'fr': '<a href="https://www.reddit.com/r/ZClassic/comments/7mfmyb/how_to_mine_zcl_using_nvidia_or_amd_gpus_on/?ref=share&ref_source=link" target="_blank">Ici se trouve un guide pour miner du ZCL sur miningpoolhub</a>. BTCP sera aussi miné de la même façon. Restez connecté pour de plus amples informations.',
     'he': '<a href="https://www.reddit.com/r/ZClassic/comments/7mfmyb/how_to_mine_zcl_using_nvidia_or_amd_gpus_on/?ref=share&ref_source=link" target="_blank">מצ"ב מדריך לכריית מטבע ZCL ב-miningpoolhub. מטבע ה-BTCP "ייכרה" באופן דומה. הישאר/י מעודכן/נת לקבלת מידע נוסף.</a>',
     'hu': '<a href="https://www.reddit.com/r/ZClassic/comments/7mfmyb/how_to_mine_zcl_using_nvidia_or_amd_gpus_on/?ref=share&ref_source=link" target="_blank">Itt található az útmutató ZCL bányászáshoz a miningpoolhub-on</a>. A BTCP is hasonló módon bányászható. Légy készen további információkért.',
-    'id': '<a href="https://www.reddit.com/r/ZClassic/comments/7mfmyb/how_to_mine_zcl_using_nvidia_or_amd_gpus_on/?ref=share&ref_source=link" target="_blank">Ini adalah panduang untuk menambang ZCL di miningpoolhub.</a> BTCP juga akan ditambang dengan cara yang mirip. Terus simak web ini untuk informasi lebih lanjut.',
+    'id': '<a href="https://www.reddit.com/r/ZClassic/comments/7mfmyb/how_to_mine_zcl_using_nvidia_or_amd_gpus_on/?ref=share&ref_source=link" target="_blank">Ini adalah panduan untuk menambang ZCL di miningpoolhub.</a> BTCP juga akan ditambang dengan cara yang mirip. Terus simak web ini untuk informasi lebih lanjut.',
     'ms': '<a href="https://www.reddit.com/r/ZClassic/comments/7mfmyb/how_to_mine_zcl_using_nvidia_or_amd_gpus_on/?ref=share&ref_source=link" target="_blank">Berikut adalah panduan untuk melombong ZCL di miningpoolhub</a>. BTCP juga akan dilombong dengan cara yang sama. Nantikan maklumat selanjutnya.',
     'nl': '<a href="https://www.reddit.com/r/ZClassic/comments/7mfmyb/how_to_mine_zcl_using_nvidia_or_amd_gpus_on/?ref=share&ref_source=link" target="_blank">Hier is een beschrijving voor het minen van ZCL via miningpoolhub</a>. BTCP zal op vergelijkbare manier kunnen worden gemined. Meer informatie volgt.',
     'sr': '<a href="https://www.reddit.com/r/ZClassic/comments/7mfmyb/how_to_mine_zcl_using_nvidia_or_amd_gpus_on/?ref=share&ref_source=link" target="_blank">Ovo je uputstvonkako da rudarite ZCL na miningpoolhub.com</a>. BTCP će biti rudaren na isti odnosno sličan način. Pratite nas za više informacija.',
@@ -749,6 +749,36 @@ const Localizations = {
     'pt': 'Sim, o Bitcoin Private terá “Replay Protection” de dois sentidos.',
     'ko': '네, 비트코인 프라이빗은 양뱡향 리플레이 공격 방지책을 지원할 것입니다.'
   },
+  'faq-circulation-total-title': {
+    'ar': 'كم عدد زكل في التداول، وكم بكب سيكون هناك بعد شوكة؟',
+    'es': '¿Cuántos ZCL hay en circulación y cuántos BTCP habrá después del tenedor?',
+    'fr': 'Combien de ZCL sont en circulation, et combien de BTCP y aura-t-il après la fourche?',
+    'he': 'כמה ZCL נמצאים במחזור, וכמה BTCP יהיה אחרי המזלג?',
+    'hu': 'Hány ZCL van forgalomban, és hány BTCP lesz a villa után?',
+    'id': 'Berapa banyak ZCL yang beredar, dan berapa banyak BTCP yang akan ada setelah garpu?',
+    'ms': 'Berapa banyak ZCL dalam peredaran, dan berapa banyak BTCP akan berlaku selepas garpu?',
+    'nl': 'How many ZCL are in circulation, and how many BTCP will there be after the fork?',
+    'sr': 'Колико ЗЦЛ је у оптицају и колико ће БТЦП бити након виљушке?',
+    'zh_CN': '有多少ZCL在流通，在叉后有多少BTCP？',
+    'it': 'Quanti ZCL sono in circolazione e quanti BTCP ci saranno dopo la forcella?',
+    'pt': 'Quantos ZCL estão em circulação, e quantos BTCP haverá após o garfo?',
+    'ko': '얼마나 많은 ZCL이 유통되고 있으며, 포크 후에 얼마나 많은 BTCP가있을 것입니까?'
+  },
+  'faq-circulation-total-text': {
+    'ar': 'حاليا، هناك حوالي 3،000،000 زكل في التداول. عندما يحدث شوكة، فإن إجمالي بتكب في التداول سيكون الحالي تعميم العرض من بتك زائد زكل.',
+    'es': 'Actualmente, hay alrededor de 3,000,000 ZCL en circulación. Cuando se produce la horquilla, el BTCP total en circulación será el suministro circulante actual de BTC más ZCL.',
+    'fr': 'Actuellement, il y a environ 3 000 000 ZCL en circulation. Lorsque la fourche se produit, le BTCP total en circulation sera l\'approvisionnement circulant actuel de BTC plus ZCL.',
+    'he': 'כיום, יש כ 3,000,000 ZCL במחזור. כאשר המזלג מתרחש, הכולל BTCP במחזור יהיה אספקת מחזורי הנוכחי של BTC בתוספת ZCL.',
+    'hu': 'Jelenleg körülbelül 3 000 000 ZCL van forgalomban. Amikor a villa eléri, a forgalomban lévő teljes BTCP lesz a BTC plus ZCL jelenlegi keringető kínálata.',
+    'id': 'Saat ini ada sekitar 3.000.000 ZCL yang beredar. Saat garpu terjadi, total BTCP yang beredar akan menjadi pasokan beredar saat BTC plus ZCL.',
+    'ms': 'Pada masa ini, terdapat kira-kira 3,000,000 ZCL dalam edaran. Apabila garpu berlaku, jumlah BTCP dalam edaran akan menjadi bekalan semasa yang beredar BTC ditambah ZCL.',
+    'nl': 'Momenteel zijn er ongeveer 3.000.000 ZCL in omloop. Wanneer de vork zich voordoet, is de totale BTCP in omloop de huidige circulerende voorraad van BTC plus ZCL.',
+    'sr': 'Тренутно, у оптицају има око 3.000.000 ЗЦЛ. Када дође до виљушке, укупни БТЦП у оптицају биће тренутна испорука БТЦ плус ЗЦЛ.',
+    'zh_CN': '目前，ZCL的流通量约为300万个。当叉车出现时，流通中的BTCP总量将是当前BTC和ZCL的循环供应量。',
+    'it': 'Attualmente, ci sono circa 3.000.000 di ZCL in circolazione. Quando si verifica la forcella, il BTCP totale in circolazione sarà l&#39;attuale fornitura circolante di BTC più ZCL.',
+    'pt': 'Atualmente, existem cerca de 3.000.000 de ZCL em circulação. Quando ocorre a garfo, o BTCP total em circulação será o fornecimento circulante atual do BTC plus ZCL.',
+    'ko': '현재 약 3,000,000 개의 ZCL이 유통되고 있습니다. 포크가 발생하면 순환중인 총 BTCP는 BTC + ZCL의 현재 순환 공급이됩니다.'
+  },
   'resources-header-title': {
     'ar': 'BTCP موارد',
     'es': 'Recursos de BTCP',
@@ -845,7 +875,7 @@ const Localizations = {
     'fr': '<a href="presskit/presskit.zip" download>Vous pouvez télécharger un fichier ZIP contenant les principaux atouts du Bitcoin Private ici.</a>',
     'he': '<a href="presskit/presskit.zip" download>ניתן להוריד קובץ zip המכיל את המיתוג של Bitcoin Private כאן.</a>',
     'hu': '<a href="presskit/presskit.zip" download>Itt töltheted le a Bitcoin Private’s “branding” eszközöket tartalmazó zip fájlt.</a>',
-    'id': '<a href="presskit/presskit.zip" download>You can download a zip file containing Bitcoin Private\'s branding assets here.</a>',
+    'id': '<a href="presskit/presskit.zip" download>Anda bisa mengunduh file zip berisi aset merek Bitcoin Private di sini.</a>',
     'ms': '<a href="presskit/presskit.zip" download>Anda boleh muat turun file zip berisi aset penjenamaan Bitcoin Private di sini.</a>',
     'nl': '<a href="presskit/presskit.zip" download>U kunt hier een zip-file met de merk-items van Bitcoin Private downloaden.</a>',
     'sr': '<a href="presskit/presskit.zip" download>Možete preuzeti zip fajl sa Bitcoin Private brending sredstvima  ovde.</a>',
@@ -912,6 +942,9 @@ const Localizations = {
   'ms': '',
   'nl': '',
   'sr': '',
-  'zh_CN': ''
+  'zh_CN': '',
+  'it': '',
+  'pt': '',
+  'ko': ''
 }
 */
