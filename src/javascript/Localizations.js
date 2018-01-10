@@ -52,7 +52,7 @@ const Localizations = {
   'navigation-about': {
     'ar': 'عن',
     'es': 'Acerca de',
-    'fr': 'A propos',
+    'fr': 'À propos',
     'he': 'אודות',
     'hu': 'Rólunk',
     'id': 'Tentang',
@@ -252,7 +252,7 @@ const Localizations = {
   'why-btcp-header-title': {
     'ar': 'لماذا "بتكوين برايفت" ؟',
     'es': '¿Por qué $BTCP?',
-    'fr': 'Pourquoi  BTCP?',
+    'fr': 'Pourquoi BTCP ?',
     'he': 'מדוע BTCP$?',
     'hu': 'Miért  $BTCP?',
     'id': 'Mengapa $BTCP?',
@@ -727,7 +727,7 @@ const Localizations = {
   'hard-fork-receive-title': {
     'ar': 'كيف أحصل على "بيتكوين برايفت" ؟',
     'es': '¿Cómo recibo BTCP?',
-    'fr': 'Comment vais-je recevoir mes BTCP?',
+    'fr': 'Comment vais-je recevoir mes BTCP ?',
     'he': 'כיצד ניתן לקבל BTCP?',
     'hu': 'Hogyan kapom meg a BTCP-t?',
     'id': 'Bagaimana saya mendapat BTCP?',
@@ -852,7 +852,7 @@ const Localizations = {
   'faq-what-exchanges-title': {
     'ar': 'ماهي التداولات الداعمة لل"فورك"',
     'es': '¿Qué intercambios apoyarán el Hard Fork?',
-    'fr': 'Quels exchanges vont supporter le fork?',
+    'fr': 'Quels exchanges vont supporter le fork ?',
     'he': 'איזו בורסת מטבעות דיגיטליים תתמוך בפיצול?',
     'hu': 'Melyik kereskedőoldalak támogatják a “fork”-ot?',
     'id': 'Bursa apa yang mendukung fork ini?',
@@ -902,7 +902,7 @@ const Localizations = {
   'faq-how-mine-title': {
     'ar': 'كيف أنقب عن ال"زيكلاسيك"',
     'es': '¿Cómo extraigo ZCL?',
-    'fr': 'Comment miner du ZCL?',
+    'fr': 'Comment miner du ZCL ?',
     'he': 'כיצד "לכרות" ZCL?',
     'hu': 'Hogyan bányászhatok ZCL-t?',
     'id': 'Bagaimana saya menambang ZCL?',
@@ -1002,7 +1002,7 @@ const Localizations = {
   'faq-how-development-title': {
     'ar': 'كيف يمكنني المساعدة في تطوير "بتكوين برايفت" ؟',
     'es': '¿Cómo puedo ayudar con el desarrollo de BTCP?',
-    'fr': 'Comment puis-je aider dans le développement du BTCP?',
+    'fr': 'Comment puis-je aider dans le développement du BTCP ?',
     'he': 'איך אוכל לעזור עם הפיתוח של BTCP?',
     'hu': 'Hogyan segíthetek a BTCP fejlesztésében?',
     'id': 'Bagaimana saya bisa membantu pengembangan BTCP?',
@@ -1052,7 +1052,7 @@ const Localizations = {
   'faq-where-store-title': {
     'ar': 'أين يمكن الاحتفاظ بعملة "زيكلاسيك" ؟',
     'es': '¿Dónde puedo guardar mi ZCL para asegurarme de obtener mi BTCP?',
-    'fr': 'Où puis-je stocker mon ZCL pour être certain d’obtenir mon BTCP?',
+    'fr': 'Où puis-je stocker mon ZCL pour être certain d’obtenir mon BTCP ?',
     'he': 'איפה אני יכול/ה לאחסן את מטבעות ה-ZCL שלי כדי להבטיח שאני מקבל/ת BTCP?',
     'hu': 'Hol tároljam a meglévő ZCL-t hogy biztosan megkapjam a BTCP-t?',
     'id': 'Dimana saya bisa menyimpan ZCL untuk memastikan saya mendapat BTCP?',
@@ -1102,7 +1102,7 @@ const Localizations = {
   'faq-get-involved-title': {
     'ar': 'كيف أشارك في ال “فورك” ؟',
     'es': '¿Cómo me involucro en el Hard Fork?',
-    'fr': 'Comment puis-je m’investir dans le fork?',
+    'fr': 'Comment puis-je m’investir dans le fork ?',
     'he': 'איך אני יכול/ה להיות מעורב בפיצול?',
     'hu': 'Hogyan vehetek részt a “fork”-ban?',
     'id': 'Bagaimana cara saya bisa terlibat dalam fork ini?',
@@ -1252,7 +1252,7 @@ const Localizations = {
   'faq-circulation-total-title': {
     'ar': 'كم عدد زكل في التداول، وكم بكب سيكون هناك بعد شوكة؟',
     'es': '¿Cuántos ZCL hay en circulación y cuántos BTCP habrá después del tenedor?',
-    'fr': 'Combien de ZCL sont en circulation, et combien de BTCP y aura-t-il après la fourche?',
+    'fr': 'Combien de ZCL sont en circulation, et combien de BTCP y aura-t-il après le fork ?',
     'he': 'כמה ZCL נמצאים במחזור, וכמה BTCP יהיה אחרי המזלג?',
     'hu': 'Hány ZCL van forgalomban, és hány BTCP lesz a villa után?',
     'id': 'Berapa banyak ZCL yang beredar, dan berapa banyak BTCP yang akan ada setelah garpu?',
@@ -1277,7 +1277,7 @@ const Localizations = {
   'faq-circulation-total-text': {
     'ar': 'حاليا، هناك حوالي 3،000،000 زكل في التداول. عندما يحدث شوكة، فإن إجمالي بتكب في التداول سيكون الحالي تعميم العرض من بتك زائد زكل.',
     'es': 'Actualmente, hay alrededor de 3,000,000 ZCL en circulación. Cuando se produce la horquilla, el BTCP total en circulación será el suministro circulante actual de BTC más ZCL.',
-    'fr': 'Actuellement, il y a environ 3 000 000 ZCL en circulation. Lorsque la fourche se produit, le BTCP total en circulation sera l\'approvisionnement circulant actuel de BTC plus ZCL.',
+    'fr': 'Actuellement, il y a environ 3 000 000 ZCL en circulation. Lorsque le fork se produira, le total de BTCP en circulation sera l\'approvisionnement circulant actuel de BTC plus ZCL.',
     'he': 'כיום, יש כ 3,000,000 ZCL במחזור. כאשר המזלג מתרחש, הכולל BTCP במחזור יהיה אספקת מחזורי הנוכחי של BTC בתוספת ZCL.',
     'hu': 'Jelenleg körülbelül 3 000 000 ZCL van forgalomban. Amikor a villa eléri, a forgalomban lévő teljes BTCP lesz a BTC plus ZCL jelenlegi keringető kínálata.',
     'id': 'Saat ini ada sekitar 3.000.000 ZCL yang beredar. Saat garpu terjadi, total BTCP yang beredar akan menjadi pasokan beredar saat BTC plus ZCL.',
@@ -1452,7 +1452,7 @@ const Localizations = {
   'resources-press-kit-text': {
     'ar': '<a href="presskit/presskit.zip" download>لتحميل نسخة مضغوطة لموارد "بتكوين برايفت" اضغط هنا.</a>',
     'es': '<a href="presskit/presskit.zip" download>Puede descargar un archivo zip que contiene los activos de marca de Bitcoin Private aquí.</a>',
-    'fr': '<a href="presskit/presskit.zip" download>Vous pouvez télécharger un fichier ZIP contenant les principaux atouts du Bitcoin Private ici.</a>',
+    'fr': '<a href="presskit/presskit.zip" download>Vous pouvez télécharger un fichier ZIP contenant le kit de médias de Bitcoin Private ici.</a>',
     'he': '<a href="presskit/presskit.zip" download>ניתן להוריד קובץ zip המכיל את המיתוג של Bitcoin Private כאן.</a>',
     'hu': '<a href="presskit/presskit.zip" download>Itt töltheted le a Bitcoin Private’s “branding” eszközöket tartalmazó zip fájlt.</a>',
     'id': '<a href="presskit/presskit.zip" download>Anda bisa mengunduh file zip berisi aset merek Bitcoin Private di sini.</a>',
@@ -1502,7 +1502,7 @@ const Localizations = {
   'resources-official-links-text': {
     'ar': '<a href="https://github.com/BTCP-community/official-links/blob/master/README.md" target="_blank">يمكنك عرض دليل الرسمي بيتكوين الروابط الخاصة هنا.</a>',
     'es': '<a href="https://github.com/BTCP-community/official-links/blob/master/README.md" target="_blank">Puede ver un directorio de enlaces privados de Bitcoin aquí.</a>',
-    'fr': '<a href="https://github.com/BTCP-community/official-links/blob/master/README.md" target="_blank">You can view a directory of official Bitcoin Private links here.</a>',
+    'fr': '<a href="https://github.com/BTCP-community/official-links/blob/master/README.md" target="_blank">Vous pouvez accéder à la liste des liens officiels de Bitcoin Private ici.</a>',
     'he': '<a href="https://github.com/BTCP-community/official-links/blob/master/README.md" target="_blank">אתה יכול להציג ספרייה של קישורים רשמיים Bitcoin פרטיות כאן.</a>',
     'hu': '<a href="https://github.com/BTCP-community/official-links/blob/master/README.md" target="_blank">You can view a directory of official Bitcoin Private links here.</a>',
     'id': '<a href="https://github.com/BTCP-community/official-links/blob/master/README.md" target="_blank">Anda dapat melihat direktori tautan resmi Bitcoin Pribadi di sini.</a>',
@@ -1527,7 +1527,7 @@ const Localizations = {
   'resources-social-title': {
     'ar': 'التواصل الاجتماعي',
     'es': 'Somos Sociales',
-    'fr': 'Nous sommes aussi présents sur les réseaux sociaux',
+    'fr': 'Nous sommes sur les réseaux sociaux',
     'he': 'חפשו אותנו ברשתות החברתיות',
     'hu': 'Közösségi Média',
     'id': 'Kami Sosial',
