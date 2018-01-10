@@ -8287,6 +8287,11 @@ p {
 .color-white {
   color: #FFFFFF !important; }
 
+.color-facebook {
+  color: #3b5998 !important; }
+  .color-facebook:hover {
+    color: #263961 !important; }
+
 .color-twitter {
   color: #1DA1F2 !important; }
   .color-twitter:hover {
