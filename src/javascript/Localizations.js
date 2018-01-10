@@ -196,7 +196,7 @@ const Localizations = {
     'vi': 'riêng tư, phân quyền, nhanh, mã nguồn mở, coin dựa vào cộng đồng',
     'el': 'ιδιωτικό, αποκεντρωμένο, γρήγορο, ανοιχτής πηγής, κοινοτικό νόμισμα',
     'bg': 'Анонимна, децентрализирана, бърза крипто валута с отворен код, разработвана с участието на общността',
-    'de': 'Privat, Dezentral, Schnell, Open-Source (Offen)',
+    'de': 'Privat, Dezentral, Schnell, Open-Source',
     'fi': 'yksityinen, hajautettu, nopea, avoimen lähdekoodin yhteisöllinen valuutta'
   },
   'hero-coming-soon': {
@@ -421,7 +421,7 @@ const Localizations = {
     'vi': 'Không giống như Bitcoin, Bitcoin Private sẽ hỗ trợ tăng kích thước mỗi block tăng lên một cách khiêm tốn mà vẫn an toàn hơn so với bất kỳ loại tiền tệ nào hiện có sử dụng công nghệ Bitcoin mà không làm giảm tốc độ giao dịch.',
     'el': 'Σε αντίθεση με το Bitcoin, το Bitcoin Private θα υποστηρίξει ένα μετριοπαθώς αυξανόμενο μέγεθος μπλοκ ενώ θα είναι πιο ανώνυμο και ασφαλές από οποιοδήποτε υπάρχον νόμισμα που βασίζεται στο Bitcoin, χωρίς να θυσιάζεται η ταχύτητα συναλλαγής.',
     'bg': 'За разлика от Bitcoin, Bitcoin Private ще поддържа умерено по-голям размер на блоковете, като същевременно ще осигурява по-висока степен на анонимност и сигурност спрямо всяка Bitcoin-базирана крипто валута, без това да навредява на скоростта на транзакциите.',
-    'de': 'Im Gegensatz zu Bitcoin wird Bitcoin Private eine bescheidene (= modestly, but doesn’t sound good in german) erhöhte Blockgröße anbieten/unterstützen während es anonymer und sicherer als jede vorhandene auf Bitcoin basierte Währung, ohne einbußen der Transaktionsgeschwindigkeiten, ist.',
+    'de': 'Im Gegensatz zu Bitcoin wird Bitcoin Private eine bescheidene erhöhte Blockgröße anbieten/unterstützen während es anonymer und sicherer als jede vorhandene auf Bitcoin basierte Währung, ohne einbußen der Transaktionsgeschwindigkeiten, ist.',
     'fi': 'Bitcoin Private toimii isommilla lohkoilla kuin Bitcoin mahdollistaen samalla erityisen edun transaktionopeudessa. Se myös on anonyymimpi ja turvallisempi kuin yksikään toinen olemassa oleva Bitcoin-pohjainen kryptovaluutta.'
   },
   'why-btcp-open-source-title': {
@@ -571,7 +571,7 @@ const Localizations = {
     'vi': 'Sẽ không có coin được tạo ra trước, và cũng không có phần thưởng cho người sáng lập. Bitcoin Private sẽ được phát hành một cách công bằng cho tất cả mọi người. Coin sẽ được phân phối trên cơ sở 1: 1 cho chủ sở hữu BTC và ZCL.',
     'el': 'Δεν θα υπάρξει πρόληψη και καμία επιβράβευση του ιδρυτή. Το Bitcoin Private θα κυκλοφορήσει με δίκαιο τρόπο σε όλους. Τα κέρματα θα διανεμηθούν σε βάση 1: 1 στους κατόχους BTC και ZCL.',
     'bg': 'Няма да има предварително разпределение или награда за основателя. Bitcoin Private ще бъде достъпен по начин, честен за всички. Валутата ще се разпределя в съотношение 1:1 спрямо количеството BTC и ZCL, които дадено лице притежава.',
-    'de': 'Es wird kein Vorabbauen (better use “Vorminen”) und auch keine Belohnungen für die Gründer geben. Bitcoin Private wird in einer fairen Art und Weise für alle freigegeben werden. Münzen/Coins (Münzen, doesnt really fit for cryptocurrencies) werden in einer 1:1 Basis an Bitcoin und Zclassic Besitzer verteilt',
+    'de': 'Es wird kein Vorabbauen und auch keine Belohnungen für die Gründer geben. Bitcoin Private wird in einer fairen Art und Weise für alle freigegeben werden. Münzen/Coins werden in einer 1:1 Basis an Bitcoin und Zclassic Besitzer verteilt',
     'fi': 'Bitcoin Privatea ei esilouhita, eikä siihen kuulu perustajajäsenille annettavaa erityiskorvausta. Julkaisu tapahtuu tasapuolisesti kaikille niin, että BTC:n ja ZCL:n haltijat saavat jokaista valuuttayksikköään saman määrän Bitcoin Privatea.'
   },
   'why-btcp-whitepaper-button': {
