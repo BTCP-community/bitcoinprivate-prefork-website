@@ -25,4 +25,10 @@ $(function() {
       scrollTop: $($(this).attr('href')).position().top
     }, 500);
   });
+
+  $('.close-modal').click(function(e) {
+    e.preventDefault();
+
+    $('.zcl-warning').hide();
+  })
 });
