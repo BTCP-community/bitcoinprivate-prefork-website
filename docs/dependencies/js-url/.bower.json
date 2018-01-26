@@ -33,5 +33,6 @@
   },
   "_source": "https://github.com/websanova/js-url.git",
   "_target": "^2.5.2",
-  "_originalSource": "js-url"
+  "_originalSource": "js-url",
+  "_direct": true
 }
