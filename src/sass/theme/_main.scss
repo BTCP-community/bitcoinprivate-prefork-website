@@ -104,6 +104,7 @@
   background: $color-layout-gray;
 
   h3 {
+    margin-top: 80px;
     margin-bottom: 8px;
   }
 
@@ -129,6 +130,11 @@
     }
   }
 
+  a.btn {
+    width: 320px;
+    display: inline-block;
+  }
+
   p {
     margin: 0;
   }
@@ -139,8 +145,16 @@
     border-radius: 80px;
   }
 
+  .team-page {
+    padding-top: 120px;
+  }
+
   .community {
-    margin-bottom: 48px;
+    margin-bottom: 32px;
+  }
+
+  .team-page-info {
+    margin-bottom: 120px;
   }
 
   .community p {
