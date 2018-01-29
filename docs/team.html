@@ -28,12 +28,12 @@
 
     <title localization-tag="page-title">Bitcoin Private</title>
 
-    <link href="css/main.css?cachebreaker=967702" rel="stylesheet" type="text/css" />
+    <link href="css/main.css?cachebreaker=257697" rel="stylesheet" type="text/css" />
 
     <script type="text/javascript" src="dependencies/jquery/dist/jquery.min.js"></script>
     <script type="text/javascript" src="dependencies/bootstrap-sass/assets/javascripts/bootstrap.min.js"></script>
     <script type="text/javascript" src="/dependencies/js-url/url.min.js"></script>
-    <script type="text/javascript" src="javascript/Localizations.js?cachbreaker=500484"></script>
+    <script type="text/javascript" src="javascript/Localizations.js?cachbreaker=635561"></script>
     <script type="text/javascript" src="javascript/Main.js"></script>
   </head>
   <body>
@@ -66,7 +66,7 @@
       <ul class="nav navbar-nav navbar-right">
         <li><a href="/#why-btcp" localization-tag="navigation-about">About</a></li>
         <li><a href="/#hard-fork" localization-tag="navigation-hard-fork">Hard Fork</a></li>
-        <li><a href="team.html" class="view-section" localization-tag="navigation-team">BTCP Team</a></li>
+        <li><a id='teamlink1' href="team.html" class="view-section" localization-tag="navigation-team">BTCP Team</a></li>
         <li><a href="/#faq" localization-tag="navigation-faq">FAQ</a></li>
         <li><a href="/#resources" localization-tag="navigation-resources">Resources</a></li>
         <li style="position: relative;">
@@ -452,6 +452,14 @@
     gtag('js', new Date());
     gtag('config', 'UA-111728706-1');
   </script>
+
+    <!-- Localization for TeamLinks -->
+    <script>
+        $("a#teamlink1").attr('href',
+            'team.html'+window.location.search);
+        $("a#teamlink2").attr('href',
+            'team.html'+window.location.search);
+    </script>
 
   </body>
 </html>
