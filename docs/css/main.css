@@ -8287,6 +8287,11 @@ p {
 .color-white {
   color: #FFFFFF !important; }
 
+.color-facebook {
+  color: #3b5998 !important; }
+  .color-facebook:hover {
+    color: #263961 !important; }
+
 .color-twitter {
   color: #1DA1F2 !important; }
   .color-twitter:hover {
@@ -8447,6 +8452,56 @@ html, body {
 
 #faq h3:not(:first-child) {
   margin-top: 40px; }
+
+#team {
+  background: #EEEEEE; }
+  #team h3 {
+    margin-top: 80px;
+    margin-bottom: 8px; }
+  #team h3:first-child {
+    margin-top: 0; }
+  #team h3:not(:first-child) {
+    margin-top: 40px; }
+  #team a {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 16px;
+    display: block;
+    text-decoration: none; }
+    #team a i {
+      font-size: 16px;
+      padding-right: 4px;
+      text-align: center; }
+  #team a.btn {
+    width: 320px;
+    display: inline-block; }
+  #team p {
+    margin: 0; }
+  #team img {
+    margin-bottom: 64px;
+    border: 4px solid white;
+    border-radius: 80px; }
+  #team .team-page {
+    padding-top: 120px; }
+  #team .community {
+    margin-bottom: 32px; }
+  #team .team-page-info {
+    margin-bottom: 120px; }
+  #team .community p {
+    font-size: 24px;
+    line-height: 30px; }
+  #team .community img {
+    border: 4px solid #75A0D5;
+    margin-bottom: 16px; }
+  @media (max-width: 768px) {
+    #team {
+      text-align: center; }
+      #team .row > div:not(:last-child) {
+        margin-bottom: 40px; }
+      #team img {
+        margin-bottom: 16px; }
+      #team .community-logo {
+        text-align: center; } }
 
 #resources {
   background: #EEEEEE; }
