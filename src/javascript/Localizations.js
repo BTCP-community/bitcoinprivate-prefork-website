@@ -23,6 +23,7 @@ const Localizations = {
     'bg', // Bulgarian
     'de', // German
     'fi' // Finnish
+    'cs' // Czech
   ],
   'page-title': {
     'ar': 'بتكوين برايفت',
@@ -47,7 +48,8 @@ const Localizations = {
     'el': 'Bitcoin Private',
     'bg': 'Bitcoin Private',
     'de': 'Bitcoin Private',
-    'fi': 'Bitcoin Private'
+    'fi': 'Bitcoin Private',
+    'cs': 'Bitcoin Private'
   },
   'navigation-about': {
     'ar': 'عن',
@@ -72,7 +74,9 @@ const Localizations = {
     'el': 'Σχετικά Με',
     'bg': 'За проекта',
     'de': 'Über',
-    'fi': 'Yleistä'
+    'fi': 'Yleistä',
+    'cs': 'O BTCP'
+    
   },
   'navigation-hard-fork': {
     'ar': 'تقنية "الهارد فورك',
@@ -97,7 +101,8 @@ const Localizations = {
     'el': 'Hard Fork',
     'bg': 'Hard Fork',
     'de': 'Hard Fork',
-    'fi': 'Hard Fork'
+    'fi': 'Hard Fork',
+    'cs': 'Hard Fork'
   },
   'navigation-faq': {
     'ar': 'أسئلة متكررة',
@@ -122,7 +127,8 @@ const Localizations = {
     'el': 'FAQ',
     'bg': 'Често задавани въпроси',
     'de': 'FAQ',
-    'fi': 'UKK'
+    'fi': 'UKK',
+    'cs': 'FAQ'
   },
   'navigation-resources': {
     'ar': 'موارد',
@@ -147,7 +153,8 @@ const Localizations = {
     'el': 'Πόροι',
     'bg': 'Ресурси',
     'de': 'Ressourcen',
-    'fi': 'Lisätietoa'
+    'fi': 'Lisätietoa',
+    'cs': 'Zdroje'
   },
   'navigation-language': {
     'ar': 'العربية',
@@ -172,7 +179,8 @@ const Localizations = {
     'el': 'ελληνικά',
     'bg': 'български',
     'de': 'Deutsch',
-    'fi': 'Suomi'
+    'fi': 'Suomi',
+    'cs': 'Čeština'
   },
   'hero-blurb': {
     'ar': '"بتكوين برايفت"  تهتم بالخصوصية، غير متمركزة، سريعة، مفتوحة المصدر عملة قائمة على عامة المستخدمين ',
@@ -197,7 +205,8 @@ const Localizations = {
     'el': 'ιδιωτικό, αποκεντρωμένο, γρήγορο, ανοιχτής πηγής, κοινοτικό νόμισμα',
     'bg': 'Анонимна, децентрализирана, бърза крипто валута с отворен код, разработвана с участието на общността',
     'de': 'Privat, Dezentral, Schnell, Open-Source',
-    'fi': 'yksityinen, hajautettu, nopea, avoimen lähdekoodin yhteisöllinen valuutta'
+    'fi': 'yksityinen, hajautettu, nopea, avoimen lähdekoodin yhteisöllinen valuutta',
+    'cs': 'Privátní, decentralizovaná, rychlá, open source a komunitou vyvíjená cryptoměna.'
   },
   'hero-coming-soon': {
     'ar': 'قادمة قريبا ',
@@ -222,7 +231,8 @@ const Localizations = {
     'el': 'Έρχεται Σύντομα',
     'bg': 'Очаквайте скоро',
     'de': 'Demnächst verfügbar!',
-    'fi': 'Tulossa Pian'
+    'fi': 'Tulossa Pian',
+    'cs': 'Dostupná již brzy!'
   },
   'hero-hard-fork-details': {
     'ar': 'تفاصيل تقنية "الهارد فورك"',
@@ -247,7 +257,8 @@ const Localizations = {
     'el': 'Hard Fork Λεπτομέρειες',
     'bg': 'Детайли за Hard Fork-а',
     'de': 'Hard Fork Informationen/Details',
-    'fi': 'Tietoa Hard Forkista'
+    'fi': 'Tietoa Hard Forkista',
+    'cs': 'Informace o Hard Forku'
   },
   'why-btcp-header-title': {
     'ar': 'لماذا "بتكوين برايفت" ؟',
@@ -272,7 +283,8 @@ const Localizations = {
     'el': 'Γιατί $BTCP?',
     'bg': 'Защо $BTCP?',
     'de': 'Wieso $BTCP?',
-    'fi': 'Miksi  $BTCP? '
+    'fi': 'Miksi  $BTCP? ',
+    'cs': 'Proč $BTCP? '
   },
   'why-btcp-private-title': {
     'ar': 'خصوصية',
@@ -297,7 +309,8 @@ const Localizations = {
     'el': 'Iδιωτικό',
     'bg': 'Анонимност',
     'de': 'Privat',
-    'fi': 'Yksityinen'
+    'fi': 'Yksityinen',
+    'cs': 'Privátní'
   },
   'why-btcp-private-text': {
     'ar': '“بتكوين برايفت" ستستخدم ذات التقنية المستخدمة في عملة "زي كلاسيك" (الزي-سنارك). وهذا يعني أن الدفع يكون في الشبكة العامة وفي الوقت ذاته يكون المرسل ومعلوماته يبقون مجهولين.',
@@ -322,7 +335,8 @@ const Localizations = {
     'el': 'Το Bitcoin Private θα χρησιμοποιεί την ιδια τεχνολογία απορρήτου όπως το ZClassic (zk-snarks). Αυτό σημαίνει πως οι πληρωμές θα εκδίδονται σε δημόσιο blockchain αλλά ο αποστολέας, ο παραλήπτης και τα άλλα συναλλακτικά μεταδεδομένα θα παραμένουν μη αναγνωρίσιμα.',
     'bg': 'Bitcoin Private ще използва същата технология за поверителност като ZClassic (zk-snarks). Това означава, че плащанията се съхраняват в публичен регистър, но подателят, получателят и другите метаданни за транзакциите остават неразпознаваеми.',
     'de': 'Bitcoin Private wird die selbe Datenschutztechnologie wie ZClassic (zkSNARKs) nutzen. Das bedeutet, dass Zahlungen/Transaktionen in der öffentlichen Blockchain veröffentlich werden, aber der Sender, Empfänger und andere Transaktions-Metadaten bleiben nicht identifizierbar.',
-    'fi': 'Bitcoin Private käyttää taustalla samaa yksityisyysteknologiaa kuin ZClassic (zk-snarks). Tämän ansiosta vaikka maksutapahtumat kulkevat julkisessa lohkoketjussa, lähettäjän ja vastaanottajan tiedot, sekä transaktioon liittyvät muut tiedot säilyvät tunnistamattomina.'
+    'fi': 'Bitcoin Private käyttää taustalla samaa yksityisyysteknologiaa kuin ZClassic (zk-snarks). Tämän ansiosta vaikka maksutapahtumat kulkevat julkisessa lohkoketjussa, lähettäjän ja vastaanottajan tiedot, sekä transaktioon liittyvät muut tiedot säilyvät tunnistamattomina.',
+    'cs': 'Bitcoin Private bude používat stejnou technologii, jako ZClassic (zk-snark), aby zajistila soukromí uživatelů. To znamená, že platby budou veřejně publikovány na veřejném blockchainu, ale odesilatel, příjemce a další transakční metadata zůstanou neidentifikovatelná.'
   },
   'why-btcp-decentralized-title': {
     'ar': ' غير متمركزة',
@@ -347,7 +361,8 @@ const Localizations = {
     'el': 'Αποκεντρωμένο',
     'bg': 'Децентрализация',
     'de': 'Dezentral',
-    'fi': 'Hajautettu'
+    'fi': 'Hajautettu',
+    'cs': 'Decentralizovaná'
   },
   'why-btcp-decentralized-text': {
     'ar': 'تماما مثل بيتكوين، "بتكوين برايفت" ستدعم التحويلات بين المتعاملين فيها دون الحاجة إلى وسيط. وسيتم التحقق من هذه التحويلات في نقاط الالتقاء الشبكية من عن طريق التشفير وتسجيلها في السجل العام',
@@ -372,7 +387,8 @@ const Localizations = {
     'el': 'Όπως και το Bitcoin, το Bitcoin Private θα υποστηρίξει συναλλαγές από άτομο σε άτομο χωρίς μεσολαβητή. Αυτές οι συναλλαγές θα εβιβεβαιώνονται απο δικτυακούς κόμβους μέσω της χρήσης κρυπτογραφίας και θα καταγράφονται σε δημόσιο καταστατικό.',
     'bg': 'Също както Bitcoin, Bitcoin Private ще поддържа директни (peer-to-peer) транзакции без посредник. Тези транзакции ще се потвърждават от участниците в мрежата чрез крипотографски способ и ще се записват в публичен регистър.',
     'de': 'Genau wie Bitcoin wird  Bitcoin Private peer-to-peer Transaktionen ohne einen Dritten/Mittelsmann/Vermittler unterstützen. Diese Transaktionen werden von Netzwerkknoten durch die Verwendung von Kryptografie verifiziert und in das öffentliche Hauptbuch/Konto eingetragen.',
-    'fi': 'Kuten Bitcoin, Bitcoin Private toimii vertaisverkkoteknologian päällä, jossa transaktiot välittyvät ilman välikäsiä. Verkkoon yhdistyneet solmut todentavat transaktiot hyödyntämällä kryptografiaa ja ne tallentuvat julkiseen lohkoketjuun.'
+    'fi': 'Kuten Bitcoin, Bitcoin Private toimii vertaisverkkoteknologian päällä, jossa transaktiot välittyvät ilman välikäsiä. Verkkoon yhdistyneet solmut todentavat transaktiot hyödyntämällä kryptografiaa ja ne tallentuvat julkiseen lohkoketjuun.',
+    'cs': 'Stejně jako Bitcoin. Bitcoin Private bude podporovat peer-to-peer transakce bez prostředníků. Tyto transakce budou verifikovány síťovími uzly, skrze použití kryptografie a záznamu ve veřejné hlavní knize.'
   },
   'why-btcp-fast-title': {
     'ar': 'سريعة',
@@ -397,7 +413,8 @@ const Localizations = {
     'el': 'Γρήγορο',
     'bg': 'Бързина',
     'de': 'Schnell',
-    'fi': 'Nopea'
+    'fi': 'Nopea',
+    'cs': 'Rychlá'
   },
   'why-btcp-fast-text': {
     'ar': 'على خلاف عملة "البتكوين"، "بتكوين برايفت ستدعم الزيادة المتدرجة في حجم التحويلات وفي الوقت ذاته تزداد سريتها وأمنها المعلوماتي أكثر من أي عملة أخرى مبنية على "البتكوين" دون أي خسارة في سرعة التحويلات!',
@@ -422,7 +439,8 @@ const Localizations = {
     'el': 'Σε αντίθεση με το Bitcoin, το Bitcoin Private θα υποστηρίξει ένα μετριοπαθώς αυξανόμενο μέγεθος μπλοκ ενώ θα είναι πιο ανώνυμο και ασφαλές από οποιοδήποτε υπάρχον νόμισμα που βασίζεται στο Bitcoin, χωρίς να θυσιάζεται η ταχύτητα συναλλαγής.',
     'bg': 'За разлика от Bitcoin, Bitcoin Private ще поддържа умерено по-голям размер на блоковете, като същевременно ще осигурява по-висока степен на анонимност и сигурност спрямо всяка Bitcoin-базирана крипто валута, без това да навредява на скоростта на транзакциите.',
     'de': 'Im Gegensatz zu Bitcoin wird Bitcoin Private eine bescheidene erhöhte Blockgröße anbieten/unterstützen während es anonymer und sicherer als jede vorhandene auf Bitcoin basierte Währung, ohne einbußen der Transaktionsgeschwindigkeiten, ist.',
-    'fi': 'Bitcoin Private toimii isommilla lohkoilla kuin Bitcoin mahdollistaen samalla erityisen edun transaktionopeudessa. Se myös on anonyymimpi ja turvallisempi kuin yksikään toinen olemassa oleva Bitcoin-pohjainen kryptovaluutta.'
+    'fi': 'Bitcoin Private toimii isommilla lohkoilla kuin Bitcoin mahdollistaen samalla erityisen edun transaktionopeudessa. Se myös on anonyymimpi ja turvallisempi kuin yksikään toinen olemassa oleva Bitcoin-pohjainen kryptovaluutta.',
+    'cs': 'Oproti Bitcoinu. Bitcoin Private bude používat bloky lehce větší velikosti, přitom bude více anonymní a více bezpečný než jakýkoliv jiný existující Fork založený na Bitcoinu. To vše bez obětování transakčních rychlosti.'
   },
   'why-btcp-open-source-title': {
     'ar': 'مفتوحة المصدر',
@@ -447,7 +465,8 @@ const Localizations = {
     'el': 'Ανοιχτής Πηγής',
     'bg': 'Отворен код',
     'de': 'Open-Source',
-    'fi': 'Avoin Lähdekoodi'
+    'fi': 'Avoin Lähdekoodi',
+    'cs': 'Open Source'
   },
   'why-btcp-open-source-text': {
     'ar': 'كامل قاعدة بيانات "بتكوين برايفت" البرمجية مفتوح للعامة ويمكن الاطلاع عليها والتأكد منها في أي وقت. قاعدة البيانات البرمجية ستبقى مفتوحة المصدر لتمكن المطورون حول العالم من تحسينها والحفاظ عليها.',
@@ -472,7 +491,8 @@ const Localizations = {
     'el': 'Ολόκληρος ο κωδικός βάσης του Bitcoin Private είναι διαθέσιμος δημοσίως για προβολή και επαλήθευση από οποιονδήποτε. Θα παραμείνει πάντοτε ανοικτής πηγής και θα διατηρείται από μια συνεχώς αυξανόμενη κοινότητα.',
     'bg': 'Цялата кодова база на Bitcoin Private e публично достъпна за преглед и верификация от всеки. Тя ще остане с отворен код завинаги и ще бъде поддържана от постоянно разрастващата се общност.',
     'de': 'Bitcoin Private’s kompletter Code ist öffentlich verfügbar und einsehbar und kann von jedem kontrolliert werden. Der Code wird immer Open-Source bleiben und von einer stetig wachsenden/steigenden Community gepflegt/gewartet werden.',
-    'fi': 'Bitcoin Privaten lähdekoodi on ja tulee aina olemaan täysin avointa. Se on kenen tahansa julkisesti tarkasteltavissa. Sitä ylläpitää ja kehittää jatkuvasti kasvava yhteisömme.'
+    'fi': 'Bitcoin Privaten lähdekoodi on ja tulee aina olemaan täysin avointa. Se on kenen tahansa julkisesti tarkasteltavissa. Sitä ylläpitää ja kehittää jatkuvasti kasvava yhteisömme.',
+    'cs': 'Všechny zdrojové kódy Bitcoin Private, jsou veřejně dostupné k nahlédnutí a ověření kýmkoliv. A vždy zůstane Open Source projektem a bude dále udržován stále se rozšiřující komunitou.'
   },
   'why-btcp-community-driven-title': {
     'ar': 'قائمة على عامة المستخدمين',
@@ -497,7 +517,8 @@ const Localizations = {
     'el': 'Οδηγούμενο Από Την Κοινότητα',
     'bg': 'Разработка с участието на общността',
     'de': 'Community Angetrieben',
-    'fi': 'Yhteisöllinen'
+    'fi': 'Yhteisöllinen',
+    'cs': 'Vyvyjený komunitou'
   },
   'why-btcp-community-driven-text': {
     'ar': 'إن هذه العملة تتصف بالشفافية، فهي مطورة من قبل مطورين من جميع أنحاء الأرض. كل عضو يملأ فراغ ويشارك بناءً على خبراته ومهاراته.',
@@ -522,7 +543,8 @@ const Localizations = {
     'el': 'Με τη φύση της διαφάνειας και της ανοικτής πηγής, το Bitcoin Private αναπτύσσεται από μέλη της ομάδας σε όλο τον κόσμο. Κάθε μέλος εκπληρώνει ρόλους και συνεισφέρει με βάση τα προσόντα του / της.',
     'bg': 'Съобразно с принципите за прозрачност и отворен код, Bitcoin Private е разработен от екип от всички краища на света. Всеки член изпълнява роля и допринася в зависимост от своите умения и знания.',
     'de': 'In From von Transparenz und Open-Source wird Bitcoin Private von Teammitgliedern auf der ganzen Welt entwickelt. Jedes Mitglied hat seine Rolle und trägt basierend auf seine Fähigkeiten zur Entwicklung bei.',
-    'fi': 'Bitcoin Privatea kehitetään yhteisvoimin mahdollisimman hyvän avoimuuden nimissä. Yhteisön jäsenet ympäri maailman antavat jokainen oman panoksensa taitojensa ja kykyjensä mukaisesti.'
+    'fi': 'Bitcoin Privatea kehitetään yhteisvoimin mahdollisimman hyvän avoimuuden nimissä. Yhteisön jäsenet ympäri maailman antavat jokainen oman panoksensa taitojensa ja kykyjensä mukaisesti.',
+    'cs': 'V přirozenosti transparentnosti a open source. Bitcoin Private je vyvíjen týmem členů po celém světě. Každý člen plní svou danou roli a přispívá na základě jeho nebo její schopnosti.'
   },
   'why-btcp-fair-start-title': {
     'ar': 'بداية عادلة',
@@ -547,7 +569,8 @@ const Localizations = {
     'el': 'Μια δίκαιη εκκίνηση',
     'bg': 'Честен старт',
     'de': 'Ein fairer Start',
-    'fi': 'Tasapuolinen'
+    'fi': 'Tasapuolinen',
+    'cs': 'Férový začátek'
   },
   'why-btcp-fair-start-text': {
     'ar': 'لن يكون هناك ضريبة ولا إتاوة مؤسس. سيتم اطلاق سراح "بيتكوين برايفت" بطريقة عادلة للجميع. وسيتم توزيع النقود بنسبة ١ إلى ١أي لكل حامل عملة "بتكوين" أو "زيكلاسيك" عملة "بتكوين برايفت" واحدة.',
@@ -572,7 +595,8 @@ const Localizations = {
     'el': 'Δεν θα υπάρξει πρόληψη και καμία επιβράβευση του ιδρυτή. Το Bitcoin Private θα κυκλοφορήσει με δίκαιο τρόπο σε όλους. Τα κέρματα θα διανεμηθούν σε βάση 1: 1 στους κατόχους BTC και ZCL.',
     'bg': 'Няма да има предварително разпределение или награда за основателя. Bitcoin Private ще бъде достъпен по начин, честен за всички. Валутата ще се разпределя в съотношение 1:1 спрямо количеството BTC и ZCL, които дадено лице притежава.',
     'de': 'Es wird kein Vorabbauen und auch keine Belohnungen für die Gründer geben. Bitcoin Private wird in einer fairen Art und Weise für alle freigegeben werden. Münzen/Coins werden in einer 1:1 Basis an Bitcoin und Zclassic Besitzer verteilt',
-    'fi': 'Bitcoin Privatea ei esilouhita, eikä siihen kuulu perustajajäsenille annettavaa erityiskorvausta. Julkaisu tapahtuu tasapuolisesti kaikille niin, että BTC:n ja ZCL:n haltijat saavat jokaista valuuttayksikköään saman määrän Bitcoin Privatea.'
+    'fi': 'Bitcoin Privatea ei esilouhita, eikä siihen kuulu perustajajäsenille annettavaa erityiskorvausta. Julkaisu tapahtuu tasapuolisesti kaikille niin, että BTC:n ja ZCL:n haltijat saavat jokaista valuuttayksikköään saman määrän Bitcoin Privatea.',
+    'cs': 'Bitcoin Private nebude před těžen a nedává zakladatelům žádnou prvotní odměnu. Bude vydán tímto nejvíce spravedlivým způsobem všem. Mince budou přerozděleny v poměru 1:1 všem stávajícím držitelům BTC a ZCL.'
   },
   'why-btcp-whitepaper-button': {
     'ar': 'ويتيبابر قريبا',
@@ -597,7 +621,8 @@ const Localizations = {
     'el': 'Λευκό χαρτί σύντομα',
     'bg': 'Бяла книга скоро ще дойде',
     'de': 'Whitepaper kommt bald',
-    'fi': 'Whitepaper tulee pian'
+    'fi': 'Whitepaper tulee pian',
+    'cs': 'Whitepaper bude vydán již brzy'
   },
   'hard-fork-header-title': {
     'ar': '"هارد فورك"',
@@ -622,7 +647,8 @@ const Localizations = {
     'el': 'Hard Fork',
     'bg': 'Hard Fork',
     'de': 'Hard Fork',
-    'fi': 'Hard Fork'
+    'fi': 'Hard Fork',
+    'cs': 'Hard Fork'
   },
   'hard-fork-what-is-title': {
     'ar': 'ماهية تقنية “هارد فودك” ؟',
@@ -647,7 +673,8 @@ const Localizations = {
     'el': 'Τι είναι το hard fork?',
     'bg': 'Какво е hard fork?',
     'de': 'Was ist ein Hard Fork?',
-    'fi': 'Mikä on hard fork?'
+    'fi': 'Mikä on hard fork?',
+    'cs': 'Co je to Hard fork?'
   },
   'hard-fork-what-is-text': {
     'ar': 'عملية انقسام عملة إلكترونية  لقسمين تدعى “هارد فورك”. تحدث هذه العملية عندما تتغير شيفرة العملة وتصنع نسخة جديدة مضافة للأصلية. هذه الحالة فريدة بنوعها حيث أن عملة “بتكوين” و”زيكلاسيك” يتحدون لصنع “بتكوين برايفت',
@@ -672,7 +699,8 @@ const Localizations = {
     'el': 'Hard fork είναι όταν ένα κρυπτογραφημένο συνάλλαγμα διαιρείται σε δύο. Εμφανίζεται όταν ο υφιστάμενος κώδικας κρυπτογράφησης μεταβάλλεται, με αποτέλεσμα τη συνύπαρξη της παλιάς και της νέας εκδοχής. Η συγκεκριμένη περίπτωση είναι κάπως μοναδική, με την οποία οι ZCL και BTC θα συνυπάρξουν με το Bitcoin Private (BTCP).',
     'bg': 'Hard fork е събитие, при което дадена криптовалута се разделя на две. То се случва, когато съществуващият програмен код на една криптовалута се променя, в резултат на което се появяват стара и нова версия. Настоящият случай е уникален в своята същност, тъй като ZCL и BTC ще бъдат обединени едновременно в съвместен fork, който ще доведе до появата на Bitcoin Private (BTCP).',
     'de': 'Ein Hard Fork ist, wenn sich eine einzelne Kryptowährung in zwei teilt. Es tritt auf, wenn der Code von einer bestehenden Kryptowährung verändert wird, was sowohl zu einer alten als auch zu einer neuen Version führt. Dieser Fall ist etwas einzigartiges, weil ZCL (ZClassic) und BTC (Bitcoin) in Bitcoin Private zusammengefasst werden.',
-    'fi': 'Haaratuminen, eli hard fork tarkoittaa tapahtumaa, jossa yksi kryptovaluutta haarautuu kahdeksi erilliseksi valuutaksi. Tämä tapahtuu esimerkiksi silloin, kun kryptovaluutan lähdekoodia muutetaan ja vanha ja uusi versio jäävät elämään samanaikaisesti. Syntyy uusi lohkoketju joka pohjautuu vanhaan. Tämä kyseinen tapaus on kuitenkin erityinen, sillä haarautumisen yhteydessä yhdistyvät kaksi lohkoketjua - BTC ja ZCL - yhdeksi uudeksi ketjuksi (BTCP).'
+    'fi': 'Haaratuminen, eli hard fork tarkoittaa tapahtumaa, jossa yksi kryptovaluutta haarautuu kahdeksi erilliseksi valuutaksi. Tämä tapahtuu esimerkiksi silloin, kun kryptovaluutan lähdekoodia muutetaan ja vanha ja uusi versio jäävät elämään samanaikaisesti. Syntyy uusi lohkoketju joka pohjautuu vanhaan. Tämä kyseinen tapaus on kuitenkin erityinen, sillä haarautumisen yhteydessä yhdistyvät kaksi lohkoketjua - BTC ja ZCL - yhdeksi uudeksi ketjuksi (BTCP).',
+    'cs': 'Hard fork je, když jedna kryptoměna se dělí na dvě další. Dochází k tomu, když se existující zdrojový kód změní, což vyústí ve vznik staré a nové verze měny. Tento případ je něčím unikátní, jelikož ZCL a BTC budou spojeny v jednu měnu Bitcoin Private (BTCP).'
   },
   'hard-fork-when-is-title': {
     'ar': 'متى تبدأ التقنية ؟',
@@ -697,7 +725,8 @@ const Localizations = {
     'el': 'Πότε είναι το hard fork;',
     'bg': 'Кога ще се случи Hard Fork?',
     'de': 'Wann passiert der Hard Fork?',
-    'fi': 'Milloin haarautuminen tapahtuu?'
+    'fi': 'Milloin haarautuminen tapahtuu?',
+    'cs': 'Kdy Hard fork proběhne?'
   },
   'hard-fork-when-is-text': {
     'ar': 'لا يوجد تاريخ محدد في الوقت الحالي. فريق "بتكوين برايفت" يعمل على مدار الساعة لإتمام العملية بنجاح وسيتم الإعلان قريباً.',
@@ -722,7 +751,8 @@ const Localizations = {
     'el': 'Αυτή τη στιγμή, δεν έχει ανακοινωθεί καμία επίσημη ημερομηνία. Η ομάδα του Bitcoin Private εργάζεται ακούραστα για να είναι τα πάντα έτοιμα για την επικείμενη έκδοση.',
     'bg': 'За момента все още няма официално оповестена дата. Екипът на Bitcoin Private работи усърдно, за да може всичко да е готово за предстоящото пускане.',
     'de': 'Zurzeit wurde noch kein offizielles Datum angekündigt. Das Bitcoin Private Team arbeitet unermüdlich um alles für die bevorstehende Veröffentlichung bereit zu machen.',
-    'fi': 'Virallista ajankohtaa ei ole vielä annettu. Teemme kaikkemme, että saamme kaiken tarvittavan valmiiksi mahdollisimman pian julkaisua varten.'
+    'fi': 'Virallista ajankohtaa ei ole vielä annettu. Teemme kaikkemme, että saamme kaiken tarvittavan valmiiksi mahdollisimman pian julkaisua varten.',
+    'cs': 'V tuto chvíli, ještě není stanoveno žádné oficiální datum. Tým Bitcoin Private pracuje neúnavně na tom, aby vše bylo připraveno na nadcházející vydání.'
   },
   'hard-fork-receive-title': {
     'ar': 'كيف أحصل على "بيتكوين برايفت" ؟',
@@ -747,7 +777,8 @@ const Localizations = {
     'el': 'Πώς μπορώ να λάβω BTCP;',
     'bg': 'Как да получа BTCP?',
     'de': 'Wie erhalte ich BTCP?',
-    'fi': 'Miten saan BTCP:tä?'
+    'fi': 'Miten saan BTCP:tä?',
+    'cs': 'Jak získát BTCP?'
   },
   'hard-fork-receive-text': {
     'ar': 'بعد إتمام عملية "الهارد فورك" سيتم تسجيل كل عمل "زيكلاسك" و"بتكوين" وإعطاء "بتكوين برايفت" لكل حاملين لأحد هاتين العملتين داخل محفظة تدعم التداول بعدد مالديهم من عمل.',
@@ -772,7 +803,8 @@ const Localizations = {
     'el': 'Όταν πραγματοποιηθεί το hard fork, θα παρουσιαστεί ένα στιγμιότυπο όλων των υφιστάμενων εκμεταλλεύσεων ZCL και BTC. Οποιοσδήποτε κατέχει ZCL ή BTC σε πορτοφόλι ή υποστηριζόμενο κέντρο συναλλαγής θα πιστωθεί με Bitcoin Private (BTCP) σε αναλογία 1: 1. Για παράδειγμα, εάν κρατάτε 15,4 ZCL, θα λάβετε 15,4 BTCP.',
     'bg': 'Когато hard fork-ът бъде изпълнен, ще бъде направено заснемане на всички съществуващи ZCL и BTC вложения. Всеки собственик на ZCL или BTC в портфейл или на поддържана борса ще получи BTCP в съотношение 1:1. Ако например притежавате 15.4 ZCL, ще получите 15.4 BTCP.',
     'de': 'Wenn der Hard Fork passiert, wird eine Momentaufnahme aller vorhandenen ZCL und BTC Bestände erstellt. Jeder der ZCL oder BTC in einem Wallet oder unterstützen Börse besitzt, wird Bitcoin Private (BTCP) bei einer Ratio von 1:1 erhalten. Zum Beispiel: Wenn man 15,4 ZCL besitzt, erhaltet man 15,4 BTCP.',
-    'fi': 'Haarautumisen yhteydessä tiedot kaikista ZCL ja BTC lohkoketjuissa olevista omistuksista otetaan talteen. Kuka tahansa, joka haarautumishetkellä pitää hallussaan ZCL:ää tai BTC:tä, joko lompakossa tai BTCP:tä tukevassa pörssissä saa Bitcoin Privatea 1:1 suhteessa. Jos esimerkiksi omistat 15.4 ZCL ja 0.1 BTC saat yhteensä 15.5 BTCP.'
+    'fi': 'Haarautumisen yhteydessä tiedot kaikista ZCL ja BTC lohkoketjuissa olevista omistuksista otetaan talteen. Kuka tahansa, joka haarautumishetkellä pitää hallussaan ZCL:ää tai BTC:tä, joko lompakossa tai BTCP:tä tukevassa pörssissä saa Bitcoin Privatea 1:1 suhteessa. Jos esimerkiksi omistat 15.4 ZCL ja 0.1 BTC saat yhteensä 15.5 BTCP.',
+    'cs': 'Až proběhne hard fork, bude vytvořen snímek všech existujících ZCL a BTC. Kdokoliv bude mít ZCL nebo BTC ve své peněžence nebo podporované směnárně následně obdrží Bitcoin Private (BTCP) v poměru 1:1. Pro příklad, pokud máte 15,4 ZCL a 0,1 BTC. Po hard forku získáte 15,5 BTCP.'
   },
   'faq-header-title': {
     'ar': 'أسئلة متكررة',
@@ -797,7 +829,8 @@ const Localizations = {
     'el': 'Συχνές Ερωτήσεις',
     'bg': 'Често задавани въпроси',
     'de': 'Häufig gestellte Fragen',
-    'fi': 'Usein Kysytyt Kysymykset'
+    'fi': 'Usein Kysytyt Kysymykset',
+    'cs': 'Často kladené otázky'
   },
   'faq-who-runs-title': {
     'ar': 'من هم العاملين على هذا المشروع؟',
@@ -822,7 +855,8 @@ const Localizations = {
     'el': 'Ποιος είναι επικεφαλής του έργου;',
     'bg': 'Кой ръководи проекта?',
     'de': 'Wer leitet das Projekt?',
-    'fi': 'Kuka vie projektia?'
+    'fi': 'Kuka vie projektia?',
+    'cs': 'Kdo spravuje Bitcoin Private?'
   },
   'faq-who-runs-text': {
     'ar': 'ريت كريتون هو المطور القائد للمشروع لكن بشكل عام المطورون حول العالم كثر حوالي ٥٠ مطور مشارك ألى الآن. إن هذا المشروع قائم على المشاركة وفي النهاية كلنا نعمل على إتمام المشروع في المستقبل القريب.',
@@ -847,7 +881,8 @@ const Localizations = {
     'el': 'Ο Rhett Creighton είναι ο κύριος προγραμματιστής. Συνολικά, η ομάδα συμβολής μας είναι τεράστια, σχεδόν 50 ενεργά μέλη προς το παρόν. Αυτό είναι ένα έργο που βασίζεται στην κοινότητα και όλοι επενδύουμε για να κάνουμε αυτό το fork να πραγματοποιηθεί και το BTCP να είναι το μέλλον.',
     'bg': 'Rhett Creighton е водещият разработчик. Като цяло, нашият екип от сътрудници е голям -- приблизително 50 активни участници към днешна дата. Това наистина е проект, задвижван от общността, и всеки от нас е посветен както на усилията този hard fork да се случи, така и на бъдещето на BTCP.',
     'de': 'Rhett Creighton ist der leitende Entwickler. Insgesamt ist unser Team, mit aktuell bis zu 50 aktiven Mitglieder, sehr groß. Es ist ein wahres Community angetriebenes Projekt und wir sind alle sehr daran interessiert, dass der Fork realisiert wird und um BTCP die Zukunft zu ermöglichen.',
-    'fi': 'Pääkehittäjänä toimii Rhett Creighton. Kokonaisuudessaan yhteisö koostuu lähes 50 ihmisestä, joista jokainen antaa työpanoksensa varmistaakseen onnistuneen BTCP-haarautumisen lähitulevaisuudessa.'
+    'fi': 'Pääkehittäjänä toimii Rhett Creighton. Kokonaisuudessaan yhteisö koostuu lähes 50 ihmisestä, joista jokainen antaa työpanoksensa varmistaakseen onnistuneen BTCP-haarautumisen lähitulevaisuudessa.',
+    'cs': 'Bitcoin Private je komunitou udržovaný projekt forku BTC/ZCL a obsahuje nyní více než 50 talentovaných přispěvatelů. Jsme plně transparentní komunitě a často dovolujeme dělat rozhodnutí ohledně forku a v budoucnosti Bitcoinu Private.'
   },
   'faq-what-exchanges-title': {
     'ar': 'ماهي التداولات الداعمة لل"فورك"',
@@ -872,7 +907,8 @@ const Localizations = {
     'el': 'Ποια κέντρα συναλλαγής θα υποστηρίξουν το fork;',
     'bg': 'Кои борси ще подкрепят fork-a?',
     'de': 'Welche Börsen unterstützen den Fork?',
-    'fi': 'Mitkä pörssit tukevat haarautumista?'
+    'fi': 'Mitkä pörssit tukevat haarautumista?',
+    'cs': 'Které směnárny budou podporovat fork?'
   },
   'faq-what-exchanges-text': {
     'ar': 'حتى الآن نحن نتناقش مع متداولين أفراد في هذا الخصوص. لطفا تحلو بالصبر فحتى الأن لم نصرح بدعم أى تداول بعينه.',
@@ -897,7 +933,8 @@ const Localizations = {
     'el': 'Προς το παρόν, συζητούμε ενεργά με μεμονωμένα κέντρα συναλλαγής σχετικά με το θέμα αυτό. Παρακαλούμε να είστε υπομονετικοί, καθώς δεν κάνουμε ακόμα δηλώσεις για υποστήριξη από μεμονωμένα κέντρα συναλλαγής.',
     'bg': 'В момента, активно преговаряме с борсите по този въпрос. Молим ви за търпение, тъй като все още няма да правим никакви изявления отнасящи се до подкрепата на борсите.',
     'de': 'Derzeit sprechen wir aktiv mit einzelnen Börsen wegen dieser Angelegenheit. Bitte haben sie etwas geduld, da wir jetzt noch keine Aussagen von unterstützenden einzelnen Börsen machen können.',
-    'fi': 'Keskustelemme tällä hetkellä aktiivisesti eri pörssien ja välittäjien kanssa asiasta. Emme voi antaa virallista lausuntoa vielä, joten pyydämme odottamaan kärsivällisesti.'
+    'fi': 'Keskustelemme tällä hetkellä aktiivisesti eri pörssien ja välittäjien kanssa asiasta. Emme voi antaa virallista lausuntoa vielä, joten pyydämme odottamaan kärsivällisesti.',
+    'cs': 'V současnosti zařizujeme aktivní diskuze s jednotlivými směnárny, proto prosím buďte trpěliví, jelikož ještě tato jednání neskončila. Následně vydáme prohlášení o podporovaných směnárnách.'
   },
   'faq-how-mine-title': {
     'ar': 'كيف أنقب عن ال"زيكلاسيك"',
@@ -922,7 +959,8 @@ const Localizations = {
     'el': 'Πώς μπορώ να ‘’εξορύξω’’ το ZCL;',
     'bg': 'Как да добивам ZCL?',
     'de': 'Wie kann ich ZCL minen?',
-    'fi': 'Miten louhin ZCL:ää?'
+    'fi': 'Miten louhin ZCL:ää?',
+    'cs': 'Jak mohu těžit ZCL?'
   },
   'faq-how-mine-text': {
     'ar': '<a href="https://www.reddit.com/r/ZClassic/comments/7mfmyb/how_to_mine_zcl_using_nvidia_or_amd_gpus_on/?ref=share&ref_source=link" target="_blank">هنا تجد دليل التنقيب. كما أن التنقيب عن "بتكوين برايفت" سيكون مشابه. ترقب المزيد لاحقا.</a>',
@@ -947,7 +985,8 @@ const Localizations = {
     'el': '<a href="https://www.reddit.com/r/ZClassic/comments/7mfmyb/how_to_mine_zcl_using_nvidia_or_amd_gpus_on/?ref=share&ref_source=link" target="_blank">Εδώ είναι ένας οδηγός για την εξόρυξη ZCL στο miningpoolhub</a>. Το BTCP θα εξορύσσεται και με παρόμοιο τρόπο. Μείνετε συντονισμένοι για περισσότερες πληροφορίες.',
     'bg': 'Ето наръчник за копаене на ZCL на miningpoolhub. BTCP ще се добива по сходен начин. Очаквайте повече информация по темата.',
     'de': '<a href="https://www.reddit.com/r/ZClassic/comments/7mfmyb/how_to_mine_zcl_using_nvidia_or_amd_gpus_on/?ref=share&ref_source=link" target="_blank">Hier ist eine Anleitung um ZCL am miningpoolhub zu minen</a>. BTCP wird ungefähr ähnlich zum Minen verfügbar werden. Bleiben Sie dran für weitere Informationen.',
-    'fi': '<a href="https://www.reddit.com/r/ZClassic/comments/7mfmyb/how_to_mine_zcl_using_nvidia_or_amd_gpus_on/?ref=share&ref_source=link" target="_blank">Tämän linkin takaa löytyy ohje ZCL-louhintaan</a>. BTCP:tä louhitaan tulevaisuudessa kutakuinkin samalla tavalla. Lisätietoa tästä on tulossa piakkoin!'
+    'fi': '<a href="https://www.reddit.com/r/ZClassic/comments/7mfmyb/how_to_mine_zcl_using_nvidia_or_amd_gpus_on/?ref=share&ref_source=link" target="_blank">Tämän linkin takaa löytyy ohje ZCL-louhintaan</a>. BTCP:tä louhitaan tulevaisuudessa kutakuinkin samalla tavalla. Lisätietoa tästä on tulossa piakkoin!',
+    'cs': '<a href="https://www.reddit.com/r/ZClassic/comments/7mfmyb/how_to_mine_zcl_using_nvidia_or_amd_gpus_on/?ref=share&ref_source=link" target="_blank">Návod na zahájení těžby ZCL na miningpoolhub</a><a href=https://minez.zone/getting_started target=“_blank“>Návod na zahajení těžby ZCL na Minez.Zone</a> BTCP bude těženo v podobným způsobem. Více informací bude uvedeno brzy.'
   },
   'faq-where-buy-title': {
     'ar': 'أين يمكن شراء عملة "زيكلاسيك"',
@@ -972,7 +1011,8 @@ const Localizations = {
     'el': 'Πού μπορώ να αγοράσω το ZCL αυτή τη στιγμή;',
     'bg': 'Къде мога да закупя ZCL в момента?',
     'de': 'Wo kann ich ZCL zurzeit kaufen?',
-    'fi': 'Mistä voin ostaa ZCL:ää?'
+    'fi': 'Mistä voin ostaa ZCL:ää?',
+    'cs': 'Kde mohu koupit ZCL právě teď?'
   },
   'faq-where-buy-text': {
     'ar': '<a href="https://bittrex.com/Market/Index?MarketName=BTC-ZCL" target="_blank">Bittrex</a>, <a href="https://www.cryptopia.co.nz/Exchange?market=ZCL_BTC" target="_blank">Cryptopia</a> e <a href="https://www.coinexchange.io/market/ZCL/BTC" target="_blank">Coinexchange.io</a>',
@@ -997,7 +1037,8 @@ const Localizations = {
     'el': '<a href="https://bittrex.com/Market/Index?MarketName=BTC-ZCL" target="_blank">Bittrex</a>, <a href="https://www.cryptopia.co.nz/Exchange?market=ZCL_BTC" target="_blank">Cryptopia</a> και <a href="https://www.coinexchange.io/market/ZCL/BTC" target="_blank">Coinexchange.io</a>',
     'bg': '<a href="https://bittrex.com/Market/Index?MarketName=BTC-ZCL" target="_blank">Bittrex</a>, <a href="https://www.cryptopia.co.nz/Exchange?market=ZCL_BTC" target="_blank">Cryptopia</a> и <a href="https://www.coinexchange.io/market/ZCL/BTC" target="_blank">Coinexchange.io</a>',
     'de': '<a href="https://bittrex.com/Market/Index?MarketName=BTC-ZCL" target="_blank">Bittrex</a>, <a href="https://www.cryptopia.co.nz/Exchange?market=ZCL_BTC" target="_blank">Cryptopia</a> und <a href="https://www.coinexchange.io/market/ZCL/BTC" target="_blank">Coinexchange.io</a>',
-    'fi': 'Kryptovaluuttoja välittävistä pörsseistä kuten <a href="https://bittrex.com/Market/Index?MarketName=BTC-ZCL" target="_blank">Bittrex</a>, <a href="https://www.cryptopia.co.nz/Exchange?market=ZCL_BTC" target="_blank">Cryptopia</a> ja <a href="https://www.coinexchange.io/market/ZCL/BTC" target="_blank">Coinexchange.io</a>'
+    'fi': 'Kryptovaluuttoja välittävistä pörsseistä kuten <a href="https://bittrex.com/Market/Index?MarketName=BTC-ZCL" target="_blank">Bittrex</a>, <a href="https://www.cryptopia.co.nz/Exchange?market=ZCL_BTC" target="_blank">Cryptopia</a> ja <a href="https://www.coinexchange.io/market/ZCL/BTC" target="_blank">Coinexchange.io</a>',
+    'cs': '<a href="https://bittrex.com/Market/Index?MarketName=BTC-ZCL" target="_blank">Bittrex</a>, <a href="https://www.cryptopia.co.nz/Exchange?market=ZCL_BTC" target="_blank">Cryptopia</a> a <a href="https://www.coinexchange.io/market/ZCL/BTC" target="_blank">Coinexchange.io</a>'
   },
   'faq-how-development-title': {
     'ar': 'كيف يمكنني المساعدة في تطوير "بتكوين برايفت" ؟',
@@ -1022,7 +1063,8 @@ const Localizations = {
     'el': 'Πώς μπορώ να βοηθήσω στην ανάπτυξη του BTCP;',
     'bg': 'Как мога да подпомогна развитието на BTCP?',
     'de': 'Wie kann ich der Entwicklung von BTCP helfen?',
-    'fi': 'Miten voin auttaa BTCP:n kehityksessä?'
+    'fi': 'Miten voin auttaa BTCP:n kehityksessä?',
+    'cs': 'Jak mohu pomoci s vývojem BTCP?'
   },
   'faq-how-development-text': {
     'ar': '<a href="https://github.com/BTCPrivate/BitcoinPrivate/issues" target="_blank">ادخل على رابط github واقرأ المشاكل التي يواجهها المطورون في الوقت الحالي.</a>',
@@ -1047,7 +1089,8 @@ const Localizations = {
     'el': '<a href="https://github.com/BTCPrivate/BitcoinPrivate/issues" target="_blank">Δείτε τα θέματα που δημοσιεύθηκαν στο github όπου χρειαζόμαστε λύσεις για το BTCP</a>.',
     'bg': 'Обърнете внимание на <a href="https://github.com/BTCPrivate/BitcoinPrivate/issues" target="_blank">докладваните проблеми в github</a>, които имат нужда от разрешаване.',
     'de': 'Sehen Sie sich die auf <a href="https://github.com/BTCPrivate/BitcoinPrivate/issues" target="_blank">GitHub veröffentlichten Problemen</a> an, die wir für BTCP gelöst bekommen müssen.',
-    'fi': 'Käy katsomassa tällä hetkellä <a href="https://github.com/BTCPrivate/BitcoinPrivate/issues" target="_blank">työn alla olevat asiat GitHubissa</a>.'
+    'fi': 'Käy katsomassa tällä hetkellä <a href="https://github.com/BTCPrivate/BitcoinPrivate/issues" target="_blank">työn alla olevat asiat GitHubissa</a>.',
+    'cs': 'Prohlédněte si stávající <a href="https://github.com/BTCPrivate/BitcoinPrivate/issues" target="_blank">problémy na Github</a>, které je potřeba vyřešit pro BTCP.'
   },
   'faq-where-store-title': {
     'ar': 'أين يمكن الاحتفاظ بعملة "زيكلاسيك" ؟',
@@ -1072,7 +1115,8 @@ const Localizations = {
     'el': 'Πού μπορώ να αποθηκεύσω το ZCL μου για να βεβαιωθώ ότι έχω το BTCP μου;',
     'bg': 'Къде мога да съхранявам моят ZCL , за да съм сигурен, че ще получа BTCP?',
     'de': 'Wo kann ich meine ZCL erhalten, um sicherzustellen, dass ich BTCP bekomme?',
-    'fi': 'Missä voin säilyttää ZCL:ää varmistaakseni, että saan BTCP:tä?'
+    'fi': 'Missä voin säilyttää ZCL:ää varmistaakseni, että saan BTCP:tä?',
+    'cs': 'Kde mohu uložit moje ZCL, abych zajistil, že dostanu po forku BTCP?'
   },
   'faq-where-store-text': {
     'ar': '<a href="https://redd.it/7kynho" target="_blank">الرجاء الاطلاع على دليل الاستخدام. بينما تواجهنا حاليا مشاكل بسيطة في المحفظة الحالية، نعدكم بمحافظ تعمل بنسبة ١٠٠٪ لأنظمة تشغيل "وندوز" و "ماك" قبل إتمام المشروع .</a>',
@@ -1097,7 +1141,8 @@ const Localizations = {
     'el': '<a href="https://redd.it/7kynho" target="_blank">Χρησιμοποιήστε τον παρακάτω απλό οδηγό για τον τρόπο εγκατάστασης του πορτοφολιού για Windows</a>. Ενώ υπήρξαν κάποια προβλήματα με το σημερινό πορτοφόλι ZCL, υποσχόμαστε ότι ένα πορτοφόλι σε κατάσταση 100% λειτουργίας για Mac και Windows θα κυκλοφορήσει πριν από το fork.',
     'bg': 'Моля използвайте следните наръчник за <a href="https://redd.it/7kynho" target="_blank">инсталацията на портфейл под Windows</a>. Въпреки че съществуват известни проблеми с настоящия ZLC портфейл, обещаваме да публикуваме 100% работещ портфейл за Windows и Mac преди fork-ът да се състои.',
     'de': 'Verwenden Sie die folgende einfache Anleitung: <a href="https://redd.it/7kynho" target="_blank">Wie installiere ich ein Windows Wallet</a>. Es gibt zwar mit dem aktuellen ZCL Windows Wallet probleme, aber wir versprechen, dass ein voll funktionsfähiges Windows Wallet für Mac und Windows noch vor dem Fork veröffentlicht wird.',
-    'fi': '<a href="https://redd.it/7kynho" target="_blank">Täällä on ohje</a> miten saat asennettua Windowsille yhteensopivan lompakon. Nykyisen ZCL-lompakon kanssa on ollut joitakin haasteita, mutta takaamme, että 100% toimivat lompakot on saatavilla Mac ja Windows käyttäjille ennen haarautumista.'
+    'fi': '<a href="https://redd.it/7kynho" target="_blank">Täällä on ohje</a> miten saat asennettua Windowsille yhteensopivan lompakon. Nykyisen ZCL-lompakon kanssa on ollut joitakin haasteita, mutta takaamme, että 100% toimivat lompakot on saatavilla Mac ja Windows käyttäjille ennen haarautumista.',
+    'cs': 'Prosím použijte následující jednoduchý návod na<a href="https://redd.it/7kynho" target="_blank"> instalaci ZCL peněženky pod Windows</a>. I když jsou se stávající peněženkou problémy je možno ji použít. My garantujeme vydání vlastní 100% fungující peněženky pro Windows a Mac, před forkem.'
   },
   'faq-get-involved-title': {
     'ar': 'كيف أشارك في ال “فورك” ؟',
@@ -1122,7 +1167,8 @@ const Localizations = {
     'el': 'Πώς μπορώ να ασχοληθώ με το fork;',
     'bg': 'Как да се включа в работата по hard fork-a?',
     'de': 'Wie kann ich mich für den Fork engagieren?',
-    'fi': 'Miten voin osallistua?'
+    'fi': 'Miten voin osallistua?',
+    'cs': 'Kde se mohu vyjádřit k Hard forku?'
   },
   'faq-get-involved-text': {
     'ar': '<a href="https://www.reddit.com/r/ZClassic/comments/7kt1ge/call_for_bitcoin_private_fork_volunteers/" target="_blank">أدخل على هذا الرابط واكتب تعليق (ارغب في المشاركة).</a>',
@@ -1147,7 +1193,8 @@ const Localizations = {
     'el': '<a href="https://www.reddit.com/r/ZClassic/comments/7kt1ge/call_for_bitcoin_private_fork_volunteers/" target="_blank">Παρακαλούμε δείτε τη συζήτηση εδώ και σχολιάστε για να εμπλακείτε</a>.',
     'bg': 'Моля прегледайте <a href="https://www.reddit.com/r/ZClassic/comments/7kt1ge/call_for_bitcoin_private_fork_volunteers/" target="_blank">тази тема</a> и коментирайте, за да се включите.',
     'de': 'Folgen Sie den <a href="https://www.reddit.com/r/ZClassic/comments/7kt1ge/call_for_bitcoin_private_fork_volunteers/" target="_blank">Beitrag hier</a> und kommentiere Sie dazu, um mitzumachen.',
-    'fi': 'Keskustele ja kommentoi <a href="https://www.reddit.com/r/ZClassic/comments/7kt1ge/call_for_bitcoin_private_fork_volunteers/" target="_blank">täällä</a>.'
+    'fi': 'Keskustele ja kommentoi <a href="https://www.reddit.com/r/ZClassic/comments/7kt1ge/call_for_bitcoin_private_fork_volunteers/" target="_blank">täällä</a>.',
+    'cs': 'Prosím sledujte toto <a href="https://www.reddit.com/r/ZClassic/comments/7kt1ge/call_for_bitcoin_private_fork_volunteers/" target="_blank">vlákno na redditu</a> a přispějte svým komentářem.'
   },
   'faq-after-fork-title': {
     'ar': 'ماذا سيحدث ل"زيكلاسيك" بعد ال"فورك" ؟',
@@ -1172,7 +1219,8 @@ const Localizations = {
     'el': 'Τι θα συμβεί με το ZCL μετά το fork;',
     'bg': 'Какво ще се случи със ZCL след fork-a?',
     'de': 'Was passiert mit ZCL nach dem Fork?',
-    'fi': 'Mitä ZCL:lle tapahtuu haaratumisen jälkeen?'
+    'fi': 'Mitä ZCL:lle tapahtuu haaratumisen jälkeen?',
+    'cs': 'Co se stane s ZCL po forku?'
   },
   'faq-after-fork-text': {
     'ar': 'ستبقى "زيكلاسيك" موجودة. كما أن المشاركين قد تناولوا كيفية الحفاظ على "زيكلاسيك" وإبقائها في سلك التطوير المستمر بعد ال"فورك". نحن ندعم هذا الأمر ونستبشر به الخير.',
@@ -1197,7 +1245,8 @@ const Localizations = {
     'el': 'Το ZClassic θα εξακολουθήσει να υπάρχει. Η κοινότητα συζήτησε τη διατήρηση του ZCL στην ενεργό ανάπτυξη μετά το fork. Θεωρούμε ότι αυτό είναι θαυμάσιο και το υποστηρίζουμε πλήρως.',
     'bg': 'Zclassic ще продължи да съществува. Общността обсъди да продължи да поддържа ZCL активен и в разработка, дори след hard fork. Ние смятаме, че това решение е страхотно и напълно го поддържаме.',
     'de': 'ZClassic wird nach wie vor existieren. Die Community hat entschieden, dass ZCL auch noch nachdem Fork aktiv Weiterentwickelt wird. Wir finden diese Idee großartig und unterstützen das voll und ganz.',
-    'fi': 'ZClassic jää elämään. Yhteisön kesken on keskusteltu paljon ZCL:n aktiivisesta kehittämisestä haarautumisen jälkeenkin. Annamme sille täyden tukemme!'
+    'fi': 'ZClassic jää elämään. Yhteisön kesken on keskusteltu paljon ZCL:n aktiivisesta kehittämisestä haarautumisen jälkeenkin. Annamme sille täyden tukemme!',
+    'cs': 'ZClassic bude stále existovat. Komunita rozhodla v diskuzi o zachování ZCL v aktivním vývoji po forku. Myslíme si, že to je skvěle a plně toto rozhodnutí podporujeme.'
   },
   'faq-replay-protection-title': {
     'ar': 'هل ستتوفر تقنية التحقق الثنائي "ريبلاي بروتيكشن" في "بتكوين برايفت؟',
@@ -1222,7 +1271,8 @@ const Localizations = {
     'el': 'Θα υπάρξει προστασία επανάληψης;',
     'bg': 'Ще има ли защита срещу дублиране на транзакцияиа (replay) в двете мрежи?',
     'de': 'Wird es einen Replay-Schutz geben?',
-    'fi': 'Tukeeko BTCP toistosuojausta (replay protection)?'
+    'fi': 'Tukeeko BTCP toistosuojausta (replay protection)?',
+    'cs': 'Bude zavedena "Replay" ochrana?'
   },
   'faq-replay-protection-text': {
     'ar': 'نعم تقنية التحقق الثنائى (two-way replay protection) ستكون متوفرة في "بتكوين برايفت".',
@@ -1247,7 +1297,8 @@ const Localizations = {
     'el': 'Ναι, το Bitcoin Private θα έχει αμφίδρομη προστασία αναπαραγωγής.',
     'bg': 'Да, Bitcoin Private ще осигури двупосочна защита срещу дублиране на транзакциите.',
     'de': 'Ja, Bitcoin Private verfügt über einen zweifach Replay-Schutz.',
-    'fi': 'Kyllä, Bitcoin Private tukee kaksisuuntaista toistosuojausta.'
+    'fi': 'Kyllä, Bitcoin Private tukee kaksisuuntaista toistosuojausta.',
+    'cs': 'Ano, Bitcoin Private bude mít dvoucestnou "Replay" ochranu.'
   },
   'faq-circulation-total-title': {
     'ar': 'كم عدد زكل في التداول، وكم بكب سيكون هناك بعد شوكة؟',
@@ -1272,7 +1323,8 @@ const Localizations = {
     'el': 'Πόσα ZCL κυκλοφορούν και πόσα BTCP θα υπάρχουν μετά το πιρούνι;',
     'bg': 'Колко ZCL са в обръщение и колко BTCP ще има след вилицата?',
     'de': 'Wie viele ZCL sind im Umlauf und wie viele BTCP wird es nach der Abzweigung geben?',
-    'fi': 'Kuinka monta ZCL on liikkeessä ja kuinka monta BTCP: tä on haarukan jälkeen?'
+    'fi': 'Kuinka monta ZCL on liikkeessä ja kuinka monta BTCP: tä on haarukan jälkeen?',
+    'cs': 'Kolik ZCL je nyní v oběhu a kolik BTCP bude v oběhu po forku?'
   },
   'faq-circulation-total-text': {
     'ar': 'حاليا، هناك حوالي 3،000،000 زكل في التداول. عندما يحدث شوكة، فإن إجمالي بتكب في التداول سيكون الحالي تعميم العرض من بتك زائد زكل.',
@@ -1297,7 +1349,8 @@ const Localizations = {
     'el': 'Επί του παρόντος, κυκλοφορούν περίπου 3.000.000 ZCL. Όταν εμφανιστεί το πιρούνι, το συνολικό BTCP στην κυκλοφορία θα είναι η τρέχουσα κυκλοφοριακή παροχή του BTC συν ZCL.',
     'bg': 'В момента в обръщение има около 3 000 000 ZCL. Когато се получи вилицата, общият БТКП в обращение ще бъде текущата циркулираща доставка на БТК плюс ZCL.',
     'de': 'Derzeit sind ca. 3.000.000 ZCL im Umlauf. Wenn die Gabelung auftritt, ist die gesamte BTCP im Umlauf die gegenwärtige zirkulierende Versorgung von BTC plus ZCL.',
-    'fi': 'Tällä hetkellä liikkeessä on noin 3 000 000 ZCL. Kun haarukka esiintyy, liikkeessä oleva BTCP on BTC: n ja ZCL: n nykyinen kierrätys.'
+    'fi': 'Tällä hetkellä liikkeessä on noin 3 000 000 ZCL. Kun haarukka esiintyy, liikkeessä oleva BTCP on BTC: n ja ZCL: n nykyinen kierrätys.',
+    'cs': 'V současnosti je v oběhu přibližně 3.000.000 ZCL. Po forku bude v oběhu celkem celý oběh BTC + ZCL.'
   },
   'resources-header-title': {
     'ar': 'BTCP موارد',
@@ -1322,7 +1375,8 @@ const Localizations = {
     'el': 'Πόροι του BTCP',
     'bg': 'BTCP Ресурси',
     'de': 'BTCP Ressourcen',
-    'fi': 'BTCP Lisätietoa'
+    'fi': 'BTCP Lisätietoa',
+    'cs': 'BTCP Zdroje'
   },
   'resources-zclassic-cap-title': {
     'ar': 'ZCLassic Market Cap',
@@ -1347,7 +1401,8 @@ const Localizations = {
     'el': 'ZClassic Market Cap',
     'bg': 'ZClassic пазарна капитализация',
     'de': 'ZClassic Marktkapitalisierung',
-    'fi': 'ZClassic Markkina-Arvo'
+    'fi': 'ZClassic Markkina-Arvo',
+    'cs': 'Tržní kapitalizace ZClassic '
   },
   'resources-zclassic-cap-text': {
     'ar': 'في الأسفل قيمة “زيكلاسيك” الحالية ورأس المال',
@@ -1372,7 +1427,8 @@ const Localizations = {
     'el': 'Παρακάτω είναι η τρέχουσα τιμή συναλλαγής του ZClassic και το ανώτατο όριο της αγοράς.',
     'bg': 'Тук ще намерите актуалната разменна цена и пазарната капитализация на ZClassic.',
     'de': 'Unterhalb befinden sich der aktuelle Marktkurs von ZClassic und dessen Marktkapitalisierung.',
-    'fi': 'Alla näet ZClassicin tämänhetkisen kaupankäyntiarvon, sekä markkinan kokonaisarvon:'
+    'fi': 'Alla näet ZClassicin tämänhetkisen kaupankäyntiarvon, sekä markkinan kokonaisarvon:',
+    'cs': 'Níže je současná obchodní cena ZClassic a její tržní kapitalizace.'    
   },
   'resources-press-inquiries-title': {
     'ar': 'استفسارات صحافية',
@@ -1397,7 +1453,8 @@ const Localizations = {
     'el': 'Έρευνες Τύπου',
     'bg': 'Запитвания от медиите',
     'de': 'Presseanfragen',
-    'fi': 'Lehdistö'
+    'fi': 'Lehdistö',
+    'cs': 'Tiskové dotazy'
   },
   'resources-press-inquiries-text': {
     'ar': 'للتواصل مع منظمين الفريق لما يخص الصحافة والنشر عن طريق تويتر <a href="https://twitter.com/bitcoinprivate" target="_blank">@bitcoinprivate</a>',
@@ -1422,7 +1479,8 @@ const Localizations = {
     'el': 'Για να επικοινωνήσετε με τους πρωτεύοντες συντονιστές της ομάδας για τυχόν ερωτήσεις σχετικά με τον τύπο, επικοινωνήστε μαζί μας στο Twitter <a href="https://twitter.com/bitcoinprivate" target="_blank">@bitcoinprivate</a>.',
     'bg': 'За да установите контакт с основните координатори на екипа относно всякакви запитвания свързани с медиите, моля свържете се с нас чрез Twitter <a href="https://twitter.com/bitcoinprivate" target="_blank">@bitcoinprivate</a>.',
     'de': 'Bitte nehmen Sie mit uns auf Twitter <a href="https://twitter.com/bitcoinprivate" target="_blank">@bitcoinprivate</a> Kontakt auf, um die Hauptkoordinatoren des Teams für Presseanfragen zu kontaktieren.',
-    'fi': 'Onko sinulla kysymyksiä projektiin liittyen? Ota meihin yhteyttä Twitterissä <a href="https://twitter.com/bitcoinprivate" target="_blank">@bitcoinprivate</a>.'
+    'fi': 'Onko sinulla kysymyksiä projektiin liittyen? Ota meihin yhteyttä Twitterissä <a href="https://twitter.com/bitcoinprivate" target="_blank">@bitcoinprivate</a>.',
+    'cs': 'K zaslání tiskových dotazu přímím koordinátorům týmu použijte náš Twitter <a href="https://twitter.com/bitcoinprivate" target="_blank">@bitcoinprivate</a>.'
   },
   'resources-press-kit-title': {
     'ar': 'تحميل (Press Kit)',
@@ -1447,7 +1505,8 @@ const Localizations = {
     'el': 'Πακέτο Τύπου',
     'bg': 'Промоционални материали',
     'de': 'Pressebroschüre',
-    'fi': 'Materiaali'
+    'fi': 'Materiaali',
+    'cs': 'Tiskový materiál'
   },
   'resources-press-kit-text': {
     'ar': '<a href="presskit/presskit.zip" download>لتحميل نسخة مضغوطة لموارد "بتكوين برايفت" اضغط هنا.</a>',
@@ -1472,7 +1531,8 @@ const Localizations = {
     'el': '<a href="presskit/presskit.zip" download>Μπορείτε να κατεβάσετε ένα αρχείο zip που περιέχει τα στοιχεία επωνυμίας Bitcoin Private εδώ</a>.',
     'bg': 'Можете да свалите архив съдържащ <a href="presskit/presskit.zip" download>активите на марката от тук</a>.',
     'de': 'Sie können eine .ZIP Datei mit den <a href="presskit/presskit.zip" download>Bitcoin Private Markenwerte hier downloaden</a>.',
-    'fi': 'Bitcoin Private-markkinointimateriaali on koottu yhteen ZIP-tiedostoksi. <a href="presskit/presskit.zip" download>Voit ladata sen tästä</a>.'
+    'fi': 'Bitcoin Private-markkinointimateriaali on koottu yhteen ZIP-tiedostoksi. <a href="presskit/presskit.zip" download>Voit ladata sen tästä</a>.',
+    'cs': 'Za pomoci následujícího odkazu si stáhněte zip soubor obsahující <a href="presskit/presskit.zip" download>Tiskové podklady Bitcoin Private</a>.'
   },
   'resources-official-links-title': {
     'ar': 'الروابط الرسمية',
@@ -1497,7 +1557,8 @@ const Localizations = {
     'el': 'Επίσημοι σύνδεσμοι',
     'bg': 'Официален връзки',
     'de': 'Offizielle Links',
-    'fi': 'Viralliset Linkit'
+    'fi': 'Viralliset Linkit',
+    'cs': 'Oficiální odkazy'
   },
   'resources-official-links-text': {
     'ar': '<a href="https://github.com/BTCP-community/official-links/blob/master/README.md" target="_blank">يمكنك عرض دليل الرسمي بيتكوين الروابط الخاصة هنا.</a>',
@@ -1522,7 +1583,8 @@ const Localizations = {
     'el': '<a href="https://github.com/BTCP-community/official-links/blob/master/README.md" target="_blank">Μπορείτε να δείτε έναν κατάλογο των επίσημων συνδέσμων του Bitcoin Private εδώ</a>.',
     'bg': '<a href="https://github.com/BTCP-community/official-links/blob/master/README.md" target="_blank">Можете да видите директория на официалните Bitcoin Private линкове тук</a>.',
     'de': '<a href="https://github.com/BTCP-community/official-links/blob/master/README.md" target="_blank">Sie können hier die offiziellen Bitcoin Private Links einsehen</a>.',
-    'fi': 'Löydäät <a href="https://github.com/BTCP-community/official-links/blob/master/README.md" target="_blank">täältä hyödyllisiä linkkejä</a>.'
+    'fi': 'Löydäät <a href="https://github.com/BTCP-community/official-links/blob/master/README.md" target="_blank">täältä hyödyllisiä linkkejä</a>.',
+    'cs': 'Pod následujícím odkazem naleznete <a href="https://github.com/BTCP-community/official-links/blob/master/README.md" target="_blank"> oficiálně udržovaný rozcestník</a>.',
   },
   'resources-social-title': {
     'ar': 'التواصل الاجتماعي',
@@ -1547,7 +1609,8 @@ const Localizations = {
     'el': 'Είμαστε σε ισοστελίδες κοινωνικής δικτύωσης',
     'bg': 'Открийте ни и в социалните мрежи',
     'de': 'Wir sind auf',
-    'fi': 'Olemme aktiivisia somessa'
+    'fi': 'Olemme aktiivisia somessa',
+    'cs': 'Jsme komunikativní'
   }
 };
 
@@ -1575,6 +1638,7 @@ const Localizations = {
   'el': '',
   'bg': '',
   'de': '',
-  'fi': ''
+  'fi': '',
+  'cs': ''
 }
 */
