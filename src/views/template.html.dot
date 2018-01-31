@@ -48,13 +48,5 @@
     gtag('config', 'UA-111728706-1');
   </script>
 
-    <!-- Localization for TeamLinks -->
-    <script>
-        $("a#teamlink1").attr('href',
-            'team.html'+window.location.search);
-        $("a#teamlink2").attr('href',
-            'team.html'+window.location.search);
-    </script>
-
   </body>
 </html>
