@@ -31,4 +31,13 @@ $(function() {
 
     $('.zcl-warning').hide();
   })
+
+  // Localization for TeamLinks
+    $("a#teamlink1").attr('href',
+        'team.html'+window.location.search);
+    $("a#teamlink2").attr('href',
+        'team.html'+window.location.search);
+
+  // Startup Modal
+  $('.on-load-modal').modal('show');
 });

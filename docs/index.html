@@ -28,16 +28,31 @@
 
     <title localization-tag="page-title">Bitcoin Private</title>
 
-    <link href="css/main.css?cachebreaker=851030" rel="stylesheet" type="text/css" />
+    <link href="css/main.css?cachebreaker=642110" rel="stylesheet" type="text/css" />
 
     <script type="text/javascript" src="dependencies/jquery/dist/jquery.min.js"></script>
     <script type="text/javascript" src="dependencies/bootstrap-sass/assets/javascripts/bootstrap.min.js"></script>
     <script type="text/javascript" src="/dependencies/js-url/url.min.js"></script>
-    <script type="text/javascript" src="javascript/Localizations.js?cachbreaker=540273"></script>
+    <script type="text/javascript" src="javascript/Localizations.js?cachbreaker=956625"></script>
     <script type="text/javascript" src="javascript/Main.js"></script>
   </head>
   <body>
-    <nav class="navbar navbar-default">
+    <div  class="on-load-modal modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Latest Update</h4>
+      </div>
+      <div class="modal-body">
+        <p>Check out our Voluntary Miner Contribution program at <a target="_blank" href="https://fund.zclassic.org">https://fund.zclassic.org</a>.
+          <br> More details on how the program works can be found at <a target="_blank" href="https://redd.it/7txoej">https://redd.it/7txoej</a>. </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<nav class="navbar navbar-default">
   <div class="modal-strip" style="background-color: black; padding-top: 5px">
     <div class="container">
         <div class="row">
@@ -642,6 +657,8 @@
 </div>
 
 
+
+
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-111728706-1"></script>
   <script>
@@ -650,14 +667,6 @@
     gtag('js', new Date());
     gtag('config', 'UA-111728706-1');
   </script>
-
-    <!-- Localization for TeamLinks -->
-    <script>
-        $("a#teamlink1").attr('href',
-            'team.html'+window.location.search);
-        $("a#teamlink2").attr('href',
-            'team.html'+window.location.search);
-    </script>
 
   </body>
 </html>
