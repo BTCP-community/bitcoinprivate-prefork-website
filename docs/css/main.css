@@ -8544,4 +8544,21 @@ html, body {
       #footer .links a:hover {
         color: #d9d9d9; }
 
+#support-button i {
+  margin-left: 5px; }
+
+#support-dropdown {
+  border-radius: 4px !important;
+  width: 160px;
+  padding: 0; }
+  #support-dropdown a {
+    display: block;
+    line-height: 40px;
+    color: #272D63;
+    text-align: center;
+    text-decoration: none; }
+    #support-dropdown a:hover {
+      background: #272D63;
+      color: #FFFFFF; }
+
 /*# sourceMappingURL=main.css.map */
