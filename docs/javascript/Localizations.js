@@ -1619,12 +1619,11 @@ const Localizations = {
   'ja': 'スナップショットの日付：2018年2月28日',
   'ro': 'Data snapshot-ului: Februarie 28, 2018',
   'ru': 'Дата снимка сети: 28 Февраля 2018',
-  'vi': '','Ngày Snapshot: 28 tháng 2 năm 2018',
+  'vi': 'Ngày Snapshot: 28 tháng 2 năm 2018',
   'el': 'Ημερομηνία Snapshot: 28 Φεβρουαρίου 2018',
   'bg': 'Snapshot date: February 28th, 2018',
   'de': 'Snapshot Datum: 28. Februar 2018',
   'fi': 'Snapshot päivämäärä: 28. helmikuuta 2018'
- 
 },
 
 'fork-date': {
@@ -1646,7 +1645,7 @@ const Localizations = {
   'ja': 'フォーク・デートとメインネットの打ち上げ：約2日後',
   'ro': 'Data Bifurcației & Lansarea principală: Aproximativ 2 zile mai tarziu.',
   'ru': 'Дата Форка и Основной Запуск Сети : Примерно через 2 дня после',
-  'vi': '', 'Ngày công bố Fork & Main Net: Khoảng 2 ngày sau'
+  'vi': 'Ngày công bố Fork & Main Net: Khoảng 2 ngày sau',
   'el': 'Ημερομηνία hard fork και εκκίνηση κυρίου δικτύου: περίπου 2 μέρες μετά',
   'bg': 'Fork Date & Main Net Launch: Approximately 2 days later',
   'de': 'Fork Datum & Main Net Eröffnung: Ungefähr 2 Tage später.',
@@ -1670,13 +1669,13 @@ const Localizations = {
   'tr': 'Destek',
   'ur': 'حمایت',
   'ja': 'サポート',
-  'ro': 'Suport'
+  'ro': 'Suport',
   'ru': 'Поддержка',
   'vi': 'Hỗ trợ',
   'el': 'Υποστήριξη',
   'bg': 'поддържа',
   'de': 'Hilfe',
-  'fi': 'Asiakastuki'
+  'fi': 'Asiakastuki',
   'hr': 'Podrška'
 },
 
