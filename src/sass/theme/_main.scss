@@ -16,7 +16,7 @@
 }
 
 #navbar-collapse {
-  @media (max-width: $screen-sm-min) {
+  @media (max-width: $screen-md-min) {
     background: $color-white;
     border-radius: 10px;
   }
