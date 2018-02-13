@@ -8561,4 +8561,10 @@ html, body {
       background: #272D63;
       color: #FFFFFF; }
 
+.fork-date {
+  margin-top: 0 !important; }
+
+.snap-date {
+  margin-bottom: 0 !important; }
+
 /*# sourceMappingURL=main.css.map */
