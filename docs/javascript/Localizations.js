@@ -887,7 +887,7 @@ const Localizations = {
     'zh_CN': '就目前而言，我们正在积极地与各个交易平台进行沟通。我们现在还不会发布关于哪个交易平 台会支持分叉的申明，请耐心等待。',
     'it': 'Siamo già attivamente in contatto con diversi exchange approfondendo le varie questioni. Vi preghiamo di essere pazienti al momento non possiamo dare alcuna conferma. ',
     'pt': 'A partir de agora, estamos conversando individualmente com cada corretora sobre este assunto. Sejamos pacientes, pois ainda não estamos anunciando individualmente quais corretoras darão suporte.',
-    'ko': '현재로선, 저희는 개별 거래소에 연락을 취하고 있습니다. 우리가 거래소 지원에 관한 공지가 있을 때까지 기다려 주십시오.',
+    'ko': '현재로선, 저희는 개별 거래소에 연락을 취하고 있습니다. 관한 공지가 있을 때까지 기다려 주십시오.',
     'tr': 'Şu an itibariyle, farklı borsalar ile iletişim içindeyiz. Lütfen borsalardan gelen olumlu cevapları açıklayana kadar sabırlı olun.',
     'ur': 'فی الحال، ہم انفرادی تبادلوں کے ساتھ فعال بات چیت میں مشغول ہیں لیکن براہ کرم صبر کریں کیونکہ ہم انفرادی تبادلے سے متعلق معاونت کے حوالے سے بیانات جاری نہیں کررہے ہیں.',
     'ja': '現在のところ、私たちは個々の取引所と今回のフォークに対して活発に対話をしているところです。個々の取引所からのサポートに対して、私たちはまだ公式の声明を出していないので、どうかしばらくの間お待ちください。',
@@ -1287,7 +1287,7 @@ const Localizations = {
     'zh_CN': '目前，ZCL的流通量约为300万个。当叉车出现时，流通中的BTCP总量将是当前BTC和ZCL的循环供应量。',
     'it': 'Attualmente, ci sono circa 3.000.000 di ZCL in circolazione. Quando si verifica la forcella, il BTCP totale in circolazione sarà l&#39;attuale fornitura circolante di BTC più ZCL.',
     'pt': 'Atualmente, existem cerca de 3.000.000 de ZCL em circulação. Quando ocorre a garfo, o BTCP total em circulação será o fornecimento circulante atual do BTC mais ZCL.',
-    'ko': '현재 약 3,000,000 개의 ZCL이 유통되고 있습니다. 포크가 이후 BTCP는 현재 유통중인 BTC에 ZCL더한만큼 유통 공급됩니다.',
+    'ko': '현재 약 3,000,000 개의 ZCL이 유통되고 있습니다. 포크 이후 BTCP는 순환중인 BTC의 양 + 순환중인 ZCL의 양이 됩니다.',
     'tr': 'Halen, dolaşımda yaklaşık 3,000,000 ZCL bulunmaktadır. Çatal olduğunda, dolaşımdaki toplam BTCP, BTC artı ZCL\'nin mevcut dolaşımdaki kaynağı olacaktır.',
     'ur': 'فورک کے بعد بی ٹی سی پی کی گردش کی مقدار ZCL اور BTC گردش کرنے کی رقم ہوگی جس کا نتیجے 18،500،000 بی ٹی سی پی ہے. کل زندگی بھر کی فراہمی تقریبا 21،000،000 بی ٹی سی پی ہوگی.',
     'ja': 'BTCP のフォーク後の供給量は ZCL と BTC の供給量の合計になり、18,500,000 BTCP となります。その後の最終的な全通貨供給量は、21,000,000 BTCP となります。',
@@ -1412,7 +1412,7 @@ const Localizations = {
     'zh_CN': '如有任何媒体发布相关的问题和事宜想与团队主要协调人员取得联系，请联系 Twitter账号 <a href="https://twitter.com/bitcoinprivate" target="_blank">@bitcoinprivate</a>',
     'it': 'Per mettersi in contatto con il team e per qualsiasi richiesta di informazioni stampa, potete contattarci su Twitter <a href="https://twitter.com/bitcoinprivate" target="_blank">@bitcoinprivate</a>',
     'pt': 'Para contactar os principais coordenadores da equipe sobre qualquer consulta relacionada à imprensa, entre em contato pelo Twitter <a href="https://twitter.com/bitcoinprivate" target="_blank">@bitcoinprivate</a>.',
-    'ko': '개발팀에 관한 문의를 하실려면 Twitter <a href="https://twitter.com/bitcoinprivate" target="_blank">@bitcoinprivate</a> 로 연락해 주십시요',
+    'ko': '개발팀에 관한 문의를 하실려면 Twitter <a href="https://twitter.com/bitcoinprivate" target="_blank">@bitcoinprivate</a> 로 연락주세요.',
     'tr': 'Basınla ilgili herhangi bir sorunuz için ekibin birincil koordinatörlerine Twitter üzerinden <a href="https://twitter.com/bitcoinprivate" target="_blank">@bitcoinprivate</a> iletişime geçebilirsiniz.',
     'ur': 'میڈیا سے متعلق کسی بھی تحقیقات کے لئے ٹیم کے بنیادی نواحقین کو پہنچنے کے لئے، براہ کرم ٹویٹر<a href="https://twitter.com/bitcoinprivate" target="_blank">bitcoinprivate</a> پر ہم سے رابطہ کریں.',
     'ja': '私たちのチームのコーディネーターに対して、報道用のお問い合わせがある場合は、Twitter の <a href="https://twitter.com/bitcoinprivate" target="_blank">@bitcoinprivate</a> に連絡をお願いします。',
@@ -1537,7 +1537,7 @@ const Localizations = {
     'zh_CN': '我们的社交网络',
     'it': 'Ci trovatei su',
     'pt': 'Estamos nas redes sociais',
-    'ko': '우리의 SNS는 열려있습니다',
+    'ko': '소셜 미디어',
     'tr': 'Sosyaliz',
     'ur': 'ہم سماجی ہیں',
     'ja': 'SNS リンク',
@@ -1571,7 +1571,7 @@ const Localizations = {
       'vi': 'Chỉ trong thời gian 30 ngày, đã có trên 70 cộng tác viên và hơn 20 kỹ sư tham gia sáng kiến của chúng tôi!<br>Hãy tham gia với chúng tôi :-)',
       'el': 'Over 70 total contributors, with over 20 engineers having joined our initiative in just 30 days time!<br>Reach out to us to join :-)',
       'bg': 'Over 70 total contributors, with over 20 engineers having joined our initiative in just 30 days time!<br>Reach out to us to join :-)',
-      'de': 'Über insgesamt 70 Mitarbeiter, mit über 20 Ingenieure sind unserer Initiative in nur 30 Tagen beigetreten!<br>Kontaktiere uns, um unserer Community beizutreten :-)',
+      'de': 'Unserer Initiative sind in nur 30 Tagen insgesamt über 70 Mitwirkende und über 20 Entwickler beigetreten!<br>Melde dich bei uns um bei unserer Community mitzumachen :-)',
       'fi': 'Over 70 total contributors, with over 20 engineers having joined our initiative in just 30 days time!<br>Reach out to us to join :-)'
   },
     'why-btcp-team-button': {
@@ -1599,6 +1599,88 @@ const Localizations = {
         'de': 'Sehe unser Team an',
         'fi': 'See our team'
     },
+
+      'snap-date': {
+  'ar': 'Snapshot date: February 28th, 2018',
+  'es': 'Fecha de Snapshot: Febrero 28, 2018',
+  'fr': 'Date du Snapshot: 28 Février',
+  'he': 'תאריך ביצוע snapshot: 28 פברואר 2018',
+  'hu': 'Snapshot" dátum: 2018. február 28',
+  'id': 'Tanggal Snapshot: 28 Februari 2018',
+  'ms': 'Tarikh Snapshot: 28 Februari 2018',
+  'nl': 'Snapshot datum: 28 Februari 2018',
+  'sr': 'Datum snapshot-a: 28. Februar 2018',
+  'zh_CN': '快照时间：2018年2月28日',
+  'it': 'Data dello Snapshot: 28 Febbraio 2018',
+  'pt': 'Data do Snapshot: 28 Fevereiro 2018',
+  'ko': '스냅샷 날짜: 2018년 2월 28일',
+  'tr': 'Snaphot Tarihi: 28 Şubat 2018',
+  'ur': 'Snapshot date: February 28th, 2018',
+  'ja': 'スナップショットの日付：2018年2月28日',
+  'ro': 'Data snapshot-ului: Februarie 28, 2018',
+  'ru': 'Дата снимка сети: 28 Февраля 2018',
+  'vi': '','Ngày Snapshot: 28 tháng 2 năm 2018',
+  'el': 'Ημερομηνία Snapshot: 28 Φεβρουαρίου 2018',
+  'bg': 'Snapshot date: February 28th, 2018',
+  'de': 'Snapshot Datum: 28. Februar 2018',
+  'fi': 'Snapshot päivämäärä: 28. helmikuuta 2018'
+ 
+},
+
+'fork-date': {
+  'ar': 'Fork Date & Main Net Launch: Approximately 2 days later',
+  'es': 'Fecha de bifurcación y lanzamiento principal de la red: Aproximadamente dos días después',
+  'fr': 'Date du Hard Fork et lancement du Main Net: Environ 2 jours plus tard',
+  'he': 'תאריך הפיצול ו”עלייה לאוויר”: בערך יומיים לאחר מכן',
+  'hu': '”Fork” időpont és főhalózat indulása, körülbelül 2 nappal később',
+  'id': 'Tanggal Hard Fork & Peluncuran Jaringan Utama: sekitar 2 hari kemudian',
+  'ms': 'Tarikh Fork & Pelancaran Main Net: Lebih Kurang 2 hari kemudian ',
+  'nl': 'Fork datum & Main Net lancering: Ongeveer 2 dagen later',
+  'sr': 'Datum hard fork-a i početak rada glavne mreže: Otprilike 2 dana nakon snapshot-a',
+  'zh_CN': '分叉日期 & 主网上线：约2天后',
+  'it': 'Data del Fork e Lancio della Main Net: Approssimativamente 2 giorni dopo ',
+  'pt': 'Data do Fork & lançamento da Main Net: Aproximadamente 2 dias depois',
+  'ko': '포크 날짜 및 메인넷 런칭: 스냅샷 이틀 후',
+  'tr': 'Çatallanma Tarihi & Ana Ağın Başlatılması: Yaklaşık 2 gün sonra',
+  'ur': 'Fork Date & Main Net Launch: Approximately 2 days later',
+  'ja': 'フォーク・デートとメインネットの打ち上げ：約2日後',
+  'ro': 'Data Bifurcației & Lansarea principală: Aproximativ 2 zile mai tarziu.',
+  'ru': 'Дата Форка и Основной Запуск Сети : Примерно через 2 дня после',
+  'vi': '', 'Ngày công bố Fork & Main Net: Khoảng 2 ngày sau'
+  'el': 'Ημερομηνία hard fork και εκκίνηση κυρίου δικτύου: περίπου 2 μέρες μετά',
+  'bg': 'Fork Date & Main Net Launch: Approximately 2 days later',
+  'de': 'Fork Datum & Main Net Eröffnung: Ungefähr 2 Tage später.',
+  'fi': 'Forkkauspäivä ja pääverkon käynnistyminen: noin 2 päivää myöhemmin'
+
+},
+'navigation-support':{
+   'ar':  'الدعم',
+  'es': 'Soporte',
+  'fr': 'Suport',
+  'he': 'תמיכה',
+  'hu': 'Támogatás',
+  'id': 'Mendukung',
+  'ms': 'Sokongan',
+  'nl': 'Ondersteuning',
+  'sr': 'Podrška',
+  'zh_CN': '支持',
+  'it': 'Supporto',
+  'pt': 'Suporte',
+  'ko': '지원',
+  'tr': 'Destek',
+  'ur': 'حمایت',
+  'ja': 'サポート',
+  'ro': 'Suport'
+  'ru': 'Поддержка',
+  'vi': 'Hỗ trợ',
+  'el': 'Υποστήριξη',
+  'bg': 'поддържа',
+  'de': 'Hilfe',
+  'fi': 'Asiakastuki'
+  'hr': 'Podrška'
+},
+
+
 };
 
 /*
