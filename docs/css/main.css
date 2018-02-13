@@ -8399,7 +8399,7 @@ html, body {
 .navbar-toggle {
   background: #FFFFFF; }
 
-@media (max-width: 768px) {
+@media (max-width: 992px) {
   #navbar-collapse {
     background: #FFFFFF;
     border-radius: 10px; } }
