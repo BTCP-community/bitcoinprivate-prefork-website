@@ -43,7 +43,7 @@ var establishUnitValues = function() {
   $('#secsLeft').text(secsLeft);
   $('#counterMobile').html(daysLeft+" days, "+hoursLeft+" hours<br>"+minsLeft+" mins, "+secsLeft+" secs");
 
-  // Set styles for DOM elems based on unit values
+  // Set styles for DOM elems based on half max unit values
   setUnitStyles('days',5);
   setUnitStyles('hours',12);
   setUnitStyles('mins',30);
@@ -64,12 +64,12 @@ var establishUnitValues = function() {
 
 // Set unit styles for various DOM elems for it
 var setUnitStyles = function(unit,halfUnit) {
-  document.getElementById(unit+'Counter').style.marginLeft = window[unit+'Left'] <= halfUnit ? "60px" : "0";
+  document.getElementById(unit+'Counter').style.marginLeft  = window[unit+'Left'] <= halfUnit ? "60px"  : "0";
   document.getElementById(unit+'Counter').style.marginRight = window[unit+'Left'] <= halfUnit ? "-60px" : "0";
-  document.getElementById(unit+'Wrapper').style.left = window[unit+'Left'] <= halfUnit ? "-60px" : "0";
-  document.getElementById(unit+'Filler').style.opacity = window[unit+'Left'] <= halfUnit ? "0" : "1";
-  document.getElementById(unit+'Left').style.marginLeft = window[unit+'Left'] <= halfUnit ? "-60px" : "0";
-  document.getElementById(unit+'Text').style.marginLeft = window[unit+'Left'] <= halfUnit ? "-60px" : "0";
+  document.getElementById(unit+'Wrapper').style.left        = window[unit+'Left'] <= halfUnit ? "-60px" : "0";
+  document.getElementById(unit+'Filler').style.opacity      = window[unit+'Left'] <= halfUnit ? "0"     : "1";
+  document.getElementById(unit+'Left').style.marginLeft     = window[unit+'Left'] <= halfUnit ? "-60px" : "0";
+  document.getElementById(unit+'Text').style.marginLeft     = window[unit+'Left'] <= halfUnit ? "-60px" : "0";
 }
 
 // Set animation delays for 3 DOM elems for unit
@@ -115,7 +115,3 @@ var showConfetti = function() {
   document.getElementById('confetti').style.display = 'block';
   document.getElementById('snapshotBox').style.display = 'block';
 }
-
-// Testing snapshot
-// timeNow = timeSnapshot;
-

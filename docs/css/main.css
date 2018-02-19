@@ -8567,6 +8567,14 @@ html, body {
 .snap-date {
   margin-bottom: 0 !important; }
 
+.confetti-canvas {
+  position: fixed;
+  display: none;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
 .home-logo-symbol {
   display: inline-block;
   margin-right: 20px; }
@@ -8604,6 +8612,10 @@ html, body {
   height: 120px;
   overflow: hidden;
   margin: 40px 15px; }
+
+.counter-wrapper-breaks {
+  display: inline-block;
+  width: 20px; }
 
 .wrapper {
   position: relative;

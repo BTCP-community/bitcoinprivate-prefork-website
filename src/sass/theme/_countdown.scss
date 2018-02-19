@@ -1,3 +1,5 @@
+.confetti-canvas {position: fixed; display: none; top: 0; left: 0; width: 100%; height: 100%}
+
 .home-logo-symbol {display: inline-block; margin-right: 20px}
 .home-logo-slogan {position: relative; display: inline-block; top: -30px; text-align: left}
 
@@ -7,6 +9,7 @@
 .awaiting-block-box {display: none; height: 200px; margin: 40px 0; font-size: 72px; color: #272d63}
 
 .counter {display: inline-block; width: 120px; height: 120px; overflow: hidden; margin: 40px 15px}
+.counter-wrapper-breaks {display: inline-block; width: 20px}
 .wrapper {position: relative; display: inline-block; border-radius: 50%; background: transparent; width: 120px; height: 120px}
 .wrapper, .wrapper * {-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
 .wrapper .pie {width: 50%; height: 100%; transform-origin: 100% 50%; position: absolute; background: transparent; border: solid 10px #272d63}

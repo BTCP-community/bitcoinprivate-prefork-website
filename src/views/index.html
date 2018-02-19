@@ -1,4 +1,4 @@
-<canvas style="position: fixed; display: none; top: 0; left: 0; width: 100%; height: 100%" id="confetti"></canvas>
+<canvas class="confetti-canvas" id="confetti"></canvas>
 
 <nav class="navbar navbar-default">
   <div class="modal-strip" style="background-color: black; padding-top: 5px">
@@ -116,7 +116,7 @@
             </div>
             <div class="numbers color-primary" id="daysLeft"></div>
             <div class="unit color-primary" id="daysText">days</div>
-          </div><div style="display: inline-block; width: 20px"></div><div class="counter" id="hoursCounter">
+          </div><div class="counter-wrapper-breaks"></div><div class="counter" id="hoursCounter">
             <div class="wrapper" id="hoursWrapper" id="hoursWrapper">
               <div class="pie spinner hours-anim-spinner" id="hoursSpinner"></div>
               <div class="pie filler hours-anim-filler" id="hoursFiller"></div>
@@ -124,7 +124,7 @@
             </div>
             <div class="numbers color-primary" id="hoursLeft"></div>
             <div class="unit color-primary" id="hoursText">hours</div>
-          </div><div style="display: inline-block; width: 20px"></div><div class="counter" id="minsCounter">
+          </div><div class="counter-wrapper-breaks"></div><div class="counter" id="minsCounter">
             <div class="wrapper" id="minsWrapper">
               <div class="pie spinner mins-anim-spinner" id="minsSpinner"></div>
               <div class="pie filler mins-anim-filler" id="minsFiller"></div>
@@ -132,7 +132,7 @@
             </div>
             <div class="numbers color-primary" id="minsLeft"></div>
             <div class="unit color-primary" id="minsText">mins</div>
-          </div><div style="display: inline-block; width: 20px"></div><div class="counter" id="secsCounter">
+          </div><div class="counter-wrapper-breaks"></div><div class="counter" id="secsCounter">
             <div class="wrapper" id="secsWrapper">
               <div class="pie spinner secs-anim-spinner" id="secsSpinner"></div>
               <div class="pie filler secs-anim-filler" id="secsFiller"></div>
@@ -143,7 +143,7 @@
           </div>
         </div>
 
-        <!-- Desktop counter //-->
+        <!-- Mobile counter //-->
         <div class="counter-mobile" id="counterMobile"></div>
 
       </div>
