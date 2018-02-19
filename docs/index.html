@@ -28,16 +28,18 @@
 
     <title localization-tag="page-title">Bitcoin Private</title>
 
-    <link href="css/main.css?cachebreaker=117821" rel="stylesheet" type="text/css" />
+    <link href="css/main.css?cachebreaker=575488" rel="stylesheet" type="text/css" />
 
     <script type="text/javascript" src="dependencies/jquery/dist/jquery.min.js"></script>
     <script type="text/javascript" src="dependencies/bootstrap-sass/assets/javascripts/bootstrap.min.js"></script>
     <script type="text/javascript" src="/dependencies/js-url/url.min.js"></script>
-    <script type="text/javascript" src="javascript/Localizations.js?cachbreaker=505474"></script>
-    <script type="text/javascript" src="javascript/Main.js?cachbreaker=166673"></script>
+    <script type="text/javascript" src="javascript/Localizations.js?cachbreaker=122928"></script>
+    <script type="text/javascript" src="javascript/Main.js?cachbreaker=628984"></script>
+    <script type="text/javascript" src="javascript/Countdown.js?cachbreaker=301476" defer></script>
+    <script type="text/javascript" src="javascript/Confetti.js?cachbreaker=776141" defer></script>
   </head>
   <body>
-    
+    <canvas style="position: fixed; display: none; top: 0; left: 0; width: 100%; height: 100%" id="confetti"></canvas>
 
 <nav class="navbar navbar-default">
   <div class="modal-strip" style="background-color: black; padding-top: 5px">
@@ -100,10 +102,10 @@
                 <a href="/?lang=ja">日本語</a>
                 <a href="/?lang=el">ελληνικά</a>
                 <a href="/?lang=de">Deutsch</a>
-                <a href="/?lang=ko">한국어</a>
               </div>
 
               <div class="col-xs-6">
+                <a href="/?lang=ko">한국어</a>
                 <a href="/?lang=fr">Français</a>
                 <a href="/?lang=es">Español</a>
                 <a href="/?lang=sr">српски</a>
@@ -115,7 +117,6 @@
                 <a href="/?lang=vi">Tiếng Việt</a>
                 <a href="/?lang=bg">български</a>
                 <a href="/?lang=fi">Suomi</a>
-                <a href="/?lang=cz">Česky</a>
               </div>
             </div>
           </div>
@@ -127,7 +128,7 @@
 
 <div class="container-fluid">
   <div id="hero" class="row">
-    <div class="col-xs-10 col-xs-push-1 col-sm-6 col-sm-push-3 text-center">
+    <div class="col-xs-10 col-xs-push-1 col-sm-6 col-sm-push-3 text-center" style="display: none" id="regularDisplay">
       <img src="images/icon.svg" height="160px" />
       <h1><span class="color-primary">Bitcoin</span> <span class="color-secondary">Private</span></h1>
       <p class="x-large color-primary" localization-tag="hero-blurb">private, decentralized, fast, open source,<br class="hidden-xs" />community-driven coin</p>
@@ -135,6 +136,66 @@
       <h3 class="color-primary font-weight-bold fork-date" localization-tag="fork-date" >Fork Date & Main Net Launch: Approximately 2 days later</h3>
 
       <a href="#hard-fork" class="btn btn-accent view-section" localization-tag="hero-hard-fork-details">Hard Fork Details</a>
+    </div>
+        <div class="col-xs-12 col-sm-12 text-center" style="display: none" id="countdownDisplay">
+      <div class="home-logo-symbol">
+          <img src="images/icon.svg" style="height: 160px; vertical-align: baseline; margin-bottom: 0" />
+      </div><div class="home-logo-slogan">
+        <h1><span class="color-primary">Bitcoin</span> <span class="color-secondary">Private</span></h1>
+        <p class="x-large color-primary" localization-tag="hero-blurb">private, decentralized, fast, open source,<br class="hidden-xs" />community-driven coin</p>
+      </div>
+      <div class="counter-box text-center" id="counterBox">
+        <div style="color: #b00">Snapshot: The next block found after 28th Feb @ 5:00pm UCT<br>Fork & main net launch: Approx 2 days later</div>
+
+        <!-- Desktop counter //-->
+        <div class="counter-desktop" id="counterDesktop">
+          <div class="counter" id="daysCounter">
+            <div class="wrapper" id="daysWrapper">
+              <div class="pie spinner days-anim-spinner" id="daysSpinner"></div>
+              <div class="pie filler days-anim-filler" id="daysFiller"></div>
+              <div class="mask days-anim-mask" id="daysMask"></div>
+            </div>
+            <div class="numbers color-primary" id="daysLeft"></div>
+            <div class="unit color-primary" id="daysText">days</div>
+          </div><div style="display: inline-block; width: 20px"></div><div class="counter" id="hoursCounter">
+            <div class="wrapper" id="hoursWrapper" id="hoursWrapper">
+              <div class="pie spinner hours-anim-spinner" id="hoursSpinner"></div>
+              <div class="pie filler hours-anim-filler" id="hoursFiller"></div>
+              <div class="mask hours-anim-mask" id="hoursMask"></div>
+            </div>
+            <div class="numbers color-primary" id="hoursLeft"></div>
+            <div class="unit color-primary" id="hoursText">hours</div>
+          </div><div style="display: inline-block; width: 20px"></div><div class="counter" id="minsCounter">
+            <div class="wrapper" id="minsWrapper">
+              <div class="pie spinner mins-anim-spinner" id="minsSpinner"></div>
+              <div class="pie filler mins-anim-filler" id="minsFiller"></div>
+              <div class="mask mins-anim-mask" id="minsMask"></div>
+            </div>
+            <div class="numbers color-primary" id="minsLeft"></div>
+            <div class="unit color-primary" id="minsText">mins</div>
+          </div><div style="display: inline-block; width: 20px"></div><div class="counter" id="secsCounter">
+            <div class="wrapper" id="secsWrapper">
+              <div class="pie spinner secs-anim-spinner" id="secsSpinner"></div>
+              <div class="pie filler secs-anim-filler" id="secsFiller"></div>
+              <div class="mask secs-anim-mask" id="secsMask"></div>
+            </div>
+            <div class="numbers color-primary" id="secsLeft"></div>
+            <div class="unit color-primary" id="secsText">secs</div>
+          </div>
+        </div>
+
+        <!-- Desktop counter //-->
+        <div class="counter-mobile" id="counterMobile"></div>
+
+      </div>
+      <div class="awaiting-block-box text-center" id="awaitingBlock"></div>
+      <div class="snapshot-box text-center" id="snapshotBox">
+        Snapshot has now<div class="breaker"></div> taken place!
+      </div>
+      <div class="text-center">
+        <a href="#hard-fork" class="btn btn-accent view-section" localization-tag="hero-hard-fork-details">Hard Fork Details</a>
+        <a href="javascript:timeNow=timeSnapshot" class="btn btn-accent">Test 0 secs left</a>
+      </div>
     </div>
   </div>
 
@@ -595,12 +656,6 @@
           <h3 localization-tag="faq-vmcp-total-title">What is our Voluntary Miner Contribution Program?</h3>
           <p localization-tag="faq-vmcp-total-text">Check out our Voluntary Miner Contribution program at <a target="_blank" href="https://fund.zclassic.org">https://fund.zclassic.org</a>.
             <br> More details on how the program works can be found at <a target="_blank" href="https://redd.it/7txoej">https://redd.it/7txoej</a>.
-          </p>
-
-          <h3 localization-tag="faq-vmcp-total-title">What will happen with Zclassic?</h3>
-          <p localization-tag="faq-vmcp-total-text">Zclassic and it’s wallets will still exist. Zclassic nodes will be supported post-fork.
-            However, as mentioned in the past, there will be no current active development for Zclassic as the current development team will shift 100% focus to Bitcoin Private development.
-            Anyone from the community will still be able to build on Zclassic if they wish.
           </p>
         </div>
       </div>
