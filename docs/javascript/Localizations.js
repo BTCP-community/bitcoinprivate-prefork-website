@@ -1744,8 +1744,32 @@ const Localizations = {
         'hr': 'Podrška',
         'cz': 'Podpora'
     },
-
-
+    'business-blurb': {
+        'ar': '',
+        'es': '',
+        'fr': '',
+        'he': '',
+        'hu': '',
+        'id': '',
+        'ms': '',
+        'nl': '',
+        'sr': '',
+        'zh_CN': '',
+        'it': '',
+        'pt': '',
+        'ko': '',
+        'tr': '',
+        'ur': '',
+        'ja': '',
+        'ro': '',
+        'ru': '',
+        'vi': '',
+        'el': '',
+        'bg': '',
+        'de': '',
+        'fi': '',
+        'cz': ''
+      }
 };
 
 /*
