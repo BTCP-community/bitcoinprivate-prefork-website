@@ -4,25 +4,28 @@ var doConfettiResize = true;
 // Set the date and time after which the snapshot will occur (next discovered block)
 var timeSnapshot = 1519837200; // 28th Feb 2018 @ 17:00:00 UTC
 
-// Get current timestamp and set as timeNow
-$.get("/local-data.json?q=getInfo&timestamp="+Date.now(), function(data) {
-  timeNow = data.timestamp;
-  // Every 1 sec, count down the timer, establish unit values
-  // and if we've passed the snapshot date & time, switch to that message display
-  if (timeSnapshot > timeNow) {
-    document.getElementById("countdownDisplay").style.display = "block";
-    tickoverCountdown = setInterval(function() {
-      countdownTime();
-      establishUnitValues();
-      if (timeSnapshot < timeNow) {
-        showAwaitingBlock();
-        clearInterval(tickoverCountdown);
-      }
-    },1000);
-  } else {
-    document.getElementById("regularDisplay").style.display = "block";
-  }
-});
+// Get current timestamp and set as timeNow via response header of a tiny file at endpoint
+var req = new XMLHttpRequest();
+req.open('GET', '/favicons/manifest.json?rand='+Math.floor((Math.random()*10000000)+1), false);
+req.send(null);
+var headerDate = req.getResponseHeader('Date');
+Date.prototype.getUnixTime = function() { return this.getTime()/1000|0 };
+var timeNow = new Date(headerDate).getUnixTime();
+// Every 1 sec, count down the timer, establish unit values
+// and if we've passed the snapshot date & time, switch to that message display
+if (timeSnapshot > timeNow) {
+  document.getElementById("countdownDisplay").style.display = "block";
+  tickoverCountdown = setInterval(function() {
+    countdownTime();
+    establishUnitValues();
+    if (timeSnapshot < timeNow) {
+      showAwaitingBlock();
+      clearInterval(tickoverCountdown);
+    }
+  },1000);
+} else {
+  document.getElementById("regularDisplay").style.display = "block";
+}
 
 // Increment timer
 var countdownTime = function() {
