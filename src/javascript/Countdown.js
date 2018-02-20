@@ -14,7 +14,7 @@ var timeNow = new Date(headerDate).getUnixTime();
 // Every 1 sec, count down the timer, establish unit values
 // and if we've passed the snapshot date & time, switch to that message display
 if (timeSnapshot > timeNow) {
-  document.getElementById("countdownDisplay").style.display = "block";
+  document.getElementById("countdownRoot").style.display = "block";
   tickoverCountdown = setInterval(function() {
     countdownTime();
     establishUnitValues();
@@ -24,7 +24,7 @@ if (timeSnapshot > timeNow) {
     }
   },1000);
 } else {
-  document.getElementById("regularDisplay").style.display = "block";
+  document.getElementById("splashRoot").style.display = "block";
 }
 
 // Increment timer
@@ -44,7 +44,6 @@ var establishUnitValues = function() {
   $('#hoursLeft').text(hoursLeft);
   $('#minsLeft').text(minsLeft);
   $('#secsLeft').text(secsLeft);
-  $('#counterMobile').html(daysLeft+" days, "+hoursLeft+" hours<br>"+minsLeft+" mins, "+secsLeft+" secs");
 
   // Set styles for DOM elems based on half max unit values
   setUnitStyles('days',5);
@@ -58,8 +57,8 @@ var establishUnitValues = function() {
     setAnimationDelays('hours',((hoursLeft*60*60)-(24*60*60)+2)+"s");
     setAnimationDelays('mins',((minsLeft*60)-(60*60)+2)+"s");
     setAnimationDelays('secs',(secsLeft-60+2)+"s");
-    // Fade in counter box now
-    fadeInCounterBox();
+    // Fade in counter container now
+    fadeInCountdownContainer();
     // Set flag so we don't get here again
     setArcs = true;
   }
@@ -67,12 +66,10 @@ var establishUnitValues = function() {
 
 // Set unit styles for various DOM elems for it
 var setUnitStyles = function(unit,halfUnit) {
-  document.getElementById(unit+'Counter').style.marginLeft  = window[unit+'Left'] <= halfUnit ? "60px"  : "0";
-  document.getElementById(unit+'Counter').style.marginRight = window[unit+'Left'] <= halfUnit ? "-60px" : "0";
-  document.getElementById(unit+'Wrapper').style.left        = window[unit+'Left'] <= halfUnit ? "-60px" : "0";
-  document.getElementById(unit+'Filler').style.opacity      = window[unit+'Left'] <= halfUnit ? "0"     : "1";
-  document.getElementById(unit+'Left').style.marginLeft     = window[unit+'Left'] <= halfUnit ? "-60px" : "0";
-  document.getElementById(unit+'Text').style.marginLeft     = window[unit+'Left'] <= halfUnit ? "-60px" : "0";
+  document.getElementById(unit+'Mask').style.marginRight = window[unit+'Left'] <= halfUnit ? "0" : "60px";
+  document.getElementById(unit+'Mask').style.marginLeft = window[unit+'Left'] <= halfUnit ? "60px" : "0";
+  document.getElementById(unit+'Spinner').style.marginLeft = window[unit+'Left'] <= halfUnit ? "-60px" : "0";
+  document.getElementById(unit+'Filler').style.opacity = window[unit+'Left'] <= halfUnit ? "0" : "1";
 }
 
 // Set animation delays for 3 DOM elems for unit
@@ -83,22 +80,22 @@ var setAnimationDelays = function(unit,delay) {
   delay;
 }
 
-// Fade in the counter box
-var fadeInCounterBox = function() {
-  $('#counterBox').css('opacity', 1);
+// Fade in the counter container
+var fadeInCountdownContainer = function() {
+  $('#countdownContainer').css('opacity', 1);
 }
 
 // Show the awaiting next block message
 var showAwaitingBlock = function() {
-  document.getElementById('counterBox').style.display = 'none';
-  document.getElementById('awaitingBlock').style.display = 'block';
+  document.getElementById('countdownContainer').style.display = 'none';
+  document.getElementById('awaitingContainer').style.display = 'block';
   document.getElementById('confetti').style.display = 'none';
-  document.getElementById('snapshotBox').style.display = 'none';
+  document.getElementById('snapshotContainer').style.display = 'none';
   // Get the current block height
   $.get("https://zcl-explorer.com/api/status?q=getInfo&timestamp="+Date.now(), function(data) {
     // Set it and display awaiting next block message containing the block height we're waiting for
     initialBlock = data.info.blocks;
-    document.getElementById('awaitingBlock').innerHTML = "Awaiting discovery<br>of next block ("+(initialBlock+1)+")...";
+    document.getElementById('awaitingContainer').innerHTML = "Awaiting discovery<br>of next block ("+(initialBlock+1)+")...";
   });
   // Poll every 10 secs to check if we've discovered that next block height yet
   var getZCLDataPolling = setInterval(function() {
@@ -113,8 +110,8 @@ var showAwaitingBlock = function() {
 
 // Show confetti and snapshot message
 var showConfetti = function() {
-  document.getElementById('counterBox').style.display = 'none';
-  document.getElementById('awaitingBlock').style.display = 'none';
+  document.getElementById('countdownContainer').style.display = 'none';
+  document.getElementById('awaitingContainer').style.display = 'none';
   document.getElementById('confetti').style.display = 'block';
-  document.getElementById('snapshotBox').style.display = 'block';
+  document.getElementById('snapshotContainer').style.display = 'block';
 }

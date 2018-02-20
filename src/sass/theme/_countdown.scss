@@ -1,52 +1,332 @@
-.confetti-canvas {position: fixed; display: none; top: 0; left: 0; width: 100%; height: 100%}
+/*
+ * Countdown
+ */
 
-.home-logo-symbol {display: inline-block; margin-right: 20px}
-.home-logo-slogan {position: relative; display: inline-block; top: -30px; text-align: left}
+.whitepaper {
 
-.counter-box {position: relative; height: 200px; margin: 20px 0 70px 0; opacity: 0; transition: opacity 0.5s ease-in-out}
+  &-container {
 
-.snapshot-box {display: none; height: 200px; margin: 40px 0; font-size: 72px; color: #272d63}
-.awaiting-block-box {display: none; height: 200px; margin: 40px 0; font-size: 72px; color: #272d63}
+    &-inner {
+      padding: 3rem;
+    }
+  }
+}
 
-.counter {display: inline-block; width: 120px; height: 120px; overflow: hidden; margin: 40px 15px}
-.counter-wrapper-breaks {display: inline-block; width: 20px}
-.wrapper {position: relative; display: inline-block; border-radius: 50%; background: transparent; width: 120px; height: 120px}
-.wrapper, .wrapper * {-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
-.wrapper .pie {width: 50%; height: 100%; transform-origin: 100% 50%; position: absolute; background: transparent; border: solid 10px #272d63}
-.wrapper .spinner {border-radius: 100% 0 0 100% / 50% 0 0 50%; z-index: 200; border-right: none}
-.wrapper:hover .spinner, .wrapper:hover .filler, .wrapper:hover .mask {animation-play-state: running}
-.wrapper .filler {border-radius: 0 100% 100% 0 / 0 50% 50% 0; left: 50%; opacity: 0; z-index: 100; border-left: none}
-.wrapper .mask {width: 50%; height: 100%; position: absolute; background: inherit; opacity: 1; z-index: 300}
-@keyframes rota {0% {transform: rotate(0deg);}  100% {transform: rotate(360deg);}}
-@keyframes opa {0% {opacity: 1;} 50%, 100% {opacity: 0;}}
-.days-anim-spinner {animation: rota 864000s linear infinite reverse;}
-.days-anim-filler {animation-delay: opa 864000s steps(1, end) infinite;}
-.days-anim-mask {animation-delay: opa 864000s steps(1, end) infinite reverse;}
-.hours-anim-spinner {animation: rota 86400s linear infinite reverse;}
-.hours-anim-filler {animation-delay: opa 86400s steps(1, end) infinite;}
-.hours-anim-mask {animation-delay: opa 86400s steps(1, end) infinite reverse;}
-.mins-anim-spinner {animation: rota 3600s linear infinite reverse;}
-.mins-anim-filler {animation-delay: opa 3600s steps(1, end) infinite;}
-.mins-anim-mask {animation-delay: opa 3600s steps(1, end) infinite reverse;}
-.secs-anim-spinner {animation: rota 60s linear infinite reverse;}
-.secs-anim-filler {animation-delay: opa 60s steps(1, end) infinite;}
-.secs-anim-mask {animation-delay: opa 60s steps(1, end) infinite reverse;}
+//- Confetti
+.confetti-canvas {
+  position: fixed;
+  display: none;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
 
-.numbers {position: absolute; width: 120px; height: 120px; margin-top: -100px; font-size: 48px}
-.unit {position: absolute; width: 120px; font-size: 21px; text-align: center}
+//- Snapshot
+.snapshot {
 
-.counter-mobile {display: none}
+  &-container {
+    display: none;
+    height: 200px;
+    margin: 40px 0;
+    font-size: 72px;
+    color: #272d63;
 
-@media (max-width: 900px) {
-  .snapshot-box {font-size: 40px}
-  .awaiting-block-box {font-size: 40px}
+    .breaker {
+      display: none;
+    }
+  }
+}
+
+//- Awaiting
+.awaiting-container {
+  display: none;
+  height: 200px;
+  margin: 40px 0;
+  font-size: 72px;
+  color: #272d63;
+}
+
+//- Countdown
+.countdown {
+
+  &-logo {
+    display: inline-block;
+    padding: 3rem 3rem 0;
+
+    img {
+       height: 160px;
+       vertical-align: baseline;
+       margin-right: 20px;
+       margin-bottom: 0px!important;
+    }
+  }
+
+  &-logotype {
+    position: relative;
+    display: inline-block;
+    top: -30px;
+    text-align: left;
+  }
+
+  &-snapshot-message {
+    color: #b00;
+    padding: 3rem;
+  }
+
+  &-container {
+    position: relative;
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+
+    &-inner {
+      padding: 3rem;
+    }
+  }
+}
+
+//- Counter
+.counter {
+  position: relative;
+  display: inline-block;
+  width: 25%;
+  float: left;
+
+  &-inner {
+    margin: 0 auto;
+    width: 120px;
+
+    &:after {
+      content: '';
+      position: absolute;
+      display: block;
+      margin: 0 auto;
+      height: 120px;
+      width: 120px;
+      top: 0;
+      border: solid 10px rgba(black, 0.05);
+      border-radius: 100%;
+    }
+  }
+
+  .wrapper {
+    position: relative;
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: transparent;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+
+    & * {
+      -moz-box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+    }
+
+    .pie {
+      width: 50%;
+      height: 100%;
+      transform-origin: 100% 50%;
+      position: absolute;
+      background: transparent;
+      border: solid 10px #272d63;
+    }
+
+    .spinner {
+      width: 60px;
+      height: 120px;
+      border-right: none;
+      border-radius: 100% 0 0 100% / 50% 0 0 50%;
+      z-index: 200;
+    }
+
+    &:hover .spinner,
+    &:hover .filler,
+    &:hover .mask {
+      animation-play-state: running;
+    }
+
+    .filler {
+      left: 50%;
+      opacity: 0;
+      z-index: 100;
+      border-radius: 0 100% 100% 0 / 0 50% 50% 0;
+      border-left: none;
+    }
+
+    .mask {
+      width: 50%;
+      height: 100%;
+      position: absolute;
+      background: inherit;
+      opacity: 1;
+      z-index: 300;
+      overflow: hidden;
+    }
+  }
+}
+
+.numbers {
+  position: absolute;
+  width: 100%;
+  height: 120px;
+  margin-top: 0px;
+  font-size: 48px;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.unit {
+  position: absolute;
+  width: 100%;
+  font-size: 21px;
+  text-align: center;
+}
+
+
+//- Animations
+@keyframes rota {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes opa {
+  0% {
+    opacity: 1;
+  }
+  50%,
+  100% {
+    opacity: 0;
+  }
+}
+
+.days {
+
+  &-anim-spinner {
+    animation: rota 864000s linear infinite reverse;
+  }
+}
+
+.days {
+
+  &-anim-filler {
+    animation-delay: opa 864000s steps(1, end) infinite;
+  }
+
+  &-anim-mask {
+    animation-delay: opa 864000s steps(1, end) infinite reverse;
+  }
+}
+
+.hours {
+
+  &-anim-spinner {
+    animation: rota 86400s linear infinite reverse;
+  }
+
+  &-anim-filler {
+    animation-delay: opa 86400s steps(1, end) infinite;
+  }
+
+  &-anim-mask {
+    animation-delay: opa 86400s steps(1, end) infinite reverse;
+  }
+}
+
+.mins {
+
+  &-anim-spinner {
+    animation: rota 3600s linear infinite reverse;
+  }
+
+  &-anim-filler {
+    animation-delay: opa 3600s steps(1, end) infinite;
+  }
+
+  &-anim-mask {
+    animation-delay: opa 3600s steps(1, end) infinite reverse;
+  }
+}
+
+.secs {
+
+  &-anim-spinner {
+    animation: rota 60s linear infinite reverse;
+  }
+
+  &-anim-filler {
+    animation-delay: opa 60s steps(1, end) infinite;
+  }
+
+  &-anim-mask {
+    animation-delay: opa 60s steps(1, end) infinite reverse;
+  }
+}
+
+
+//- Media Queries and h/c responsive
+@media (min-width: 481px) and (max-width: 767px) {
+
+  .snapshot-container {
+    font-size: 40px;
+  }
+  .awaiting-container {
+    font-size: 40px;
+  }
 }
 
 @media (max-width: 767px) {
-  .home-logo-symbol {display: none}
-  .home-logo-slogan {position: relative; display: inline-block; top: 5px; text-align: center}
-  .awaiting-block-box {margin: 20px 0 80px 0}
-  .snapshot-box .breaker {display: none}
-  .counter-desktop {display: none}
-  .counter-mobile {display: block; margin-top: 40px; font-size: 44px; color: #272d63}
+
+  .countdown {
+
+    &-logo {
+
+      img {
+        display: none;
+      }
+    }
+
+    &-logotype {
+      position: relative;
+      display: inline-block;
+      top: 5px;
+      text-align: center;
+
+      h1 {
+        display: none;
+      }
+    }
+  }
+
+  .awaiting-container {
+    margin: 20px 0 80px 0;
+  }
+}
+
+@media (max-width: 580px) {
+
+  .counter {
+    width: 45%;
+    height: 170px;
+
+    &:nth-child(odd) {
+      margin-left: 5%;
+    }
+
+    &:nth-child(even) {
+      margin-right: 5%;
+    }
+  }
 }

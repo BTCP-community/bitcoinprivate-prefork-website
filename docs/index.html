@@ -28,15 +28,15 @@
 
     <title localization-tag="page-title">Bitcoin Private</title>
 
-    <link href="css/main.css?cachebreaker=734956" rel="stylesheet" type="text/css" />
+    <link href="css/main.css?cachebreaker=313442" rel="stylesheet" type="text/css" />
 
     <script type="text/javascript" src="dependencies/jquery/dist/jquery.min.js"></script>
     <script type="text/javascript" src="dependencies/bootstrap-sass/assets/javascripts/bootstrap.min.js"></script>
     <script type="text/javascript" src="/dependencies/js-url/url.min.js"></script>
-    <script type="text/javascript" src="javascript/Localizations.js?cachbreaker=5091"></script>
-    <script type="text/javascript" src="javascript/Main.js?cachbreaker=994134"></script>
-    <script type="text/javascript" src="javascript/Countdown.js?cachbreaker=125407" defer></script>
-    <script type="text/javascript" src="javascript/Confetti.js?cachbreaker=392152" defer></script>
+    <script type="text/javascript" src="javascript/Localizations.js?cachbreaker=649690"></script>
+    <script type="text/javascript" src="javascript/Main.js?cachbreaker=108294"></script>
+    <script type="text/javascript" src="javascript/Countdown.js?cachbreaker=86474" defer></script>
+    <script type="text/javascript" src="javascript/Confetti.js?cachbreaker=288990" defer></script>
   </head>
   <body>
     <canvas class="confetti-canvas" id="confetti"></canvas>
@@ -128,7 +128,7 @@
 
 <div class="container-fluid">
   <div id="hero" class="row">
-    <div class="col-xs-10 col-xs-push-1 col-sm-6 col-sm-push-3 text-center" style="display: none" id="regularDisplay">
+    <div class="splash col-xs-10 col-xs-push-1 col-sm-6 col-sm-push-3 text-center" style="display: none" id="splashRoot">
       <img src="images/icon.svg" height="160px" />
       <h1><span class="color-primary">Bitcoin</span> <span class="color-secondary">Private</span></h1>
       <p class="x-large color-primary" localization-tag="hero-blurb">private, decentralized, fast, open source,<br class="hidden-xs" />community-driven coin</p>
@@ -137,63 +137,82 @@
 
       <a target="_blank" href="https://btcprivate.org/whitepaper.pdf"><button class="btn btn-accent" localization-tag="why-btcp-whitepaper-button">Whitepaper</button></a>
     </div>
-        <div class="col-xs-12 col-sm-12 text-center" style="display: none" id="countdownDisplay">
-      <div class="home-logo-symbol">
-          <img src="images/icon.svg" style="height: 160px; vertical-align: baseline; margin-bottom: 0" />
-      </div><div class="home-logo-slogan">
-        <h1><span class="color-primary">Bitcoin</span> <span class="color-secondary">Private</span></h1>
-        <p class="x-large color-primary" localization-tag="hero-blurb">private, decentralized, fast, open source,<br class="hidden-xs" />community-driven coin</p>
+    <div class="countdown col-xs-12 text-center" style="display: none" id="countdownRoot">
+      <div class="countdown-logo">
+        <img src="images/icon.svg" />
+        <div class="countdown-logotype">
+          <h1>
+            <span class="color-primary">Bitcoin</span>
+            <span class="color-secondary">Private</span>
+          </h1>
+          <p class="x-large color-primary" localization-tag="hero-blurb">private, decentralized, fast, open source,<br class="hidden-xs" />community-driven coin</p>
+        </div>
       </div>
-      <div class="counter-box text-center" id="counterBox">
-        <div style="color: #b00">Snapshot: First block found after 28th Feb @ 5:00pm UCT<br>Fork & mainnet launch: Approx 2 days later</div>
+      <div class="countdown-container row text-center" id="countdownContainer">
+        <div class="countdown-snapshot-message row">Snapshot: First block found after 28th Feb @ 5:00pm UCT<br>Fork & mainnet launch: Approx 2 days later</div>
 
-        <!-- Desktop counter //-->
-        <div class="counter-desktop" id="counterDesktop">
-          <div class="counter" id="daysCounter">
-            <div class="wrapper" id="daysWrapper">
-              <div class="pie spinner days-anim-spinner" id="daysSpinner"></div>
-              <div class="pie filler days-anim-filler" id="daysFiller"></div>
-              <div class="mask days-anim-mask" id="daysMask"></div>
+        <!-- Countdown //-->
+        <div class="countdown-container-inner col-xs-12" id="countdownInner">
+          <div class="counter">
+            <div class="counter-inner" id="daysCounter">
+              <div class="wrapper" id="daysWrapper">
+                <div class="pie filler days-anim-filler" id="daysFiller"></div>
+                <div class="mask days-anim-mask" id="daysMask"><div class="pie spinner days-anim-spinner" id="daysSpinner"></div></div>
+              </div>
             </div>
             <div class="numbers color-primary" id="daysLeft"></div>
             <div class="unit color-primary" id="daysText">days</div>
-          </div><div class="counter-wrapper-breaks"></div><div class="counter" id="hoursCounter">
-            <div class="wrapper" id="hoursWrapper" id="hoursWrapper">
-              <div class="pie spinner hours-anim-spinner" id="hoursSpinner"></div>
-              <div class="pie filler hours-anim-filler" id="hoursFiller"></div>
-              <div class="mask hours-anim-mask" id="hoursMask"></div>
+          </div>
+          <div class="counter">
+            <div class="counter-inner" id="hoursCounter">
+              <div class="wrapper" id="hoursWrapper" id="hoursWrapper">
+                <div class="pie filler hours-anim-filler" id="hoursFiller"></div>
+                <div class="mask hours-anim-mask" id="hoursMask">
+                  <div class="pie spinner hours-anim-spinner" id="hoursSpinner"></div>
+                </div>
+              </div>
             </div>
             <div class="numbers color-primary" id="hoursLeft"></div>
             <div class="unit color-primary" id="hoursText">hours</div>
-          </div><div class="counter-wrapper-breaks"></div><div class="counter" id="minsCounter">
-            <div class="wrapper" id="minsWrapper">
-              <div class="pie spinner mins-anim-spinner" id="minsSpinner"></div>
-              <div class="pie filler mins-anim-filler" id="minsFiller"></div>
-              <div class="mask mins-anim-mask" id="minsMask"></div>
+          </div>
+          <div class="counter">
+            <div class="counter-inner" id="minsCounter">
+              <div class="wrapper" id="minsWrapper">
+                <div class="pie filler mins-anim-filler" id="minsFiller"></div>
+                <div class="mask mins-anim-mask" id="minsMask">
+                  <div class="pie spinner mins-anim-spinner" id="minsSpinner"></div>
+                </div>
+              </div>
             </div>
             <div class="numbers color-primary" id="minsLeft"></div>
             <div class="unit color-primary" id="minsText">mins</div>
-          </div><div class="counter-wrapper-breaks"></div><div class="counter" id="secsCounter">
-            <div class="wrapper" id="secsWrapper">
-              <div class="pie spinner secs-anim-spinner" id="secsSpinner"></div>
-              <div class="pie filler secs-anim-filler" id="secsFiller"></div>
-              <div class="mask secs-anim-mask" id="secsMask"></div>
+          </div>
+
+          <div class="counter">
+            <div class="counter-inner" id="secsCounter">
+              <div class="wrapper" id="secsWrapper">
+                <div class="pie filler secs-anim-filler" id="secsFiller"></div>
+                <div class="mask secs-anim-mask" id="secsMask">
+                  <div class="pie spinner secs-anim-spinner" id="secsSpinner"></div>
+                </div>
+              </div>
             </div>
             <div class="numbers color-primary" id="secsLeft"></div>
             <div class="unit color-primary" id="secsText">secs</div>
           </div>
         </div>
 
-        <!-- Mobile counter //-->
-        <div class="counter-mobile" id="counterMobile"></div>
-
       </div>
-      <div class="awaiting-block-box text-center" id="awaitingBlock"></div>
-      <div class="snapshot-box text-center" id="snapshotBox">
+      <div class="awaiting-container row text-center" id="awaitingContainer"></div>
+      <div class="snapshot-container row text-center" id="snapshotContainer">
         Snapshot has now<div class="breaker"></div> taken place!
       </div>
-      <div class="text-center">
-        <a target="_blank" href="https://btcprivate.org/whitepaper.pdf"><button class="btn btn-accent" localization-tag="why-btcp-whitepaper-button">Whitepaper</button></a>
+      <div class="whitepaper-container row text-center">
+        <div class="whitepaper-container-inner row text-center">
+          <a target="_blank" href="https://btcprivate.org/whitepaper.pdf">
+            <button class="btn btn-accent" localization-tag="why-btcp-whitepaper-button">Whitepaper</button>
+          </a>
+        </div>
       </div>
     </div>
   </div>
