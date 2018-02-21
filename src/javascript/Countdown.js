@@ -1,3 +1,8 @@
+/* Test command for console
+  Snapshot: timeNow = timeSnapshot
+  Confetti: showConfetti()
+*/
+
 var canShowCountdown = true;
 var setArcs = false;
 var doConfettiResize = true;
