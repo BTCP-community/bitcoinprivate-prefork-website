@@ -1,3 +1,4 @@
+var canShowCountdown = true;
 var setArcs = false;
 var doConfettiResize = true;
 
@@ -13,7 +14,7 @@ Date.prototype.getUnixTime = function() { return this.getTime()/1000|0 };
 var timeNow = new Date(headerDate).getUnixTime();
 // Every 1 sec, count down the timer, establish unit values
 // and if we've passed the snapshot date & time, switch to that message display
-if (timeSnapshot > timeNow) {
+if (canShowCountdown && timeSnapshot > timeNow) {
   document.getElementById("countdownRoot").style.display = "block";
   tickoverCountdown = setInterval(function() {
     countdownTime();
