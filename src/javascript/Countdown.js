@@ -97,20 +97,22 @@ var showAwaitingBlock = function() {
   document.getElementById('awaitingContainer').style.display = 'block';
   document.getElementById('confetti').style.display = 'none';
   document.getElementById('snapshotContainer').style.display = 'none';
+
   // Get the current block height
   $.get("https://zcl-explorer.com/api/status?q=getInfo&timestamp="+Date.now(), function(data) {
     // Set it and display awaiting next block message containing the block height we're waiting for
     initialBlock = data.info.blocks;
-    document.getElementById('awaitingContainer').innerHTML = "Awaiting discovery<br>of next block ("+(initialBlock+1)+")...";
+    document.getElementById('awaitingContainerBitcoin').innerHTML = (initialBlock+1);
+    document.getElementById('awaitingContainerZclassic').innerHTML = "Awaiting..."
   });
   // Poll every 10 secs to check if we've discovered that next block height yet
   var getZCLDataPolling = setInterval(function() {
-      $.get("https://zcl-explorer.com/api/status?q=getInfo&timestamp="+Date.now(), function(data) {
+    $.get("https://zcl-explorer.com/api/status?q=getInfo&timestamp="+Date.now(), function(data) {
       if (data.info.blocks != initialBlock) {
         clearInterval(getZCLDataPolling);
         showConfetti();
       }
-      });
+    });
   },10000);
 }
 

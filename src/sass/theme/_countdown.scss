@@ -29,22 +29,61 @@
     display: none;
     height: 200px;
     margin: 40px 0;
-    font-size: 72px;
-    color: #272d63;
 
-    .breaker {
-      display: none;
+    h2 {
+      color: #272d63;
     }
   }
 }
 
 //- Awaiting
-.awaiting-container {
-  display: none;
-  height: 200px;
-  margin: 40px 0;
-  font-size: 72px;
-  color: #272d63;
+.awaiting {
+
+  &-container {
+    display: none;
+    margin: 40px 0 40px 0;
+
+    h2 {
+      margin: 20px 0;
+      color: #272d63;
+    }
+
+    span {
+      color: #272d63;
+    }
+  }
+
+  &-icon {
+    width: 60px;
+  }
+
+  &-block {
+    margin-top: 40px;
+
+    &-inner {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      &-btc {
+        float: right;
+      }
+
+      &-zlc {
+        float: left;
+      }
+    }
+
+    &-message {
+      font-size: 30px;
+      font-weight: bold;
+      margin: 0 10px;
+    }
+
+    img {
+      margin: 0 0 0 0!important;
+    }
+  }
 }
 
 //- Countdown
@@ -279,12 +318,7 @@
 //- Media Queries and h/c responsive
 @media (min-width: 481px) and (max-width: 767px) {
 
-  .snapshot-container {
-    font-size: 40px;
-  }
-  .awaiting-container {
-    font-size: 40px;
-  }
+
 }
 
 @media (max-width: 767px) {
@@ -310,8 +344,19 @@
     }
   }
 
-  .awaiting-container {
-    margin: 20px 0 80px 0;
+  .awaiting {
+
+    &-container {
+      margin: 40px 0 40px 0;
+    }
+
+    &-block {
+
+      &-inner {
+        float: none;
+        padding: 10px;
+      }
+    }
   }
 }
 

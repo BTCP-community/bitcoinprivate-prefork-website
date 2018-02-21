@@ -8584,18 +8584,38 @@ html, body {
 .snapshot-container {
   display: none;
   height: 200px;
-  margin: 40px 0;
-  font-size: 72px;
-  color: #272d63; }
-  .snapshot-container .breaker {
-    display: none; }
+  margin: 40px 0; }
+  .snapshot-container h2 {
+    color: #272d63; }
 
 .awaiting-container {
   display: none;
-  height: 200px;
-  margin: 40px 0;
-  font-size: 72px;
-  color: #272d63; }
+  margin: 40px 0 40px 0; }
+  .awaiting-container h2 {
+    margin: 20px 0;
+    color: #272d63; }
+  .awaiting-container span {
+    color: #272d63; }
+
+.awaiting-icon {
+  width: 60px; }
+
+.awaiting-block {
+  margin-top: 40px; }
+  .awaiting-block-inner {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .awaiting-block-inner-btc {
+      float: right; }
+    .awaiting-block-inner-zlc {
+      float: left; }
+  .awaiting-block-message {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0 10px; }
+  .awaiting-block img {
+    margin: 0 0 0 0 !important; }
 
 .countdown-logo {
   display: inline-block;
@@ -8756,12 +8776,6 @@ html, body {
 .secs-anim-mask {
   animation-delay: opa 60s steps(1, end) infinite reverse; }
 
-@media (min-width: 481px) and (max-width: 767px) {
-  .snapshot-container {
-    font-size: 40px; }
-  .awaiting-container {
-    font-size: 40px; } }
-
 @media (max-width: 767px) {
   .countdown-logo img {
     display: none; }
@@ -8773,7 +8787,10 @@ html, body {
     .countdown-logotype h1 {
       display: none; }
   .awaiting-container {
-    margin: 20px 0 80px 0; } }
+    margin: 40px 0 40px 0; }
+  .awaiting-block-inner {
+    float: none;
+    padding: 10px; } }
 
 @media (max-width: 580px) {
   .counter {
