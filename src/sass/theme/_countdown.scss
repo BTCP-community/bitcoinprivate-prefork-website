@@ -27,9 +27,9 @@
 
   &-container {
     display: none;
-    height: 200px;
-    margin: 40px 0;
+    margin: 40px 0 40px 0;
 
+    h1,
     h2 {
       color: #272d63;
     }
@@ -43,45 +43,9 @@
     display: none;
     margin: 40px 0 40px 0;
 
+    h1,
     h2 {
-      margin: 20px 0;
       color: #272d63;
-    }
-
-    span {
-      color: #272d63;
-    }
-  }
-
-  &-icon {
-    width: 60px;
-  }
-
-  &-block {
-    margin-top: 40px;
-
-    &-inner {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-
-      &-btc {
-        float: right;
-      }
-
-      &-zlc {
-        float: left;
-      }
-    }
-
-    &-message {
-      font-size: 30px;
-      font-weight: bold;
-      margin: 0 10px;
-    }
-
-    img {
-      margin: 0 0 0 0!important;
     }
   }
 }
@@ -123,6 +87,57 @@
 
     &-inner {
       padding: 3rem;
+    }
+  }
+}
+
+//- Block details
+.block {
+
+  h1,
+  h2 {
+    margin: 20px 0;
+    color: #272d63;
+  }
+
+  span {
+    color: #272d63;
+  }
+
+  &-icon {
+    width: 60px;
+  }
+
+  &-details {
+    margin: 20px 0;
+
+    &-container {
+      display: none;
+    }
+
+    &-inner {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      &-btc {
+        float: right;
+      }
+
+      &-zlc {
+        float: left;
+      }
+    }
+
+    &-message {
+      font-size: 30px;
+      font-weight: bold;
+      margin: 0 10px;
+      color: #272d63;
+    }
+
+    img {
+      margin: 0 0 0 0!important;
     }
   }
 }
@@ -349,8 +364,10 @@
     &-container {
       margin: 40px 0 40px 0;
     }
+  }
 
-    &-block {
+  .block {
+    &-details {
 
       &-inner {
         float: none;
