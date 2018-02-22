@@ -8586,6 +8586,7 @@ html, body {
   margin: 40px 0 40px 0; }
   .snapshot-container h1,
   .snapshot-container h2 {
+    margin-bottom: 0px !important;
     color: #272d63; }
 
 .awaiting-container {
