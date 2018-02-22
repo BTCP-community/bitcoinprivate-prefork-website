@@ -32,7 +32,7 @@
     h1,
     h2 {
       margin-bottom: 0px!important;
-      color: #272d63;
+      color:$color-primary;
     }
   }
 }
@@ -46,7 +46,7 @@
 
     h1,
     h2 {
-      color: #272d63;
+      color: $color-primary;
     }
   }
 }
@@ -74,7 +74,7 @@
   }
 
   &-snapshot-message {
-    color: #272d63;
+    color: $color-primary;
     padding: 3rem;
   }
 
@@ -98,11 +98,11 @@
   h1,
   h2 {
     margin: 20px 0;
-    color: #272d63;
+    color: $color-primary;
   }
 
   span {
-    color: #272d63;
+    color: $color-primary;
   }
 
   &-icon {
@@ -134,7 +134,7 @@
       font-size: 30px;
       font-weight: bold;
       margin: 0 10px;
-      color: #272d63;
+      color: $color-primary;
     }
 
     img {
@@ -190,7 +190,7 @@
       transform-origin: 100% 50%;
       position: absolute;
       background: transparent;
-      border: solid 10px #272d63;
+      border: solid 10px $color-primary;
     }
 
     .spinner {

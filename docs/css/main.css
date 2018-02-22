@@ -8587,14 +8587,14 @@ html, body {
   .snapshot-container h1,
   .snapshot-container h2 {
     margin-bottom: 0px !important;
-    color: #272d63; }
+    color: #272D63; }
 
 .awaiting-container {
   display: none;
   margin: 40px 0 40px 0; }
   .awaiting-container h1,
   .awaiting-container h2 {
-    color: #272d63; }
+    color: #272D63; }
 
 .countdown-logo {
   display: inline-block;
@@ -8612,7 +8612,7 @@ html, body {
   text-align: left; }
 
 .countdown-snapshot-message {
-  color: #272d63;
+  color: #272D63;
   padding: 3rem; }
 
 .countdown-container {
@@ -8628,10 +8628,10 @@ html, body {
 .block h1,
 .block h2 {
   margin: 20px 0;
-  color: #272d63; }
+  color: #272D63; }
 
 .block span {
-  color: #272d63; }
+  color: #272D63; }
 
 .block-icon {
   width: 60px; }
@@ -8652,7 +8652,7 @@ html, body {
     font-size: 30px;
     font-weight: bold;
     margin: 0 10px;
-    color: #272d63; }
+    color: #272D63; }
   .block-details img {
     margin: 0 0 0 0 !important; }
 
@@ -8694,7 +8694,7 @@ html, body {
       transform-origin: 100% 50%;
       position: absolute;
       background: transparent;
-      border: solid 10px #272d63; }
+      border: solid 10px #272D63; }
     .counter .wrapper .spinner {
       width: 60px;
       height: 120px;
