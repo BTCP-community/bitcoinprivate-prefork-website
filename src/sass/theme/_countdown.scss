@@ -9,6 +9,16 @@
     &-inner {
       padding: 3rem;
     }
+
+    .btn-countdown {
+      color: $color-white;
+
+      &:hover {
+        color: $color-white;
+        background: $color-accent-hover;
+        border-color: $color-accent-hover;
+      }
+    }
   }
 }
 

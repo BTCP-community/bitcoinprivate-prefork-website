@@ -8573,6 +8573,13 @@ html, body {
 .whitepaper-container-inner {
   padding: 3rem; }
 
+.whitepaper-container .btn-countdown {
+  color: #FFFFFF; }
+  .whitepaper-container .btn-countdown:hover {
+    color: #FFFFFF;
+    background: #E85A0C;
+    border-color: #E85A0C; }
+
 .confetti-canvas {
   position: fixed;
   display: none;
