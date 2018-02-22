@@ -13,10 +13,8 @@ var timeSnapshot = 1519837200; // 28th Feb 2018 @ 17:00:00 UTC
 
 
 // Get current timestamp and set as timeNow via response header of a tiny file at endpoint
-var headerDate;
 var timeNow;
 fetch('/favicons/manifest.json?rand='+Math.floor((Math.random()*10000000)+1)).then(function(response) {
-
 	var headerDate = response.headers.get('Date')
 	Date.prototype.getUnixTime = function() { return this.getTime()/1000|0 };
 	timeNow = new Date(headerDate).getUnixTime();
@@ -24,7 +22,7 @@ fetch('/favicons/manifest.json?rand='+Math.floor((Math.random()*10000000)+1)).th
 	// Every 1 sec, count down the timer, establish unit values
 	// and if we've passed the snapshot date & time, switch to that message display
 	if (canShowCountdown && timeSnapshot > timeNow) {
-		document.getElementById("countdownRoot").style.display = "block";
+		$("#countdownRoot").css('display',' block');
 		tickoverCountdown = setInterval(function() {
 			countdownTime();
 			establishUnitValues();
@@ -34,7 +32,7 @@ fetch('/favicons/manifest.json?rand='+Math.floor((Math.random()*10000000)+1)).th
 			}
 		},1000);
 	} else {
-		document.getElementById("splashRoot").style.display = "block";
+		$("#splashRoot").css('display','block');
 	}
 });
 
@@ -80,19 +78,18 @@ var establishUnitValues = function() {
 
 // Set unit styles for various DOM elems for it
 var setUnitStyles = function(unit,halfUnit) {
-	document.getElementById(unit+'Mask').style.marginRight = window[unit+'Left'] <= halfUnit ? "0" : "60px";
-	document.getElementById(unit+'Mask').style.marginLeft = window[unit+'Left'] <= halfUnit ? "60px" : "0";
-	document.getElementById(unit+'Spinner').style.marginLeft = window[unit+'Left'] <= halfUnit ? "-60px" : "0";
-	document.getElementById(unit+'Filler').style.opacity = window[unit+'Left'] <= halfUnit ? "0" : "1";
+	$('#'+unit+'Mask').css('margin-right', window[unit+'Left'] <= halfUnit ? "0" : "60px");
+	$('#'+unit+'Mask').css('margin-left', window[unit+'Left'] <= halfUnit ? "60px" : "0");
+	$('#'+unit+'Spinner').css('margin-left', window[unit+'Left'] <= halfUnit ? "-60px" : "0");
+	$('#'+unit+'Filler').css('opacity', window[unit+'Left'] <= halfUnit ? "0" : "1");
 }
 
 
 // Set animation delays for 3 DOM elems for unit
 var setAnimationDelays = function(unit,delay) {
-	document.getElementById(unit+'Spinner').style.animationDelay =
-	document.getElementById(unit+'Filler').style.animationDelay =
-	document.getElementById(unit+'Mask').style.animationDelay =
-	delay;
+	$('#'+unit+'Spinner').css('animation-delay',delay);
+	$('#'+unit+'Filler').css('animation-delay',delay);
+	$('#'+unit+'Mask').css('animation-delay',delay);
 }
 
 
@@ -103,26 +100,28 @@ var fadeInCountdownContainer = function() {
 
 
 var foundBlocks = {
-	zcl: null,
-	btc: null
+	zcl: false,
+	btc: false,
 }
+
 // Show the awaiting next block message
 var showAwaitingBlock = function() {
-	document.getElementById('countdownContainer').style.display = 'none';
-	document.getElementById('awaitingContainer').style.display = 'block';
-	document.getElementById('blockDetails').style.display = 'block';
-	document.getElementById('confetti').style.display = 'none';
-	document.getElementById('snapshotContainer').style.display = 'none';
+	$('#countdownContainer').css('display','none');
+	$('#awaitingContainer').css('display','block');
+	$('#blockDetails').css('display','block');
+	$('#confetti').css('display','none');
+	$('#snapshotContainer').css('display','none');
 
-	//- First Try
-	fetchBlocks()
+	// First Try fetching blocks
+	fetchBlocks();
 
-	//- Poll for blocks
+	// Then poll for blocks every 5 secs
 	var getBlocksPolling = setInterval(function() {
-		fetchBlocks()
-		updateBlocks(foundBlocks.zcl, foundBlocks.btc)
-		console.log("Fetch")
-		if (foundBlocks.zcl.length && foundBlocks.btc.length) {
+		// Fetch and update blocks
+		fetchBlocks();
+		updateBlocks(foundBlocks.zcl, foundBlocks.btc);
+		// If we have block heights on both ZCL and BTC, show confetti
+		if (foundBlocks.zcl !== false && foundBlocks.btc !== false) {
 			clearInterval(getBlocksPolling);
 			showConfetti();
 		}
@@ -130,39 +129,50 @@ var showAwaitingBlock = function() {
 }
 
 
+// Fetch new data from blocks
 var fetchBlocks = function() {
-	fetch('/javascript/blocks.json')
+	// Get block height data from JSON file
+	fetch('/javascript/blocks.json?rand='+Math.floor((Math.random()*10000000)+1))
+	// Return the data
 	.then(function(response) {
 		return response.json();
+	// Process the data
 	}).then(function(jsonData) {
 		foundBlocks = jsonData;
-		if (foundBlocks.zcl.length) {
-			document.getElementById('awaitingContainerZclassic').innerHTML = foundBlocks.zcl;
-		}
-		if (foundBlocks.btc.length) {
-			document.getElementById('awaitingContainerBitcoin').innerHTML = foundBlocks.btc;
-		}
+		// Set ZCL block height or placeholder text
+		$('#awaitingContainerZclassic').html(
+			foundBlocks.zcl !== false
+				? foundBlocks.zcl
+				: "Awaiting..."
+		);
+		// Set BTC block height or placeholder text
+		$('#awaitingContainerBitcoin').html(
+			foundBlocks.btc !== false
+				? foundBlocks.btc
+				: "Awaiting..."
+		);
+	// Output error message to console
 	}).catch(function(err) {
 		console.log("getBlocksPolling - failed!", err);
 	})
 }
 
-
+// Update ZCL & BTC block
 var updateBlocks = function(zcl, btc) {
-	if (zcl.length) {
-		document.getElementById('awaitingContainerZclassic').innerHTML = zcl;
+	if (zcl !== false) {
+		$('#awaitingContainerZclassic').html(zcl);
 	}
-	if (btc.length) {
-		document.getElementById('awaitingContainerBitcoin').innerHTML = btc;
+	if (btc !== false) {
+		$('#awaitingContainerBitcoin').html(btc);
 	}
 }
 
 
 // Show confetti and snapshot message
 var showConfetti = function() {
-	document.getElementById('countdownContainer').style.display = 'none';
-	document.getElementById('awaitingContainer').style.display = 'none';
-	document.getElementById('confetti').style.display = 'block';
-	document.getElementById('snapshotContainer').style.display = 'block';
-	document.getElementById('blockDetails').style.display = 'block';
+	$('#countdownContainer').css('display','none');
+	$('#awaitingContainer').css('display','none');
+	$('#confetti').css('display','block');
+	$('#snapshotContainer').css('display','block');
+	$('#blockDetails').css('display','block');
 }
