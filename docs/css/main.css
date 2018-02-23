@@ -8550,14 +8550,19 @@ html, body {
     #resources .row > div:not(:last-child) {
       margin-bottom: 40px; } }
 
-#footer {
-  padding: 65px 0;
+.disclaimer {
+  text-align: justify; }
+  .disclaimer-header h1 {
+    margin: 60px 0 40px; }
+
+.footer {
+  padding: 1rem 1rem;
   background: #272D63; }
-  #footer .links {
+  .footer .links {
     margin: 0; }
-    #footer .links li:last-child a {
+    .footer .links li:last-child a {
       padding-right: 0; }
-    #footer .links a {
+    .footer .links a {
       padding: 0 15px;
       font-size: 16px;
       font-weight: 700;
@@ -8565,8 +8570,16 @@ html, body {
       line-height: 48px;
       text-transform: uppercase;
       text-decoration: none; }
-      #footer .links a:hover {
+      .footer .links a:hover {
         color: #d9d9d9; }
+  .footer-upper, .footer-lower {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 2rem; }
+  .footer-disclaimer a {
+    text-decoration: none; }
+    .footer-disclaimer a:hover {
+      color: #FFFFFF; }
 
 #support-button i {
   margin-left: 5px; }
@@ -8595,7 +8608,7 @@ html, body {
  * Countdown
  */
 .whitepaper-container-inner {
-  padding: 3rem; }
+  padding: 3rem 0; }
 
 .confetti-canvas {
   position: fixed;
