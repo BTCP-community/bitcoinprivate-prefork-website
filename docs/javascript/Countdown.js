@@ -175,4 +175,8 @@ var showConfetti = function() {
 	$('#confetti').css('display','block');
 	$('#snapshotContainer').css('display','block');
 	$('#blockDetails').css('display','block');
+	var script = document.createElement('script');
+	script.type = 'text/javascript';
+	script.src = '/javascript/Confetti.js';
+	document.getElementsByTagName('head')[0].appendChild(script);
 }
