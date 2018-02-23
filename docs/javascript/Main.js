@@ -38,6 +38,10 @@ $(function() {
     $("a#teamlink2").attr('href',
         'team.html'+window.location.search);
 
+  // Localization for Footer
+    $("a#disclaimerlink").attr('href',
+        'disclaimer.html'+window.location.search);
+
   // Startup Modal
     if(!mr_cookies.hasItem('onLoadModalCookie')){
         $('.on-load-modal').modal('show');

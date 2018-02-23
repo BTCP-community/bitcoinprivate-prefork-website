@@ -40,7 +40,7 @@
 
     <title localization-tag="page-title">Bitcoin Private</title>
 
-    <link href="css/main.css?cachebreaker=692126" rel="stylesheet" type="text/css" />
+    <link href="css/main.css?cachebreaker=353948" rel="stylesheet" type="text/css" />
 
     <script type="text/javascript" src="dependencies/jquery/dist/jquery.min.js"></script>
     <script type="text/javascript" src="dependencies/bootstrap-sass/assets/javascripts/bootstrap.min.js"></script>
@@ -51,263 +51,245 @@
   </head>
   <body>
     <nav class="navbar navbar-default">
-  
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="/">
-        <img id="logo" src="images/branding/logo.svg" />
-      </a>
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">
+    <img id="logo" src="images/branding/logo.svg" />
+            </a>
+        </div>
+        <div id="navbar-collapse" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="/#why-btcp" localization-tag="navigation-about">About</a></li>
+                <li><a href="/#hard-fork" localization-tag="navigation-hard-fork">Hard Fork</a></li>
+                <li><a id='teamlink1' href="/team.html" localization-tag="navigation-team">BTCP Team</a></li>
+                <li style="position: relative;">
+                    <a href="#" id="support-button" class="dropdown-toggle" data-toggle="dropdown" localization-tag="navigation-support"><span>Support</span> <i class="fa fa-caret-down"></i></a>
+                    <div id="support-dropdown" class="dropdown-menu">
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <a href="https://support.btcprivate.org/" target="_blank" localization-tag="navigation-support-portal">Support Portal</a>
+                                <a href="/#faq" localization-tag="navigation-faq">FAQ</a>
+                                <a href="/#resources" localization-tag="navigation-resources">Resources</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li style="position: relative;">
+                    <a href="#" id="language-button" class="dropdown-toggle" data-toggle="dropdown"><span localization-tag="navigation-language">English</span> <i class="fa fa-caret-down"></i></a>
+                    <div id="language-dropdown" class="dropdown-menu">
+                        <div class="row">
+                            <div class="col-xs-6">
+                                <a href="/?lang=en">English</a>
+                                <a href="/?lang=zh_CN">简体中文</a>
+                                <a href="/?lang=ru">Pу́сский</a>
+                                <a href="/?lang=nl">Nederlands</a>
+                                <a href="/?lang=ar">العربية</a>
+                                <a href="/?lang=he">עִבְרִית</a>
+                                <a href="/?lang=ms">Malay</a>
+                                <a href="/?lang=pt">Português</a>
+                                <a href="/?lang=tr">Türkçe</a>
+                                <a href="/?lang=ja">日本語</a>
+                                <a href="/?lang=el">ελληνικά</a>
+                                <a href="/?lang=de">Deutsch</a>
+                                <a href="/?lang=ko">한국어</a>
+                            </div>
+                            <div class="col-xs-6">
+                                <a href="/?lang=fr">Français</a>
+                                <a href="/?lang=es">Español</a>
+                                <a href="/?lang=sr">српски</a>
+                                <a href="/?lang=id">Bahasa Indonesia</a>
+                                <a href="/?lang=hu">Magyar</a>
+                                <a href="/?lang=it">Italiano</a>
+                                <a href="/?lang=ur">اُردُو‬‎</a>
+                                <a href="/?lang=ro">Română</a>
+                                <a href="/?lang=vi">Tiếng Việt</a>
+                                <a href="/?lang=bg">български</a>
+                                <a href="/?lang=fi">Suomi</a>
+                                <a href="/?lang=cz">Česky</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
     </div>
-
-    <div id="navbar-collapse" class="collapse navbar-collapse">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="/#why-btcp" target="_blank" localization-tag="navigation-about">About</a></li>
-        <li><a href="/#hard-fork" target="_blank" localization-tag="navigation-hard-fork">Hard Fork</a></li>
-        <li><a id='teamlink1' href="/team.html" localization-tag="navigation-team">BTCP Team</a></li>
-
-        <li style="position: relative;">
-          <a href="#" id="support-button" class="dropdown-toggle" data-toggle="dropdown" localization-tag="navigation-support"><span>Support</span> <i class="fa fa-caret-down"></i></a>
-          <div id="support-dropdown" class="dropdown-menu">
-            <div class="row">
-              <div class="col-xs-12">
-                <a href="https://support.btcprivate.org/" target="_blank" localization-tag="navigation-support-portal">Support Portal</a>
-                <a href="/#faq" target="_blank" localization-tag="navigation-faq">FAQ</a>
-                <a href="/#resources" target="_blank" localization-tag="navigation-resources">Resources</a>
-              </div>
-            </div>
-          </div>
-        </li>
-        <li style="position: relative;">
-          <a href="#" id="language-button" class="dropdown-toggle" data-toggle="dropdown"><span localization-tag="navigation-language">English</span> <i class="fa fa-caret-down"></i></a>
-          <div id="language-dropdown" class="dropdown-menu">
-            <div class="row">
-              <div class="col-xs-6">
-                <a href="/?lang=en">English</a>
-                <a href="/?lang=zh_CN">简体中文</a>
-                <a href="/?lang=ru">Pу́сский</a>
-                <a href="/?lang=nl">Nederlands</a>
-                <a href="/?lang=ar">العربية</a>
-                <a href="/?lang=he">עִבְרִית</a>
-                <a href="/?lang=ms">Malay</a>
-                <a href="/?lang=pt">Português</a>
-                <a href="/?lang=tr">Türkçe</a>
-                <a href="/?lang=ja">日本語</a>
-                <a href="/?lang=el">ελληνικά</a>
-                <a href="/?lang=de">Deutsch</a>
-                <a href="/?lang=ko">한국어</a>
-              </div>
-
-              <div class="col-xs-6">
-                <a href="/?lang=fr">Français</a>
-                <a href="/?lang=es">Español</a>
-                <a href="/?lang=sr">српски</a>
-                <a href="/?lang=id">Bahasa Indonesia</a>
-                <a href="/?lang=hu">Magyar</a>
-                <a href="/?lang=it">Italiano</a>
-                <a href="/?lang=ur">اُردُو‬‎</a>
-                <a href="/?lang=ro">Română</a>
-                <a href="/?lang=vi">Tiếng Việt</a>
-                <a href="/?lang=bg">български</a>
-                <a href="/?lang=fi">Suomi</a>
-                <a href="/?lang=cz">Česky</a>
-              </div>
-            </div>
-          </div>
-        </li>
-      </ul>
-    </div>
-  </div>
 </nav>
-
-
 <div class="container-fluid">
-
-  <div id="hero" class="row">
-    <div class="col-xs-10 col-xs-push-1 col-sm-8 col-sm-push-2 text-center ">
-      <img src="images/branding/icon.svg" height="160px" />
-      <h1><span class="color-primary">Bitcoin</span> <span class="color-secondary">Private</span></h1>
-      <p class="x-large color-primary" localization-tag="hero-blurb">private, decentralized, fast, open source,<br class="hidden-xs" />community-driven coin</p>
+    <div id="hero" class="row">
+        <div class="col-xs-10 col-xs-push-1 col-sm-8 col-sm-push-2 text-center ">
+            <img src="images/branding/icon.svg" height="160px" />
+            <h1><span class="color-primary">Bitcoin</span> <span class="color-secondary">Private</span></h1>
+            <p class="x-large color-primary" localization-tag="hero-blurb">private, decentralized, fast, open source,
+                <br class="hidden-xs" />community-driven coin</p>
+        </div>
+        <div class="col-xs-10 col-xs-push-1 text-center">
+            <h3 localization-tag="business-cta-text">
+                    Interested in integrating Bitcoin Private in your business or want to learn more? Please contact us at
+                    <a target="_blank" class="color-secondary" href="mailto:partners@btcprivate.org">partners@btcprivate.org</a>!
+                </h3>
+        </div>
     </div>
-    <div class="col-xs-10 col-xs-push-1 text-center">
-        <h3 localization-tag="business-cta-text">
-          Interested in integrating Bitcoin Private in your business or want to learn more? Please contact us at
-          <a target="_blank" class="color-secondary" href="mailto:partners@btcprivate.org">partners@btcprivate.org</a>!
-        </h3>
+    <div id="hard-fork" class="row section">
+        <div class="container">
+            <!-- <div class="row">
+                <div class="col-xs-12">
+                    <h1 class="section-heading text-center" localization-tag="hard-fork-header-title"><span class="color-primary">Hard</span> <span class="color-secondary">Fork</span></h1>
+                </div>
+            </div> -->
+            <div class="row">
+                <div class="col-xs-10 col-xs-push-1 col-sm-5 col-md-3">
+                    <img src="images/static/business/phone01.png" width="100%" />
+                </div>
+                <div class="col-xs-12 col-sm-6 col-sm-push-1 col-md-6 col-md-push-2">
+                    <h3 localization-tag="business-what-is-bitcoin-private-title">What is Bitcoin Private?</h3>
+                    <p localization-tag="business-what-is-bitcoin-private-text">
+                        Bitcoin Private is a cryptocurrency focused on private transactions. It provides the security of a public blockchain, while senders, recipients and other transactional metadata remain unidentifiable. Bitcoin Private is a new project, and it is based on Bitcoin and ZClassic.
+                    </p>
+                    <h3 localization-tag="business-why-privacy-title">Why does Privacy matter?</h3>
+                    <p localization-tag="business-why-privacy-text">
+                        The biggest advantage of Bitcoin Private will likely not be a surprise: it’s focused on privacy. In Bitcoin, and many other cryptocurrencies, transactions are public. This means that anyone who knows your address - which one will need to send you funds - can see all the transactions that have something to do with that address. If you’re running a business, you will likely not want all your financial data to be out in the open. Bitcoin Private ensures that transactions are private.
+                    </p>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
-
-  <div id="hard-fork" class="row section">
-    <div class="container">
-      <!-- <div class="row">
-        <div class="col-xs-12">
-          <h1 class="section-heading text-center" localization-tag="hard-fork-header-title"><span class="color-primary">Hard</span> <span class="color-secondary">Fork</span></h1>
+    <div id="why-btcp" class="row section">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 section-heading ">
+                    <h2 class="text-center" localization-tag="business-help-header-title">
+                        <span class="color-primary">How does cryptocurrency & Bitcoin Private help my business?</span>
+                        <!-- <span class="color-secondary">$BTCP?</span> -->
+                    </h2>
+                    <div class="content col-xs-10 col-xs-push-1 text-center">
+                        <p localization-tag="business-help-header-text">As you may have noticed in the past months, cryptocurrency is very popular right now. Bitcoin Private features many benefits, compared to traditional systems:</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-4 visual-grouping">
+                    <i class="fa fa-lock visual" style="font-size: 79px"></i>
+                    <div class="content">
+                        <h3 localization-tag="why-btcp-private-title">Private</h3>
+                        <p localization-tag="business-private-text">Your transactions are your transactions only. Other parties, such as competitors, are not invited.</p>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-4 visual-grouping">
+                    <i class="fa fa-arrows visual" style="font-size: 79px"></i>
+                    <div class="content">
+                        <h3 localization-tag="why-btcp-decentralized-title">Decentralized</h3>
+                        <p localization-tag="business-decentralized-text">There is no central party in charge of your funds. You are in charge.</p>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-4 visual-grouping">
+                    <i class="fa fa-comments-o visual" style="font-size: 79px"></i>
+                    <div class="content">
+                        <h3 localization-tag="why-btcp-community-driven-title">Community Driven</h3>
+                        <p localization-tag="business-why-btcp-community-driven-text">This is a coin that is owned, and driven by the community.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-4 visual-grouping">
+                    <i class="fa fa-tachometer visual" style="font-size: 79px"></i>
+                    <div class="content">
+                        <h3 localization-tag="why-btcp-fast-title">Fast</h3>
+                        <p localization-tag="business-fast-text-text">Traditional systems can be very slow; transactions with Bitcoin Private can occur in seconds.</p>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-4 visual-grouping">
+                    <i class="fa fa-heart visual" style="font-size: 79px"></i>
+                    <div class="content">
+                        <h3 localization-tag="business-affordable-title">Affordable</h3>
+                        <p localization-tag="business-affordable-text">It can be expensive to send funds with traditional systems. With Bitcoin Private, it is possible to transfer funds, no matter how large the amounts are, much cheaper than with traditional systems.</p>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-4 visual-grouping">
+                    <i class="fa fa-users visual" style="font-size: 74px"></i>
+                    <div class="content">
+                        <h3 localization-tag="business-demand-title">In Demand</h3>
+                        <p localization-tag="business-demand-text">With the surge of cryptocurrency, the market is eagerly anticipating businesses to get involved. Gain a competitive advantage by adopting cryptocurrency and Bitcoin Private.</p>
+                    </div>
+                </div>
+                <div class="col-xs-12 text-center">
+                    <h3 localization-tag="business-cta-text ">Would you like to know the latest about Bitcoin Private?</h3>
+                    <a href="https://twitter.com/intent/follow?screen_name=bitcoinprivate" class="btn btn-accent" target="_blank">
+                        Follow us on twitter <i class="fa fa-twitter"></i>
+                    </a>
+                    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </div>
+            </div>
         </div>
-      </div> -->
-
-      <div class="row">
-        <div class="col-xs-10 col-xs-push-1 col-sm-5 col-md-3">
-          <img src="images/icons/phone01.png" width="100%" />
-        </div>
-
-        <div class="col-xs-12 col-sm-6 col-sm-push-1 col-md-6 col-md-push-2">
-          <h3 localization-tag="business-what-is-bitcoin-private-title">What is Bitcoin Private?</h3>
-          <p localization-tag="business-what-is-bitcoin-private-text">
-              Bitcoin Private is a cryptocurrency focused on private transactions. It provides the security  of a public blockchain, while senders, recipients and other transactional metadata remain unidentifiable. Bitcoin Private is a new project, and it is based on Bitcoin and ZClassic.
-          </p>
-
-          <h3 localization-tag="business-why-privacy-title">Why does Privacy matter?</h3>
-          <p localization-tag="business-why-privacy-text">
-              The biggest advantage of Bitcoin Private will likely not be a surprise: it’s focused on privacy. In Bitcoin, and many other cryptocurrencies, transactions are public. This means that anyone who knows your address - which one will need to send you funds - can see all the transactions that have something to do with that address. If you’re running a business, you will likely not want all your financial data to be out in the open. Bitcoin Private ensures that transactions are private.
-          </p>
-        </div>
-      </div>
     </div>
-  </div>
-
-  <div id="why-btcp" class="row section">
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12 section-heading ">
-          <h2 class="text-center" localization-tag="business-help-header-title">
-            <span class="color-primary">How does cryptocurrency & Bitcoin Private help my business?</span>
-            <!-- <span class="color-secondary">$BTCP?</span> -->
-          </h2>
-          <div class="content col-xs-10 col-xs-push-1 text-center">
-            <p localization-tag="business-help-header-text">As you may have noticed in the past months, cryptocurrency is very popular right now. Bitcoin Private features many benefits, compared to traditional systems:</p>
-          </div>
+    <div id="resources" class="row section">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <h1 class="section-heading text-center" localization-tag="resources-header-title"><span class="color-primary">BTCP</span> <span class="color-secondary">Resources</span></h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-5">
+                    <h3 localization-tag="resources-zclassic-cap-title">ZClassic Market Cap</h3>
+                    <p localization-tag="resources-zclassic-cap-text">Below is the current trading price of ZClassic and its market cap.</p>
+                    <script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/currency.js"></script>
+                    <div class="coinmarketcap-currency-widget" data-currency="zclassic" data-base="USD" data-secondary="BTC"></div>
+                </div>
+                <div class="col-xs-12 col-sm-3 col-sm-push-1">
+                    <h3 localization-tag="resources-press-inquiries-title">Press Inquiries</h3>
+                    <p localization-tag="resources-press-inquiries-text">To reach out to the primary coordinators of the team for any inquiries related to press, please contact us on Twitter <a href="https://twitter.com/bitcoinprivate" target="_blank">@bitcoinprivate</a>.</p>
+                    <h3 localization-tag="resources-press-kit-title">Press Kit</h3>
+                    <p localization-tag="resources-press-kit-text">You can download a zip file containing <a href="presskit/presskit.zip" download>Bitcoin Private's branding assets here</a>.</p>
+                    <h3 localization-tag="resources-official-links-title">Official Links</h3>
+                    <p localization-tag="resources-official-links-text">You can view a <a href="https://github.com/BTCP-community/official-links/blob/master/README.md" target="_blank">directory of official Bitcoin Private links here</a>.</p>
+                </div>
+                <div class="col-xs-12 col-sm-3 col-sm-push-1 links">
+                    <h3 localization-tag="resources-social-title">We're Social</h3>
+                    <a href="https://www.facebook.com/bitcoinprivate/" class="color-facebook" target="_blank"><i class="fa fa-facebook"></i> Facebook</a>
+                    <a href="https://twitter.com/bitcoinprivate" class="color-twitter" target="_blank"><i class="fa fa-twitter"></i> Twitter</a>
+                    <a href="https://www.reddit.com/r/BitcoinPrivate/" class="color-reddit" target="_blank"><i class="fa fa-reddit-alien"></i> Reddit</a>
+                    <a href="https://discord.gg/46U2p4m" class="color-discord" target="_blank"><i class="fa fa-comments"></i> Discord</a>
+                    <a href="https://t.me/BTCPrivate" class="color-telegram" target="_blank"><i class="fa fa-telegram"></i> Telegram</a>
+                    <a href="https://github.com/BTCPrivate/BitcoinPrivate" class="color-github" target="_blank"><i class="fa fa-github"></i> GitHub</a>
+                </div>
+            </div>
         </div>
-      </div>
-
-      <div class="row">
-        <div class="col-xs-12 col-sm-4 visual-grouping">
-          <i class="fa fa-lock visual" style="font-size: 79px"></i>
-          <div class="content">
-            <h3 localization-tag="why-btcp-private-title">Private</h3>
-            <p localization-tag="business-private-text">Your transactions are your transactions only. Other parties, such as competitors, are not invited.</p>
-          </div>
-        </div>
-
-        <div class="col-xs-12 col-sm-4 visual-grouping">
-          <i class="fa fa-arrows visual" style="font-size: 79px"></i>
-          <div class="content">
-            <h3 localization-tag="why-btcp-decentralized-title">Decentralized</h3>
-            <p localization-tag="business-decentralized-text">There is no central party in charge of your funds. You are in charge.</p>
-          </div>
-        </div>
-
-        <div class="col-xs-12 col-sm-4 visual-grouping">
-          <i class="fa fa-comments-o visual" style="font-size: 79px"></i>
-          <div class="content">
-            <h3 localization-tag="why-btcp-community-driven-title">Community Driven</h3>
-            <p localization-tag="business-why-btcp-community-driven-text">This is a coin that is owned, and driven by the community.</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-xs-12 col-sm-4 visual-grouping">
-          <i class="fa fa-tachometer visual" style="font-size: 79px"></i>
-          <div class="content">
-            <h3 localization-tag="why-btcp-fast-title">Fast</h3>
-            <p localization-tag="business-fast-text-text">Traditional systems can be very slow; transactions with Bitcoin Private can occur in seconds.</p>
-          </div>
-        </div>
-
-        <div class="col-xs-12 col-sm-4 visual-grouping">
-          <i class="fa fa-heart visual" style="font-size: 79px"></i>
-          <div class="content">
-            <h3 localization-tag="business-affordable-title">Affordable</h3>
-            <p localization-tag="business-affordable-text">It can be expensive to send funds with traditional systems. With Bitcoin Private, it is possible to transfer funds, no matter how large the amounts are, much cheaper than with traditional systems.</p>
-          </div>
-        </div>
-
-        <div class="col-xs-12 col-sm-4 visual-grouping">
-          <i class="fa fa-users visual" style="font-size: 74px"></i>
-          <div class="content">
-            <h3 localization-tag="business-demand-title">In Demand</h3>
-            <p localization-tag="business-demand-text">With the surge of cryptocurrency, the market is eagerly anticipating businesses to get involved. Gain a competitive advantage by adopting cryptocurrency and Bitcoin Private.</p>
-          </div>
-        </div>
-
-        <div class="col-xs-12 text-center">
-          <h3 localization-tag="business-cta-text ">Would you like to know the latest about Bitcoin Private?</h3>
-          <a href="https://twitter.com/intent/follow?screen_name=bitcoinprivate" class="btn btn-accent view-section">
-            Follow us on twitter <i class="fa fa-twitter"></i>
-          </a>
-          <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-        </div>
-      </div>
     </div>
-  </div>
-
-  <div id="resources" class="row section">
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-12">
-            <h1 class="section-heading text-center" localization-tag="resources-header-title"><span class="color-primary">BTCP</span> <span class="color-secondary">Resources</span></h1>
-          </div>
+    <div id="footer" class="footer row">
+        <div class="footer-upper container-fluid">
+            <div class="row">
+                <div class="col-xs-12 col-sm-3 text-center">
+                    <a href="/">
+                        <img src="images/branding/logo-white.svg" height="48px" />
+                    </a>
+                </div>
+                <div class="hidden-xs col-sm-9 text-right">
+                    <ul class="links">
+                        <li>
+                            <a href="/#why-btcp" localization-tag="navigation-about">About</a>
+                            <a href="/#hard-fork" localization-tag="navigation-hard-fork">Hard Fork</a>
+                            <a href="/#faq" localization-tag="navigation-faq">FAQ</a>
+                            <a href="/#resources" localization-tag="navigation-resources">Resources</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
-
-        <div class="row">
-          <div class="col-xs-12 col-sm-5">
-            <h3 localization-tag="resources-zclassic-cap-title">ZClassic Market Cap</h3>
-            <p localization-tag="resources-zclassic-cap-text">Below is the current trading price of ZClassic and its market cap.</p>
-            <script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/currency.js"></script>
-            <div class="coinmarketcap-currency-widget" data-currency="zclassic" data-base="USD"  data-secondary="BTC"></div>
-          </div>
-
-          <div class="col-xs-12 col-sm-3 col-sm-push-1">
-            <h3 localization-tag="resources-press-inquiries-title">Press Inquiries</h3>
-            <p localization-tag="resources-press-inquiries-text">To reach out to the primary coordinators of the team for any inquiries related to press, please contact us on Twitter <a href="https://twitter.com/bitcoinprivate" target="_blank">@bitcoinprivate</a>.</p>
-
-            <h3 localization-tag="resources-press-kit-title">Press Kit</h3>
-            <p localization-tag="resources-press-kit-text">You can download a zip file containing <a href="presskit/presskit.zip" download>Bitcoin Private's branding assets here</a>.</p>
-
-            <h3 localization-tag="resources-official-links-title">Official Links</h3>
-            <p localization-tag="resources-official-links-text">You can view a <a href="https://github.com/BTCP-community/official-links/blob/master/README.md" target="_blank">directory of official Bitcoin Private links here</a>.</p>
-          </div>
-          <div class="col-xs-12 col-sm-3 col-sm-push-1 links">
-            <h3 localization-tag="resources-social-title">We're Social</h3>
-            <a href="https://www.facebook.com/bitcoinprivate/" class="color-facebook" target="_blank"><i class="fa fa-facebook"></i> Facebook</a>
-            <a href="https://twitter.com/bitcoinprivate" class="color-twitter" target="_blank"><i class="fa fa-twitter"></i> Twitter</a>
-            <a href="https://www.reddit.com/r/BitcoinPrivate/" class="color-reddit" target="_blank"><i class="fa fa-reddit-alien"></i> Reddit</a>
-            <a href="https://discord.gg/46U2p4m" class="color-discord" target="_blank"><i class="fa fa-comments"></i> Discord</a>
-            <a href="https://t.me/BTCPrivate" class="color-telegram" target="_blank"><i class="fa fa-telegram"></i> Telegram</a>
-            <a href="https://github.com/BTCPrivate/BitcoinPrivate" class="color-github" target="_blank"><i class="fa fa-github"></i> GitHub</a>
-          </div>
+        <div class="footer-lower container-fluid">
+            <div class="row">
+                <div class="footer-disclaimer col-xs-12 text-right">
+                    <a id='disclaimerlink' href="disclaimer.html" localization-tag="navigation-disclaimer">Disclaimer</a>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
-
-  <div id="footer" class="row">
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12 col-sm-3 text-center">
-          <a href="#hero" class="view-section">
-            <img src="images/branding/logo-white.svg" height="48px" />
-          </a>
-        </div>
-
-        <div class="hidden-xs col-sm-9 text-right">
-          <ul class="links">
-            <li>
-              <a href="/#why-btcp"  target="_blank" localization-tag="navigation-about">About</a>
-              <a href="/#hard-fork"  target="_blank" localization-tag="navigation-hard-fork">Hard Fork</a>
-              <a href="/#faq"  target="_blank" localization-tag="navigation-faq">FAQ</a>
-              <a href="/#resources"  target="_blank" localization-tag="navigation-resources">Resources</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
 </div>
 
   <!-- Global site tag (gtag.js) - Google Analytics -->

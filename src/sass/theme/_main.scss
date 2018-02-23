@@ -3,278 +3,307 @@
  */
 
 #logo {
-  height: 50px;
+	height: 50px;
 
-  @media (max-width: $screen-sm-min) {
-    height: 35px;
-    margin-top: 5px;
-  }
+	@media (max-width: $screen-sm-min) {
+		height: 35px;
+		margin-top: 5px;
+	}
 }
 
 .navbar-toggle {
-  background: $color-white;
+	background: $color-white;
 }
 
 #navbar-collapse {
-  @media (max-width: $screen-md-min) {
-    background: $color-white;
-    border-radius: 10px;
-  }
+	@media (max-width: $screen-md-min) {
+		background: $color-white;
+		border-radius: 10px;
+	}
 }
 
 #language-button i {
-  margin-left: 5px;
+	margin-left: 5px;
 }
 
 #language-dropdown {
-  border-radius: 4px !important;
-  width: 320px;
-  padding: 0;
+	border-radius: 4px !important;
+	width: 320px;
+	padding: 0;
 
-  a {
-    display: block;
-    line-height: 40px;
-    color: $color-primary;
-    text-align: center;
-    text-decoration: none;
+	a {
+		display: block;
+		line-height: 40px;
+		color: $color-primary;
+		text-align: center;
+		text-decoration: none;
 
-    &:hover {
-      background: $color-primary;
-      color: $color-white;
-    }
-  }
+		&:hover {
+			background: $color-primary;
+			color: $color-white;
+		}
+	}
 }
 
 #hero {
-  background: url(../images/backgrounds/hero-background.jpg);
-  background-size: cover;
-  min-height: 700px;
-  padding-top: $navbar-height + 60px;
+	background: url(../images/backgrounds/hero-background.jpg);
+	background-size: cover;
+	min-height: 700px;
+	padding-top: $navbar-height + 60px;
 
-  img {
-    margin-bottom: 20px;
-  }
+	img {
+		margin-bottom: 20px;
+	}
 
-  h1 {
-    font-weight: bold;
-    font-style: italic;
-    margin-bottom: 14px;
-  }
+	h1 {
+		font-weight: bold;
+		font-style: italic;
+		margin-bottom: 14px;
+	}
 
-  p {
-    margin-bottom: 18px;
-  }
+	p {
+		margin-bottom: 18px;
+	}
 
-  h3 {
-    margin-bottom: 30px;
-  }
+	h3 {
+		margin-bottom: 30px;
+	}
 
-  .btn {
-    text-decoration: none;
-  }
+	.btn {
+		text-decoration: none;
+	}
 }
 
 #why-btcp {
-  .visual-grouping .content h3 {
-    color: $color-primary;
-  }
+	.visual-grouping .content h3 {
+		color: $color-primary;
+	}
 }
 
 #hard-fork {
-  background: rgba(117, 160, 213, 0.25);
+	background: rgba(117, 160, 213, 0.25);
 
-  @media (max-width: $screen-sm-min) {
-    img {
-      margin-bottom: 40px;
-    }
-  }
+	@media (max-width: $screen-sm-min) {
+		img {
+			margin-bottom: 40px;
+		}
+	}
 
-  h3:not(:first-child) {
-    margin-top: 40px;
-  }
+	h3:not(:first-child) {
+		margin-top: 40px;
+	}
 }
 
 #faq {
-  h3:not(:first-child) {
-    margin-top: 40px;
-  }
+	h3:not(:first-child) {
+		margin-top: 40px;
+	}
 }
 
 #team {
-  background: $color-layout-gray;
+	background: $color-layout-gray;
 
-  h3 {
-    margin-top: 80px;
-    margin-bottom: 8px;
-  }
+	h3 {
+		margin-top: 80px;
+		margin-bottom: 8px;
+	}
 
-  h3:first-child {
-    margin-top: 0;
-  }
+	h3:first-child {
+		margin-top: 0;
+	}
 
-  h3:not(:first-child) {
-    margin-top: 40px;
-  }
+	h3:not(:first-child) {
+		margin-top: 40px;
+	}
 
-  a {
-    font-size: 16px;
-    line-height: 24px;
-    margin-bottom: 16px;
-    display: block;
-    text-decoration: none;
+	a {
+		font-size: 16px;
+		line-height: 24px;
+		margin-bottom: 16px;
+		display: block;
+		text-decoration: none;
 
-    i {
-      font-size: 16px;
-      padding-right: 4px;
-      text-align: center;
-    }
-  }
+		i {
+			font-size: 16px;
+			padding-right: 4px;
+			text-align: center;
+		}
+	}
 
-  a.btn {
-    width: 320px;
-    display: inline-block;
-  }
+	a.btn {
+		width: 320px;
+		display: inline-block;
+	}
 
-  p {
-    margin: 0;
-  }
+	p {
+		margin: 0;
+	}
 
-  img {
-    margin-bottom: 64px;
-    border: 4px solid white;
-    border-radius: 80px;
-  }
+	img {
+		margin-bottom: 64px;
+		border: 4px solid white;
+		border-radius: 80px;
+	}
 
-  .team-page {
-    padding-top: 120px;
-  }
+	.team-page {
+		padding-top: 120px;
+	}
 
-  .community {
-    margin-bottom: 32px;
-  }
+	.community {
+		margin-bottom: 32px;
+	}
 
-  .team-page-info {
-    margin-bottom: 120px;
-  }
+	.team-page-info {
+		margin-bottom: 120px;
+	}
 
-  .community p {
-    font-size: 24px;
-    line-height: 30px;
-  }
+	.community p {
+		font-size: 24px;
+		line-height: 30px;
+	}
 
-  .community img {
-    border: 4px solid #75A0D5;
-    margin-bottom: 16px;
-  }
+	.community img {
+		border: 4px solid #75A0D5;
+		margin-bottom: 16px;
+	}
 
-  @media (max-width: $screen-sm-min) {
-    .row > div:not(:last-child) {
-      margin-bottom: 40px;
-    }
+	@media (max-width: $screen-sm-min) {
+		.row > div:not(:last-child) {
+			margin-bottom: 40px;
+		}
 
-    text-align: center;
+		text-align: center;
 
-    img {
-      margin-bottom: 16px;
-    }
+		img {
+			margin-bottom: 16px;
+		}
 
-    .community-logo {
-      text-align: center;
-    }
-  }
+		.community-logo {
+			text-align: center;
+		}
+	}
 }
 
 #resources {
-  background: $color-layout-gray;
+	background: $color-layout-gray;
 
-  h3:first-child {
-    margin-top: 0;
-  }
+	h3:first-child {
+		margin-top: 0;
+	}
 
-  h3:not(:first-child) {
-    margin-top: 40px;
-  }
+	h3:not(:first-child) {
+		margin-top: 40px;
+	}
 
-  .coinmarketcap-currency-widget {
-    background: $color-white;
-    border-radius: 10px;
-  }
+	.coinmarketcap-currency-widget {
+		background: $color-white;
+		border-radius: 10px;
+	}
 
-  .links a {
-    font-size: 20px;
-    line-height: 32px;
-    margin-bottom: 20px;
-    display: block;
-    text-decoration: none;
+	.links a {
+		font-size: 20px;
+		line-height: 32px;
+		margin-bottom: 20px;
+		display: block;
+		text-decoration: none;
 
-    i {
-      font-size: 32px;
-      width: 50px;
-      text-align: center;
-    }
-  }
+		i {
+			font-size: 32px;
+			width: 50px;
+			text-align: center;
+		}
+	}
 
-  @media (max-width: $screen-sm-min) {
-    .row > div:not(:last-child) {
-      margin-bottom: 40px;
-    }
-  }
+	@media (max-width: $screen-sm-min) {
+		.row > div:not(:last-child) {
+			margin-bottom: 40px;
+		}
+	}
 }
 
-#footer {
-  padding: 65px 0;
-  background: $color-primary;
+.disclaimer {
+	text-align: justify;
 
-  .links {
-    margin: 0;
+	&-header {
 
-    li:last-child a {
-      padding-right: 0;
-    }
+		h1 {
+			margin: 60px 0 40px;
+		}
+	}
+}
 
-    a {
-      padding: 0 15px;
-      font-size: 16px;
-      font-weight: 700;
-      color: $color-white;
-      line-height: 48px;
-      text-transform: uppercase;
-      text-decoration: none;
+.footer {
+	padding: 1rem 1rem;
+	background: $color-primary;
 
-      &:hover {
-        color: darken($color-white, 15%);
-      }
-    }
-  }
+	.links {
+		margin: 0;
+
+		li:last-child a {
+			padding-right: 0;
+		}
+
+		a {
+			padding: 0 15px;
+			font-size: 16px;
+			font-weight: 700;
+			color: $color-white;
+			line-height: 48px;
+			text-transform: uppercase;
+			text-decoration: none;
+
+			&:hover {
+				color: darken($color-white, 15%);
+			}
+		}
+	}
+
+	&-upper,
+	&-lower {
+		max-width: 1170px;
+		margin: 0 auto;
+		padding: 2rem;
+	}
+
+	&-disclaimer {
+
+		a {
+			text-decoration: none;
+
+			&:hover {
+				color: $color-white;
+			}
+		}
+	}
 }
 
 #support-button i {
-  margin-left: 5px;
+	margin-left: 5px;
 }
 
 #support-dropdown {
-  border-radius: 4px !important;
-  width: 160px;
-  padding: 0;
+	border-radius: 4px !important;
+	width: 160px;
+	padding: 0;
 
-  a {
-    display: block;
-    line-height: 40px;
-    color: $color-primary;
-    text-align: center;
-    text-decoration: none;
+	a {
+		display: block;
+		line-height: 40px;
+		color: $color-primary;
+		text-align: center;
+		text-decoration: none;
 
-    &:hover {
-      background: $color-primary;
-      color: $color-white;
-    }
-  }
+		&:hover {
+			background: $color-primary;
+			color: $color-white;
+		}
+	}
 }
 
 .fork-date{
-  margin-top: 0 !important;
+	margin-top: 0 !important;
 }
 
 .snap-date{
-  margin-bottom:0 !important;;
+	margin-bottom:0 !important;;
 }
