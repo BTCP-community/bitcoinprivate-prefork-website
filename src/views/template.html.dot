@@ -14,13 +14,13 @@
     <meta property="og:type" content="website">
     <meta property="og:title" content="Bitcoin Private">
     <meta property="og:description" content="Bitcoin Private is a hard fork of Bitcoin combined with the privacy of zk-snarks.">
-    <meta property="og:image" content="https://btcprivate.org/images/thumbnail.png">
+    <meta property="og:image" content=" https://raw.githubusercontent.com/BTCP-community/bitcoinprivate-prefork-website/master/src/images/thumbnail.png">
     <meta property="og:url" content="https://btcprivate.org/">
 
     <meta name="twitter:site" content="@bitcoinprivate">
     <meta name="twitter:title" content="Bitcoin Private">
     <meta name="twitter:description" content="Bitcoin Private is a hard fork of Bitcoin combined with the privacy of zk-snarks.">
-    <meta name="twitter:image" content="https://bitcoinprivate.org/images/thumbnail.png">
+    <meta name="twitter:image" content="https://raw.githubusercontent.com/BTCP-community/bitcoinprivate-prefork-website/master/src/images/thumbnail.png">
     <meta name="twitter:card" content="summary_large_image">
 
     <link rel="apple-touch-icon" sizes="57x57" href="favicons/apple-icon-57x57.png">
