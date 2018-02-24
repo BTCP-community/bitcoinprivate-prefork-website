@@ -84,6 +84,8 @@
     width: 100%;
     margin: 0 auto;
     opacity: 0;
+    -webkit-transition: opacity 0.5s ease-in-out;
+    -o-transition: opacity 0.5s ease-in-out;
     transition: opacity 0.5s ease-in-out;
 
     &-inner {
@@ -117,9 +119,15 @@
     }
 
     &-inner {
+      display: -webkit-box;
+      display: -ms-flexbox;
       display: flex;
-      align-items: center;
-      justify-content: center;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
 
       &-btc {
         float: right;
@@ -149,187 +157,60 @@
   display: inline-block;
   width: 25%;
   float: left;
-
-  &-inner {
-    margin: 0 auto;
-    width: 120px;
-
-    &:after {
-      content: '';
-      position: absolute;
-      display: block;
-      margin: 0 auto;
-      height: 120px;
-      width: 120px;
-      top: 0;
-      border: solid 10px rgba(black, 0.05);
-      border-radius: 100%;
-    }
-  }
-
-  .wrapper {
-    position: relative;
-    display: inline-block;
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    background: transparent;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-
-    & * {
-      -moz-box-sizing: border-box;
-      -webkit-box-sizing: border-box;
-      box-sizing: border-box;
-    }
-
-    .pie {
-      width: 50%;
-      height: 100%;
-      transform-origin: 100% 50%;
-      position: absolute;
-      background: transparent;
-      border: solid 10px $color-primary;
-    }
-
-    .spinner {
-      width: 60px;
-      height: 120px;
-      border-right: none;
-      border-radius: 100% 0 0 100% / 50% 0 0 50%;
-      z-index: 200;
-    }
-
-    &:hover .spinner,
-    &:hover .filler,
-    &:hover .mask {
-      animation-play-state: running;
-    }
-
-    .filler {
-      left: 50%;
-      opacity: 0;
-      z-index: 100;
-      border-radius: 0 100% 100% 0 / 0 50% 50% 0;
-      border-left: none;
-    }
-
-    .mask {
-      width: 50%;
-      height: 100%;
-      position: absolute;
-      background: inherit;
-      opacity: 1;
-      z-index: 300;
-      overflow: hidden;
-    }
-  }
 }
 
-.numbers {
-  position: absolute;
-  width: 100%;
+.countdown {
+  position: relative;
+  display: inline-block;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.counter__inner {
+  position: relative;
+  display: inline-block;
   height: 120px;
-  margin-top: 0px;
-  font-size: 48px;
-  top: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.unit {
-  position: absolute;
-  width: 100%;
-  font-size: 21px;
+  width: 120px;
   text-align: center;
 }
 
-
-//- Animations
-@keyframes rota {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
+.countdown__number {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  color:  $color-primary;
+  font-size: 32px;
+  letter-spacing: 2px;
+  font-weight: bold;
 }
 
-@keyframes opa {
-  0% {
-    opacity: 1;
-  }
-  50%,
-  100% {
-    opacity: 0;
-  }
+.countdown__text {
+  font-size: 16px;
+  font-weight: bold;
+  color: $color-primary;
 }
 
-.days {
-
-  &-anim-spinner {
-    animation: rota 864000s linear infinite reverse;
-  }
+.counter__progress {
+    transform: rotate(-90deg);
 }
 
-.days {
-
-  &-anim-filler {
-    animation-delay: opa 864000s steps(1, end) infinite;
-  }
-
-  &-anim-mask {
-    animation-delay: opa 864000s steps(1, end) infinite reverse;
-  }
+.counter__progress_bg {
+  stroke: rgba(black, 0.1);
 }
 
-.hours {
-
-  &-anim-spinner {
-    animation: rota 86400s linear infinite reverse;
-  }
-
-  &-anim-filler {
-    animation-delay: opa 86400s steps(1, end) infinite;
-  }
-
-  &-anim-mask {
-    animation-delay: opa 86400s steps(1, end) infinite reverse;
-  }
+.counter__progress_bg,
+.counter__progress {
+    fill: none;
+  stroke-width: 12;
 }
 
-.mins {
-
-  &-anim-spinner {
-    animation: rota 3600s linear infinite reverse;
-  }
-
-  &-anim-filler {
-    animation-delay: opa 3600s steps(1, end) infinite;
-  }
-
-  &-anim-mask {
-    animation-delay: opa 3600s steps(1, end) infinite reverse;
-  }
+.counter__progress_value {
+    stroke: $color-primary;
+    stroke-linecap: butt;
 }
-
-.secs {
-
-  &-anim-spinner {
-    animation: rota 60s linear infinite reverse;
-  }
-
-  &-anim-filler {
-    animation-delay: opa 60s steps(1, end) infinite;
-  }
-
-  &-anim-mask {
-    animation-delay: opa 60s steps(1, end) infinite reverse;
-  }
-}
-
 
 //- Media Queries and h/c responsive
 @media (min-width: 481px) and (max-width: 767px) {
