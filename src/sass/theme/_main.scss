@@ -265,10 +265,19 @@
 		padding: 2rem;
 	}
 
-	&-disclaimer {
+	&-legals {
 
 		a {
+			margin: 0 1rem;
 			text-decoration: none;
+
+			&:first-child {
+				margin-left: 0;
+			}
+
+			&:last-child {
+				margin-right: 0;
+			}
 
 			&:hover {
 				color: $color-white;
