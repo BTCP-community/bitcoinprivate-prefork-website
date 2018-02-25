@@ -4,14 +4,11 @@ $(function(){
 	var url = '/javascript/posts.json';
   $.getJSON(url).done(function(response){
     //var contents = decodeURIComponent(escape(response.contents));
-		var contents = response;
     //var data = JSON.parse(contents.replace("])}while(1);</x>", '')).payload;
-		var data = contents.payload;
+		var data = response;
 
-    // User data
-		var user = data.references.User;
-		var userImageUrl = 'https://cdn-images-1.medium.com/fit/c/72/72/' + user.imageId;
-		var userName = user.name;
+    // Users data
+		var users = data.references.User;
 
     // Posts data
 	  var posts = data.references.Post;
@@ -21,12 +18,28 @@ $(function(){
 	  Object.keys(posts).forEach(function(postId){
 			// Post data
 	    var post = posts[postId];
-      var url = 'https://medium.com/@' + user.username + '/' + post.uniqueSlug;
-			var currentYear = moment('YYYY').utc
-			var publishDate = moment(post.latestPublishedAt).format('MMM Do');
-			var readTime = ;
-			var title = ;
-			var paragraphs = ;
+
+      // User data
+			var user = users[post.creatorId];
+			var username = user.username;
+			var userName = user.name;
+			var userImageUrl = 'https://cdn-images-1.medium.com/fit/c/72/72/' + user.imageId;
+
+      // Post metadata
+      var url = 'https://medium.com/@' + username + '/' + post.uniqueSlug;
+			var currentYear = moment().year();
+			var publishYear = moment(post.latestPublishedAt).year();
+			var publishDate = (currentYear == publishYear) ? moment(post.latestPublishedAt).format('MMM Do') : moment(post.latestPublishedAt).format('MMM Do, YYYY');
+			var readTime = Math.round(post.virtuals.readingTime);
+			var title = post.title;
+
+      // Post body
+			var paragraphs = post.previewContent.bodyModel.paragraphs;
+			var postBody = '';
+			paragraphs.forEach(function(paragraph){
+				paragraphText = '<p>' + paragraph.text + '</p>';
+				postBody += paragraphText;
+			});
 
       // Post HTML
       var postHtml = '<div class="post-article">'
@@ -35,33 +48,21 @@ $(function(){
 			             + '      <img src="' + userImageUrl + '">'
 			             + '    </div>'
 			             + '    <div class="post-meta">'
-			             + '      <div class="post-author">' userName
-			             + '      </div>'
-			             + '      <div class="post-time">' 
-			             + '        <div class="post-date">' publish date
-			             + '        </div>'
-			             + '        <div class="post-divider">'
-			             + '          &#183;'
-			             + '        </div>'
-			             + '        <div class="post-read">' readTime
-			             + '        </div>'
+			             + '      <div class="post-author">' + userName + '</div>'
+			             + '      <div class="post-time">'
+			             + '        <div class="post-date">' + publishDate + '</div>'
+			             + '        <div class="post-divider">&#183;</div>'
+			             + '        <div class="post-read">' + readTime + ' min read</div>'
 			             + '      </div>'
 			             + '    </div>'
 			             + '  </div>'
-			             + '  <div class="post-body">' link to medium post
-			             + '    <h3>' post title
-			             + '    </h3>'
-			             + '    <figure class="post-figure">' post image
-			             + '    </figure>'
-			             + '    <p></p>' post heading
-			             + '    <p></p>' post subheading
-			             + '  </div>'
+			             + '  <a href="' + url + '"><div class="post-body">' + postBody + '</div></a>'
 			             + '  <div class="post-footer">'
 			             + '    <a href="' + url + '">Read more...</a>'
 			             + '  </div>'
 			             + '</div>'
 			postsHtml += postHtml;
-		})
+		});
 		$('#posts').html(postsHtml);
   });
 });
