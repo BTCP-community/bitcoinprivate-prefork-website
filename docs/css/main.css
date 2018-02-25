@@ -8325,6 +8325,11 @@ p {
   .color-discord:hover {
     color: #3556ca !important; }
 
+.color-medium {
+  color: #15AABF !important; }
+  .color-medium:hover {
+    color: #0d6d7a !important; }
+
 .font-weight-bold {
   font-weight: 500; }
 
@@ -8525,6 +8530,56 @@ html, body {
       #team img {
         margin-bottom: 16px; }
       #team .community-logo {
+        text-align: center; } }
+
+#blog {
+  background: #EEEEEE; }
+  #blog h3 {
+    margin-top: 80px;
+    margin-bottom: 8px; }
+  #blog h3:first-child {
+    margin-top: 0; }
+  #blog h3:not(:first-child) {
+    margin-top: 40px; }
+  #blog a {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 16px;
+    display: block;
+    text-decoration: none; }
+    #blog a i {
+      font-size: 16px;
+      padding-right: 4px;
+      text-align: center; }
+  #blog a.btn {
+    width: 320px;
+    display: inline-block; }
+  #blog p {
+    margin: 0; }
+  #blog img {
+    margin-bottom: 64px;
+    border: 4px solid white;
+    border-radius: 80px; }
+  #blog .blog-page {
+    padding-top: 120px; }
+  #blog .community {
+    margin-bottom: 32px; }
+  #blog .blog-page-info {
+    margin-bottom: 120px; }
+  #blog .community p {
+    font-size: 24px;
+    line-height: 30px; }
+  #blog .community img {
+    border: 4px solid #75A0D5;
+    margin-bottom: 16px; }
+  @media (max-width: 768px) {
+    #blog {
+      text-align: center; }
+      #blog .row > div:not(:last-child) {
+        margin-bottom: 40px; }
+      #blog img {
+        margin-bottom: 16px; }
+      #blog .community-logo {
         text-align: center; } }
 
 #resources {
