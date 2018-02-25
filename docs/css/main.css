@@ -8740,6 +8740,9 @@ html, body {
 .counter__progress {
   transform: rotate(-90deg); }
 
+_:-ms-lang(x), .counter__progress {
+    transform: rotate(-90deg) scaleX(-1) scaleY(-1); }
+
 .counter__progress_bg {
   stroke: rgba(0, 0, 0, 0.1); }
 
