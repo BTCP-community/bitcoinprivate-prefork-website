@@ -45,9 +45,11 @@
     <script type="text/javascript" src="dependencies/jquery/dist/jquery.min.js"></script>
     <script type="text/javascript" src="dependencies/bootstrap-sass/assets/javascripts/bootstrap.min.js"></script>
     <script type="text/javascript" src="/dependencies/js-url/url.min.js"></script>
+    <script type="text/javascript" src="/dependencies/moment/min/moment.min.js"></script>
     <script type="text/javascript" src="javascript/Localizations.js?cachbreaker=<{=Math.floor(Math.random() * 1000000) + 1  }>"></script>
     <script type="text/javascript" src="javascript/Main.js?cachbreaker=<{=Math.floor(Math.random() * 1000000) + 1  }>"></script>
     <script type="text/javascript" src="javascript/Countdown.js?cachbreaker=<{=Math.floor(Math.random() * 1000000) + 1  }>" defer></script>
+		<script type="text/javascript" src="javascript/Blog.js?cachbreaker=<{=Math.floor(Math.random() * 1000000) + 1  }>" defer></script>
   </head>
   <body>
     <{=it.content || ''}>
