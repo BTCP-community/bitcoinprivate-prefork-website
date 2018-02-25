@@ -8576,9 +8576,14 @@ html, body {
     max-width: 1170px;
     margin: 0 auto;
     padding: 2rem; }
-  .footer-disclaimer a {
+  .footer-legals a {
+    margin: 0 1rem;
     text-decoration: none; }
-    .footer-disclaimer a:hover {
+    .footer-legals a:first-child {
+      margin-left: 0; }
+    .footer-legals a:last-child {
+      margin-right: 0; }
+    .footer-legals a:hover {
       color: #FFFFFF; }
 
 #support-button i {
