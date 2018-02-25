@@ -7,6 +7,8 @@ var canShowCountdown = true;
 var setArcs = false;
 var doConfettiResize = true;
 
+var RADIUS = 54;
+var CIRCUMFERENCE = 2 * Math.PI * RADIUS;
 
 // Set the date and time after which the snapshot will occur (next discovered block)
 var timeSnapshot = 1519837200; // 28th Feb 2018 @ 17:00:00 UTC
@@ -23,9 +25,11 @@ fetch('/favicons/manifest.json?rand='+Math.floor((Math.random()*10000000)+1)).th
 	// and if we've passed the snapshot date & time, switch to that message display
 	if (canShowCountdown && timeSnapshot > timeNow) {
 		$("#countdownRoot").css('display',' block');
+
 		tickoverCountdown = setInterval(function() {
 			countdownTime();
-			establishUnitValues();
+			establishCountdownValues();
+
 			if (timeSnapshot < timeNow) {
 				showAwaitingBlock();
 				clearInterval(tickoverCountdown);
@@ -44,52 +48,25 @@ var countdownTime = function() {
 
 
 // Establish new unit values
-var establishUnitValues = function() {
+var establishCountdownValues = function() {
 	var timeRemaining = timeSnapshot-timeNow;
-	daysLeft = parseInt(timeRemaining/60/60/24,10);
-	hoursLeft = parseInt((timeRemaining-(daysLeft*60*60*24))/60/60,10);
-	minsLeft = parseInt((timeRemaining-(daysLeft*60*60*24)-(hoursLeft*60*60))/60,10);
-	secsLeft = parseInt(timeRemaining-(daysLeft*60*60*24)-(hoursLeft*60*60)-(minsLeft*60),10);
-	// Set values in DOM elems
-	$('#daysLeft').text(daysLeft);
-	$('#hoursLeft').text(hoursLeft);
-	$('#minsLeft').text(minsLeft);
-	$('#secsLeft').text(secsLeft);
+	daysRemaining = parseInt(timeRemaining/60/60/24,10);
+	hoursRemaining = parseInt((timeRemaining-(daysRemaining*60*60*24))/60/60,10);
+	minsRemaining = parseInt((timeRemaining-(daysRemaining*60*60*24)-(hoursRemaining*60*60))/60,10);
+	secsRemaining = parseInt(timeRemaining-(daysRemaining*60*60*24)-(hoursRemaining*60*60)-(minsRemaining*60),10);
 
-	// Set styles for DOM elems based on half max unit values
-	setUnitStyles('days',5);
-	setUnitStyles('hours',12);
-	setUnitStyles('mins',30);
-	setUnitStyles('secs',30);
+	setUnitPosition('Days', 7, daysRemaining);
+	setUnitPosition('Hours', 24, hoursRemaining);
+	setUnitPosition('Mins',60, minsRemaining);
+	setUnitPosition('Secs',60, secsRemaining);
 
 	// If we haven't set arcs around units yet, set animation delay offsets
 	if (!setArcs) {
-		setAnimationDelays('days',((daysLeft*60*60*24)-(10*60*60*24)+2)+"s");
-		setAnimationDelays('hours',((hoursLeft*60*60)-(24*60*60)+2)+"s");
-		setAnimationDelays('mins',((minsLeft*60)-(60*60)+2)+"s");
-		setAnimationDelays('secs',(secsLeft-60+2)+"s");
 		// Fade in counter container now
 		fadeInCountdownContainer();
 		// Set flag so we don't get here again
 		setArcs = true;
 	}
-}
-
-
-// Set unit styles for various DOM elems for it
-var setUnitStyles = function(unit,halfUnit) {
-	$('#'+unit+'Mask').css('margin-right', window[unit+'Left'] <= halfUnit ? "0" : "60px");
-	$('#'+unit+'Mask').css('margin-left', window[unit+'Left'] <= halfUnit ? "60px" : "0");
-	$('#'+unit+'Spinner').css('margin-left', window[unit+'Left'] <= halfUnit ? "-60px" : "0");
-	$('#'+unit+'Filler').css('opacity', window[unit+'Left'] <= halfUnit ? "0" : "1");
-}
-
-
-// Set animation delays for 3 DOM elems for unit
-var setAnimationDelays = function(unit,delay) {
-	$('#'+unit+'Spinner').css('animation-delay',delay);
-	$('#'+unit+'Filler').css('animation-delay',delay);
-	$('#'+unit+'Mask').css('animation-delay',delay);
 }
 
 
@@ -179,4 +156,15 @@ var showConfetti = function() {
 	script.type = 'text/javascript';
 	script.src = '/javascript/Confetti.js';
 	document.getElementsByTagName('head')[0].appendChild(script);
+}
+
+
+// Countdown initial style
+var setUnitPosition = function(unit, size, remaining) {
+	// Set values in DOM elems
+	$('.counter__'+unit.toLowerCase() + '_progress').attr("stroke-dasharray", CIRCUMFERENCE);
+	$('#countdown'+unit).text(remaining);
+	$('#countdown'+unit).attr("data-size", size);
+	var current = CIRCUMFERENCE - ((CIRCUMFERENCE / size) * remaining)
+	$('.counter__'+unit.toLowerCase() + '_progress').attr("stroke-dashoffset", current);
 }

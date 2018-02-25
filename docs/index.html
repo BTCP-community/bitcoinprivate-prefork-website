@@ -42,12 +42,15 @@
 
     <link href="css/main.css?cachebreaker=830748" rel="stylesheet" type="text/css" />
 
+
     <script type="text/javascript" src="dependencies/jquery/dist/jquery.min.js"></script>
     <script type="text/javascript" src="dependencies/bootstrap-sass/assets/javascripts/bootstrap.min.js"></script>
     <script type="text/javascript" src="/dependencies/js-url/url.min.js"></script>
+
     <script type="text/javascript" src="javascript/Localizations.js?cachbreaker=68769"></script>
     <script type="text/javascript" src="javascript/Main.js?cachbreaker=117156"></script>
     <script type="text/javascript" src="javascript/Countdown.js?cachbreaker=907986" defer></script>
+
   </head>
   <body>
     <canvas class="confetti-canvas" id="confetti"></canvas>
@@ -156,53 +159,51 @@
 
         <!-- Countdown //-->
         <div class="countdown-container-inner col-xs-12" id="countdownInner">
-          <div class="counter">
-            <div class="counter-inner" id="daysCounter">
-              <div class="wrapper" id="daysWrapper">
-                <div class="pie filler days-anim-filler" id="daysFiller"></div>
-                <div class="mask days-anim-mask" id="daysMask"><div class="pie spinner days-anim-spinner" id="daysSpinner"></div></div>
-              </div>
+
+          <div class="counter counter__days">
+            <div class="counter__inner">
+              <div id="countdownDays" class="countdown__number">-</div>
+              <svg class="counter__progress" width="120" height="120" viewBox="0 0 120 120">
+                  <circle class="counter__progress_bg" cx="60" cy="60" r="54" />
+                  <circle id="counterDays" class="counter__progress_value counter__days_progress" cx="60" cy="60" r="54" />
+              </svg>
+              <div class="countdown__text" localization-tag="days">Days</div>
             </div>
-            <div class="numbers color-primary" id="daysLeft"></div>
-            <div class="unit color-primary" id="daysText">days</div>
-          </div>
-          <div class="counter">
-            <div class="counter-inner" id="hoursCounter">
-              <div class="wrapper" id="hoursWrapper" id="hoursWrapper">
-                <div class="pie filler hours-anim-filler" id="hoursFiller"></div>
-                <div class="mask hours-anim-mask" id="hoursMask">
-                  <div class="pie spinner hours-anim-spinner" id="hoursSpinner"></div>
-                </div>
-              </div>
-            </div>
-            <div class="numbers color-primary" id="hoursLeft"></div>
-            <div class="unit color-primary" id="hoursText">hours</div>
-          </div>
-          <div class="counter">
-            <div class="counter-inner" id="minsCounter">
-              <div class="wrapper" id="minsWrapper">
-                <div class="pie filler mins-anim-filler" id="minsFiller"></div>
-                <div class="mask mins-anim-mask" id="minsMask">
-                  <div class="pie spinner mins-anim-spinner" id="minsSpinner"></div>
-                </div>
-              </div>
-            </div>
-            <div class="numbers color-primary" id="minsLeft"></div>
-            <div class="unit color-primary" id="minsText">mins</div>
           </div>
 
-          <div class="counter">
-            <div class="counter-inner" id="secsCounter">
-              <div class="wrapper" id="secsWrapper">
-                <div class="pie filler secs-anim-filler" id="secsFiller"></div>
-                <div class="mask secs-anim-mask" id="secsMask">
-                  <div class="pie spinner secs-anim-spinner" id="secsSpinner"></div>
-                </div>
-              </div>
+          <div class="counter counter__hours">
+            <div class="counter__inner">
+              <div id="countdownHours" class="countdown__number">-</div>
+              <svg class="counter__progress" width="120" height="120" viewBox="0 0 120 120">
+                  <circle class="counter__progress_bg" cx="60" cy="60" r="54" />
+                  <circle id="counterHours" class="counter__progress_value counter__hours_progress" cx="60" cy="60" r="54" />
+              </svg>
+              <div class="countdown__text" localization-tag="hours">Hours</div>
             </div>
-            <div class="numbers color-primary" id="secsLeft"></div>
-            <div class="unit color-primary" id="secsText">secs</div>
           </div>
+
+          <div class="counter counter__mins">
+            <div class="counter__inner">
+              <div id="countdownMins" class="countdown__number">-</div>
+              <svg class="counter__progress" width="120" height="120" viewBox="0 0 120 120">
+                 <circle class="counter__progress_bg" cx="60" cy="60" r="54" />
+                <circle id="counterMins" class="counter__progress_value counter__mins_progress" cx="60" cy="60" r="54" />
+              </svg>
+              <div class="countdown__text" localization-tag="minutes">Minutes</div>
+            </div>
+          </div>
+
+          <div class="counter counter__secs">
+            <div class="counter__inner">
+              <div id="countdownSecs" class="countdown__number">-</div>
+              <svg class="counter__progress" width="120" height="120" viewBox="0 0 120 120">
+                <circle class="counter__progress_bg" cx="60" cy="60" r="54" />
+                 <circle  id="counterSecs" class="counter__progress_value counter__secs_progress" cx="60" cy="60" r="54" />
+              </svg>
+              <div class="countdown__text" localization-tag="seconds">Seconds</div>
+            </div>
+          </div>
+
         </div>
 
       </div>
@@ -485,7 +486,8 @@
     </div>
     <div class="footer-lower container-fluid">
       <div class="row">
-        <div class="footer-disclaimer col-xs-12 text-right">
+        <div class="footer-legals col-xs-12 text-right">
+          <a id='privacylink' href="privacy.html" localization-tag="navigation-privacy">Privacy</a>
           <a id='disclaimerlink' href="disclaimer.html" localization-tag="navigation-disclaimer">Disclaimer</a>
         </div>
       </div>
