@@ -187,85 +187,72 @@
 #blog {
   background: $color-layout-gray;
 
-  h3 {
-    margin-top: 80px;
-    margin-bottom: 8px;
-  }
-
-  h3:first-child {
-    margin-top: 0;
-  }
-
-  h3:not(:first-child) {
-    margin-top: 40px;
-  }
-
   a {
-    font-size: 16px;
-    line-height: 24px;
-    margin-bottom: 16px;
-    display: block;
+	  color: $color-black;
     text-decoration: none;
-
-    i {
-      font-size: 16px;
-      padding-right: 4px;
-      text-align: center;
-    }
-  }
-
-  a.btn {
-    width: 320px;
-    display: inline-block;
-  }
-
-  p {
-    margin: 0;
   }
 
   img {
-    margin-bottom: 64px;
+	  height: 50px;
+		width: 50px;
     border: 4px solid white;
-    border-radius: 80px;
+    border-radius: 25px;
   }
+
+  p {
+	  font-size: 1.5em;
+		line-height: 2;
+	}
 
   .blog-page {
     padding-top: 120px;
   }
 
-  .community {
-    margin-bottom: 32px;
-  }
+  .post-avatar {
+	  float: left;
+		margin-right: 10px;
+	}
 
-  .blog-page-info {
-    margin-bottom: 120px;
-  }
+  .post-meta {
+	  font-size: 1.3em;
+	}
 
-  .community p {
-    font-size: 24px;
-    line-height: 30px;
-  }
+  .post-author {
+	  color: $color-primary;
+	}
 
-  .community img {
-    border: 4px solid #75A0D5;
-    margin-bottom: 16px;
-  }
+  .post-time {
+	  color: $color-secondary;
+	}
 
-  @media (max-width: $screen-sm-min) {
-    .row > div:not(:last-child) {
-      margin-bottom: 40px;
-    }
+  .post-date {
+	  float: left;
+	}
 
-    text-align: center;
+  .post-divider {
+	  float: left;
+		margin-left: 7px;
+		margin-right: 7px;
+	}
 
-    img {
-      margin-bottom: 16px;
-    }
+  .post-article {
+	  background-color: white;
+		border: 1px solid gray;
+		border-radius: 4px;
+		margin: 25px 0px;
+		padding: 25px;
+	}
 
-    .community-logo {
-      text-align: center;
-    }
-  }
+  .post-body {
+	  margin-top: 20px;
+	}
+
+  .post-footer {
+	  a {
+		  font-size: 1.3em;
+		  color: $color-secondary;
+		}
+	}
 }
 
 #resources {
