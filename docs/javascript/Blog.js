@@ -37,7 +37,8 @@ $(function(){
 			var paragraphs = post.previewContent.bodyModel.paragraphs;
 			var postBody = '';
 			paragraphs.forEach(function(paragraph){
-				paragraphText = '<p>' + paragraph.text + '</p>';
+				var text = paragraph.text.replace("\n", '<br/>');
+				paragraphText = '<p>' + text + '</p>';
 				postBody += paragraphText;
 			});
 
@@ -60,7 +61,7 @@ $(function(){
 			             + '  <div class="post-footer">'
 			             + '    <a href="' + url + '">Read more...</a>'
 			             + '  </div>'
-			             + '</div>'
+			             + '</div>';
 			postsHtml += postHtml;
 		});
 		$('#posts').html(postsHtml);
