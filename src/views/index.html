@@ -79,16 +79,9 @@
 
 <div class="container-fluid">
 	<div id="hero" class="row">
-		<div class="splash col-xs-10 col-xs-push-1 col-sm-6 col-sm-push-3 text-center" style="display: none" id="splashRoot">
-			<img src="images/branding/icon.svg" height="160px" />
-			<h1><span class="color-primary">Bitcoin</span> <span class="color-secondary">Private</span></h1>
-			<p class="x-large color-primary" localization-tag="hero-blurb">private, decentralized, fast, open source, <br class="hidden-xs" />community-driven coin</p>
-			<h3 class="color-primary font-weight-bold snap-date" localization-tag="snap-date">Snapshot date: February 28th, 2018 </h3>
-			<h3 class="color-primary font-weight-bold fork-date" localization-tag="fork-date" >Fork Date & Mainnet Launch: Approximately 2 days later</h3>
 
-			<a target="_blank" href="https://btcprivate.org/whitepaper.pdf"><button class="btn btn-accent btn-whitepaper" localization-tag="why-btcp-whitepaper-button">Whitepaper</button></a>
-		</div>
-		<div class="countdown col-xs-12 text-center" style="display: none" id="countdownRoot">
+		<div class="countdown col-xs-12 text-center" id="countdownRoot">
+
 			<div class="countdown-logo">
 				<img src="images/branding/icon.svg" />
 				<div class="countdown-logotype">
@@ -99,83 +92,25 @@
 					<p class="x-large color-primary" localization-tag="hero-blurb">private, decentralized, fast, open source, <br class="hidden-xs" />community-driven coin</p>
 				</div>
 			</div>
-			<div class="countdown-container row text-center" id="countdownContainer">
-				<div class="countdown-snapshot-message row">Snapshot: First ZCL and BTC blocks found after 28th Feb @ 5:00pm UTC<br>Fork & mainnet launch: Approx 2 days later</div>
 
-				<!-- Countdown //-->
-				<div class="countdown-container-inner col-xs-12" id="countdownInner">
-
-					<div class="counter counter__days">
-						<div class="counter__inner">
-							<div id="countdownDays" class="countdown__number">-</div>
-							<svg class="counter__progress" width="120" height="120" viewBox="0 0 120 120">
-									<circle class="counter__progress_bg" cx="60" cy="60" r="54" />
-									<circle id="counterDays" class="counter__progress_value counter__days_progress" cx="60" cy="60" r="54" />
-							</svg>
-							<div class="countdown__text" localization-tag="days">Days</div>
-						</div>
-					</div>
-
-					<div class="counter counter__hours">
-						<div class="counter__inner">
-							<div id="countdownHours" class="countdown__number">-</div>
-							<svg class="counter__progress" width="120" height="120" viewBox="0 0 120 120">
-									<circle class="counter__progress_bg" cx="60" cy="60" r="54" />
-									<circle id="counterHours" class="counter__progress_value counter__hours_progress" cx="60" cy="60" r="54" />
-							</svg>
-							<div class="countdown__text" localization-tag="hours">Hours</div>
-						</div>
-					</div>
-
-					<div class="counter counter__mins">
-						<div class="counter__inner">
-							<div id="countdownMins" class="countdown__number">-</div>
-							<svg class="counter__progress" width="120" height="120" viewBox="0 0 120 120">
-								 <circle class="counter__progress_bg" cx="60" cy="60" r="54" />
-								<circle id="counterMins" class="counter__progress_value counter__mins_progress" cx="60" cy="60" r="54" />
-							</svg>
-							<div class="countdown__text" localization-tag="minutes">Minutes</div>
-						</div>
-					</div>
-
-					<div class="counter counter__secs">
-						<div class="counter__inner">
-							<div id="countdownSecs" class="countdown__number">-</div>
-							<svg class="counter__progress" width="120" height="120" viewBox="0 0 120 120">
-								<circle class="counter__progress_bg" cx="60" cy="60" r="54" />
-								 <circle  id="counterSecs" class="counter__progress_value counter__secs_progress" cx="60" cy="60" r="54" />
-							</svg>
-							<div class="countdown__text" localization-tag="seconds">Seconds</div>
-						</div>
-					</div>
-
-				     <div class="col-xs-12 text-center">
-				     		<div class="countdown-snapshot-note row">Note: The snapshot will occur after the first blocks mined after 5pm UTC. <br>The countdown is purely for illustrative purposes. <br>Snapshot blocks - ZCL: Awaiting... BTC: Awaiting...</div>
-				     	</div>
-
-				</div>
-
-			</div>
-			<div class="awaiting-container row text-center" id="awaitingContainer">
-				<div class="awaiting-container-title col-xs-12">
-					<h2>Awaiting discovery of next blocks</h2>
-				</div>
-			</div>
-			<div class="snapshot-container row text-center" id="snapshotContainer">
+			<div class="snapshot-container row text-center" style="display:block" id="snapshotContainer">
 				<h1>Snapshot has now taken place!</h1>
 			</div>
 
-			<div class="block-details-container row" id="blockDetails">
+			<div class="block-details-container row" style="display:block" id="blockDetails">
 				<div class="block-details block-details-btc col-sm-6 col-xs-12">
 					<div class="block-details-inner block-details-inner-btc">
 						<img class="block-details-icon block-details-icon-btc" src="images/icons/bitcoin.png" />
-						<span class="block-details-message block-details-message-btc" id="awaitingContainerBitcoin">511346</span>
+						<span class="block-details-message block-details-message-btc" id="awaitingContainerBitcoin">Awaiting...</span>
+
 					</div>
 				</div>
 				<div class="block-details block-details-zcl col-sm-6 col-xs-12">
 					<div class="block-details-inner block-details-inner-zlc">
 						<img class="block-details-icon block-details-icon-zcl" src="images/icons/zclassic.png" />
-						<span class="block-details-message block-details-message-zcl" id="awaitingContainerZclassic">272991</span>
+
+						<span class="block-details-message block-details-message-zcl" id="awaitingContainerZclassic">Awaiting...</span>
+
 					</div>
 				</div>
 			</div>
