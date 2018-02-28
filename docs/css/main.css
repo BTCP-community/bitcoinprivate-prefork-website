@@ -8669,6 +8669,10 @@ html, body {
   color: #272D63;
   padding: 3rem; }
 
+.countdown-snapshot-note {
+  color: #272D63;
+  padding-top: 4.5rem; }
+
 .countdown-container {
   position: relative;
   max-width: 800px;

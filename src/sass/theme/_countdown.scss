@@ -78,6 +78,11 @@
     padding: 3rem;
   }
 
+  &-snapshot-note {
+    color: $color-primary;
+    padding-top: 4.5rem;
+  }
+
   &-container {
     position: relative;
     max-width: 800px;
