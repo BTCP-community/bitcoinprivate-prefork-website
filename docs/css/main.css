@@ -8712,13 +8712,14 @@ html, body {
     justify-content: center; }
     .block-details-inner-btc {
       float: right; }
-    .block-details-inner-zlc {
+    .block-details-inner-zcl {
       float: left; }
   .block-details-message {
-    font-size: 30px;
-    font-weight: bold;
-    margin: 0 10px;
-    color: #272D63; }
+    font-size: 15px; }
+    .block-details-message-btc, .block-details-message-zcl {
+      font-size: 30px;
+      font-weight: bold;
+      color: #272D63; }
   .block-details img {
     margin: 0 0 0 0 !important; }
 
