@@ -17,6 +17,12 @@ bower install
 npm run dev
 ```
 
+## Development
+
+1) Branch off of develop branch
+2) Merge back into dev when ready
+3) Admin will review/approve changes and merge into master
+
 ## Deploying
 
 The website is currently hosted with github pages. Use `npm run build`, this will update the docs directory with the latest src changes.

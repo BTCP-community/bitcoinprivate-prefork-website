@@ -1,0 +1,284 @@
+/*
+ * Countdown
+ */
+
+.whitepaper {
+
+  &-container {
+
+    &-inner {
+      padding: 3rem 0;
+    }
+  }
+}
+
+//- Confetti
+.confetti-canvas {
+  position: fixed;
+  display: none;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+//- Snapshot
+.snapshot {
+
+  &-container {
+    display: none;
+    margin: 40px 0 40px 0;
+
+    h1,
+    h2 {
+      margin-bottom: 0px!important;
+      color:$color-primary;
+    }
+  }
+}
+
+//- Awaiting
+.awaiting {
+
+  &-container {
+    display: none;
+    margin: 40px 0 40px 0;
+
+    h1,
+    h2 {
+      color: $color-primary;
+    }
+  }
+}
+
+//- Countdown
+.countdown {
+
+  &-logo {
+    display: inline-block;
+    padding: 3rem 3rem 0;
+
+    img {
+       height: 160px;
+       vertical-align: baseline;
+       margin-right: 20px;
+       margin-bottom: 0px!important;
+    }
+  }
+
+  &-logotype {
+    position: relative;
+    display: inline-block;
+    top: -30px;
+    text-align: left;
+  }
+
+  &-snapshot-message {
+    color: $color-primary;
+    padding: 3rem;
+  }
+
+  &-snapshot-note {
+    color: $color-primary;
+    padding-top: 4.5rem;
+  }
+
+  &-container {
+    position: relative;
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+    opacity: 0;
+    -webkit-transition: opacity 0.5s ease-in-out;
+    -o-transition: opacity 0.5s ease-in-out;
+    transition: opacity 0.5s ease-in-out;
+
+    &-inner {
+      padding: 3rem;
+    }
+  }
+}
+
+//- Block details
+.block {
+
+  h1,
+  h2 {
+    margin: 20px 0;
+    color: $color-primary;
+  }
+
+  span {
+    color: $color-primary;
+  }
+
+  &-icon {
+    width: 60px;
+  }
+
+  &-details {
+    margin: 20px 0;
+
+    &-container {
+      display: none;
+    }
+
+    &-inner {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+
+      &-btc {
+        float: right;
+      }
+
+      &-zlc {
+        float: left;
+      }
+    }
+
+    &-message {
+      font-size: 30px;
+      font-weight: bold;
+      margin: 0 10px;
+      color: $color-primary;
+    }
+
+    img {
+      margin: 0 0 0 0!important;
+    }
+  }
+}
+
+//- Counter
+.counter {
+  position: relative;
+  display: inline-block;
+  width: 25%;
+  float: left;
+}
+
+.countdown {
+  position: relative;
+  display: inline-block;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.counter__inner {
+  position: relative;
+  display: inline-block;
+  height: 120px;
+  width: 120px;
+  text-align: center;
+}
+
+.countdown__number {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  color:  $color-primary;
+  font-size: 32px;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+.countdown__text {
+  font-size: 16px;
+  font-weight: bold;
+  color: $color-primary;
+}
+
+.counter__progress {
+    transform: rotate(-90deg);
+}
+
+_:-ms-lang(x), .counter__progress {
+    transform: rotate(-90deg) scaleX(-1) scaleY(-1); }
+
+.counter__progress_bg {
+  stroke: rgba(black, 0.1);
+}
+
+.counter__progress_bg,
+.counter__progress {
+    fill: none;
+  stroke-width: 12;
+}
+
+.counter__progress_value {
+    stroke: $color-primary;
+    stroke-linecap: butt;
+}
+
+//- Media Queries and h/c responsive
+@media (min-width: 481px) and (max-width: 767px) {
+
+
+}
+
+@media (max-width: 767px) {
+
+  .countdown {
+
+    &-logo {
+
+      img {
+        display: none;
+      }
+    }
+
+    &-logotype {
+      position: relative;
+      display: inline-block;
+      top: 5px;
+      text-align: center;
+
+      h1 {
+        display: none;
+      }
+    }
+  }
+
+  .awaiting {
+
+    &-container {
+      margin: 40px 0 40px 0;
+    }
+  }
+
+  .block {
+    &-details {
+
+      &-inner {
+        float: none;
+        padding: 10px;
+      }
+    }
+  }
+}
+
+@media (max-width: 580px) {
+
+  .counter {
+    width: 45%;
+    height: 170px;
+
+    &:nth-child(odd) {
+      margin-left: 5%;
+    }
+
+    &:nth-child(even) {
+      margin-right: 5%;
+    }
+  }
+}

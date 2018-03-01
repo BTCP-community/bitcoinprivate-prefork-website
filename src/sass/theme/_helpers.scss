@@ -103,6 +103,30 @@
   }
 }
 
+.btn-whitepaper {
+  @extend .btn-primary;
+    color: $color-white;
+    background: $color-accent;
+    border-color: $color-accent;
+
+    &:hover, &:active, &:focus {
+      color: $color-white;
+      background: $color-accent-hover;
+      border-color: $color-accent-hover;
+    }
+}
+
+
+.btn-countdown {
+      color: $color-white;
+
+      &:hover {
+        color: $color-white;
+        background: $color-accent-hover;
+        border-color: $color-accent-hover;
+      }
+    }
+
 p.x-large {
   color: $color-black;
   font-weight: 300;
