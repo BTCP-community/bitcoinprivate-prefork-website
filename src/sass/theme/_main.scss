@@ -100,21 +100,8 @@
 	}
 }
 
-.community {
-
-	&__img {
-		border: 4px solid $color-secondary;
-		border-radius: 80px;
-		margin-bottom: 40px;
-	}
-}
-
-.team {
+#team {
 	background: $color-layout-gray;
-
-	.row > div:not(:last-child) {
-		margin: 0 0 40px 0;
-	}
 
 	h3 {
 		margin-top: 80px;
@@ -132,6 +119,7 @@
 	a {
 		font-size: 16px;
 		line-height: 24px;
+		margin-bottom: 16px;
 		display: block;
 		text-decoration: none;
 
@@ -151,62 +139,47 @@
 		margin: 0;
 	}
 
-	&__heading {
-		margin: 60px 0 40px;
+	img {
+		margin-bottom: 64px;
+		border: 4px solid white;
+		border-radius: 80px;
 	}
 
-	&__img {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-
-		&_inner {
-			margin: 20px 0;
-			border: 4px solid $color-white;
-			border-radius: 80px;
-		}
-	}
-
-	&__container {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-	}
-
-	&__page {
+	.team-page {
 		padding-top: 120px;
 	}
 
-	&__content {
-		text-align: left;
+	.community {
+		margin-bottom: 32px;
 	}
 
-	&__page-info {
+	.team-page-info {
 		margin-bottom: 120px;
 	}
 
-	&__link {
-		min-height: 24px;
+	.community p {
+		font-size: 24px;
+		line-height: 30px;
+	}
+
+	.community img {
+		border: 4px solid #75A0D5;
+		margin-bottom: 16px;
 	}
 
 	@media (max-width: $screen-sm-min) {
-		&__heading {
-			margin: 20px 0;
+		.row > div:not(:last-child) {
+			margin-bottom: 40px;
 		}
 
-		&__img {
-			justify-content: flex-end;
+		text-align: center;
 
-			&_inner {
-				float: right;
-			}
+		img {
+			margin-bottom: 16px;
 		}
 
-		.community {
-
-			&__img {
-				margin-bottom: 20px;
-			}
+		.community-logo {
+			text-align: center;
 		}
 	}
 }
