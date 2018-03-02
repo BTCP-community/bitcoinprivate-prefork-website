@@ -40,15 +40,14 @@
 
     <title localization-tag="page-title">Bitcoin Private</title>
 
-    <link href="css/main.css?cachebreaker=680008" rel="stylesheet" type="text/css" />
+    <link href="css/main.css?cachebreaker=79877" rel="stylesheet" type="text/css" />
 
     <script type="text/javascript" src="dependencies/jquery/dist/jquery.min.js"></script>
     <script type="text/javascript" src="dependencies/bootstrap-sass/assets/javascripts/bootstrap.min.js"></script>
     <script type="text/javascript" src="/dependencies/js-url/url.min.js"></script>
-    <script type="text/javascript" src="javascript/Localizations.js?cachbreaker=557253"></script>
-    <script type="text/javascript" src="javascript/Main.js?cachbreaker=303871"></script>
-    <script type="text/javascript" src="javascript/Countdown.js?cachbreaker=741011" defer></script>
-
+    <script type="text/javascript" src="javascript/Localizations.js?cachbreaker=560067"></script>
+    <script type="text/javascript" src="javascript/Main.js?cachbreaker=954784"></script>
+    <script type="text/javascript" src="javascript/Countdown.js?cachbreaker=55174" defer></script>
   </head>
   <body>
     <canvas class="confetti-canvas" id="confetti"></canvas>
@@ -73,8 +72,9 @@
 			<ul class="nav navbar-nav navbar-right">
 				<li><a href="#why-btcp" class="view-section" localization-tag="navigation-about">About</a></li>
 				<li><a href="#hard-fork" class="view-section" localization-tag="navigation-hard-fork">Hard Fork</a></li>
-				<li><a id='teamlink1' href="team.html" localization-tag="navigation-team">BTCP Team</a></li>
-				<li><a href="press.html" localization-tag="navigation-press">Press</a></li>
+                                <li><a href="/pools.html" localization-tag="navigation-press">Pools</a></li>
+				<li><a id='teamlink1' href="/team.html" localization-tag="navigation-team">BTCP Team</a></li>
+				<li><a href="/press.html" localization-tag="navigation-press">Press</a></li>
 
 				<li style="position: relative;">
 					<a href="#" id="support-button" class="dropdown-toggle" data-toggle="dropdown" localization-tag="navigation-support"><span >Support</span> <i class="fa fa-caret-down"></i></a>
@@ -451,6 +451,18 @@
     gtag('js', new Date());
     gtag('config', 'UA-111728706-1');
   </script>
+
+  <!-- Google Analytics -->
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-115002906-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+  <!-- End Google Analytics -->
 
   </body>
 </html>
