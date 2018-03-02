@@ -39,14 +39,15 @@
     <link rel="manifest" href="favicons/manifest.json">
 
     <title localization-tag="page-title">Bitcoin Private</title>
-    <link href="css/main.css?cachebreaker=627550" rel="stylesheet" type="text/css" />
+
+    <link href="css/main.css?cachebreaker=462506" rel="stylesheet" type="text/css" />
 
     <script type="text/javascript" src="dependencies/jquery/dist/jquery.min.js"></script>
     <script type="text/javascript" src="dependencies/bootstrap-sass/assets/javascripts/bootstrap.min.js"></script>
     <script type="text/javascript" src="/dependencies/js-url/url.min.js"></script>
-    <script type="text/javascript" src="javascript/Localizations.js?cachbreaker=429059"></script>
-    <script type="text/javascript" src="javascript/Main.js?cachbreaker=966803"></script>
-    <script type="text/javascript" src="javascript/Countdown.js?cachbreaker=220887" defer></script>
+    <script type="text/javascript" src="javascript/Localizations.js?cachbreaker=132462"></script>
+    <script type="text/javascript" src="javascript/Main.js?cachbreaker=843731"></script>
+    <script type="text/javascript" src="javascript/Countdown.js?cachbreaker=924251" defer></script>
   </head>
   <body>
     <nav class="navbar navbar-default">
@@ -67,8 +68,9 @@
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="/#why-btcp" localization-tag="navigation-about">About</a></li>
                 <li><a href="/#hard-fork" localization-tag="navigation-hard-fork">Hard Fork</a></li>
+                <li><a href="/pools.html" localization-tag="navigation-press">Pools</a></li>
                 <li><a id='teamlink1' href="/team.html" localization-tag="navigation-team">BTCP Team</a></li>
-                <li><a href="press.html" localization-tag="navigation-press">Press</a></li>
+                <li><a href="/press.html" localization-tag="navigation-press">Press</a></li>
 
                 <li style="position: relative;">
                     <a href="#" id="support-button" class="dropdown-toggle" data-toggle="dropdown" localization-tag="navigation-support"><span>Support</span> <i class="fa fa-caret-down"></i></a>
@@ -276,9 +278,10 @@
                         <li>
                             <a href="/#why-btcp" localization-tag="navigation-about">About</a>
                             <a href="/#hard-fork" localization-tag="navigation-hard-fork">Hard Fork</a>
-                            <a href="team.html" localization-tag="navigation-team">BTCP Team</a>
+                            <a href="/pools.html" localization-tag="navigation-pools">Pools</a>
+                            <a href="/team.html" localization-tag="navigation-team">BTCP Team</a>
                             <a href="/#faq" localization-tag="navigation-faq">FAQ</a>
-                            <a href="press.html" localization-tag="navigation-press">Press</a>
+                            <a href="/press.html" localization-tag="navigation-press">Press</a>
                             <a href="/#resources" localization-tag="navigation-resources">Resources</a>
                         </li>
                     </ul>
@@ -296,6 +299,7 @@
     </div>
 </div>
 
+
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-111728706-1"></script>
   <script>
@@ -304,6 +308,18 @@
     gtag('js', new Date());
     gtag('config', 'UA-111728706-1');
   </script>
+
+  <!-- Google Analytics -->
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-115002906-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+  <!-- End Google Analytics -->
 
   </body>
 </html>
