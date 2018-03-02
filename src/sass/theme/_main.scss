@@ -221,6 +221,41 @@
 	}
 }
 
+#press {
+	background: $color-layout-gray;
+
+	h3:first-child {
+		margin-top: 0;
+	}
+
+	h3:not(:first-child) {
+		margin-top: 40px;
+	}
+
+	.coinmarketcap-currency-widget {
+		background: $color-white;
+		border-radius: 10px;
+	}
+
+	.links a {
+		font-size: 20px;
+		line-height: 32px;
+		margin-bottom: 20px;
+		display: block;
+		text-decoration: none;
+
+		i {
+			font-size: 32px;
+			width: 50px;
+			text-align: center;
+		}
+	}
+
+	.row > div:not(:last-child) {
+		margin-bottom: 40px;
+	}
+}
+
 .disclaimer {
 	text-align: justify;
 

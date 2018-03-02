@@ -8550,6 +8550,28 @@ html, body {
     #resources .row > div:not(:last-child) {
       margin-bottom: 40px; } }
 
+#press {
+  background: #EEEEEE; }
+  #press h3:first-child {
+    margin-top: 0; }
+  #press h3:not(:first-child) {
+    margin-top: 40px; }
+  #press .coinmarketcap-currency-widget {
+    background: #FFFFFF;
+    border-radius: 10px; }
+  #press .links a {
+    font-size: 20px;
+    line-height: 32px;
+    margin-bottom: 20px;
+    display: block;
+    text-decoration: none; }
+    #press .links a i {
+      font-size: 32px;
+      width: 50px;
+      text-align: center; }
+  #press .row > div:not(:last-child) {
+    margin-bottom: 40px; }
+
 .disclaimer {
   text-align: justify; }
   .disclaimer-header h1 {

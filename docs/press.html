@@ -40,14 +40,14 @@
 
     <title localization-tag="page-title">Bitcoin Private</title>
 
-    <link href="css/main.css?cachebreaker=144181" rel="stylesheet" type="text/css" />
+    <link href="css/main.css?cachebreaker=942415" rel="stylesheet" type="text/css" />
 
     <script type="text/javascript" src="dependencies/jquery/dist/jquery.min.js"></script>
     <script type="text/javascript" src="dependencies/bootstrap-sass/assets/javascripts/bootstrap.min.js"></script>
     <script type="text/javascript" src="/dependencies/js-url/url.min.js"></script>
-    <script type="text/javascript" src="javascript/Localizations.js?cachbreaker=39062"></script>
-    <script type="text/javascript" src="javascript/Main.js?cachbreaker=943014"></script>
-    <script type="text/javascript" src="javascript/Countdown.js?cachbreaker=424402" defer></script>
+    <script type="text/javascript" src="javascript/Localizations.js?cachbreaker=325155"></script>
+    <script type="text/javascript" src="javascript/Main.js?cachbreaker=146823"></script>
+    <script type="text/javascript" src="javascript/Countdown.js?cachbreaker=753102" defer></script>
   </head>
   <body>
     <nav class="navbar navbar-default">
@@ -128,26 +128,49 @@
 </nav>
 
 <div class="container-fluid">
-	<div id="press-container" class="row section">
-
-		<div class="press-header container">
-			<div class="row">
-				<div class="col-xs-12 team-page">
-					<h1 class="section-heading text-center" localization-tag="disclaimer"><span class="color-primary">Privacy Policy</span></h1>
+	<div id="press" class="press-container row section">
+		<div class="container">
+			<div class="press-title row">
+				<div class="col-xs-12">
+					<h1 class="section-heading text-center" localization-tag="press-header-title"><span class="color-primary">Press</span></h1>
 				</div>
 			</div>
 
 			<div class="press-content row">
-				<div class="col-sm-10 col-sm-offset-1 col-xs-12">
-					<div class="content">
-						<div>For any press inquiries, please reach out to <a href="mailto:press@btcprivate.org">press@btcprivate.org</a></div>
-						<div>For all official statements, please refer to our <a href="https://github.com/BTCPrivate" target="_blank">Github</a> and our <a href="https://twitter.com/BitcoinPrivate" target="_blank">Twitter</a></div>
-						<div>Mainnet Launch: Approximately 2 days from snapshot</div>
-					</div>
+
+				<div class="press-message col-xs-12 col-sm-6">
+					<h3 localization-tag="resources-press-inquiries-title">Press Inquiries</h3>
+					<p localization-tag="resources-press-inquiries-text">To reach out to the primary coordinators of the team for any inquiries related to press, please contact us at <a href="mailto:press@btcprivate.org">press@btcprivate.org</a>.</p>
+
+					<p localization-tag="resources-press-inquiries-message">For any press inquiries, please reach out to <a href="mailto:press@btcprivate.org">press@btcprivate.org</a></p>
+					<p localization-tag="resources-press-inquiries-social">For all official statements, please refer to our <a href="https://github.com/BTCPrivate" target="_blank">Github</a> and our <a href="https://twitter.com/BitcoinPrivate" target="_blank">Twitter</a></p>
+
+					<h3 localization-tag="resources-press-kit-title">Press Kit</h3>
+					<p localization-tag="resources-press-kit-text">You can download a zip file containing <a href="presskit/presskit.zip" download>Bitcoin Private's branding assets here</a>.</p>
+
+					<h3 localization-tag="resources-official-links-title">Official Links</h3>
+					<p localization-tag="resources-official-links-text">You can view a <a href="https://github.com/BTCP-community/official-links/blob/master/README.md" target="_blank">directory of official Bitcoin Private links here</a>.</p>
 				</div>
+
+				<div class="col-xs-12 col-sm-3 col-sm-offset-3 links">
+					<h3 localization-tag="resources-social-title">We're Social</h3>
+					<a href="https://www.facebook.com/bitcoinprivate/" class="color-facebook" target="_blank"><i class="fa fa-facebook"></i> Facebook</a>
+					<a href="https://twitter.com/bitcoinprivate" class="color-twitter" target="_blank"><i class="fa fa-twitter"></i> Twitter</a>
+					<a href="https://www.reddit.com/r/BitcoinPrivate/" class="color-reddit" target="_blank"><i class="fa fa-reddit-alien"></i> Reddit</a>
+					<a href="https://discord.gg/46U2p4m" class="color-discord" target="_blank"><i class="fa fa-comments"></i> Discord</a>
+					<a href="https://t.me/BTCPrivate" class="color-telegram" target="_blank"><i class="fa fa-telegram"></i> Telegram</a>
+					<a href="https://github.com/BTCPrivate/BitcoinPrivate" class="color-github" target="_blank"><i class="fa fa-github"></i> GitHub</a>
+				</div>
+
+				<div class="col-xs-12 col-sm-6 col-sm-offset-3">
+					<h3 localization-tag="resources-zclassic-cap-title">ZClassic Market Cap</h3>
+					<p localization-tag="resources-zclassic-cap-text">Below is the current trading price of ZClassic and its market cap.</p>
+					<script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/currency.js"></script>
+					<div class="coinmarketcap-currency-widget" data-currency="zclassic" data-base="USD"  data-secondary="BTC"></div>
+				</div>
+
 			</div>
 		</div>
-
 	</div>
 
 	<div id="footer" class="footer row">
