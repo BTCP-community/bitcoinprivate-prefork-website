@@ -184,6 +184,21 @@
 	}
 }
 
+.wallets {
+	background: rgba(117, 160, 213, 0.25);
+
+
+	.wallet {
+
+		&-content {
+
+			p {
+				min-height: 21px;
+			}
+		}
+	}
+}
+
 #resources {
 	background: $color-layout-gray;
 

@@ -8527,6 +8527,11 @@ html, body {
       #team .community-logo {
         text-align: center; } }
 
+.wallets {
+  background: rgba(117, 160, 213, 0.25); }
+  .wallets .wallet-content p {
+    min-height: 21px; }
+
 #resources {
   background: #EEEEEE; }
   #resources h3:first-child {
