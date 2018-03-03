@@ -262,6 +262,10 @@
 
 		h1 {
 			margin: 60px 0;
+
+			@media (max-width: $screen-sm-min) {
+				margin: 40px 0 20px;
+			}
 		}
 	}
 
@@ -300,16 +304,37 @@
 			-webkit-box-pack: center;
 			-ms-flex-pack: center;
 			justify-content: center;
+
+			@media (max-width: $screen-sm-min) {
+				margin: 40px 0;
+			}
 		}
 
 	}
 
 	&-table {
+		padding: 15px;
+		border-radius: 25px;
+		background: #efefef;
 
 		&-inner {
 			word-break: break-all;
 		}
 
+		&-item {
+
+			&-title {
+
+				span {
+					display: -webkit-box;
+					display: -ms-flexbox;
+					display: flex;
+					-webkit-box-align: center;
+					-ms-flex-align: center;
+					align-items: center;
+				}
+			}
+		}
 	}
 }
 
