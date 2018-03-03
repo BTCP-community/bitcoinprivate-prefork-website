@@ -40,14 +40,14 @@
 
     <title localization-tag="page-title">Bitcoin Private</title>
 
-    <link href="css/main.css?cachebreaker=249135" rel="stylesheet" type="text/css" />
+    <link href="css/main.css?cachebreaker=40448" rel="stylesheet" type="text/css" />
 
     <script type="text/javascript" src="dependencies/jquery/dist/jquery.min.js"></script>
     <script type="text/javascript" src="dependencies/bootstrap-sass/assets/javascripts/bootstrap.min.js"></script>
     <script type="text/javascript" src="/dependencies/js-url/url.min.js"></script>
-    <script type="text/javascript" src="javascript/Localizations.js?cachbreaker=181802"></script>
-    <script type="text/javascript" src="javascript/Main.js?cachbreaker=699195"></script>
-    <script type="text/javascript" src="javascript/Countdown.js?cachbreaker=628505" defer></script>
+    <script type="text/javascript" src="javascript/Localizations.js?cachbreaker=75718"></script>
+    <script type="text/javascript" src="javascript/Main.js?cachbreaker=105832"></script>
+    <script type="text/javascript" src="javascript/Countdown.js?cachbreaker=595681" defer></script>
   </head>
   <body>
     <canvas class="confetti-canvas" id="confetti"></canvas>
@@ -72,7 +72,8 @@
 			<ul class="nav navbar-nav navbar-right">
 				<li><a href="#why-btcp" class="view-section" localization-tag="navigation-about">About</a></li>
 				<li><a href="#hard-fork" class="view-section" localization-tag="navigation-hard-fork">Hard Fork</a></li>
-                                <li><a href="/pools.html" localization-tag="navigation-press">Pools</a></li>
+				<li><a href="#wallets" class="view-section" localization-tag="navigation-wallets">Wallets</a></li>
+                    <li><a href="/pools.html" localization-tag="navigation-press">Pools</a></li>
 				<li><a id='teamlink1' href="/team.html" localization-tag="navigation-team">BTCP Team</a></li>
 				<li><a href="/press.html" localization-tag="navigation-press">Press</a></li>
 
@@ -309,6 +310,67 @@
 		</div>
 	</div>
 
+	<div id="wallets" class="wallets row section">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12">
+					<h1 class="section-heading text-center" localization-tag="why-btcp-header-title"><span class="color-primary">Wallets</span></h1>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-xs-12 col-sm-6 visual-grouping">
+					<h3 localization-tag="wallet-fullnode-title">Full-Node Desktop Wallet</h3>
+					<i class="fa fa-windows visual" style="font-size: 40px"></i>
+					<i class="fa fa-apple visual" style="font-size: 40px"></i>
+					<i class="fa fa-linux visual" style="font-size: 40px"></i>
+					<div class="wallet-content content">
+						<p localization-tag="wallet-electrum-message"></p>
+					</div>
+					<div class="col-xs-12 text-center whitepaper">
+						<a class="btn btn-primary btn-whitepaper" href="https://github.com/BTCPrivate/bitcoin-private-full-node-wallet/releases" target="_blank" localization-tag="wallet-fullnode-cta">See on Github</a>
+					</div>
+				</div>
+
+				<div class="col-xs-12 col-sm-6 visual-grouping">
+					<h3 localization-tag="wallet-electrum-title">Electrum Wallet</h3>
+					<i class="fa fa-windows visual" style="font-size: 40px"></i>
+					<i class="fa fa-linux visual" style="font-size: 40px"></i>
+					<div class="wallet-content content">
+						<p localization-tag="wallet-electrum-message">macOS coming soon.</p>
+					</div>
+					<div class="col-xs-12 text-center whitepaper">
+						<a class="btn btn-primary btn-whitepaper" href="https://github.com/BTCPrivate/electrum-btcp/releases/" target="_blank" localization-tag="wallet-electrum-cta">See on Github</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-xs-12 col-sm-6 visual-grouping">
+					<h3 localization-tag="wallet-paper-title">Paper Wallet</h3>
+					<i class="fa fa-file visual" style="font-size: 40px"></i>
+					<div class="wallet-content content">
+						<p localization-tag="wallet-paper-message"></p>
+					</div>
+					<div class="col-xs-12 text-center whitepaper">
+						<a class="btn btn-primary disabled" href="https://paperwallet.btcprivate.org/" target="_blank" localization-tag="wallet-paper-cta">Ready soon...</a>
+					</div>
+				</div>
+
+				<div class="col-xs-12 col-sm-6 visual-grouping">
+					<h3 localization-tag="wallet-paper-title">Coinomi</h3>
+					<i class="fa fa-android visual" style="font-size: 40px"></i>
+					<div class="wallet-content content">
+						<p localization-tag="wallet-paper-message">iOS coming soon.</p>
+					</div>
+					<div class="col-xs-12 text-center whitepaper">
+						<a class="btn btn-primary" href="https://coinomi.com/" target="_blank" localization-tag="wallet-exchange-coinomi-cta">Coinomi.com</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
 	<div id="faq" class="row section">
 		<div class="container">
 			<div class="row">
@@ -421,7 +483,8 @@
 						<li>
 							<a href="#why-btcp" class="view-section" localization-tag="navigation-about">About</a>
 							<a href="#hard-fork" class="view-section" localization-tag="navigation-hard-fork">Hard Fork</a>
-                                                        <a href="/pools.html" localization-tag="navigation-pools">Pools</a>
+							<a href="#wallets" class="view-section" localization-tag="navigation-wallets">Wallets</a>
+                                   <a href="/pools.html" localization-tag="navigation-pools">Pools</a>
 							<a href="/team.html" localization-tag="navigation-team">BTCP Team</a>
 							<a href="#faq" class="view-section" localization-tag="navigation-faq">FAQ</a>
 							<a href="/press.html" localization-tag="navigation-press">Press</a>
