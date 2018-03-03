@@ -256,6 +256,63 @@
 	}
 }
 
+.pools {
+
+	&-title {
+
+		h1 {
+			margin: 60px 0;
+		}
+	}
+
+
+	&-intro {
+		margin: 40px 0;
+	}
+
+	&-content {
+
+		&-title {
+			display: -webkit-box;
+			display: -ms-flexbox;
+			display: flex;
+			-webkit-box-align: center;
+			-ms-flex-align: center;
+			align-items: center;
+			-webkit-box-pack: center;
+			-ms-flex-pack: center;
+			justify-content: center;
+		}
+
+		&-message {
+		}
+
+		&-official {
+		}
+
+		&-cta {
+			display: -webkit-box;
+			display: -ms-flexbox;
+			display: flex;
+			-webkit-box-align: center;
+			-ms-flex-align: center;
+			align-items: center;
+			-webkit-box-pack: center;
+			-ms-flex-pack: center;
+			justify-content: center;
+		}
+
+	}
+
+	&-table {
+
+		&-inner {
+			word-break: break-all;
+		}
+
+	}
+}
+
 .disclaimer {
 	text-align: justify;
 
