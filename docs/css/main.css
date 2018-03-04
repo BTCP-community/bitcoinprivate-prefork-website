@@ -8684,6 +8684,9 @@ html, body {
 .snap-date {
   margin-bottom: 0 !important; }
 
+.notification-main-content {
+  text-align: center; }
+
 /*
  * Countdown
  */
