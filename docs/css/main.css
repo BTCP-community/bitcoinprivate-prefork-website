@@ -8477,55 +8477,67 @@ html, body {
 #faq h3:not(:first-child) {
   margin-top: 40px; }
 
-#team {
+.community__img {
+  border: 4px solid #75A0D5;
+  border-radius: 80px;
+  margin-bottom: 40px; }
+
+.team {
   background: #EEEEEE; }
-  #team h3 {
+  .team .row > div:not(:last-child) {
+    margin: 0 0 40px 0; }
+  .team h3 {
     margin-top: 80px;
     margin-bottom: 8px; }
-  #team h3:first-child {
+  .team h3:first-child {
     margin-top: 0; }
-  #team h3:not(:first-child) {
+  .team h3:not(:first-child) {
     margin-top: 40px; }
-  #team a {
+  .team a {
     font-size: 16px;
     line-height: 24px;
-    margin-bottom: 16px;
     display: block;
     text-decoration: none; }
-    #team a i {
+    .team a i {
       font-size: 16px;
       padding-right: 4px;
       text-align: center; }
-  #team a.btn {
+  .team a.btn {
     width: 320px;
     display: inline-block; }
-  #team p {
+  .team p {
     margin: 0; }
-  #team img {
-    margin-bottom: 64px;
-    border: 4px solid white;
-    border-radius: 80px; }
-  #team .team-page {
+  .team__heading {
+    margin: 60px 0 40px; }
+  .team__img {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .team__img_inner {
+      margin: 20px 0;
+      border: 4px solid #FFFFFF;
+      border-radius: 80px; }
+  .team__container {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  .team__page {
     padding-top: 120px; }
-  #team .community {
-    margin-bottom: 32px; }
-  #team .team-page-info {
+  .team__content {
+    text-align: left; }
+  .team__page-info {
     margin-bottom: 120px; }
-  #team .community p {
-    font-size: 24px;
-    line-height: 30px; }
-  #team .community img {
-    border: 4px solid #75A0D5;
-    margin-bottom: 16px; }
+  .team__link {
+    min-height: 24px; }
   @media (max-width: 768px) {
-    #team {
-      text-align: center; }
-      #team .row > div:not(:last-child) {
-        margin-bottom: 40px; }
-      #team img {
-        margin-bottom: 16px; }
-      #team .community-logo {
-        text-align: center; } }
+    .team__heading {
+      margin: 20px 0; }
+    .team__img {
+      justify-content: flex-end; }
+      .team__img_inner {
+        float: right; }
+    .team .community__img {
+      margin-bottom: 20px; } }
 
 .wallets {
   background: rgba(117, 160, 213, 0.25); }
@@ -8683,6 +8695,9 @@ html, body {
 
 .snap-date {
   margin-bottom: 0 !important; }
+
+.notification-main-content {
+  text-align: center; }
 
 /*
  * Countdown

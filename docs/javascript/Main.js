@@ -17,6 +17,11 @@ $(function() {
     });
   }
 
+  //localization for whitepaper
+    const whitePaperLanguage = ["cn", "de"];
+    if ($.inArray(language, Localizations.languages) !== -1) {
+        $('#whitepaper_href').attr("href", "/whitepaper_"+language+".pdf");
+    }
   // scroll functionality
   $('.view-section').click(function(e) {
     e.preventDefault();
@@ -32,15 +37,22 @@ $(function() {
     $('.zcl-warning').hide();
   })
 
-  // Localization for TeamLinks
-    $("a#teamlink1").attr('href',
-        'team.html'+window.location.search);
-    $("a#teamlink2").attr('href',
-        'team.html'+window.location.search);
+  
+  // Get location object for parsing
+  var getLocation = function(href) {
+    var l = document.createElement("a");
+    l.href = href;
+    return l;
+  };
 
-  // Localization for Footer
-    $("a#disclaimerlink").attr('href',
-        'disclaimer.html'+window.location.search);
+  // Localization for all href links on page
+  var domElems = document.getElementsByTagName("*");
+  for (var i=0, max=domElems.length; i < max; i++) {
+    if (window.location.search != "" && domElems[i].tagName == "A" && domElems[i].href && domElems[i].href.indexOf(window.location.origin) === 0 && domElems[i].href.indexOf("?lang=") < 0) {
+      var urlParsed = getLocation(domElems[i].href);
+      domElems[i].href = urlParsed.pathname+window.location.search+urlParsed.hash;
+    }
+  }
 
   // Startup Modal
     if(!mr_cookies.hasItem('onLoadModalCookie')){

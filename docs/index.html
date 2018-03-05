@@ -40,100 +40,101 @@
 
     <title localization-tag="page-title">Bitcoin Private</title>
 
-    <link href="css/main.css?cachebreaker=180524" rel="stylesheet" type="text/css" />
+    <link href="css/main.css?cachebreaker=828030" rel="stylesheet" type="text/css" />
 
     <script type="text/javascript" src="dependencies/jquery/dist/jquery.min.js"></script>
     <script type="text/javascript" src="dependencies/bootstrap-sass/assets/javascripts/bootstrap.min.js"></script>
     <script type="text/javascript" src="/dependencies/js-url/url.min.js"></script>
-    <script type="text/javascript" src="javascript/Localizations.js?cachbreaker=811999"></script>
-    <script type="text/javascript" src="javascript/Main.js?cachbreaker=387757"></script>
-    <script type="text/javascript" src="javascript/Countdown.js?cachbreaker=172478" defer></script>
+    <script type="text/javascript" src="javascript/Localizations.js?cachbreaker=168780"></script>
+    <script type="text/javascript" src="javascript/Main.js?cachbreaker=830836"></script>
+    <script type="text/javascript" src="javascript/Countdown.js?cachbreaker=369036" defer></script>
   </head>
   <body>
     <canvas class="confetti-canvas" id="confetti"></canvas>
+    <nav class="navbar navbar-default" id="navBar">
+      <div id="notification-main" class="container-fluid">
+        <div class="notification-main-content col-xs-12 alert alert-danger" localization-tag="notification-scams"><b>Warning : </b> We have received many reports of scam sites asking for seeds, private keys, or claiming to be our official wallet. You should never input your private key to any website. <b>BTCPRIVATE.ORG</b> is the only official website for our community.
+          <br>
+          <a class="alert-danger" href="https://github.com/BTCPrivate/official-links" target="_blank"><b>See our official links.</b></a>
+        </div>
+      </div>
+      <script>document.getElementById('notification-main').style.display = window.location.pathname !== '/' ? 'none' : 'block';</script>
+      <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="/">
+      <img id="logo" src="images/branding/logo.svg" />
+              </a>
+          </div>
+          <div id="navbar-collapse" class="collapse navbar-collapse">
+              <ul class="nav navbar-nav navbar-right">
+                  <li><a href="/#why-btcp" id="headerWhyBTCP" localization-tag="navigation-about">About</a></li>
+                  <li><a href="/#hard-fork" id="headerHardFork" localization-tag="navigation-hard-fork">Hard Fork</a></li>
+                  <li><a href="/#wallets" id="headerWallets" localization-tag="navigation-wallets">Wallets</a></li>
+                  <li><a href="/pools.html" localization-tag="navigation-press">Pools</a></li>
+                  <li><a id='teamlink1' href="/team.html" localization-tag="navigation-team">BTCP Team</a></li>
+                  <li><a href="/press.html" localization-tag="navigation-press">Press</a></li>
 
-<nav class="navbar navbar-default">
-
-	<div class="container-fluid">
-		<!-- Brand and toggle get grouped for better mobile display -->
-		<div class="navbar-header">
-			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
-				<span class="sr-only">Toggle navigation</span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-			</button>
-			<a class="navbar-brand" href="/">
-				<img id="logo" src="images/branding/logo.svg" />
-			</a>
-		</div>
-
-		<div id="navbar-collapse" class="collapse navbar-collapse">
-			<ul class="nav navbar-nav navbar-right">
-				<li><a href="#why-btcp" class="view-section" localization-tag="navigation-about">About</a></li>
-				<li><a href="#hard-fork" class="view-section" localization-tag="navigation-hard-fork">Hard Fork</a></li>
-				<li><a href="#wallets" class="view-section" localization-tag="navigation-wallets">Wallets</a></li>
-                    <li><a href="/pools.html" localization-tag="navigation-press">Pools</a></li>
-				<li><a id='teamlink1' href="/team.html" localization-tag="navigation-team">BTCP Team</a></li>
-				<li><a href="/press.html" localization-tag="navigation-press">Press</a></li>
-
-				<li style="position: relative;">
-					<a href="#" id="support-button" class="dropdown-toggle" data-toggle="dropdown" localization-tag="navigation-support"><span >Support</span> <i class="fa fa-caret-down"></i></a>
-					<div id="support-dropdown" class="dropdown-menu">
-						<div class="row">
-							<div class="col-xs-12">
-								<a href="https://support.btcprivate.org/" target="_blank" localization-tag="navigation-support-portal">Support Portal</a>
-								<a href="#faq" class="view-section" localization-tag="navigation-faq">FAQ</a>
-								<a href="#resources" class="view-section" localization-tag="navigation-resources">Resources</a>
-							</div>
-						</div>
-					</div>
-				</li>
-
-				<li style="position: relative;">
-					<a href="#" id="language-button" class="dropdown-toggle" data-toggle="dropdown"><span localization-tag="navigation-language">English</span> <i class="fa fa-caret-down"></i></a>
-					<div id="language-dropdown" class="dropdown-menu">
-						<div class="row">
-							<div class="col-xs-6">
-								<a href="/?lang=en">English</a>
-								<a href="/?lang=zh_CN">简体中文</a>
-								<a href="/?lang=ru">Pу́сский</a>
-								<a href="/?lang=nl">Nederlands</a>
-								<a href="/?lang=ar">العربية</a>
-								<a href="/?lang=he">עִבְרִית</a>
-								<a href="/?lang=ms">Malay</a>
-								<a href="/?lang=pt">Português</a>
-								<a href="/?lang=tr">Türkçe</a>
-								<a href="/?lang=ja">日本語</a>
-								<a href="/?lang=el">ελληνικά</a>
-								<a href="/?lang=de">Deutsch</a>
-								<a href="/?lang=ko">한국어</a>
-							</div>
-
-							<div class="col-xs-6">
-								<a href="/?lang=fr">Français</a>
-								<a href="/?lang=es">Español</a>
-								<a href="/?lang=sr">српски</a>
-								<a href="/?lang=id">Bahasa Indonesia</a>
-								<a href="/?lang=hu">Magyar</a>
-								<a href="/?lang=it">Italiano</a>
-								<a href="/?lang=ur">اُردُو‬‎</a>
-								<a href="/?lang=ro">Română</a>
-								<a href="/?lang=vi">Tiếng Việt</a>
-								<a href="/?lang=bg">български</a>
-								<a href="/?lang=fi">Suomi</a>
-								<a href="/?lang=cz">Česky</a>
-							</div>
-						</div>
-					</div>
-				</li>
-			</ul>
-		</div>
-	</div>
-</nav>
-
-<div class="container-fluid">
-	<div id="hero" class="row">
+                  <li style="position: relative;">
+                      <a href="#" id="support-button" class="dropdown-toggle" data-toggle="dropdown" localization-tag="navigation-support"><span>Support</span> <i class="fa fa-caret-down"></i></a>
+                      <div id="support-dropdown" class="dropdown-menu">
+                          <div class="row">
+                              <div class="col-xs-12">
+                                  <a href="https://support.btcprivate.org/" target="_blank" localization-tag="navigation-support-portal">Support Portal</a>
+                                  <a href="/#faq" id="headerFAQ" localization-tag="navigation-faq">FAQ</a>
+                                  <a href="/#resources" id="headerResources" localization-tag="navigation-resources">Resources</a>
+                              </div>
+                          </div>
+                      </div>
+                  </li>
+                  <li style="position: relative;">
+                      <a href="#" id="language-button" class="dropdown-toggle" data-toggle="dropdown"><span localization-tag="navigation-language">English</span> <i class="fa fa-caret-down"></i></a>
+                      <div id="language-dropdown" class="dropdown-menu">
+                          <div class="row">
+                              <div class="col-xs-6">
+                                  <a href="/?lang=en">English</a>
+                                  <a href="/?lang=zh_CN">简体中文</a>
+                                  <a href="/?lang=ru">Pу́сский</a>
+                                  <a href="/?lang=nl">Nederlands</a>
+                                  <a href="/?lang=ar">العربية</a>
+                                  <a href="/?lang=he">עִבְרִית</a>
+                                  <a href="/?lang=ms">Malay</a>
+                                  <a href="/?lang=pt">Português</a>
+                                  <a href="/?lang=tr">Türkçe</a>
+                                  <a href="/?lang=ja">日本語</a>
+                                  <a href="/?lang=el">ελληνικά</a>
+                                  <a href="/?lang=de">Deutsch</a>
+                                  <a href="/?lang=ko">한국어</a>
+                              </div>
+                              <div class="col-xs-6">
+                                  <a href="/?lang=fr">Français</a>
+                                  <a href="/?lang=es">Español</a>
+                                  <a href="/?lang=sr">српски</a>
+                                  <a href="/?lang=id">Bahasa Indonesia</a>
+                                  <a href="/?lang=hu">Magyar</a>
+                                  <a href="/?lang=it">Italiano</a>
+                                  <a href="/?lang=ur">اُردُو‬‎</a>
+                                  <a href="/?lang=ro">Română</a>
+                                  <a href="/?lang=vi">Tiếng Việt</a>
+                                  <a href="/?lang=bg">български</a>
+                                  <a href="/?lang=fi">Suomi</a>
+                                  <a href="/?lang=cz">Česky</a>
+                              </div>
+                          </div>
+                      </div>
+                  </li>
+              </ul>
+          </div>
+      </div>
+  </nav>
+  <div class="container-fluid">
+    	<div id="hero" class="row">
 		<div class="countdown col-xs-12 text-center" id="countdownRoot">
 			<div class="countdown-logo">
 				<img src="images/branding/icon.svg" />
@@ -146,7 +147,7 @@
 				</div>
 			</div>
 			<div class="snapshot-container row text-center" style="display:block" id="snapshotContainer">
-				<h1>Snapshot has now taken place!</h1>
+				<h1>Snapshot &amp; fork have now taken place!</h1>
 			</div>
 
 			<div class="block-details-container row" style="display:block" id="blockDetails">
@@ -173,13 +174,12 @@
 			<div class="countdown-snapshot-message row">
 				<div>For any press inquiries, please reach out to <a href="mailto:press@btcprivate.org">press@btcprivate.org</a></div>
 				<div>For all official statements, please refer to our <a href="https://github.com/BTCPrivate" target="_blank">Github</a> and our <a href="https://twitter.com/BitcoinPrivate" target="_blank">Twitter</a> / <a href="https://reddit.com/r/BitcoinPrivate" target="_blank">Reddit</a>.</div>
-				<div>Mainnet Launch: Approximately 2 days from snapshot</div>
 			</div>
 
 
 			<div class="whitepaper-container row text-center">
 				<div class="whitepaper-container-inner col-xs-12 text-center">
-					<a target="_blank" href="/whitepaper.pdf">
+					<a id="whitepaper_href" target="_blank" href="/whitepaper.pdf">
 						<button class="btn btn-accent btn-whitepaper" localization-tag="why-btcp-whitepaper-button">Whitepaper</button>
 					</a>
 				</div>
@@ -354,7 +354,7 @@
 						<p localization-tag="wallet-paper-message"></p>
 					</div>
 					<div class="col-xs-12 text-center whitepaper">
-						<a class="btn btn-primary disabled" href="https://paperwallet.btcprivate.org/" target="_blank" localization-tag="wallet-paper-cta">Ready soon...</a>
+						<a class="btn btn-primary btn-whitepaper" href="https://paperwallet.btcprivate.org/" target="_blank" localization-tag="wallet-paper-cta">Create wallet</a>
 					</div>
 				</div>
 
@@ -365,7 +365,7 @@
 						<p localization-tag="wallet-paper-message">iOS coming soon.</p>
 					</div>
 					<div class="col-xs-12 text-center whitepaper">
-						<a class="btn btn-primary" href="https://coinomi.com/" target="_blank" localization-tag="wallet-exchange-coinomi-cta">Coinomi.com</a>
+						<a class="btn btn-primary btn-whitepaper" href="https://coinomi.com/" target="_blank" localization-tag="wallet-exchange-coinomi-cta">Coinomi.com</a>
 					</div>
 				</div>
 			</div>
@@ -388,15 +388,14 @@
 					<h3 localization-tag="faq-what-exchanges-title">What exchanges will support the fork?</h3>
 					<p localization-tag="faq-what-exchanges-text">Currently, <a href="https://tradesatoshi.com/Exchange/?market=ZCL_BTC" target="_blank">TradeSatoshi.com</a> are confirmed supporters, <a href="https://hitbtc.com/" target="_blank">HitBTC.com</a> is confirmed to list, and we are engaged in active discussions with individual exchanges.</p>
 
-					<h3 localization-tag="faq-how-mine-title">How do I mine ZCL?</h3>
-					<p localization-tag="faq-how-mine-text"><a href="https://www.reddit.com/r/ZClassic/comments/7mfmyb/how_to_mine_zcl_using_nvidia_or_amd_gpus_on/?ref=share&ref_source=link" target="_blank">Here is a guide for mining ZCL on miningpoolhub</a>
+					<h3 localization-tag="faq-how-mine-btcp-title">How do I mine BTC?</h3>
+					<p localization-tag="pools-content-text">This is the official BTCP mining pool, built and ran by BTCP developers: </p>
 						<br />
-						<a href="https://minez.zone/getting_started" target="_blank">Here is a guide for mining ZCL on Minez.Zone</a>
-						<br/>BTCP will also be mined in a similar fashion. Stay tuned for more information.
+						<a href="https://pool.btcprivate.org" target="_blank"><button class="pools-btn btn btn-accent btn-whitepaper" >Official BTCP<br>Pool</button></a>
 					</p>
 
-					<h3 localization-tag="faq-where-buy-title">Where can I buy ZCL right now?</h3>
-					<p localization-tag="faq-where-buy-text"><a href="https://bittrex.com/Market/Index?MarketName=BTC-ZCL" target="_blank">Bittrex</a>, <a href="https://www.cryptopia.co.nz/Exchange?market=ZCL_BTC" target="_blank">Cryptopia</a>, <a href="https://www.coinexchange.io/market/ZCL/BTC" target="_blank">Coinexchange.io</a>, and <a href="https://tradesatoshi.com/Exchange/?market=ZCL_BTC" target="_blank">TradeSatoshi.com</a>.</p>
+					<h3 localization-tag="faq-where-buy-title">Where can I buy BTCP right now?</h3>
+					<p localization-tag="faq-where-buy-btcp-text"><a href="https://bittrex.com/Market/Index?MarketName=BTC-ZCL" target="_blank">Bittrex</a>, <a href="https://www.cryptopia.co.nz/Exchange?market=ZCL_BTC" target="_blank">Cryptopia</a>, <a href="https://www.coinexchange.io/market/ZCL/BTC" target="_blank">Coinexchange.io</a>, and <a href="https://tradesatoshi.com/Exchange/?market=ZCL_BTC" target="_blank">TradeSatoshi.com</a>.</p>
 
 					<h3 localization-tag="faq-how-development-title">How can I help with development of BTCP?</h3>
 					<p localization-tag="faq-how-development-text">See the <a href="https://github.com/BTCPrivate/BitcoinPrivate/issues" target="_blank">issues posted on github</a> that we need resolved for BTCP.</p>
@@ -470,43 +469,40 @@
 		</div>
 	</div>
 
-	<div id="footer" class="footer row">
-		<div class="footer-upper container-fluid">
-			<div class="row">
-				<div class="col-xs-12 col-sm-3 text-center">
-					<a href="#hero" class="view-section">
-						<img src="images/branding/logo-white.svg" height="48px" />
-					</a>
-				</div>
-
-				<div class="hidden-xs col-sm-9 text-right">
-					<ul class="links">
-						<li>
-							<a href="#why-btcp" class="view-section" localization-tag="navigation-about">About</a>
-							<a href="#hard-fork" class="view-section" localization-tag="navigation-hard-fork">Hard Fork</a>
-							<a href="#wallets" class="view-section" localization-tag="navigation-wallets">Wallets</a>
-                                   <a href="/pools.html" localization-tag="navigation-pools">Pools</a>
-							<a href="/team.html" localization-tag="navigation-team">BTCP Team</a>
-							<a href="#faq" class="view-section" localization-tag="navigation-faq">FAQ</a>
-							<a href="/press.html" localization-tag="navigation-press">Press</a>
-							<a href="#resources" class="view-section" localization-tag="navigation-resources">Resources</a>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</div>
-		<div class="footer-lower container-fluid">
-			<div class="row">
-				<div class="footer-legals col-xs-12 text-right">
-					<a id='privacylink' href="privacy.html" localization-tag="navigation-privacy">Privacy</a>
-					<a id='disclaimerlink' href="disclaimer.html" localization-tag="navigation-disclaimer">Disclaimer</a>
-				</div>
-			</div>
-		</div>
-	</div>
-
-</div>
-
+    <div id="footer" class="footer row">
+        <div class="footer-upper container-fluid">
+            <div class="row">
+                <div class="col-xs-12 col-sm-3 text-center">
+                    <a href="/#hero">
+                        <img src="images/branding/logo-white.svg" height="48px" />
+                    </a>
+                </div>
+                <div class="hidden-xs col-sm-9 text-right">
+                    <ul class="links">
+                        <li>
+                            <a href="/#why-btcp" localization-tag="navigation-about">About</a>
+                            <a href="/#hard-fork" localization-tag="navigation-hard-fork">Hard Fork</a>
+                            <a href="/#wallets" localization-tag="navigation-wallets">Wallets</a>
+                            <a href="/pools.html" localization-tag="navigation-pools">Pools</a>
+                            <a href="/team.html" localization-tag="navigation-team">BTCP Team</a>
+                            <a href="/#faq" localization-tag="navigation-faq">FAQ</a>
+                            <a href="/press.html" localization-tag="navigation-press">Press</a>
+                            <a href="/#resources" localization-tag="navigation-resources">Resources</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-lower container-fluid">
+            <div class="row">
+                <div class="footer-legals col-xs-12 text-right">
+                    <a id='privacylink' href="privacy.html" localization-tag="navigation-privacy">Privacy</a>
+                    <a id='disclaimerlink' href="disclaimer.html" localization-tag="navigation-disclaimer">Disclaimer</a>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-111728706-1"></script>
