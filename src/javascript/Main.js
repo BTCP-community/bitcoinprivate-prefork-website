@@ -19,7 +19,7 @@ $(function() {
 
   //localization for whitepaper
     const whitePaperLanguage = ["cn", "de"];
-    if ($.inArray(language, Localizations.languages) !== -1) {
+    if ($.inArray(language, whitePaperLanguage) !== -1) {
         $('#whitepaper_href').attr("href", "/whitepaper_"+language+".pdf");
     }
   // scroll functionality
