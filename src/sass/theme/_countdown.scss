@@ -78,6 +78,11 @@
     padding: 3rem;
   }
 
+  &-snapshot-note {
+    color: $color-primary;
+    padding-top: 4.5rem;
+  }
+
   &-container {
     position: relative;
     max-width: 800px;
@@ -133,16 +138,20 @@
         float: right;
       }
 
-      &-zlc {
+      &-zcl {
         float: left;
       }
     }
 
     &-message {
-      font-size: 30px;
-      font-weight: bold;
-      margin: 0 10px;
-      color: $color-primary;
+      font-size: 15px;
+
+      &-btc,
+      &-zcl {
+        font-size: 30px;
+        font-weight: bold;
+        color: $color-primary;
+      }
     }
 
     img {

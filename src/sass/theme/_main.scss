@@ -16,7 +16,7 @@
 }
 
 #navbar-collapse {
-	@media (max-width: $screen-md-min) {
+	@media (max-width: $screen-sm-min) {
 		background: $color-white;
 		border-radius: 10px;
 	}
@@ -100,8 +100,21 @@
 	}
 }
 
-#team {
+.community {
+
+	&__img {
+		border: 4px solid $color-secondary;
+		border-radius: 80px;
+		margin-bottom: 40px;
+	}
+}
+
+.team {
 	background: $color-layout-gray;
+
+	.row > div:not(:last-child) {
+		margin: 0 0 40px 0;
+	}
 
 	h3 {
 		margin-top: 80px;
@@ -119,7 +132,6 @@
 	a {
 		font-size: 16px;
 		line-height: 24px;
-		margin-bottom: 16px;
 		display: block;
 		text-decoration: none;
 
@@ -139,47 +151,77 @@
 		margin: 0;
 	}
 
-	img {
-		margin-bottom: 64px;
-		border: 4px solid white;
-		border-radius: 80px;
+	&__heading {
+		margin: 60px 0 40px;
 	}
 
-	.team-page {
+	&__img {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+
+		&_inner {
+			margin: 20px 0;
+			border: 4px solid $color-white;
+			border-radius: 80px;
+		}
+	}
+
+	&__container {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	&__page {
 		padding-top: 120px;
 	}
 
-	.community {
-		margin-bottom: 32px;
+	&__content {
+		text-align: left;
 	}
 
-	.team-page-info {
+	&__page-info {
 		margin-bottom: 120px;
 	}
 
-	.community p {
-		font-size: 24px;
-		line-height: 30px;
-	}
-
-	.community img {
-		border: 4px solid #75A0D5;
-		margin-bottom: 16px;
+	&__link {
+		min-height: 24px;
 	}
 
 	@media (max-width: $screen-sm-min) {
-		.row > div:not(:last-child) {
-			margin-bottom: 40px;
+		&__heading {
+			margin: 20px 0;
 		}
 
-		text-align: center;
+		&__img {
+			justify-content: flex-end;
 
-		img {
-			margin-bottom: 16px;
+			&_inner {
+				float: right;
+			}
 		}
 
-		.community-logo {
-			text-align: center;
+		.community {
+
+			&__img {
+				margin-bottom: 20px;
+			}
+		}
+	}
+}
+
+.wallets {
+	background: rgba(117, 160, 213, 0.25);
+
+
+	.wallet {
+
+		&-content {
+
+			p {
+				min-height: 21px;
+			}
 		}
 	}
 }
@@ -217,6 +259,123 @@
 	@media (max-width: $screen-sm-min) {
 		.row > div:not(:last-child) {
 			margin-bottom: 40px;
+		}
+	}
+}
+
+#press {
+	background: $color-layout-gray;
+
+	h3:first-child {
+		margin-top: 0;
+	}
+
+	h3:not(:first-child) {
+		margin-top: 40px;
+	}
+
+	.coinmarketcap-currency-widget {
+		background: $color-white;
+		border-radius: 10px;
+	}
+
+	.links a {
+		font-size: 20px;
+		line-height: 32px;
+		margin-bottom: 20px;
+		display: block;
+		text-decoration: none;
+
+		i {
+			font-size: 32px;
+			width: 50px;
+			text-align: center;
+		}
+	}
+
+	.row > div:not(:last-child) {
+		margin-bottom: 40px;
+	}
+}
+
+.pools {
+
+	&-title {
+
+		h1 {
+			margin: 60px 0;
+
+			@media (max-width: $screen-sm-min) {
+				margin: 40px 0 20px;
+			}
+		}
+	}
+
+
+	&-intro {
+		margin: 40px 0;
+	}
+
+	&-content {
+
+		&-title {
+			display: -webkit-box;
+			display: -ms-flexbox;
+			display: flex;
+			-webkit-box-align: center;
+			-ms-flex-align: center;
+			align-items: center;
+			-webkit-box-pack: center;
+			-ms-flex-pack: center;
+			justify-content: center;
+		}
+
+		&-message {
+		}
+
+		&-official {
+		}
+
+		&-cta {
+			display: -webkit-box;
+			display: -ms-flexbox;
+			display: flex;
+			-webkit-box-align: center;
+			-ms-flex-align: center;
+			align-items: center;
+			-webkit-box-pack: center;
+			-ms-flex-pack: center;
+			justify-content: center;
+
+			@media (max-width: $screen-sm-min) {
+				margin: 40px 0;
+			}
+		}
+
+	}
+
+	&-table {
+		padding: 15px;
+		border-radius: 25px;
+		background: #efefef;
+
+		&-inner {
+			word-break: break-all;
+		}
+
+		&-item {
+
+			&-title {
+
+				span {
+					display: -webkit-box;
+					display: -ms-flexbox;
+					display: flex;
+					-webkit-box-align: center;
+					-ms-flex-align: center;
+					align-items: center;
+				}
+			}
 		}
 	}
 }
@@ -315,4 +474,11 @@
 
 .snap-date{
 	margin-bottom:0 !important;;
+}
+
+.notification-main {
+
+	&-content {
+		text-align: center;
+	}
 }
