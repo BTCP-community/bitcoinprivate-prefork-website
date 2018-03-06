@@ -312,12 +312,12 @@
 		}
 	}
 
-
 	&-intro {
-		margin: 40px 0;
+		text-align: center;
 	}
 
 	&-content {
+		margin: 40px 0;
 
 		&-title {
 			display: -webkit-box;
@@ -332,6 +332,7 @@
 		}
 
 		&-message {
+			text-align: center;
 		}
 
 		&-official {
@@ -361,6 +362,7 @@
 		background: #efefef;
 
 		&-inner {
+			margin-bottom: 0;
 			word-break: break-all;
 		}
 
@@ -369,6 +371,7 @@
 			&-title {
 
 				span {
+					white-space: nowrap;
 					display: -webkit-box;
 					display: -ms-flexbox;
 					display: flex;
