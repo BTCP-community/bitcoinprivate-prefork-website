@@ -8449,7 +8449,8 @@ html, body {
   background: url(../images/backgrounds/hero-background.jpg);
   background-size: cover;
   min-height: 700px;
-  padding-top: 140px; }
+  padding-top: 140px;
+  padding-bottom: 40px; }
   #hero img {
     margin-bottom: 20px; }
   #hero h1 {
