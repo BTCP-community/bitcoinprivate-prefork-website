@@ -18,7 +18,7 @@ $(function() {
   }
 
   //localization for whitepaper
-    const whitePaperLanguage = ["cn", "de"];
+    const whitePaperLanguage = ["cn", "de", "ru"];
     if ($.inArray(language, whitePaperLanguage) !== -1) {
         $('#whitepaper_href').attr("href", "/whitepaper_"+language+".pdf");
     }
@@ -37,7 +37,7 @@ $(function() {
     $('.zcl-warning').hide();
   })
 
-  
+
   // Get location object for parsing
   var getLocation = function(href) {
     var l = document.createElement("a");
