@@ -56,7 +56,6 @@
   position: relative;
   display: inline-block;
   margin: auto;
-  margin-top: 50px;
 
   &-logo {
     display: inline-block;
@@ -230,7 +229,6 @@ _:-ms-lang(x), .counter__progress {
 @media (max-width: 767px) {
 
   .countdown {
-      margin-top: 140px;
 
     &-logo {
 

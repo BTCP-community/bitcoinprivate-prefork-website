@@ -1,4 +1,60 @@
 $(function() {
+
+  // Notification
+  $( document ).ready(function() {
+    // Show on homepage
+    if (window.location.pathname === '/') {
+      var hashExists = document.getElementById("hero");
+      var hashPosTop = hashExists.getBoundingClientRect().top;
+     if (hashPosTop === 0) {
+        new Noty({
+          type: 'error',
+          theme: 'bootstrap-v3',
+          // timeout: 4000,
+          closeWith: ['click', 'button'],
+          callbacks: {
+            onTemplate: function() {
+              this.barDom.innerHTML = '<div class="my-custom-template noty_body" localization-tag="notification-scams"> <b>Warning : </b> We have received many reports of scam sites asking for seeds, private keys, or claiming to be our official wallet. You should never input your private key to any website. <b>BTCPRIVATE.ORG</b> is the only official website for our community. <br> <a class="alert-danger" href="https://github.com/BTCPrivate/official-links" target="_blank" localization-tag="notification-scams-cta"><b>See our official links.</b></a><div>';
+            }
+          }
+        }).show();
+      }
+    }
+  })
+
+  // Nav : Slideout
+  function close(eve) {
+    eve.preventDefault();
+    slideout.close();
+  }
+
+  var slideout = new Slideout({
+    'panel': document.getElementById('panel'),
+    'menu': document.getElementById('menu'),
+    'padding': 256,
+    'tolerance': 70,
+    'side': 'right',
+  });
+
+  slideout.on('beforeopen', function() {
+    this.panel.classList.add('content-panel-open');
+    document.querySelector('.navbar-toggle').classList.add('toggle-open');
+    document.querySelector('.navbar-header').classList.add('header-open');
+  })
+  slideout.on('open', function() {
+    this.panel.addEventListener('click', close);
+  })
+  slideout.on('beforeclose', function() {
+    this.panel.classList.remove('content-panel-open');
+    this.panel.removeEventListener('click', close);
+    document.querySelector('.navbar-toggle').classList.remove('toggle-open');
+    document.querySelector('.navbar-header').classList.remove('header-open');
+  });
+
+  // Toggle button
+  let togglers = document.querySelectorAll('.menu-toggle');
+  togglers.forEach(p => p.addEventListener('click', function() {slideout.toggle()}));
+
   // load localizations
   const language = url('?lang') || 'en';
   var browserLanguage = (navigator) ? navigator.language : undefined;

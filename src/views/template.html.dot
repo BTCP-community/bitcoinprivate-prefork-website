@@ -1,183 +1,155 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1.0" />
-    <meta name="description" content="<{=it.metadata.description || ''}>" />
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="ms-icon-144x144.png">
-    <meta name="theme-color" content="#ffffff">
 
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="Bitcoin Private">
-    <meta property="og:description" content="Bitcoin Private is a hard fork of Bitcoin combined with the privacy of zk-snarks.">
-    <meta property="og:image" content=" https://raw.githubusercontent.com/BTCP-community/bitcoinprivate-prefork-website/master/src/images/thumbnail.png">
-    <meta property="og:url" content="https://btcprivate.org/">
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="cleartype" content="on">
+	<meta name="MobileOptimized" content="320">
+	<meta name="HandheldFriendly" content="True">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+	<meta name="description" content="<{=it.metadata.description || ''}>" />
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="Bitcoin Private">
+	<meta property="og:description" content="Bitcoin Private is a hard fork of Bitcoin combined with the privacy of zk-snarks.">
+	<meta property="og:image" content=" https://raw.githubusercontent.com/BTCP-community/bitcoinprivate-prefork-website/master/src/images/thumbnail.png">
+	<meta property="og:url" content="https://btcprivate.org/">
+	<meta name="twitter:site" content="@bitcoinprivate">
+	<meta name="twitter:title" content="Bitcoin Private">
+	<meta name="twitter:description" content="Bitcoin Private is a hard fork of Bitcoin combined with the privacy of zk-snarks.">
+	<meta name="twitter:image" content="https://raw.githubusercontent.com/BTCP-community/bitcoinprivate-prefork-website/master/src/images/thumbnail.png">
+	<meta name="twitter:card" content="summary_large_image">
+	<link rel="apple-touch-icon" sizes="57x57" href="favicons/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="favicons/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="favicons/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="favicons/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="favicons/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="favicons/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="favicons/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="favicons/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="favicons/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="favicons/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+	<link rel="manifest" href="favicons/manifest.json">
+	<title localization-tag="page-title">
+		<{=it.metadata.title || ''}>
+	</title>
+	<link href="css/main.css?cachebreaker=<{=Math.floor(Math.random() * 1000000) + 1  }>" rel="stylesheet" type="text/css" />
+	<script type="text/javascript" src="dependencies/jquery/dist/jquery.min.js"></script>
+	<script type="text/javascript" src="dependencies/bootstrap-sass/assets/javascripts/bootstrap.min.js"></script>
+	<script type="text/javascript" src="/dependencies/js-url/url.min.js"></script>
+	<script type="text/javascript" src="javascript/Localizations.js?cachbreaker=<{=Math.floor(Math.random() * 1000000) + 1  }>"></script>
+	<script type="text/javascript" src="javascript/Main.js?cachbreaker=<{=Math.floor(Math.random() * 1000000) + 1  }>"></script>
+	<script type="text/javascript" src="javascript/Countdown.js?cachbreaker=<{=Math.floor(Math.random() * 1000000) + 1  }>" defer></script>
+	<script type="text/javascript" src="javascript/slideout.min.js"></script>
+	<script type="text/javascript" src="javascript/noty/noty.min.js"></script>
+</head>
 
-    <meta name="twitter:site" content="@bitcoinprivate">
-    <meta name="twitter:title" content="Bitcoin Private">
-    <meta name="twitter:description" content="Bitcoin Private is a hard fork of Bitcoin combined with the privacy of zk-snarks.">
-    <meta name="twitter:image" content="https://raw.githubusercontent.com/BTCP-community/bitcoinprivate-prefork-website/master/src/images/thumbnail.png">
-    <meta name="twitter:card" content="summary_large_image">
+<body>
+	<canvas class="confetti-canvas" id="confetti"></canvas>
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container-fluid">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<a class="navbar-brand" href="/">
+					<img id="logo" class="logo" src="images/branding/logo.svg" />
+				</a>
+			</div>
+			<button type="button" class="navbar-toggle menu-toggle" aria-expanded="false">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+		</div>
+	</nav>
+	<div id="panel" class="content-panel container-fluid">
+		<div class="content-panel-inner">
+			<{=it.content || ''}>
+			<div id="footer" class="footer row">
+				<div class="footer-upper container-fluid">
+					<div class="row">
+						<div class="col-xs-12 col-sm-6 col-xs-12">
+							<a href="/#hero">
+								<img class="footer-logo" src="images/branding/logo-white.svg">
+							</a>
+						</div>
+						<div class="footer-legals colsm-6 col-xs-12 text-right">
+							<a id='privacylink' href="privacy.html" localization-tag="navigation-privacy">Privacy</a>
+							<a id='disclaimerlink' href="disclaimer.html" localization-tag="navigation-disclaimer">Disclaimer</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 
-    <link rel="apple-touch-icon" sizes="57x57" href="favicons/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="favicons/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="favicons/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="favicons/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="favicons/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="favicons/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="favicons/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="favicons/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="favicons/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="favicons/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
-    <link rel="manifest" href="favicons/manifest.json">
+	<div id="menu" class="sidebar">
+		<div class="sidebar-spacer"></div>
+		<ul class="list-unstyled components">
+			<li><a class="menu-toggle" href="/#why-btcp" id="headerWhyBTCP" localization-tag="navigation-about">About</a></li>
+			<li><a class="menu-toggle" href="/#hard-fork" id="headerHardFork" localization-tag="navigation-hard-fork">Hard Fork</a></li>
+			<li><a class="menu-toggle" href="/#wallets" id="headerWallets" localization-tag="navigation-wallets">Wallets</a></li>
+			<li><a href="/pools.html" localization-tag="navigation-press">Pools</a></li>
+			<li><a id='teamlink1' href="/team.html" localization-tag="navigation-team">BTCP Team</a></li>
+			<li><a href="/press.html" localization-tag="navigation-press">Press</a></li>
+			<li>
+				<a href="#sidebarSupport" id="support-button" data-toggle="collapse" aria-expanded="false" localization-tag="navigation-support"><span>Support</span> <i class="fa fa-caret-down"></i></a>
+				<ul class="collapse list-unstyled" id="sidebarSupport">
+					<li><a href="https://support.btcprivate.org/" target="_blank" localization-tag="navigation-support-portal">Support Portal</a></li>
+					<li><a class="menu-toggle" href="/#faq" id="headerFAQ" localization-tag="navigation-faq">FAQ</a></li>
+					<li><a class="menu-toggle" href="/#resources" id="headerResources" localization-tag="navigation-resources">Resources</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="#sidebarLanguages" id="support-button" data-toggle="collapse" aria-expanded="false" localization-tag="navigation-language"><span>English</span> <i class="fa fa-caret-down"></i></a>
+				<ul class="collapse list-unstyled" id="sidebarLanguages">
+					<li><a href="/?lang=en">English</a></li>
+					<li><a href="/?lang=zh_CN">简体中文</a></li>
+					<li><a href="/?lang=ru">Pу́сский</a></li>
+					<li><a href="/?lang=nl">Nederlands</a></li>
+					<li><a href="/?lang=ar">العربية</a></li>
+					<li><a href="/?lang=he">עִבְרִית</a></li>
+					<li><a href="/?lang=ms">Malay</a></li>
+					<li><a href="/?lang=pt">Português</a></li>
+					<li><a href="/?lang=tr">Türkçe</a></li>
+					<li><a href="/?lang=ja">日本語</a></li>
+					<li><a href="/?lang=el">ελληνικά</a></li>
+					<li><a href="/?lang=de">Deutsch</a></li>
+					<li><a href="/?lang=ko">한국어</a></li>
+					<li><a href="/?lang=fr">Français</a></li>
+					<li><a href="/?lang=es">Español</a></li>
+					<li><a href="/?lang=sr">српски</a></li>
+					<li><a href="/?lang=id">Bahasa Indonesia</a></li>
+					<li><a href="/?lang=hu">Magyar</a></li>
+					<li><a href="/?lang=it">Italiano</a></li>
+					<li><a href="/?lang=ur">اُردُو‬‎</a></li>
+					<li><a href="/?lang=ro">Română</a></li>
+					<li><a href="/?lang=vi">Tiếng Việt</a></li>
+					<li><a href="/?lang=bg">български</a></li>
+					<li><a href="/?lang=fi">Suomi</a></li>
+					<li><a href="/?lang=cz">Česky</a></li>
+				</ul>
+			</li>
+		</ul>
+	</div>
 
-    <title localization-tag="page-title"><{=it.metadata.title || ''}></title>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-111728706-1"></script>
+	<script>
+	window.dataLayer = window.dataLayer || [];
 
-    <link href="css/main.css?cachebreaker=<{=Math.floor(Math.random() * 1000000) + 1  }>" rel="stylesheet" type="text/css" />
+	function gtag() { dataLayer.push(arguments); }
+	gtag('js', new Date());
+	gtag('config', 'UA-111728706-1');
+	</script>
+</body>
 
-    <script type="text/javascript" src="dependencies/jquery/dist/jquery.min.js"></script>
-    <script type="text/javascript" src="dependencies/bootstrap-sass/assets/javascripts/bootstrap.min.js"></script>
-    <script type="text/javascript" src="/dependencies/js-url/url.min.js"></script>
-    <script type="text/javascript" src="javascript/Localizations.js?cachbreaker=<{=Math.floor(Math.random() * 1000000) + 1  }>"></script>
-    <script type="text/javascript" src="javascript/Main.js?cachbreaker=<{=Math.floor(Math.random() * 1000000) + 1  }>"></script>
-    <script type="text/javascript" src="javascript/Countdown.js?cachbreaker=<{=Math.floor(Math.random() * 1000000) + 1  }>" defer></script>
-  </head>
-  <body>
-    <canvas class="confetti-canvas" id="confetti"></canvas>
-    <nav class="navbar navbar-default" id="navBar">
-      <div id="notification-main" class="container-fluid">
-        <div class="notification-main-content col-xs-12 alert alert-danger" localization-tag="notification-scams"><b>Warning : </b> We have received many reports of scam sites asking for seeds, private keys, or claiming to be our official wallet. You should never input your private key to any website. <b>BTCPRIVATE.ORG</b> is the only official website for our community.
-          <br>
-          <a class="alert-danger" href="https://github.com/BTCPrivate/official-links" target="_blank"><b>See our official links.</b></a>
-        </div>
-      </div>
-      <script>document.getElementById('notification-main').style.display = window.location.pathname !== '/' ? 'none' : 'block';</script>
-      <div class="container-fluid">
-          <!-- Brand and toggle get grouped for better mobile display -->
-          <div class="navbar-header">
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
-                  <span class="sr-only">Toggle navigation</span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-              </button>
-              <a class="navbar-brand" href="/">
-      <img id="logo" src="images/branding/logo.svg" />
-              </a>
-          </div>
-          <div id="navbar-collapse" class="collapse navbar-collapse">
-              <ul class="nav navbar-nav navbar-right">
-                  <li><a href="/#why-btcp" id="headerWhyBTCP" localization-tag="navigation-about">About</a></li>
-                  <li><a href="/#hard-fork" id="headerHardFork" localization-tag="navigation-hard-fork">Hard Fork</a></li>
-                  <li><a href="/#wallets" id="headerWallets" localization-tag="navigation-wallets">Wallets</a></li>
-                  <li><a href="/pools.html" localization-tag="navigation-press">Pools</a></li>
-                  <li><a id='teamlink1' href="/team.html" localization-tag="navigation-team">BTCP Team</a></li>
-                  <li><a href="/press.html" localization-tag="navigation-press">Press</a></li>
-
-                  <li style="position: relative;">
-                      <a href="#" id="support-button" class="dropdown-toggle" data-toggle="dropdown" localization-tag="navigation-support"><span>Support</span> <i class="fa fa-caret-down"></i></a>
-                      <div id="support-dropdown" class="dropdown-menu">
-                          <div class="row">
-                              <div class="col-xs-12">
-                                  <a href="https://support.btcprivate.org/" target="_blank" localization-tag="navigation-support-portal">Support Portal</a>
-                                  <a href="/#faq" id="headerFAQ" localization-tag="navigation-faq">FAQ</a>
-                                  <a href="/#resources" id="headerResources" localization-tag="navigation-resources">Resources</a>
-                              </div>
-                          </div>
-                      </div>
-                  </li>
-                  <li style="position: relative;">
-                      <a href="#" id="language-button" class="dropdown-toggle" data-toggle="dropdown"><span localization-tag="navigation-language">English</span> <i class="fa fa-caret-down"></i></a>
-                      <div id="language-dropdown" class="dropdown-menu">
-                          <div class="row">
-                              <div class="col-xs-6">
-                                  <a href="/?lang=en">English</a>
-                                  <a href="/?lang=zh_CN">简体中文</a>
-                                  <a href="/?lang=ru">Pу́сский</a>
-                                  <a href="/?lang=nl">Nederlands</a>
-                                  <a href="/?lang=ar">العربية</a>
-                                  <a href="/?lang=he">עִבְרִית</a>
-                                  <a href="/?lang=ms">Malay</a>
-                                  <a href="/?lang=pt">Português</a>
-                                  <a href="/?lang=tr">Türkçe</a>
-                                  <a href="/?lang=ja">日本語</a>
-                                  <a href="/?lang=el">ελληνικά</a>
-                                  <a href="/?lang=de">Deutsch</a>
-                                  <a href="/?lang=ko">한국어</a>
-                              </div>
-                              <div class="col-xs-6">
-                                  <a href="/?lang=fr">Français</a>
-                                  <a href="/?lang=es">Español</a>
-                                  <a href="/?lang=sr">српски</a>
-                                  <a href="/?lang=id">Bahasa Indonesia</a>
-                                  <a href="/?lang=hu">Magyar</a>
-                                  <a href="/?lang=it">Italiano</a>
-                                  <a href="/?lang=ur">اُردُو‬‎</a>
-                                  <a href="/?lang=ro">Română</a>
-                                  <a href="/?lang=vi">Tiếng Việt</a>
-                                  <a href="/?lang=bg">български</a>
-                                  <a href="/?lang=fi">Suomi</a>
-                                  <a href="/?lang=cz">Česky</a>
-                              </div>
-                          </div>
-                      </div>
-                  </li>
-              </ul>
-          </div>
-      </div>
-  </nav>
-  <div class="container-fluid">
-    <{=it.content || ''}>
-    <div id="footer" class="footer row">
-        <div class="footer-upper container-fluid">
-            <div class="row">
-                <div class="col-xs-12 col-sm-3 text-center">
-                    <a href="/#hero">
-                        <img src="images/branding/logo-white.svg" height="48px" />
-                    </a>
-                </div>
-                <div class="hidden-xs col-sm-9 text-right">
-                    <ul class="links">
-                        <li>
-                            <a href="/#why-btcp" localization-tag="navigation-about">About</a>
-                            <a href="/#hard-fork" localization-tag="navigation-hard-fork">Hard Fork</a>
-                            <a href="/#wallets" localization-tag="navigation-wallets">Wallets</a>
-                            <a href="/pools.html" localization-tag="navigation-pools">Pools</a>
-                            <a href="/team.html" localization-tag="navigation-team">BTCP Team</a>
-                            <a href="/#faq" localization-tag="navigation-faq">FAQ</a>
-                            <a href="/press.html" localization-tag="navigation-press">Press</a>
-                            <a href="/#resources" localization-tag="navigation-resources">Resources</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="footer-lower container-fluid">
-            <div class="row">
-                <div class="footer-legals col-xs-12 text-right">
-                    <a id='privacylink' href="privacy.html" localization-tag="navigation-privacy">Privacy</a>
-                    <a id='disclaimerlink' href="disclaimer.html" localization-tag="navigation-disclaimer">Disclaimer</a>
-                </div>
-            </div>
-        </div>
-    </div>
-  </div>
-
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-111728706-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'UA-111728706-1');
-  </script>
-
-  </body>
 </html>
