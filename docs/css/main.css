@@ -8734,40 +8734,56 @@ html, body {
   .awaiting-container h2 {
     color: #272D63; }
 
-.countdown-logo {
-  display: inline-block;
-  padding: 3rem 3rem 0; }
-  .countdown-logo img {
-    height: 160px;
-    vertical-align: baseline;
-    margin-right: 20px;
-    margin-bottom: 0px !important; }
-
-.countdown-logotype {
+.countdown {
   position: relative;
   display: inline-block;
-  top: -30px;
-  text-align: left; }
-
-.countdown-snapshot-message {
-  color: #272D63;
-  padding: 3rem; }
-
-.countdown-snapshot-note {
-  color: #272D63;
-  padding-top: 4.5rem; }
-
-.countdown-container {
-  position: relative;
-  max-width: 800px;
-  width: 100%;
-  margin: 0 auto;
-  opacity: 0;
-  -webkit-transition: opacity 0.5s ease-in-out;
-  -o-transition: opacity 0.5s ease-in-out;
-  transition: opacity 0.5s ease-in-out; }
-  .countdown-container-inner {
+  margin: auto;
+  margin-top: 50px; }
+  .countdown-logo {
+    display: inline-block;
+    padding: 3rem 3rem 0; }
+    .countdown-logo img {
+      height: 160px;
+      vertical-align: baseline;
+      margin-right: 20px;
+      margin-bottom: 0px !important; }
+  .countdown-logotype {
+    position: relative;
+    display: inline-block;
+    top: -30px;
+    text-align: left; }
+  .countdown-snapshot-message {
+    color: #272D63;
     padding: 3rem; }
+  .countdown-snapshot-note {
+    color: #272D63;
+    padding-top: 4.5rem; }
+  .countdown-container {
+    position: relative;
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+    opacity: 0;
+    -webkit-transition: opacity 0.5s ease-in-out;
+    -o-transition: opacity 0.5s ease-in-out;
+    transition: opacity 0.5s ease-in-out; }
+    .countdown-container-inner {
+      padding: 3rem; }
+  .countdown__number {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    color: #272D63;
+    font-size: 32px;
+    letter-spacing: 2px;
+    font-weight: bold; }
+  .countdown__text {
+    font-size: 16px;
+    font-weight: bold;
+    color: #272D63; }
 
 .block h1,
 .block h2 {
@@ -8813,35 +8829,12 @@ html, body {
   width: 25%;
   float: left; }
 
-.countdown {
-  position: relative;
-  display: inline-block;
-  margin: auto;
-  margin-top: 50px; }
-
 .counter__inner {
   position: relative;
   display: inline-block;
   height: 120px;
   width: 120px;
   text-align: center; }
-
-.countdown__number {
-  position: absolute;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 100%;
-  color: #272D63;
-  font-size: 32px;
-  letter-spacing: 2px;
-  font-weight: bold; }
-
-.countdown__text {
-  font-size: 16px;
-  font-weight: bold;
-  color: #272D63; }
 
 .counter__progress {
   transform: rotate(-90deg); }
@@ -8862,15 +8855,17 @@ _:-ms-lang(x), .counter__progress {
   stroke-linecap: butt; }
 
 @media (max-width: 767px) {
-  .countdown-logo img {
-    display: none; }
-  .countdown-logotype {
-    position: relative;
-    display: inline-block;
-    top: 5px;
-    text-align: center; }
-    .countdown-logotype h1 {
+  .countdown {
+    margin-top: 140px; }
+    .countdown-logo img {
       display: none; }
+    .countdown-logotype {
+      position: relative;
+      display: inline-block;
+      top: 5px;
+      text-align: center; }
+      .countdown-logotype h1 {
+        display: none; }
   .awaiting-container {
     margin: 40px 0 40px 0; }
   .block-details-inner {
