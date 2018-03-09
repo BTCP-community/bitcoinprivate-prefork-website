@@ -131,7 +131,7 @@ body {
 		}
 
 		&:focus {
-			border-color: $color-secondary!important;
+			background-color: $color-secondary!important;
 
 			span {
 				background-color: $color-white!important;

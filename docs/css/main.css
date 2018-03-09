@@ -8510,7 +8510,7 @@ body {
       .navbar-toggle.toggle-open span, .navbar-toggle:hover span, .navbar-toggle.toggle-open:focus span {
         background-color: #FFFFFF !important; }
     .navbar-toggle:focus {
-      border-color: #75A0D5 !important; }
+      background-color: #75A0D5 !important; }
       .navbar-toggle:focus span {
         background-color: #FFFFFF !important; }
     @media (min-width: 768px) {
