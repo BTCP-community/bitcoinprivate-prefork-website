@@ -11,11 +11,12 @@ $(function() {
           type: 'error',
           theme: 'bootstrap-v3',
           // timeout: 4000,
-          layout: 'bottomRight',
+          layout: 'topRight',
+          selector: 'testytest',
           closeWith: ['click', 'button'],
           callbacks: {
             onTemplate: function() {
-              this.barDom.innerHTML = '<div class="my-custom-template noty_body" localization-tag="notification-scams"> <b>Warning : </b> We have received many reports of scam sites asking for seeds, private keys, or claiming to be our official wallet. You should never input your private key to any website. <b>BTCPRIVATE.ORG</b> is the only official website for our community. <br> <a class="alert-danger" href="https://github.com/BTCPrivate/official-links" target="_blank" localization-tag="notification-scams-cta"><b>See our official links.</b></a><div>';
+              this.barDom.innerHTML = '<div class="noty_body" localization-tag="notification-scams"> <b>Warning : </b> We have received many reports of scam sites asking for seeds, private keys, or claiming to be our official wallet. You should never input your private key to any website. <b>BTCPRIVATE.ORG</b> is the only official website for our community. <br> <a class="alert-danger" href="https://github.com/BTCPrivate/official-links" target="_blank" localization-tag="notification-scams-cta"><b>See our official links.</b></a><div>';
             }
           }
         }).show();

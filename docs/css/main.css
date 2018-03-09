@@ -8419,6 +8419,17 @@ body {
   width: 100%;
   height: 100%; }
 
+.logo {
+  height: 40px; }
+  @media (max-width: 768px) {
+    .logo {
+      height: 35px;
+      margin-top: 5px; } }
+
+#noty_layout__topRight {
+  top: 50px;
+  right: 10px; }
+
 .slideout-menu {
   position: fixed;
   top: 0;
@@ -8467,13 +8478,6 @@ body {
   width: 100%;
   background-color: rgba(0, 0, 0, 0.4);
   z-index: 101; }
-
-.logo {
-  height: 40px; }
-  @media (max-width: 768px) {
-    .logo {
-      height: 35px;
-      margin-top: 5px; } }
 
 .navbar {
   margin-bottom: 0;
