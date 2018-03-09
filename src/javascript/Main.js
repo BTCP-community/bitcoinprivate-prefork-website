@@ -11,6 +11,7 @@ $(function() {
           type: 'error',
           theme: 'bootstrap-v3',
           // timeout: 4000,
+          layout: 'bottomRight',
           closeWith: ['click', 'button'],
           callbacks: {
             onTemplate: function() {
