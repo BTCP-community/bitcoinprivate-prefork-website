@@ -8415,21 +8415,19 @@ html, body {
 /*
  * Main
  */
-html {
-  width: 100vw;
-  height: 100vh;
-  overflow: hidden; }
-
+html,
 body {
+  position: fixed;
   width: 100%;
-  min-height: 100vh;
-  overflow-y: scroll;
-  position: relative; }
+  height: 100%;
+  overflow: hidden; }
 
 .main {
   position: absolute;
   width: 100%;
-  min-height: 100vh; }
+  height: 100%;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch; }
 
 .logo {
   height: 40px; }
@@ -8464,7 +8462,7 @@ body {
   position: relative;
   will-change: transform;
   background-color: #FFFFFF;
-  min-height: 100vh;
+  min-height: 100%;
   z-index: 100; }
 
 .slideout-open,
@@ -8477,22 +8475,24 @@ body {
   z-index: 0; }
 
 .content-panel {
-  position: absolute;
-  width: 100vw;
   padding: 0 0 0 0; }
   .content-panel:before {
     content: '';
     display: block;
     background-color: transparent;
     transition: background-color 0.5s ease-in-out; }
-  .content-panel.content-panel-open:before {
-    position: absolute;
-    display: block !important;
-    top: 0;
-    bottom: 0;
+  .content-panel.content-panel-open {
+    position: fixed;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.4);
-    z-index: 101; }
+    height: 100%; }
+    .content-panel.content-panel-open:before {
+      position: absolute;
+      display: block !important;
+      top: 0;
+      bottom: 0;
+      width: 100%;
+      background-color: rgba(0, 0, 0, 0.4);
+      z-index: 101; }
 
 .navbar {
   margin-bottom: 0;
@@ -8543,7 +8543,7 @@ body {
   top: 0;
   right: 0;
   padding-top: 50px;
-  height: 100vh;
+  height: 100%;
   border-top: 1px solid rgba(117, 160, 213, 0.35);
   border-left: 1px solid rgba(117, 160, 213, 0.35);
   color: #FFFFFF;
@@ -8552,7 +8552,7 @@ body {
   .sidebar-inner {
     position: absolute;
     width: 100%;
-    height: calc(100vh - 51px);
+    height: calc(100% - 51px);
     border-top: 1px solid rgba(117, 160, 213, 0.35);
     overflow-y: scroll; }
   .sidebar-header {
@@ -8561,7 +8561,7 @@ body {
     padding: 0 0 50px 0;
     margin: 0 0 0 0; }
   .sidebar-collapse {
-    padding-bottom: 10px; }
+    padding-bottom: 5px; }
   .sidebar ul p {
     color: #FFFFFF;
     padding: 10px; }
