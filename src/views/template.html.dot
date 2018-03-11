@@ -78,7 +78,7 @@
 		</nav>
 
 		<!-- Panel -->
-		<div id="panel" class="content-panel">
+		<div id="panel" class="content-panel" data-slideout-ignore>
 			<div class="content-panel-inner container-fluid">
 				<{=it.content || ''}>
 				<div id="footer" class="footer row">

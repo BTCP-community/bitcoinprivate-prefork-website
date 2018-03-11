@@ -1,13 +1,14 @@
 $(function() {
 
   // Notification
+  var notiSpam = null;
   $( document ).ready(function() {
     // Show on homepage
     if (window.location.pathname === '/') {
       var hashExists = document.getElementById("hero");
       var hashPosTop = hashExists.getBoundingClientRect().top;
      if (hashPosTop === 0) {
-        new Noty({
+        notiSpam = new Noty({
           type: 'error',
           theme: 'bootstrap-v3',
           // timeout: 4000,
@@ -31,6 +32,7 @@ $(function() {
   }
 
   var slideout = new Slideout({
+    'touch': true,
     'panel': document.getElementById('panel'),
     'menu': document.getElementById('menu'),
     'padding': 256,
@@ -55,7 +57,12 @@ $(function() {
 
   // Toggle button
   let togglers = document.querySelectorAll('.menu-toggle');
-  togglers.forEach(p => p.addEventListener('click', function() {slideout.toggle()}));
+  togglers.forEach(p => p.addEventListener('click', function() {
+    if (notiSpam !== null) {
+      notiSpam.close();
+    }
+    slideout.toggle();
+  }));
 
   // load localizations
   const language = url('?lang') || 'en';

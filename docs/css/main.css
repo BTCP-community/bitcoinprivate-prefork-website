@@ -8539,7 +8539,9 @@ body {
 
 .sidebar {
   transition: all 0.3s;
-  position: absolute;
+  position: fixed;
+  top: 0;
+  right: 0;
   padding-top: 50px;
   height: 100vh;
   border-top: 1px solid rgba(117, 160, 213, 0.35);
