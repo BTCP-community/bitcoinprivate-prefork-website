@@ -2,8 +2,24 @@
  * Main
  */
 
-#logo {
-	height: 50px;
+html,
+body {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.main {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	overflow-y: scroll;
+	-webkit-overflow-scrolling: touch;
+}
+
+.logo {
+	height: 40px;
 
 	@media (max-width: $screen-sm-min) {
 		height: 35px;
@@ -11,8 +27,221 @@
 	}
 }
 
-.navbar-toggle {
-	background: $color-white;
+#noty_layout__topRight {
+	top: 50px;
+	right: 10px;
+}
+
+.slideout-menu {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	width: 256px;
+	height: 100%;
+	overflow-y: scroll;
+	-webkit-overflow-scrolling: touch;
+	z-index: 0;
+	display: none;
+	background: #efefef;
+}
+
+.slideout-menu-left {
+	left: 0;
+}
+
+.slideout-menu-right {
+	right: 0;
+}
+
+.slideout-panel {
+	position: relative;
+	will-change: transform;
+	background-color: $color-white;
+	min-height: 100%;
+	z-index: 100;
+}
+
+.slideout-open,
+.slideout-open body,
+.slideout-open .slideout-panel {
+	overflow: hidden;
+}
+
+.slideout-open .slideout-menu {
+	display: block;
+	z-index: 0;
+}
+
+.content-panel {
+	padding: 0 0 0 0;
+
+	// &-inner {
+	// }
+
+	&:before {
+		content: '';
+		display: block;
+		background-color: rgba(0, 0, 0, 0);
+		transition: background-color 0.5s ease-in-out;
+	}
+
+	&.content-panel-open {
+		position: fixed;
+		width: 100%;
+		height: 100%;
+
+		&:before {
+			position: absolute;
+			display: block!important;
+			top: 0;
+			bottom: 0;
+			width: 100%;
+			background-color: rgba(0, 0, 0, 0.4);
+			z-index: 101;
+		}
+	}
+}
+
+.navbar {
+	margin-bottom: 0;
+	height: 50px;
+	min-height: 50px;
+	z-index: 200;
+
+	.container-fluid {
+		padding: 0;
+	}
+
+	&-header {
+		margin: 0 0 0 0!important;
+		max-width: calc(100vw - 60px);
+		float: left;
+	}
+	&-toggle {
+		transition: all 0.3s;
+		margin: 10px;
+	}
+
+	&-header {
+		transition: all 0.3s;
+		transform: translateX(0px);
+
+		&.header-open {
+			transform: translateX(-256px);
+		}
+	}
+
+	&-brand {
+		padding: 5px 0 0 10px!important;
+		margin: 0 0 0 0!important;
+		height: 45px;
+	}
+
+	&-collapse {
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+
+	&-toggle {
+		border-color: $color-secondary!important;
+
+		span {
+			background-color: $color-secondary!important;
+		}
+
+		&.toggle-open:hover,
+		&:hover {
+			background-color: $color-secondary!important;
+
+			span {
+				background-color: $color-white!important;
+			}
+		}
+
+		&.toggle-open:focus,
+		&:focus {
+			border-color: $color-secondary!important;
+			background-color: transparent!important;
+
+			span {
+				background-color: $color-secondary!important;
+			}
+		}
+
+		@media (min-width: $screen-sm-min) {
+			display: block!important;
+		}
+	}
+}
+
+.sidebar {
+	transition: all 0.3s;
+	position: fixed;
+	top: 0;
+	right: 0;
+	padding-top: 50px;
+	height: 100%;
+	border-top: 1px solid rgba($color-secondary, 0.35);
+	border-left: 1px solid rgba($color-secondary, 0.35);
+	color: $color-white;
+	z-index: -10;
+	overflow: hidden;
+
+	&-inner {
+		position: absolute;
+		width: 100%;
+		height: calc(100% - 51px);
+		border-top: 1px solid rgba($color-secondary, 0.35);
+		overflow-y: scroll;
+	}
+
+	&-header {
+		padding: 20px;
+	}
+
+	&-list {
+		padding: 0 0 50px 0;
+		margin: 0 0 0 0;
+	}
+
+	&-collapse {
+		padding-bottom: 5px;
+	}
+
+	ul p {
+		color: $color-white;
+		padding: 10px;
+	}
+
+	ul li a {
+		padding: 10px 20px;
+		font-size: 1.1em;
+		display: block;
+		text-decoration: none;
+		color: $color-primary;
+	}
+
+	ul li a:hover {
+		color: $color-primary;
+		background: $color-secondary;
+	}
+	ul li.active>a,
+	a[aria-expanded="true"] {
+		color: $color-primary;
+		background: $color-secondary;
+	}
+
+	ul ul a {
+		font-size: 0.9em !important;
+		padding-left: 30px !important;
+		color: $color-primary;
+		background: $color-secondary;
+
+		&:hover {
+			color: $color-white;
+			background: $color-primary;
+		}
+	}
 }
 
 #navbar-collapse {
@@ -49,7 +278,7 @@
 	background: url(../images/backgrounds/hero-background.jpg);
 	background-size: cover;
 	min-height: 700px;
-	padding-top: $navbar-height + 60px;
+	padding-top: $navbar-height + 20px;
 	padding-bottom: 40px;
 
 	img {
@@ -113,7 +342,7 @@
 .team {
 	background: $color-layout-gray;
 
-	.row > div:not(:last-child) {
+	.row>div:not(:last-child) {
 		margin: 0 0 40px 0;
 	}
 
@@ -258,7 +487,7 @@
 	}
 
 	@media (max-width: $screen-sm-min) {
-		.row > div:not(:last-child) {
+		.row>div:not(:last-child) {
 			margin-bottom: 40px;
 		}
 	}
@@ -294,7 +523,7 @@
 		}
 	}
 
-	.row > div:not(:last-child) {
+	.row>div:not(:last-child) {
 		margin-bottom: 40px;
 	}
 }
@@ -335,8 +564,7 @@
 			text-align: center;
 		}
 
-		&-official {
-		}
+		&-official {}
 
 		&-cta {
 			display: -webkit-box;
@@ -353,7 +581,6 @@
 				margin: 40px 0;
 			}
 		}
-
 	}
 
 	&-table {
@@ -396,8 +623,12 @@
 }
 
 .footer {
-	padding: 1rem 1rem;
+	padding: 0.25rem 0.25rem;
 	background: $color-primary;
+
+	&-logo {
+		height: 25px;
+	}
 
 	.links {
 		margin: 0;
@@ -425,7 +656,15 @@
 	&-lower {
 		max-width: 1170px;
 		margin: 0 auto;
-		padding: 2rem;
+		padding: 0.5rem;
+	}
+
+	&-upper {
+
+		&-inner {
+			display: flex;
+			align-items: center;
+		}
 	}
 
 	&-legals {
@@ -450,7 +689,8 @@
 }
 
 #support-button i {
-	margin-left: 5px;
+	position: absolute;
+	right: 15px;
 }
 
 #support-dropdown {
@@ -472,12 +712,13 @@
 	}
 }
 
-.fork-date{
+.fork-date {
 	margin-top: 0 !important;
 }
 
-.snap-date{
-	margin-bottom:0 !important;;
+.snap-date {
+	margin-bottom: 0 !important;
+	;
 }
 
 .notification-main {
