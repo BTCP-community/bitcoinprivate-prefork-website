@@ -8177,6 +8177,10 @@ button.close {
 /*
  * Overrides
  */
+@media (min-width: 600px) {
+  #noty_layout__topRight {
+    right: 27px !important; } }
+
 /*
  * Overrides - Bootstrap
  */
