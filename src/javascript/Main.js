@@ -83,7 +83,7 @@ $(function() {
   }
 
   //localization for whitepaper
-    const whitePaperLanguage = ["zh_cn", "de", "ru"];
+    const whitePaperLanguage = ["de", "ja", "ru","zh_cn"];
     if ($.inArray(language, whitePaperLanguage) !== -1) {
         $('#whitepaper_href').attr("href", "/whitepaper_"+language+".pdf");
     }
