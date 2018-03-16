@@ -8879,6 +8879,14 @@ body {
 .notification-main-content {
   text-align: center; }
 
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.btn-spacer {
+  margin: 20px 0; }
+
 /*
  * Countdown
  */
