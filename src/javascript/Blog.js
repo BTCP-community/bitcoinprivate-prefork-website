@@ -57,9 +57,9 @@ $(function(){
 			             + '      </div>'
 			             + '    </div>'
 			             + '  </div>'
-			             + '  <a href="' + url + '"><div class="post-body">' + postBody + '</div></a>'
+			             + '  <a href="' + url + '" target="_blank"><div class="post-body">' + postBody + '</div></a>'
 			             + '  <div class="post-footer">'
-			             + '    <a href="' + url + '">Read more...</a>'
+			             + '    <a href="' + url + '" target="_blank">Read more...</a>'
 			             + '  </div>'
 			             + '</div>';
 			postsHtml += postHtml;
