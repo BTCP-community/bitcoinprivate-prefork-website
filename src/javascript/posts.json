@@ -1,2138 +1,1277 @@
 {
-  "user": {
-    "userId": "3fdd6fb58a80",
-    "name": "Richard Boyd",
-    "username": "metaversial",
-    "createdAt": 1413467781568,
-    "lastPostCreatedAt": 1519240729652,
-    "imageId": "0*SPDaM5i_k7w1VwXW.jpeg",
-    "backgroundImageId": "1*tKbPjiW5t-afaNnJjscV3Q.jpeg",
-    "bio": "Richard Boyd is a computer gaming technology entrepreneur and recovering aerospace company executive who is now the co-founder and CEO of Tanjo.ai",
-    "twitterScreenName": "metaversial",
-    "facebookAccountId": "",
-    "allowNotes": 1,
-    "mediumMemberAt": 0,
-    "isNsfw": false,
-    "type": "User"
+  "user":{
+    "userId":"7767273138e5",
+    "name":"Bitcoin Private",
+    "username":"bitcoinprivate",
+    "createdAt":1513302333486,
+    "lastPostCreatedAt":1521558802229,
+    "imageId":"1*ykUG39u9tA3a0iWdg15Opw.png",
+    "backgroundImageId":"",
+    "bio":"Bitcoin & ZClassic fork-merge with a focus on making private cryptocurrency transactions mainstream. https://btcprivate.org/ https://GitHub.com/BTCPrivate",
+    "twitterScreenName":"bitcoinprivate",
+    "facebookAccountId":"",
+    "allowNotes":0,
+    "mediumMemberAt":0,
+    "isNsfw":false,
+    "type":"User"
   },
-  "streamItems": [
+  "streamItems":[
     {
-      "createdAt": 1519352988908,
-      "heading": {
-        "text": "Latest",
-        "heading": {
-          "fallbackTitle": "Latest",
-          "headingBasic": {
-            "title": "Latest"
+      "createdAt":1522041661133,
+      "heading":{
+        "text":"Latest",
+        "heading":{
+          "fallbackTitle":"Latest",
+          "headingBasic":{
+            "title":"Latest"
           },
-          "headingType": "headingBasic"
+          "headingType":"headingBasic"
         }
       },
-      "randomId": "f37e44d58222",
-      "itemType": "heading",
-      "type": "StreamItem"
+      "randomId":"5059baacbd56",
+      "itemType":"heading",
+      "type":"StreamItem"
     },
     {
-      "createdAt": 1519352988908,
-      "postPreview": {
-        "postId": "4322a52531cb"
+      "createdAt":1522041661133,
+      "postPreview":{
+        "postId":"1b549ac40473"
       },
-      "randomId": "2390e1dda3a9",
-      "itemType": "postPreview",
-      "type": "StreamItem"
+      "randomId":"d0f53f6c6f9",
+      "itemType":"postPreview",
+      "type":"StreamItem"
     },
     {
-      "createdAt": 1519352988908,
-      "postPreview": {
-        "postId": "b3abd957ccb2"
+      "createdAt":1522041661133,
+      "postPreview":{
+        "postId":"75f6f4924c5"
       },
-      "randomId": "7ba5044cd3e9",
-      "itemType": "postPreview",
-      "type": "StreamItem"
+      "randomId":"8ffbb3bcc68",
+      "itemType":"postPreview",
+      "type":"StreamItem"
     },
     {
-      "createdAt": 1519352988908,
-      "postPreview": {
-        "postId": "8f7e6412fb7c"
+      "createdAt":1522041661133,
+      "postPreview":{
+        "postId":"485ab308e132"
       },
-      "randomId": "3a6ab8ed9474",
-      "itemType": "postPreview",
-      "type": "StreamItem"
-    },
-    {
-      "createdAt": 1519352988908,
-      "postPreview": {
-        "postId": "9a36df080c5e"
-      },
-      "randomId": "9f8fa707f112",
-      "itemType": "postPreview",
-      "type": "StreamItem"
-    },
-    {
-      "createdAt": 1519352988908,
-      "postPreview": {
-        "postId": "1d798e37feed"
-      },
-      "randomId": "d6ed0228431c",
-      "itemType": "postPreview",
-      "type": "StreamItem"
-    },
-    {
-      "createdAt": 1519352988908,
-      "postPreview": {
-        "postId": "7ebb921b8c98"
-      },
-      "randomId": "837703a2ee80",
-      "itemType": "postPreview",
-      "type": "StreamItem"
-    },
-    {
-      "createdAt": 1519352988908,
-      "postPreview": {
-        "postId": "64ece75436f0"
-      },
-      "randomId": "1335fb88b957",
-      "itemType": "postPreview",
-      "type": "StreamItem"
-    },
-    {
-      "createdAt": 1519352988908,
-      "postPreview": {
-        "postId": "3888720bf9de"
-      },
-      "randomId": "bdedbc9a70f8",
-      "itemType": "postPreview",
-      "type": "StreamItem"
+      "randomId":"3658412f35f5",
+      "itemType":"postPreview",
+      "type":"StreamItem"
     }
   ],
-  "userMeta": {
-    "numberOfPostsPublished": 15,
-    "userId": "3fdd6fb58a80",
-    "userSuggestionReason": {
-      "followeesWhoFollow": {
-        "users": []
+  "userMeta":{
+    "numberOfPostsPublished":3,
+    "userId":"7767273138e5",
+    "userSuggestionReason":{
+      "followeesWhoFollow":{
+        "users":[
+
+        ]
       },
-      "reason": "followeesWhoFollow"
+      "reason":"followeesWhoFollow"
     },
-    "collectionIds": [],
-    "authorTags": [
+    "collectionIds":[
+
+    ],
+    "authorTags":[
       {
-        "slug": "startup",
-        "name": "Startup",
-        "postCount": 262646,
-        "virtuals": {
-          "isFollowing": false
+        "slug":"tech",
+        "name":"Tech",
+        "postCount":122803,
+        "virtuals":{
+          "isFollowing":false
         },
-        "metadata": {
-          "followerCount": 947777,
-          "postCount": 262646,
-          "coverImage": {
-            "id": "1*22RsJ-7NHWOqbpqOFCv8Vw.jpeg"
+        "metadata":{
+          "followerCount":1070118,
+          "postCount":122803,
+          "coverImage":{
+            "id":"1*rMFkWAqpCI1IHXrgOlHZeg.jpeg",
+            "originalWidth":4053,
+            "originalHeight":2815,
+            "focusPercentX":50,
+            "focusPercentY":10
           }
         },
-        "type": "Tag"
+        "type":"Tag"
       },
       {
-        "slug": "education",
-        "name": "Education",
-        "postCount": 155803,
-        "virtuals": {
-          "isFollowing": false
+        "slug":"blockchain",
+        "name":"Blockchain",
+        "postCount":113322,
+        "virtuals":{
+          "isFollowing":false
         },
-        "metadata": {
-          "followerCount": 637167,
-          "postCount": 155803,
-          "coverImage": {
-            "id": "1*dVmAyTviHMkGJq46uvrLcg.jpeg"
+        "metadata":{
+          "followerCount":12060,
+          "postCount":113322,
+          "coverImage":{
+            "id":"0*4rNyV7cFrmnDG8lc.",
+            "originalWidth":800,
+            "originalHeight":600,
+            "isFeatured":true
           }
         },
-        "type": "Tag"
+        "type":"Tag"
       },
       {
-        "slug": "news",
-        "name": "News",
-        "postCount": 128719,
-        "virtuals": {
-          "isFollowing": false
+        "slug":"bitcoin",
+        "name":"Bitcoin",
+        "postCount":78283,
+        "virtuals":{
+          "isFollowing":false
         },
-        "metadata": {
-          "followerCount": 139780,
-          "postCount": 128719,
-          "coverImage": {
-            "id": "1*d89229fzAT5Im-xJlgNnJg.jpeg",
-            "originalWidth": 1000,
-            "originalHeight": 478
+        "metadata":{
+          "followerCount":409368,
+          "postCount":78283,
+          "coverImage":{
+            "id":"1*WasSM1pLGf3mtN3ENUGKCw.jpeg"
           }
         },
-        "type": "Tag"
+        "type":"Tag"
       },
       {
-        "slug": "artificial-intelligence",
-        "name": "Artificial Intelligence",
-        "postCount": 41671,
-        "virtuals": {
-          "isFollowing": false
+        "slug":"cryptocurrency",
+        "name":"Cryptocurrency",
+        "postCount":66645,
+        "virtuals":{
+          "isFollowing":false
         },
-        "metadata": {
-          "followerCount": 674497,
-          "postCount": 41671,
-          "coverImage": {
-            "id": "1*gAn_BSffVBcwCIR6bDgK1g.jpeg"
+        "metadata":{
+          "followerCount":6646,
+          "postCount":66645,
+          "coverImage":{
+            "id":"0*4rNyV7cFrmnDG8lc.",
+            "originalWidth":800,
+            "originalHeight":600,
+            "isFeatured":true
           }
         },
-        "type": "Tag"
+        "type":"Tag"
       },
       {
-        "slug": "software-development",
-        "name": "Software Development",
-        "postCount": 34274,
-        "virtuals": {
-          "isFollowing": false
+        "slug":"privacy",
+        "name":"Privacy",
+        "postCount":15037,
+        "virtuals":{
+          "isFollowing":false
         },
-        "metadata": {
-          "followerCount": 24174,
-          "postCount": 34274,
-          "coverImage": {
-            "id": "1*8VFNi44ikZ172fiUYz5pGA.jpeg",
-            "originalWidth": 5336,
-            "originalHeight": 3072
+        "metadata":{
+          "followerCount":480085,
+          "postCount":15037,
+          "coverImage":{
+            "id":"1*Arv1JHuRxjBBAJ6thw2VPA.jpeg"
           }
         },
-        "type": "Tag"
+        "type":"Tag"
       },
       {
-        "slug": "machine-learning",
-        "name": "Machine Learning",
-        "postCount": 28810,
-        "virtuals": {
-          "isFollowing": false
+        "slug":"payments",
+        "name":"Payments",
+        "postCount":8314,
+        "virtuals":{
+          "isFollowing":false
         },
-        "metadata": {
-          "followerCount": 23775,
-          "postCount": 28810,
-          "coverImage": {
-            "id": "0*xs77hcsM4JfFoB0Q.",
-            "originalWidth": 706,
-            "originalHeight": 577,
-            "isFeatured": true
+        "metadata":{
+          "followerCount":710,
+          "postCount":8314,
+          "coverImage":{
+            "id":"1*TegxdT_EYKkbQJadzIvdag.jpeg",
+            "originalWidth":997,
+            "originalHeight":922
           }
         },
-        "type": "Tag"
+        "type":"Tag"
       },
       {
-        "slug": "youtube",
-        "name": "YouTube",
-        "postCount": 27421,
-        "virtuals": {
-          "isFollowing": false
+        "slug":"product",
+        "name":"Product",
+        "postCount":7315,
+        "virtuals":{
+          "isFollowing":false
         },
-        "metadata": {
-          "followerCount": 1055,
-          "postCount": 27421,
-          "coverImage": {
-            "id": "1*0d3kUy4d2FFZLjeLhFSrqQ.png",
-            "originalWidth": 600,
-            "originalHeight": 240
+        "metadata":{
+          "followerCount":912,
+          "postCount":7315,
+          "coverImage":{
+            "id":"1*bZsGyIAOP96DjpLrxt3fWA.png",
+            "originalWidth":1155,
+            "originalHeight":405,
+            "isFeatured":true
           }
         },
-        "type": "Tag"
-      },
-      {
-        "slug": "virtual-reality",
-        "name": "Virtual Reality",
-        "postCount": 23543,
-        "virtuals": {
-          "isFollowing": false
-        },
-        "metadata": {
-          "followerCount": 502751,
-          "postCount": 23543,
-          "coverImage": {
-            "id": "1*pIRpoB6B-V0UxfZEhrw_xA.jpeg"
-          }
-        },
-        "type": "Tag"
-      },
-      {
-        "slug": "teaching",
-        "name": "Teaching",
-        "postCount": 20071,
-        "virtuals": {
-          "isFollowing": false
-        },
-        "metadata": {
-          "followerCount": 242602,
-          "postCount": 20071,
-          "coverImage": {
-            "id": "1*JCWylhTcomPGeLoltFX-FQ@2x.jpeg",
-            "originalWidth": 3024,
-            "originalHeight": 4032,
-            "backgroundSize": "",
-            "filter": "",
-            "isFeatured": false,
-            "externalSrc": "",
-            "focusPercentX": -1,
-            "focusPercentY": -1,
-            "alt": "",
-            "repairedAt": 0
-          }
-        },
-        "type": "Tag"
-      },
-      {
-        "slug": "internet-of-things",
-        "name": "Internet of Things",
-        "postCount": 13957,
-        "virtuals": {
-          "isFollowing": false
-        },
-        "metadata": {
-          "followerCount": 973421,
-          "postCount": 13957,
-          "coverImage": {
-            "id": "1*1GqHkDuyguyqnn49KGFJuA.jpeg"
-          }
-        },
-        "type": "Tag"
-      },
-      {
-        "slug": "open-source",
-        "name": "Open Source",
-        "postCount": 11101,
-        "virtuals": {
-          "isFollowing": false
-        },
-        "metadata": {
-          "followerCount": 6206,
-          "postCount": 11101,
-          "coverImage": {
-            "id": "0*t-Fxg-3G2G8mvjWl.png",
-            "originalWidth": 1380,
-            "originalHeight": 535,
-            "externalSrc": "https://s3.amazonaws.com/mb-images/collections/QYlDbrpG-feb-python-open-source.png"
-          }
-        },
-        "type": "Tag"
-      },
-      {
-        "slug": "augmented-reality",
-        "name": "Augmented Reality",
-        "postCount": 9008,
-        "virtuals": {
-          "isFollowing": false
-        },
-        "metadata": {
-          "followerCount": 2148,
-          "postCount": 9008,
-          "coverImage": {
-            "id": "1*arC51ic_ur74cYWmCk7bhA.gif",
-            "originalWidth": 672,
-            "originalHeight": 378,
-            "isFeatured": true
-          }
-        },
-        "type": "Tag"
-      },
-      {
-        "slug": "education-reform",
-        "name": "Education Reform",
-        "postCount": 8268,
-        "virtuals": {
-          "isFollowing": false
-        },
-        "metadata": {
-          "followerCount": 231559,
-          "postCount": 8268,
-          "coverImage": {
-            "id": "1*Bbl4ivtwJ1oL0d0K8yNjZQ.jpeg",
-            "originalWidth": 3000,
-            "originalHeight": 4000
-          }
-        },
-        "type": "Tag"
-      },
-      {
-        "slug": "guns",
-        "name": "Guns",
-        "postCount": 7497,
-        "virtuals": {
-          "isFollowing": false
-        },
-        "metadata": {
-          "followerCount": 1340,
-          "postCount": 7497,
-          "coverImage": {
-            "id": "1*d89229fzAT5Im-xJlgNnJg.jpeg",
-            "originalWidth": 1000,
-            "originalHeight": 478
-          }
-        },
-        "type": "Tag"
-      },
-      {
-        "slug": "hunting",
-        "name": "Hunting",
-        "postCount": 1814,
-        "virtuals": {
-          "isFollowing": false
-        },
-        "metadata": {
-          "followerCount": 112,
-          "postCount": 1814,
-          "coverImage": {
-            "id": "1*gwRxG-2LXR2XaHGemS6y-A.jpeg",
-            "originalWidth": 600,
-            "originalHeight": 399
-          }
-        },
-        "type": "Tag"
-      },
-      {
-        "slug": "unicorns",
-        "name": "Unicorns",
-        "postCount": 762,
-        "virtuals": {
-          "isFollowing": false
-        },
-        "metadata": {
-          "followerCount": 91,
-          "postCount": 762,
-          "coverImage": {
-            "id": "0*qLy-ZvCe685PqTOk.jpg",
-            "originalWidth": 1008,
-            "originalHeight": 435
-          }
-        },
-        "type": "Tag"
-      },
-      {
-        "slug": "boy-scouts-of-america",
-        "name": "Boy Scouts Of America",
-        "postCount": 235,
-        "virtuals": {
-          "isFollowing": false
-        },
-        "metadata": {
-          "followerCount": 8,
-          "postCount": 235,
-          "coverImage": {
-            "id": "1*qN9cIK-cs7v_aUu8sPHrew.jpeg",
-            "originalWidth": 4116,
-            "originalHeight": 3066
-          }
-        },
-        "type": "Tag"
-      },
-      {
-        "slug": "the-age-of-the-cockroach",
-        "name": "The Age Of The Cockroach",
-        "postCount": 2,
-        "virtuals": {
-          "isFollowing": false
-        },
-        "metadata": {
-          "followerCount": 4,
-          "postCount": 2,
-          "coverImage": {
-            "id": "1*2NgX3D8UVMX3dKEYzh3AxA.jpeg",
-            "originalWidth": 480,
-            "originalHeight": 360
-          }
-        },
-        "type": "Tag"
+        "type":"Tag"
       }
     ],
-    "featuredPostId": "",
-    "topWriterInTags": [],
-    "type": "UserMeta"
+    "featuredPostId":"",
+    "topWriterInTags":[
+      {
+        "slug":"privacy",
+        "name":"Privacy",
+        "postCount":15037,
+        "virtuals":{
+          "isFollowing":false
+        },
+        "metadata":{
+          "followerCount":480085,
+          "postCount":15037,
+          "coverImage":{
+            "id":"1*Arv1JHuRxjBBAJ6thw2VPA.jpeg"
+          }
+        },
+        "type":"Tag"
+      },
+      {
+        "slug":"bitcoin",
+        "name":"Bitcoin",
+        "postCount":78283,
+        "virtuals":{
+          "isFollowing":false
+        },
+        "metadata":{
+          "followerCount":409368,
+          "postCount":78283,
+          "coverImage":{
+            "id":"1*WasSM1pLGf3mtN3ENUGKCw.jpeg"
+          }
+        },
+        "type":"Tag"
+      }
+    ],
+    "type":"UserMeta"
   },
-  "userNavItemList": {
-    "userNavItems": [
+  "userNavItemList":{
+    "userNavItems":[
       {
-        "title": "Profile",
-        "url": "https://medium.com/@metaversial",
-        "systemItem": {
-          "systemType": 1
+        "title":"Profile",
+        "url":"https://medium.com/@bitcoinprivate",
+        "systemItem":{
+          "systemType":1
         },
-        "navType": "systemItem"
+        "navType":"systemItem"
       },
       {
-        "title": "Latest",
-        "url": "https://medium.com/@metaversial/latest",
-        "systemItem": {
-          "systemType": 2
+        "title":"Latest",
+        "url":"https://medium.com/@bitcoinprivate/latest",
+        "systemItem":{
+          "systemType":2
         },
-        "navType": "systemItem"
-      },
-      {
-        "title": "Claps",
-        "url": "https://medium.com/@metaversial/has-recommended",
-        "systemItem": {
-          "systemType": 4
-        },
-        "navType": "systemItem"
-      },
-      {
-        "title": "Responses",
-        "url": "https://medium.com/@metaversial/responses",
-        "systemItem": {
-          "systemType": 3
-        },
-        "navType": "systemItem"
+        "navType":"systemItem"
       }
     ]
   },
-  "userNavActiveIndex": 1,
-  "profileTypeName": "latest",
-  "isStandaloneEditPage": false,
-  "references": {
-    "User": {
-      "3fdd6fb58a80": {
-        "userId": "3fdd6fb58a80",
-        "name": "Richard Boyd",
-        "username": "metaversial",
-        "createdAt": 1413467781568,
-        "lastPostCreatedAt": 1519240729652,
-        "imageId": "0*SPDaM5i_k7w1VwXW.jpeg",
-        "backgroundImageId": "1*tKbPjiW5t-afaNnJjscV3Q.jpeg",
-        "bio": "Richard Boyd is a computer gaming technology entrepreneur and recovering aerospace company executive who is now the co-founder and CEO of Tanjo.ai",
-        "twitterScreenName": "metaversial",
-        "facebookAccountId": "",
-        "allowNotes": 1,
-        "mediumMemberAt": 0,
-        "isNsfw": false,
-        "type": "User"
+  "userNavActiveIndex":1,
+  "profileTypeName":"latest",
+  "isStandaloneEditPage":false,
+  "references":{
+    "User":{
+      "7767273138e5":{
+        "userId":"7767273138e5",
+        "name":"Bitcoin Private",
+        "username":"bitcoinprivate",
+        "createdAt":1513302333486,
+        "lastPostCreatedAt":1521558802229,
+        "imageId":"1*ykUG39u9tA3a0iWdg15Opw.png",
+        "backgroundImageId":"",
+        "bio":"Bitcoin & ZClassic fork-merge with a focus on making private cryptocurrency transactions mainstream. https://btcprivate.org/ https://GitHub.com/BTCPrivate",
+        "twitterScreenName":"bitcoinprivate",
+        "facebookAccountId":"",
+        "allowNotes":0,
+        "mediumMemberAt":0,
+        "isNsfw":false,
+        "type":"User"
       }
     },
-    "Post": {
-      "4322a52531cb": {
-        "id": "4322a52531cb",
-        "versionId": "b992377d8055",
-        "creatorId": "3fdd6fb58a80",
-        "homeCollectionId": "",
-        "title": "On the Art of Shooting",
-        "detectedLanguage": "en",
-        "latestVersion": "b992377d8055",
-        "latestPublishedVersion": "b992377d8055",
-        "hasUnpublishedEdits": false,
-        "latestRev": 131,
-        "createdAt": 1518634294613,
-        "updatedAt": 1518900982120,
-        "acceptedAt": 0,
-        "firstPublishedAt": 1518635402764,
-        "latestPublishedAt": 1518635402764,
-        "vote": false,
-        "experimentalCss": "",
-        "displayAuthor": "",
-        "content": {
-          "subtitle": "Dear Dylan,",
-          "postDisplay": {
-            "coverless": true
+    "Post":{
+      "1b549ac40473":{
+        "id":"1b549ac40473",
+        "versionId":"4381444caefa",
+        "creatorId":"7767273138e5",
+        "homeCollectionId":"",
+        "title":"Community Update 3 — Wallets and Merchant Platform Phase 1 Roadmap!",
+        "detectedLanguage":"en",
+        "latestVersion":"4381444caefa",
+        "latestPublishedVersion":"4381444caefa",
+        "hasUnpublishedEdits":false,
+        "latestRev":799,
+        "createdAt":1521558802229,
+        "updatedAt":1522029830089,
+        "acceptedAt":0,
+        "firstPublishedAt":1521594292944,
+        "latestPublishedAt":1521660778633,
+        "vote":false,
+        "experimentalCss":"",
+        "displayAuthor":"",
+        "content":{
+          "subtitle":"The Bitcoin Private contribution team has been heads down for another week and continue to press forward toward its goals. There has been…",
+          "postDisplay":{
+            "coverless":true
           }
         },
-        "virtuals": {
-          "allowNotes": true,
-          "previewImage": {
-            "imageId": "1*wEHiRxzh9Xmd-a1WoUHslQ.jpeg",
-            "filter": "",
-            "backgroundSize": "",
-            "originalWidth": 1778,
-            "originalHeight": 1180,
-            "strategy": "resample",
-            "height": 0,
-            "width": 0
+        "virtuals":{
+          "allowNotes":false,
+          "previewImage":{
+            "imageId":"1*3zhhXJBj9VOmNF3TwsEOdA.jpeg",
+            "filter":"",
+            "backgroundSize":"",
+            "originalWidth":1832,
+            "originalHeight":428,
+            "strategy":"resample",
+            "height":0,
+            "width":0
           },
-          "wordCount": 1307,
-          "imageCount": 5,
-          "readingTime": 5.765408805031446,
-          "subtitle": "Dear Dylan,",
-          "usersBySocialRecommends": [],
-          "recommends": 3,
-          "isBookmarked": false,
-          "tags": [
+          "wordCount":1383,
+          "imageCount":2,
+          "readingTime":5.602201257861636,
+          "subtitle":"The Bitcoin Private contribution team has been heads down for another week and continue to press forward toward its goals. There has been…",
+          "usersBySocialRecommends":[
+
+          ],
+          "recommends":92,
+          "isBookmarked":false,
+          "tags":[
             {
-              "slug": "guns",
-              "name": "Guns",
-              "postCount": 7497,
-              "virtuals": {
-                "isFollowing": false
+              "slug":"bitcoin",
+              "name":"Bitcoin",
+              "postCount":78283,
+              "virtuals":{
+                "isFollowing":false
               },
-              "metadata": {
-                "followerCount": 1340,
-                "postCount": 7497,
-                "coverImage": {
-                  "id": "1*d89229fzAT5Im-xJlgNnJg.jpeg",
-                  "originalWidth": 1000,
-                  "originalHeight": 478
+              "metadata":{
+                "followerCount":409368,
+                "postCount":78283,
+                "coverImage":{
+                  "id":"1*WasSM1pLGf3mtN3ENUGKCw.jpeg"
                 }
               },
-              "type": "Tag"
+              "type":"Tag"
             },
             {
-              "slug": "boy-scouts-of-america",
-              "name": "Boy Scouts Of America",
-              "postCount": 235,
-              "virtuals": {
-                "isFollowing": false
+              "slug":"privacy",
+              "name":"Privacy",
+              "postCount":15037,
+              "virtuals":{
+                "isFollowing":false
               },
-              "metadata": {
-                "followerCount": 8,
-                "postCount": 235,
-                "coverImage": {
-                  "id": "1*qN9cIK-cs7v_aUu8sPHrew.jpeg",
-                  "originalWidth": 4116,
-                  "originalHeight": 3066
+              "metadata":{
+                "followerCount":480085,
+                "postCount":15037,
+                "coverImage":{
+                  "id":"1*Arv1JHuRxjBBAJ6thw2VPA.jpeg"
                 }
               },
-              "type": "Tag"
+              "type":"Tag"
             },
             {
-              "slug": "hunting",
-              "name": "Hunting",
-              "postCount": 1814,
-              "virtuals": {
-                "isFollowing": false
+              "slug":"cryptocurrency",
+              "name":"Cryptocurrency",
+              "postCount":66645,
+              "virtuals":{
+                "isFollowing":false
               },
-              "metadata": {
-                "followerCount": 112,
-                "postCount": 1814,
-                "coverImage": {
-                  "id": "1*gwRxG-2LXR2XaHGemS6y-A.jpeg",
-                  "originalWidth": 600,
-                  "originalHeight": 399
+              "metadata":{
+                "followerCount":6646,
+                "postCount":66645,
+                "coverImage":{
+                  "id":"0*4rNyV7cFrmnDG8lc.",
+                  "originalWidth":800,
+                  "originalHeight":600,
+                  "isFeatured":true
                 }
               },
-              "type": "Tag"
+              "type":"Tag"
+            },
+            {
+              "slug":"blockchain",
+              "name":"Blockchain",
+              "postCount":113322,
+              "virtuals":{
+                "isFollowing":false
+              },
+              "metadata":{
+                "followerCount":12060,
+                "postCount":113322,
+                "coverImage":{
+                  "id":"0*4rNyV7cFrmnDG8lc.",
+                  "originalWidth":800,
+                  "originalHeight":600,
+                  "isFeatured":true
+                }
+              },
+              "type":"Tag"
+            },
+            {
+              "slug":"tech",
+              "name":"Tech",
+              "postCount":122803,
+              "virtuals":{
+                "isFollowing":false
+              },
+              "metadata":{
+                "followerCount":1070118,
+                "postCount":122803,
+                "coverImage":{
+                  "id":"1*rMFkWAqpCI1IHXrgOlHZeg.jpeg",
+                  "originalWidth":4053,
+                  "originalHeight":2815,
+                  "focusPercentX":50,
+                  "focusPercentY":10
+                }
+              },
+              "type":"Tag"
             }
           ],
-          "socialRecommendsCount": 0,
-          "responsesCreatedCount": 2,
-          "links": {
-            "entries": [],
-            "version": "0.3",
-            "generatedAt": 1518635403071
-          },
-          "isLockedPreviewOnly": false,
-          "takeoverId": "",
-          "metaDescription": "",
-          "totalClapCount": 66,
-          "sectionCount": 1,
-          "readingList": 0
-        },
-        "coverless": true,
-        "slug": "on-the-art-of-shooting",
-        "translationSourcePostId": "",
-        "translationSourceCreatorId": "",
-        "isApprovedTranslation": false,
-        "inResponseToPostId": "",
-        "inResponseToRemovedAt": 0,
-        "isTitleSynthesized": true,
-        "allowResponses": true,
-        "importedUrl": "",
-        "importedPublishedAt": 0,
-        "visibility": 0,
-        "uniqueSlug": "on-the-art-of-shooting-4322a52531cb",
-        "previewContent": {
-          "bodyModel": {
-            "paragraphs": [
+          "socialRecommendsCount":0,
+          "responsesCreatedCount":3,
+          "links":{
+            "entries":[
               {
-                "name": "296c",
-                "type": 3,
-                "text": "On the Art of Shooting",
-                "markups": [],
-                "alignment": 1
+                "url":"https://btcprivate.org/",
+                "alts":[
+
+                ],
+                "httpStatus":200
               },
               {
-                "name": "ecf3",
-                "type": 4,
-                "text": "",
-                "markups": [],
-                "layout": 9,
-                "metadata": {
-                  "id": "1*wEHiRxzh9Xmd-a1WoUHslQ.jpeg",
-                  "originalWidth": 1778,
-                  "originalHeight": 1180
-                }
+                "url":"https://btcprivate.org/research_proposals.pdf",
+                "alts":[
+
+                ],
+                "httpStatus":200
               },
               {
-                "name": "593a",
-                "type": 1,
-                "text": "Dear Dylan,",
-                "markups": [],
-                "alignment": 1
+                "url":"https://airtable.com/shrEvvEKU2NJ95mzG",
+                "alts":[
+
+                ],
+                "httpStatus":200
               },
               {
-                "name": "9f52",
-                "type": 1,
-                "text": "Growing up in Texas, a boy learns to shoot. It was expected, an essential lifeâ€¦",
-                "markups": [
+                "url":"https://github.com/bitcoin/bips/blob/master/bip-0070.mediawiki",
+                "alts":[
+
+                ],
+                "httpStatus":200
+              },
+              {
+                "url":"https://github.com/BTCPrivate/",
+                "alts":[
+
+                ],
+                "httpStatus":200
+              },
+              {
+                "url":"https://docs.google.com/document/d/1WpuS6c50F-bBOX9XWO2zHmY9tEQ4ctFOTKN8cgvigXc/edit?usp=sharing",
+                "alts":[
+
+                ],
+                "httpStatus":200
+              },
+              {
+                "url":"https://docs.google.com/forms/d/1P_XFTtyjWtXptpYn1bH28gdYd9j5vYqDdNbvd447N9I/edit",
+                "alts":[
+
+                ],
+                "httpStatus":200
+              },
+              {
+                "url":"https://github.com/BTCPrivate/bitcoin-private-iOS-wallet",
+                "alts":[
+
+                ],
+                "httpStatus":200
+              },
+              {
+                "url":"https://www.livecoinwatch.com/price/BitcoinPrivate-BTCP",
+                "alts":[
+
+                ],
+                "httpStatus":200
+              },
+              {
+                "url":"https://support.btcprivate.org/423334-How-Do-I-Become-An-Ambassador",
+                "alts":[
+
+                ],
+                "httpStatus":200
+              },
+              {
+                "url":"https://twitter.com/bitcoinprivate",
+                "alts":[
                   {
-                    "type": 2,
-                    "start": 0,
-                    "end": 78
+                    "type":2,
+                    "url":"twitter://user?screen_name=bitcoinprivate"
+                  },
+                  {
+                    "type":3,
+                    "url":"twitter://user?screen_name=bitcoinprivate"
                   }
                 ],
-                "alignment": 1
+                "httpStatus":200
               }
             ],
-            "sections": [
+            "version":"0.3",
+            "generatedAt":1521660779747
+          },
+          "isLockedPreviewOnly":false,
+          "takeoverId":"",
+          "metaDescription":"",
+          "totalClapCount":1566,
+          "sectionCount":1,
+          "readingList":0
+        },
+        "coverless":true,
+        "slug":"community-update-3-wallets-and-merchant-platform-phase-1-roadmap",
+        "translationSourcePostId":"",
+        "translationSourceCreatorId":"",
+        "isApprovedTranslation":false,
+        "inResponseToPostId":"",
+        "inResponseToRemovedAt":0,
+        "isTitleSynthesized":true,
+        "allowResponses":true,
+        "importedUrl":"",
+        "importedPublishedAt":0,
+        "visibility":0,
+        "uniqueSlug":"community-update-3-wallets-and-merchant-platform-phase-1-roadmap-1b549ac40473",
+        "previewContent":{
+          "bodyModel":{
+            "paragraphs":[
               {
-                "startIndex": 0
+                "name":"previewImage",
+                "type":4,
+                "text":"",
+                "layout":10,
+                "metadata":{
+                  "id":"1*3zhhXJBj9VOmNF3TwsEOdA.jpeg",
+                  "originalWidth":1832,
+                  "originalHeight":428,
+                  "isFeatured":true
+                }
+              },
+              {
+                "name":"ef35",
+                "type":3,
+                "text":"Community Update 3 — Wallets and Merchant Platform Phase 1 Roadmap!",
+                "markups":[
+
+                ],
+                "alignment":1
+              }
+            ],
+            "sections":[
+              {
+                "startIndex":0
               }
             ]
           },
-          "isFullContent": false
+          "isFullContent":false
         },
-        "license": 0,
-        "inResponseToMediaResourceId": "",
-        "canonicalUrl": "",
-        "approvedHomeCollectionId": "",
-        "newsletterId": "",
-        "webCanonicalUrl": "",
-        "mediumUrl": "",
-        "migrationId": "",
-        "notifyFollowers": true,
-        "notifyTwitter": true,
-        "isSponsored": false,
-        "isRequestToPubDisabled": false,
-        "notifyFacebook": false,
-        "responseHiddenOnParentPostAt": 0,
-        "isSeries": false,
-        "isSubscriptionLocked": false,
-        "seriesLastAppendedAt": 0,
-        "audioVersionDurationSec": 0,
-        "sequenceId": "",
-        "isNsfw": false,
-        "isEligibleForRevenue": false,
-        "isBlockedFromHightower": false,
-        "deletedAt": 0,
-        "lockedPostSource": 0,
-        "hightowerMinimumGuaranteeStartsAt": 0,
-        "hightowerMinimumGuaranteeEndsAt": 0,
-        "featureLockRequestAcceptedAt": 0,
-        "featureLockRequestMinimumGuaranteeAmount": 0,
-        "isElevate": false,
-        "mongerRequestType": 1,
-        "type": "Post"
+        "license":0,
+        "inResponseToMediaResourceId":"",
+        "canonicalUrl":"",
+        "approvedHomeCollectionId":"",
+        "newsletterId":"",
+        "webCanonicalUrl":"",
+        "mediumUrl":"",
+        "migrationId":"",
+        "notifyFollowers":true,
+        "notifyTwitter":false,
+        "isSponsored":false,
+        "isRequestToPubDisabled":false,
+        "notifyFacebook":false,
+        "responseHiddenOnParentPostAt":0,
+        "isSeries":false,
+        "isSubscriptionLocked":false,
+        "seriesLastAppendedAt":0,
+        "audioVersionDurationSec":0,
+        "sequenceId":"",
+        "isNsfw":false,
+        "isEligibleForRevenue":false,
+        "isBlockedFromHightower":false,
+        "deletedAt":0,
+        "lockedPostSource":0,
+        "hightowerMinimumGuaranteeStartsAt":0,
+        "hightowerMinimumGuaranteeEndsAt":0,
+        "featureLockRequestAcceptedAt":0,
+        "featureLockRequestMinimumGuaranteeAmount":0,
+        "isElevate":false,
+        "mongerRequestType":1,
+        "type":"Post"
       },
-      "b3abd957ccb2": {
-        "id": "b3abd957ccb2",
-        "versionId": "d8f9d46d51f8",
-        "creatorId": "3fdd6fb58a80",
-        "homeCollectionId": "",
-        "title": "How I Stopped Worrying and Learned to Love Open Source",
-        "detectedLanguage": "en",
-        "latestVersion": "d8f9d46d51f8",
-        "latestPublishedVersion": "d8f9d46d51f8",
-        "hasUnpublishedEdits": false,
-        "latestRev": 100,
-        "createdAt": 1466174979675,
-        "updatedAt": 1513384678533,
-        "acceptedAt": 0,
-        "firstPublishedAt": 1466175020299,
-        "latestPublishedAt": 1466175020299,
-        "vote": false,
-        "experimentalCss": "",
-        "displayAuthor": "",
-        "content": {
-          "subtitle": "2004",
-          "postDisplay": {
-            "coverless": true
+      "75f6f4924c5":{
+        "id":"75f6f4924c5",
+        "versionId":"2b698dc7ca62",
+        "creatorId":"7767273138e5",
+        "homeCollectionId":"",
+        "title":"Community Update 2 — Moving at Lightning Speed, building our product and brand",
+        "detectedLanguage":"en",
+        "latestVersion":"2b698dc7ca62",
+        "latestPublishedVersion":"2b698dc7ca62",
+        "hasUnpublishedEdits":false,
+        "latestRev":553,
+        "createdAt":1520982474202,
+        "updatedAt":1521883557181,
+        "acceptedAt":0,
+        "firstPublishedAt":1520989644010,
+        "latestPublishedAt":1520998785178,
+        "vote":false,
+        "experimentalCss":"",
+        "displayAuthor":"",
+        "content":{
+          "subtitle":"It’s been just one week since our last community update and we’ve accomplished a lot. We’re working towards a lot of outstanding…",
+          "postDisplay":{
+            "coverless":true
           }
         },
-        "virtuals": {
-          "allowNotes": true,
-          "previewImage": {
-            "imageId": "",
-            "filter": "",
-            "backgroundSize": "",
-            "originalWidth": 0,
-            "originalHeight": 0,
-            "strategy": "resample",
-            "height": 0,
-            "width": 0
+        "virtuals":{
+          "allowNotes":false,
+          "previewImage":{
+            "imageId":"1*b2yJDmc0Y5hZLE4fQaXciA.jpeg",
+            "filter":"",
+            "backgroundSize":"",
+            "originalWidth":2048,
+            "originalHeight":478,
+            "strategy":"resample",
+            "height":0,
+            "width":0
           },
-          "wordCount": 2268,
-          "imageCount": 0,
-          "readingTime": 8.558490566037737,
-          "subtitle": "2004",
-          "usersBySocialRecommends": [],
-          "recommends": 2,
-          "isBookmarked": false,
-          "tags": [
+          "wordCount":1269,
+          "imageCount":1,
+          "readingTime":4.988679245283019,
+          "subtitle":"It’s been just one week since our last community update and we’ve accomplished a lot. We’re working towards a lot of outstanding…",
+          "usersBySocialRecommends":[
+
+          ],
+          "recommends":120,
+          "isBookmarked":false,
+          "tags":[
             {
-              "slug": "open-source",
-              "name": "Open Source",
-              "postCount": 11101,
-              "virtuals": {
-                "isFollowing": false
+              "slug":"bitcoin",
+              "name":"Bitcoin",
+              "postCount":78283,
+              "virtuals":{
+                "isFollowing":false
               },
-              "metadata": {
-                "followerCount": 6206,
-                "postCount": 11101,
-                "coverImage": {
-                  "id": "0*t-Fxg-3G2G8mvjWl.png",
-                  "originalWidth": 1380,
-                  "originalHeight": 535,
-                  "externalSrc": "https://s3.amazonaws.com/mb-images/collections/QYlDbrpG-feb-python-open-source.png"
+              "metadata":{
+                "followerCount":409368,
+                "postCount":78283,
+                "coverImage":{
+                  "id":"1*WasSM1pLGf3mtN3ENUGKCw.jpeg"
                 }
               },
-              "type": "Tag"
+              "type":"Tag"
             },
             {
-              "slug": "software-development",
-              "name": "Software Development",
-              "postCount": 34274,
-              "virtuals": {
-                "isFollowing": false
+              "slug":"cryptocurrency",
+              "name":"Cryptocurrency",
+              "postCount":66645,
+              "virtuals":{
+                "isFollowing":false
               },
-              "metadata": {
-                "followerCount": 24174,
-                "postCount": 34274,
-                "coverImage": {
-                  "id": "1*8VFNi44ikZ172fiUYz5pGA.jpeg",
-                  "originalWidth": 5336,
-                  "originalHeight": 3072
+              "metadata":{
+                "followerCount":6646,
+                "postCount":66645,
+                "coverImage":{
+                  "id":"0*4rNyV7cFrmnDG8lc.",
+                  "originalWidth":800,
+                  "originalHeight":600,
+                  "isFeatured":true
                 }
               },
-              "type": "Tag"
+              "type":"Tag"
+            },
+            {
+              "slug":"tech",
+              "name":"Tech",
+              "postCount":122803,
+              "virtuals":{
+                "isFollowing":false
+              },
+              "metadata":{
+                "followerCount":1070118,
+                "postCount":122803,
+                "coverImage":{
+                  "id":"1*rMFkWAqpCI1IHXrgOlHZeg.jpeg",
+                  "originalWidth":4053,
+                  "originalHeight":2815,
+                  "focusPercentX":50,
+                  "focusPercentY":10
+                }
+              },
+              "type":"Tag"
+            },
+            {
+              "slug":"privacy",
+              "name":"Privacy",
+              "postCount":15037,
+              "virtuals":{
+                "isFollowing":false
+              },
+              "metadata":{
+                "followerCount":480085,
+                "postCount":15037,
+                "coverImage":{
+                  "id":"1*Arv1JHuRxjBBAJ6thw2VPA.jpeg"
+                }
+              },
+              "type":"Tag"
+            },
+            {
+              "slug":"product",
+              "name":"Product",
+              "postCount":7315,
+              "virtuals":{
+                "isFollowing":false
+              },
+              "metadata":{
+                "followerCount":912,
+                "postCount":7315,
+                "coverImage":{
+                  "id":"1*bZsGyIAOP96DjpLrxt3fWA.png",
+                  "originalWidth":1155,
+                  "originalHeight":405,
+                  "isFeatured":true
+                }
+              },
+              "type":"Tag"
             }
           ],
-          "socialRecommendsCount": 0,
-          "responsesCreatedCount": 0,
-          "links": {
-            "entries": [],
-            "version": "0.3",
-            "generatedAt": 1472484952607
-          },
-          "isLockedPreviewOnly": false,
-          "takeoverId": "",
-          "metaDescription": "",
-          "totalClapCount": 2,
-          "sectionCount": 1,
-          "readingList": 0
-        },
-        "coverless": true,
-        "slug": "how-i-stopped-worrying-and-learned-to-love-open-source",
-        "translationSourcePostId": "",
-        "translationSourceCreatorId": "",
-        "isApprovedTranslation": false,
-        "inResponseToPostId": "",
-        "inResponseToRemovedAt": 0,
-        "isTitleSynthesized": true,
-        "allowResponses": true,
-        "importedUrl": "",
-        "importedPublishedAt": 0,
-        "visibility": 0,
-        "uniqueSlug": "how-i-stopped-worrying-and-learned-to-love-open-source-b3abd957ccb2",
-        "previewContent": {
-          "bodyModel": {
-            "paragraphs": [
+          "socialRecommendsCount":0,
+          "responsesCreatedCount":5,
+          "links":{
+            "entries":[
               {
-                "name": "ccae",
-                "type": 1,
-                "text": "How I Stopped Worrying and Learned to Love Open Source",
-                "markups": [
+                "url":"https://btcprivate.org/",
+                "alts":[
+
+                ],
+                "httpStatus":200
+              },
+              {
+                "url":"https://github.com/BTCPrivate/bitcoin-private-full-node-wallet/releases",
+                "alts":[
+
+                ],
+                "httpStatus":200
+              },
+              {
+                "url":"https://github.com/BTCPrivate/",
+                "alts":[
+
+                ],
+                "httpStatus":200
+              },
+              {
+                "url":"https://twitter.com/bitcoinprivate",
+                "alts":[
                   {
-                    "type": 1,
-                    "start": 0,
-                    "end": 54
+                    "type":2,
+                    "url":"twitter://user?screen_name=bitcoinprivate"
+                  },
+                  {
+                    "type":3,
+                    "url":"twitter://user?screen_name=bitcoinprivate"
                   }
                 ],
-                "alignment": 1
+                "httpStatus":200
               },
               {
-                "name": "0107",
-                "type": 1,
-                "text": "2004",
-                "markups": [],
-                "alignment": 1
+                "url":"https://support.btcprivate.org/423334-How-Do-I-Become-An-Ambassador",
+                "alts":[
+
+                ],
+                "httpStatus":200
               },
               {
-                "name": "7bb7",
-                "type": 1,
-                "text": "By Richard Boyd, CEO and President, 3Dsolve Inc. \n \n For the last 16 years I have spent my career working with a team of software developers to shrink-wrap proprietary software code and sell it in every imaginable form. We sold it in retailâ€¦",
-                "markups": [
+                "url":"https://docs.google.com/forms/d/1P_XFTtyjWtXptpYn1bH28gdYd9j5vYqDdNbvd447N9I/edit",
+                "alts":[
+
+                ],
+                "httpStatus":200
+              },
+              {
+                "url":"https://www.youtube.com/watch?v=B5CtxnCCE3c",
+                "alts":[
                   {
-                    "type": 3,
-                    "start": 0,
-                    "end": 48,
-                    "href": "http://www.3dsolve.com/",
-                    "title": "",
-                    "rel": "",
-                    "anchorType": 0
+                    "type":2,
+                    "url":"vnd.youtube://www.youtube.com/watch?v=B5CtxnCCE3c&feature=applinks"
+                  },
+                  {
+                    "type":3,
+                    "url":"vnd.youtube://www.youtube.com/watch?v=B5CtxnCCE3c&feature=applinks"
                   }
                 ],
-                "alignment": 1
+                "httpStatus":200
+              },
+              {
+                "url":"https://www.worldcoinindex.com/coin/bitcoinprivate",
+                "alts":[
+
+                ],
+                "httpStatus":200
               }
             ],
-            "sections": [
+            "version":"0.3",
+            "generatedAt":1520998787578
+          },
+          "isLockedPreviewOnly":false,
+          "takeoverId":"",
+          "metaDescription":"",
+          "totalClapCount":1902,
+          "sectionCount":1,
+          "readingList":0
+        },
+        "coverless":true,
+        "slug":"community-update-2-moving-at-lightning-speed-building-our-product-and-brand",
+        "translationSourcePostId":"",
+        "translationSourceCreatorId":"",
+        "isApprovedTranslation":false,
+        "inResponseToPostId":"",
+        "inResponseToRemovedAt":0,
+        "isTitleSynthesized":true,
+        "allowResponses":true,
+        "importedUrl":"",
+        "importedPublishedAt":0,
+        "visibility":0,
+        "uniqueSlug":"community-update-2-moving-at-lightning-speed-building-our-product-and-brand-75f6f4924c5",
+        "previewContent":{
+          "bodyModel":{
+            "paragraphs":[
               {
-                "startIndex": 0
+                "name":"1b2a",
+                "type":3,
+                "text":"Community Update 2 — Moving at Lightning Speed, building our product and brand",
+                "markups":[
+
+                ],
+                "alignment":1
+              },
+              {
+                "name":"2008",
+                "type":4,
+                "text":"",
+                "markups":[
+
+                ],
+                "layout":10,
+                "metadata":{
+                  "id":"1*b2yJDmc0Y5hZLE4fQaXciA.jpeg",
+                  "originalWidth":2048,
+                  "originalHeight":478
+                }
+              }
+            ],
+            "sections":[
+              {
+                "startIndex":0
               }
             ]
           },
-          "isFullContent": false
+          "isFullContent":false
         },
-        "license": 0,
-        "inResponseToMediaResourceId": "",
-        "canonicalUrl": "",
-        "approvedHomeCollectionId": "",
-        "newsletterId": "",
-        "webCanonicalUrl": "",
-        "mediumUrl": "",
-        "migrationId": "",
-        "notifyFollowers": true,
-        "notifyTwitter": false,
-        "isSponsored": false,
-        "isRequestToPubDisabled": false,
-        "notifyFacebook": false,
-        "responseHiddenOnParentPostAt": 0,
-        "isSeries": false,
-        "isSubscriptionLocked": false,
-        "seriesLastAppendedAt": 0,
-        "audioVersionDurationSec": 0,
-        "sequenceId": "",
-        "isNsfw": false,
-        "isEligibleForRevenue": false,
-        "isBlockedFromHightower": false,
-        "deletedAt": 0,
-        "lockedPostSource": 0,
-        "hightowerMinimumGuaranteeStartsAt": 0,
-        "hightowerMinimumGuaranteeEndsAt": 0,
-        "featureLockRequestAcceptedAt": 0,
-        "featureLockRequestMinimumGuaranteeAmount": 0,
-        "isElevate": false,
-        "mongerRequestType": 1,
-        "type": "Post"
+        "license":0,
+        "inResponseToMediaResourceId":"",
+        "canonicalUrl":"",
+        "approvedHomeCollectionId":"",
+        "newsletterId":"",
+        "webCanonicalUrl":"",
+        "mediumUrl":"",
+        "migrationId":"",
+        "notifyFollowers":true,
+        "notifyTwitter":false,
+        "isSponsored":false,
+        "isRequestToPubDisabled":false,
+        "notifyFacebook":false,
+        "responseHiddenOnParentPostAt":0,
+        "isSeries":false,
+        "isSubscriptionLocked":false,
+        "seriesLastAppendedAt":0,
+        "audioVersionDurationSec":0,
+        "sequenceId":"",
+        "isNsfw":false,
+        "isEligibleForRevenue":false,
+        "isBlockedFromHightower":false,
+        "deletedAt":0,
+        "lockedPostSource":0,
+        "hightowerMinimumGuaranteeStartsAt":0,
+        "hightowerMinimumGuaranteeEndsAt":0,
+        "featureLockRequestAcceptedAt":0,
+        "featureLockRequestMinimumGuaranteeAmount":0,
+        "isElevate":false,
+        "mongerRequestType":1,
+        "type":"Post"
       },
-      "8f7e6412fb7c": {
-        "id": "8f7e6412fb7c",
-        "versionId": "7e790e29b9d5",
-        "creatorId": "3fdd6fb58a80",
-        "homeCollectionId": "",
-        "title": "Rethinking Education from First Principles",
-        "detectedLanguage": "en",
-        "latestVersion": "7e790e29b9d5",
-        "latestPublishedVersion": "7e790e29b9d5",
-        "hasUnpublishedEdits": false,
-        "latestRev": 251,
-        "createdAt": 1460409001395,
-        "updatedAt": 1516914085524,
-        "acceptedAt": 0,
-        "firstPublishedAt": 1460411441404,
-        "latestPublishedAt": 1460465902400,
-        "vote": false,
-        "experimentalCss": "",
-        "displayAuthor": "",
-        "content": {
-          "subtitle": "Elon Musk, Alan Kay, Neil Postman, James Cameron, Seymour Papert and the future of American education.",
-          "postDisplay": {
-            "coverless": true
+      "485ab308e132":{
+        "id":"485ab308e132",
+        "versionId":"203c2de94975",
+        "creatorId":"7767273138e5",
+        "homeCollectionId":"",
+        "title":"Community Update 1 - Setting up our Long-Term Strategy",
+        "detectedLanguage":"en",
+        "latestVersion":"203c2de94975",
+        "latestPublishedVersion":"203c2de94975",
+        "hasUnpublishedEdits":false,
+        "latestRev":992,
+        "createdAt":1520360926441,
+        "updatedAt":1521813474958,
+        "acceptedAt":0,
+        "firstPublishedAt":1520382220364,
+        "latestPublishedAt":1520383152048,
+        "vote":false,
+        "experimentalCss":"",
+        "displayAuthor":"",
+        "content":{
+          "subtitle":"In an effort to better streamline communicating our progress (both good and bad) with our end community, we will be publishing periodic…",
+          "postDisplay":{
+            "coverless":true
           }
         },
-        "virtuals": {
-          "allowNotes": true,
-          "previewImage": {
-            "imageId": "1*gZewaSVSt-aOabJIWx0U6g.jpeg",
-            "filter": "",
-            "backgroundSize": "",
-            "originalWidth": 1277,
-            "originalHeight": 623,
-            "strategy": "resample",
-            "height": 0,
-            "width": 0
+        "virtuals":{
+          "allowNotes":false,
+          "previewImage":{
+            "imageId":"1*3zhhXJBj9VOmNF3TwsEOdA.jpeg",
+            "filter":"",
+            "backgroundSize":"",
+            "originalWidth":1832,
+            "originalHeight":428,
+            "strategy":"resample",
+            "height":0,
+            "width":0
           },
-          "wordCount": 1695,
-          "imageCount": 2,
-          "readingTime": 6.7795597484276735,
-          "subtitle": "Elon Musk, Alan Kay, Neil Postman, James Cameron, Seymour Papert and the future of American education.",
-          "usersBySocialRecommends": [],
-          "recommends": 21,
-          "isBookmarked": false,
-          "tags": [
+          "wordCount":1624,
+          "imageCount":1,
+          "readingTime":6.328301886792453,
+          "subtitle":"In an effort to better streamline communicating our progress (both good and bad) with our end community, we will be publishing periodic…",
+          "usersBySocialRecommends":[
+
+          ],
+          "recommends":251,
+          "isBookmarked":false,
+          "tags":[
             {
-              "slug": "education",
-              "name": "Education",
-              "postCount": 155803,
-              "virtuals": {
-                "isFollowing": false
+              "slug":"bitcoin",
+              "name":"Bitcoin",
+              "postCount":78283,
+              "virtuals":{
+                "isFollowing":false
               },
-              "metadata": {
-                "followerCount": 637167,
-                "postCount": 155803,
-                "coverImage": {
-                  "id": "1*dVmAyTviHMkGJq46uvrLcg.jpeg"
+              "metadata":{
+                "followerCount":409368,
+                "postCount":78283,
+                "coverImage":{
+                  "id":"1*WasSM1pLGf3mtN3ENUGKCw.jpeg"
                 }
               },
-              "type": "Tag"
+              "type":"Tag"
             },
             {
-              "slug": "teaching",
-              "name": "Teaching",
-              "postCount": 20071,
-              "virtuals": {
-                "isFollowing": false
+              "slug":"privacy",
+              "name":"Privacy",
+              "postCount":15037,
+              "virtuals":{
+                "isFollowing":false
               },
-              "metadata": {
-                "followerCount": 242602,
-                "postCount": 20071,
-                "coverImage": {
-                  "id": "1*JCWylhTcomPGeLoltFX-FQ@2x.jpeg",
-                  "originalWidth": 3024,
-                  "originalHeight": 4032,
-                  "backgroundSize": "",
-                  "filter": "",
-                  "isFeatured": false,
-                  "externalSrc": "",
-                  "focusPercentX": -1,
-                  "focusPercentY": -1,
-                  "alt": "",
-                  "repairedAt": 0
+              "metadata":{
+                "followerCount":480085,
+                "postCount":15037,
+                "coverImage":{
+                  "id":"1*Arv1JHuRxjBBAJ6thw2VPA.jpeg"
                 }
               },
-              "type": "Tag"
+              "type":"Tag"
             },
             {
-              "slug": "education-reform",
-              "name": "Education Reform",
-              "postCount": 8268,
-              "virtuals": {
-                "isFollowing": false
+              "slug":"tech",
+              "name":"Tech",
+              "postCount":122803,
+              "virtuals":{
+                "isFollowing":false
               },
-              "metadata": {
-                "followerCount": 231559,
-                "postCount": 8268,
-                "coverImage": {
-                  "id": "1*Bbl4ivtwJ1oL0d0K8yNjZQ.jpeg",
-                  "originalWidth": 3000,
-                  "originalHeight": 4000
+              "metadata":{
+                "followerCount":1070118,
+                "postCount":122803,
+                "coverImage":{
+                  "id":"1*rMFkWAqpCI1IHXrgOlHZeg.jpeg",
+                  "originalWidth":4053,
+                  "originalHeight":2815,
+                  "focusPercentX":50,
+                  "focusPercentY":10
                 }
               },
-              "type": "Tag"
+              "type":"Tag"
+            },
+            {
+              "slug":"payments",
+              "name":"Payments",
+              "postCount":8314,
+              "virtuals":{
+                "isFollowing":false
+              },
+              "metadata":{
+                "followerCount":710,
+                "postCount":8314,
+                "coverImage":{
+                  "id":"1*TegxdT_EYKkbQJadzIvdag.jpeg",
+                  "originalWidth":997,
+                  "originalHeight":922
+                }
+              },
+              "type":"Tag"
+            },
+            {
+              "slug":"cryptocurrency",
+              "name":"Cryptocurrency",
+              "postCount":66645,
+              "virtuals":{
+                "isFollowing":false
+              },
+              "metadata":{
+                "followerCount":6646,
+                "postCount":66645,
+                "coverImage":{
+                  "id":"0*4rNyV7cFrmnDG8lc.",
+                  "originalWidth":800,
+                  "originalHeight":600,
+                  "isFeatured":true
+                }
+              },
+              "type":"Tag"
             }
           ],
-          "socialRecommendsCount": 0,
-          "responsesCreatedCount": 2,
-          "links": {
-            "entries": [],
-            "version": "0.3",
-            "generatedAt": 1472169372135
-          },
-          "isLockedPreviewOnly": false,
-          "takeoverId": "",
-          "metaDescription": "",
-          "totalClapCount": 21,
-          "sectionCount": 1,
-          "readingList": 0
-        },
-        "coverless": true,
-        "slug": "rethinking-education-from-first-principles",
-        "translationSourcePostId": "",
-        "translationSourceCreatorId": "",
-        "isApprovedTranslation": false,
-        "inResponseToPostId": "",
-        "inResponseToRemovedAt": 0,
-        "isTitleSynthesized": true,
-        "allowResponses": true,
-        "importedUrl": "",
-        "importedPublishedAt": 0,
-        "visibility": 0,
-        "uniqueSlug": "rethinking-education-from-first-principles-8f7e6412fb7c",
-        "previewContent": {
-          "bodyModel": {
-            "paragraphs": [
+          "socialRecommendsCount":0,
+          "responsesCreatedCount":12,
+          "links":{
+            "entries":[
               {
-                "name": "5f7e",
-                "type": 3,
-                "text": "Rethinking Education from First Principles",
-                "markups": [],
-                "alignment": 1
+                "url":"https://support.btcprivate.org/423334-How-Do-I-Become-An-Ambassador",
+                "alts":[
+
+                ],
+                "httpStatus":200
               },
               {
-                "name": "dd1f",
-                "type": 13,
-                "text": "Elon Musk, Alan Kay, Neil Postman, James Cameron, Seymour Papert and the future of American education.",
-                "markups": [],
-                "alignment": 1
+                "url":"https://cointopay.com/",
+                "alts":[
+
+                ],
+                "httpStatus":200
               },
               {
-                "name": "8c39",
-                "type": 6,
-                "text": "â€œAs to methods there may be a million and then some, butâ€¦",
-                "markups": [
+                "url":"https://github.com/spesmilo/electrum/releases/tag/3.1.0",
+                "alts":[
+
+                ],
+                "httpStatus":200
+              },
+              {
+                "url":"http://store.steampowered.com/",
+                "alts":[
+
+                ],
+                "httpStatus":200
+              },
+              {
+                "url":"https://btcprivate.org/",
+                "alts":[
+
+                ],
+                "httpStatus":200
+              },
+              {
+                "url":"https://twitter.com/CNBC/status/971135837277769728",
+                "alts":[
                   {
-                    "type": 2,
-                    "start": 0,
-                    "end": 1
+                    "type":2,
+                    "url":"twitter://status?id=971135837277769728"
+                  },
+                  {
+                    "type":3,
+                    "url":"twitter://status?status_id=971135837277769728"
                   }
                 ],
-                "alignment": 1
-              }
-            ],
-            "sections": [
+                "httpStatus":200
+              },
               {
-                "startIndex": 0
-              }
-            ]
-          },
-          "isFullContent": false
-        },
-        "license": 0,
-        "inResponseToMediaResourceId": "",
-        "canonicalUrl": "",
-        "approvedHomeCollectionId": "",
-        "newsletterId": "",
-        "webCanonicalUrl": "",
-        "mediumUrl": "",
-        "migrationId": "",
-        "notifyFollowers": true,
-        "notifyTwitter": false,
-        "isSponsored": false,
-        "isRequestToPubDisabled": false,
-        "notifyFacebook": false,
-        "responseHiddenOnParentPostAt": 0,
-        "isSeries": false,
-        "isSubscriptionLocked": false,
-        "seriesLastAppendedAt": 0,
-        "audioVersionDurationSec": 0,
-        "sequenceId": "",
-        "isNsfw": false,
-        "isEligibleForRevenue": false,
-        "isBlockedFromHightower": false,
-        "deletedAt": 0,
-        "lockedPostSource": 0,
-        "hightowerMinimumGuaranteeStartsAt": 0,
-        "hightowerMinimumGuaranteeEndsAt": 0,
-        "featureLockRequestAcceptedAt": 0,
-        "featureLockRequestMinimumGuaranteeAmount": 0,
-        "isElevate": false,
-        "mongerRequestType": 1,
-        "type": "Post"
-      },
-      "9a36df080c5e": {
-        "id": "9a36df080c5e",
-        "versionId": "df4f89b0801c",
-        "creatorId": "3fdd6fb58a80",
-        "homeCollectionId": "",
-        "title": "The Internetâ€™s Third Act",
-        "detectedLanguage": "en",
-        "latestVersion": "df4f89b0801c",
-        "latestPublishedVersion": "df4f89b0801c",
-        "hasUnpublishedEdits": false,
-        "latestRev": 240,
-        "createdAt": 1447168447720,
-        "updatedAt": 1502134525535,
-        "acceptedAt": 0,
-        "firstPublishedAt": 1447170306765,
-        "latestPublishedAt": 1447171777507,
-        "vote": false,
-        "experimentalCss": "",
-        "displayAuthor": "",
-        "content": {
-          "subtitle": "We are now two decades into the Great Online Experiment. The Graphical Internet, born in 1993, is now 22 years old and no longer aâ€¦",
-          "postDisplay": {
-            "coverless": true
-          }
-        },
-        "virtuals": {
-          "allowNotes": true,
-          "previewImage": {
-            "imageId": "1*UvQhjrtmZUYannbFVTrZrg.jpeg",
-            "filter": "",
-            "backgroundSize": "",
-            "originalWidth": 720,
-            "originalHeight": 960,
-            "strategy": "resample",
-            "height": 0,
-            "width": 0
-          },
-          "wordCount": 1689,
-          "imageCount": 4,
-          "readingTime": 7.073584905660377,
-          "subtitle": "We are now two decades into the Great Online Experiment. The Graphical Internet, born in 1993, is now 22 years old and no longer aâ€¦",
-          "usersBySocialRecommends": [],
-          "recommends": 1,
-          "isBookmarked": false,
-          "tags": [
-            {
-              "slug": "artificial-intelligence",
-              "name": "Artificial Intelligence",
-              "postCount": 41671,
-              "virtuals": {
-                "isFollowing": false
+                "url":"https://www.coinpayments.net",
+                "alts":[
+
+                ],
+                "httpStatus":200
               },
-              "metadata": {
-                "followerCount": 674497,
-                "postCount": 41671,
-                "coverImage": {
-                  "id": "1*gAn_BSffVBcwCIR6bDgK1g.jpeg"
-                }
-              },
-              "type": "Tag"
-            },
-            {
-              "slug": "machine-learning",
-              "name": "Machine Learning",
-              "postCount": 28810,
-              "virtuals": {
-                "isFollowing": false
-              },
-              "metadata": {
-                "followerCount": 23775,
-                "postCount": 28810,
-                "coverImage": {
-                  "id": "0*xs77hcsM4JfFoB0Q.",
-                  "originalWidth": 706,
-                  "originalHeight": 577,
-                  "isFeatured": true
-                }
-              },
-              "type": "Tag"
-            },
-            {
-              "slug": "internet-of-things",
-              "name": "Internet of Things",
-              "postCount": 13957,
-              "virtuals": {
-                "isFollowing": false
-              },
-              "metadata": {
-                "followerCount": 973421,
-                "postCount": 13957,
-                "coverImage": {
-                  "id": "1*1GqHkDuyguyqnn49KGFJuA.jpeg"
-                }
-              },
-              "type": "Tag"
-            }
-          ],
-          "socialRecommendsCount": 0,
-          "responsesCreatedCount": 2,
-          "links": {
-            "entries": [
               {
-                "url": "https://medium.com/p/9a36df080c5e/edit#_ednref1",
-                "alts": [
+                "url":"https://www.reddit.com/r/BitcoinPrivate/comments/821f67/bitcoin_private_postfork_march_sprint/",
+                "alts":[
                   {
-                    "type": 2,
-                    "url": "medium://m/signin"
-                  },
-                  {
-                    "type": 3,
-                    "url": "medium://m/signin"
-                  }
-                ]
-              },
-              {
-                "url": "https://medium.com/p/9a36df080c5e/edit#_edn1",
-                "alts": [
-                  {
-                    "type": 2,
-                    "url": "medium://m/signin"
-                  },
-                  {
-                    "type": 3,
-                    "url": "medium://m/signin"
-                  }
-                ]
-              }
-            ],
-            "version": "0.3",
-            "generatedAt": 1472472065333
-          },
-          "isLockedPreviewOnly": false,
-          "takeoverId": "",
-          "metaDescription": "",
-          "totalClapCount": 1,
-          "sectionCount": 1,
-          "readingList": 0
-        },
-        "coverless": true,
-        "slug": "the-internet-s-third-act",
-        "translationSourcePostId": "",
-        "translationSourceCreatorId": "",
-        "isApprovedTranslation": false,
-        "inResponseToPostId": "",
-        "inResponseToRemovedAt": 0,
-        "isTitleSynthesized": true,
-        "allowResponses": true,
-        "importedUrl": "",
-        "importedPublishedAt": 0,
-        "visibility": 0,
-        "uniqueSlug": "the-internet-s-third-act-9a36df080c5e",
-        "previewContent": {
-          "bodyModel": {
-            "paragraphs": [
-              {
-                "name": "02fb",
-                "type": 3,
-                "text": "The Internetâ€™s Third Act",
-                "markups": [],
-                "alignment": 1
-              },
-              {
-                "name": "c24a",
-                "type": 4,
-                "text": "",
-                "markups": [],
-                "layout": 9,
-                "metadata": {
-                  "id": "1*UvQhjrtmZUYannbFVTrZrg.jpeg",
-                  "originalWidth": 720,
-                  "originalHeight": 960
-                }
-              },
-              {
-                "name": "a794",
-                "type": 1,
-                "text": "We are now two decades into the Great Online Experiment. The Graphical Internet, born in 1993, is now 22 years oldâ€¦",
-                "markups": [],
-                "hasDropCap": true,
-                "alignment": 1
-              }
-            ],
-            "sections": [
-              {
-                "startIndex": 0
-              }
-            ]
-          },
-          "isFullContent": false
-        },
-        "license": 0,
-        "inResponseToMediaResourceId": "",
-        "canonicalUrl": "",
-        "approvedHomeCollectionId": "",
-        "newsletterId": "",
-        "webCanonicalUrl": "",
-        "mediumUrl": "",
-        "migrationId": "",
-        "notifyFollowers": true,
-        "notifyTwitter": false,
-        "isSponsored": false,
-        "isRequestToPubDisabled": false,
-        "notifyFacebook": false,
-        "responseHiddenOnParentPostAt": 0,
-        "isSeries": false,
-        "isSubscriptionLocked": false,
-        "seriesLastAppendedAt": 0,
-        "audioVersionDurationSec": 0,
-        "sequenceId": "",
-        "isNsfw": false,
-        "isEligibleForRevenue": false,
-        "isBlockedFromHightower": false,
-        "deletedAt": 0,
-        "lockedPostSource": 0,
-        "hightowerMinimumGuaranteeStartsAt": 0,
-        "hightowerMinimumGuaranteeEndsAt": 0,
-        "featureLockRequestAcceptedAt": 0,
-        "featureLockRequestMinimumGuaranteeAmount": 0,
-        "isElevate": false,
-        "mongerRequestType": 1,
-        "type": "Post"
-      },
-      "1d798e37feed": {
-        "id": "1d798e37feed",
-        "versionId": "a34056a1e1b4",
-        "creatorId": "3fdd6fb58a80",
-        "homeCollectionId": "",
-        "title": "The SuperHuman Age Manifesto",
-        "detectedLanguage": "en",
-        "latestVersion": "a34056a1e1b4",
-        "latestPublishedVersion": "a34056a1e1b4",
-        "hasUnpublishedEdits": false,
-        "latestRev": 227,
-        "createdAt": 1443800736369,
-        "updatedAt": 1447173062710,
-        "acceptedAt": 0,
-        "firstPublishedAt": 1443800955471,
-        "latestPublishedAt": 1447173062710,
-        "vote": false,
-        "experimentalCss": "",
-        "displayAuthor": "",
-        "content": {
-          "subtitle": "I find it helpful to remember that the graphical and widely available Internet was a teenager until just recently. (b.1993). As it entersâ€¦",
-          "postDisplay": {
-            "coverless": true
-          }
-        },
-        "virtuals": {
-          "allowNotes": true,
-          "previewImage": {
-            "imageId": "",
-            "filter": "",
-            "backgroundSize": "",
-            "originalWidth": 0,
-            "originalHeight": 0,
-            "strategy": "resample",
-            "height": 0,
-            "width": 0
-          },
-          "wordCount": 1147,
-          "imageCount": 0,
-          "readingTime": 4.3283018867924525,
-          "subtitle": "I find it helpful to remember that the graphical and widely available Internet was a teenager until just recently. (b.1993). As it entersâ€¦",
-          "usersBySocialRecommends": [],
-          "recommends": 1,
-          "isBookmarked": false,
-          "tags": [
-            {
-              "slug": "artificial-intelligence",
-              "name": "Artificial Intelligence",
-              "postCount": 41671,
-              "virtuals": {
-                "isFollowing": false
-              },
-              "metadata": {
-                "followerCount": 674497,
-                "postCount": 41671,
-                "coverImage": {
-                  "id": "1*gAn_BSffVBcwCIR6bDgK1g.jpeg"
-                }
-              },
-              "type": "Tag"
-            },
-            {
-              "slug": "machine-learning",
-              "name": "Machine Learning",
-              "postCount": 28810,
-              "virtuals": {
-                "isFollowing": false
-              },
-              "metadata": {
-                "followerCount": 23775,
-                "postCount": 28810,
-                "coverImage": {
-                  "id": "0*xs77hcsM4JfFoB0Q.",
-                  "originalWidth": 706,
-                  "originalHeight": 577,
-                  "isFeatured": true
-                }
-              },
-              "type": "Tag"
-            }
-          ],
-          "socialRecommendsCount": 0,
-          "responsesCreatedCount": 0,
-          "links": {
-            "entries": [],
-            "version": "0.3",
-            "generatedAt": 1472462643907
-          },
-          "isLockedPreviewOnly": false,
-          "takeoverId": "",
-          "metaDescription": "",
-          "totalClapCount": 1,
-          "sectionCount": 1,
-          "readingList": 0
-        },
-        "coverless": true,
-        "slug": "the-superhuman-age-manifesto",
-        "translationSourcePostId": "",
-        "translationSourceCreatorId": "",
-        "isApprovedTranslation": false,
-        "inResponseToPostId": "",
-        "inResponseToRemovedAt": 0,
-        "isTitleSynthesized": true,
-        "allowResponses": true,
-        "importedUrl": "",
-        "importedPublishedAt": 0,
-        "visibility": 0,
-        "uniqueSlug": "the-superhuman-age-manifesto-1d798e37feed",
-        "previewContent": {
-          "bodyModel": {
-            "paragraphs": [
-              {
-                "name": "ec8c",
-                "type": 1,
-                "text": "The SuperHuman Age Manifesto",
-                "markups": [
-                  {
-                    "type": 1,
-                    "start": 0,
-                    "end": 28
+                    "type":1,
+                    "url":"https://cdn.ampproject.org/c/s/amp.reddit.com/r/BitcoinPrivate/comments/821f67/bitcoin_private_postfork_march_sprint/"
                   }
                 ],
-                "alignment": 1
+                "httpStatus":200
               },
               {
-                "name": "635a",
-                "type": 1,
-                "text": "I find it helpful to remember that the graphical and widely available Internet was a teenager until just recently. (b.1993). As it enters its twentieth year of existence and sheds the fading wounds of adolescence it begins to enter a period when its true and full powers become known. If the lastâ€¦",
-                "markups": [],
-                "hasDropCap": true,
-                "alignment": 1
-              }
-            ],
-            "sections": [
+                "url":"https://github.com/BTCPrivate/",
+                "alts":[
+
+                ],
+                "httpStatus":200
+              },
               {
-                "startIndex": 0
-              }
-            ]
-          },
-          "isFullContent": false
-        },
-        "license": 0,
-        "inResponseToMediaResourceId": "",
-        "canonicalUrl": "",
-        "approvedHomeCollectionId": "",
-        "newsletterId": "",
-        "webCanonicalUrl": "",
-        "mediumUrl": "",
-        "migrationId": "",
-        "notifyFollowers": true,
-        "notifyTwitter": false,
-        "isSponsored": false,
-        "isRequestToPubDisabled": false,
-        "notifyFacebook": false,
-        "responseHiddenOnParentPostAt": 0,
-        "isSeries": false,
-        "isSubscriptionLocked": false,
-        "seriesLastAppendedAt": 0,
-        "audioVersionDurationSec": 0,
-        "sequenceId": "",
-        "isNsfw": false,
-        "isEligibleForRevenue": false,
-        "isBlockedFromHightower": false,
-        "deletedAt": 0,
-        "lockedPostSource": 0,
-        "hightowerMinimumGuaranteeStartsAt": 0,
-        "hightowerMinimumGuaranteeEndsAt": 0,
-        "featureLockRequestAcceptedAt": 0,
-        "featureLockRequestMinimumGuaranteeAmount": 0,
-        "isElevate": false,
-        "mongerRequestType": 1,
-        "type": "Post"
-      },
-      "7ebb921b8c98": {
-        "id": "7ebb921b8c98",
-        "versionId": "e4fb98937664",
-        "creatorId": "3fdd6fb58a80",
-        "homeCollectionId": "",
-        "title": "Boydâ€™s Laws for Information Age Humans",
-        "detectedLanguage": "en",
-        "latestVersion": "e4fb98937664",
-        "latestPublishedVersion": "e4fb98937664",
-        "hasUnpublishedEdits": false,
-        "latestRev": 190,
-        "createdAt": 1436364448226,
-        "updatedAt": 1507141953495,
-        "acceptedAt": 0,
-        "firstPublishedAt": 1436365207371,
-        "latestPublishedAt": 1436365207371,
-        "vote": false,
-        "experimentalCss": "",
-        "displayAuthor": "",
-        "content": {
-          "subtitle": "Updating my guidance for decision makers wrestling with the future",
-          "postDisplay": {
-            "coverless": true
-          }
-        },
-        "virtuals": {
-          "allowNotes": true,
-          "previewImage": {
-            "imageId": "1*25k8zVg2PqIuhHx6CiEnSA.jpeg",
-            "filter": "",
-            "backgroundSize": "",
-            "originalWidth": 1755,
-            "originalHeight": 1010,
-            "strategy": "resample",
-            "height": 0,
-            "width": 0
-          },
-          "wordCount": 1142,
-          "imageCount": 2,
-          "readingTime": 4.692767295597485,
-          "subtitle": "Updating my guidance for decision makers wrestling with the future",
-          "usersBySocialRecommends": [],
-          "recommends": 0,
-          "isBookmarked": false,
-          "tags": [
-            {
-              "slug": "artificial-intelligence",
-              "name": "Artificial Intelligence",
-              "postCount": 41671,
-              "virtuals": {
-                "isFollowing": false
+                "url":"https://globee.com",
+                "alts":[
+
+                ],
+                "httpStatus":200
               },
-              "metadata": {
-                "followerCount": 674497,
-                "postCount": 41671,
-                "coverImage": {
-                  "id": "1*gAn_BSffVBcwCIR6bDgK1g.jpeg"
-                }
-              },
-              "type": "Tag"
-            },
-            {
-              "slug": "augmented-reality",
-              "name": "Augmented Reality",
-              "postCount": 9008,
-              "virtuals": {
-                "isFollowing": false
-              },
-              "metadata": {
-                "followerCount": 2148,
-                "postCount": 9008,
-                "coverImage": {
-                  "id": "1*arC51ic_ur74cYWmCk7bhA.gif",
-                  "originalWidth": 672,
-                  "originalHeight": 378,
-                  "isFeatured": true
-                }
-              },
-              "type": "Tag"
-            },
-            {
-              "slug": "virtual-reality",
-              "name": "Virtual Reality",
-              "postCount": 23543,
-              "virtuals": {
-                "isFollowing": false
-              },
-              "metadata": {
-                "followerCount": 502751,
-                "postCount": 23543,
-                "coverImage": {
-                  "id": "1*pIRpoB6B-V0UxfZEhrw_xA.jpeg"
-                }
-              },
-              "type": "Tag"
-            }
-          ],
-          "socialRecommendsCount": 0,
-          "responsesCreatedCount": 0,
-          "links": {
-            "entries": [
               {
-                "url": "http://www.theatlantic.com/magazine/archive/2015/07/world-without-work/395294/",
-                "alts": [
+                "url":"https://stripe.com/",
+                "alts":[
+
+                ],
+                "httpStatus":200
+              },
+              {
+                "url":"https://twitter.com/bitcoinprivate",
+                "alts":[
                   {
-                    "type": 1,
-                    "url": "https://cdn.ampproject.org/c/www.theatlantic.com/amp/article/395294/"
-                  }
-                ]
-              },
-              {
-                "url": "https://medium.com/p/7ebb921b8c98/edit",
-                "alts": [
-                  {
-                    "type": 2,
-                    "url": "medium://m/signin"
+                    "type":2,
+                    "url":"twitter://user?screen_name=bitcoinprivate"
                   },
                   {
-                    "type": 3,
-                    "url": "medium://m/signin"
-                  }
-                ]
-              },
-              {
-                "url": "https://medium.com/p/7ebb921b8c98/edit#_edn1",
-                "alts": [
-                  {
-                    "type": 2,
-                    "url": "medium://m/signin"
-                  },
-                  {
-                    "type": 3,
-                    "url": "medium://m/signin"
-                  }
-                ]
-              },
-              {
-                "url": "https://medium.com/p/7ebb921b8c98/edit#_ednref1",
-                "alts": [
-                  {
-                    "type": 2,
-                    "url": "medium://m/signin"
-                  },
-                  {
-                    "type": 3,
-                    "url": "medium://m/signin"
-                  }
-                ]
-              },
-              {
-                "url": "https://medium.com/p/7ebb921b8c98/edit#_ednref2",
-                "alts": [
-                  {
-                    "type": 3,
-                    "url": "medium://m/signin"
-                  },
-                  {
-                    "type": 2,
-                    "url": "medium://m/signin"
-                  }
-                ]
-              },
-              {
-                "url": "https://medium.com/p/7ebb921b8c98/edit#_edn2",
-                "alts": [
-                  {
-                    "type": 2,
-                    "url": "medium://m/signin"
-                  },
-                  {
-                    "type": 3,
-                    "url": "medium://m/signin"
-                  }
-                ]
-              }
-            ],
-            "version": "0.3",
-            "generatedAt": 1471995859219
-          },
-          "isLockedPreviewOnly": false,
-          "takeoverId": "",
-          "metaDescription": "",
-          "totalClapCount": 0,
-          "sectionCount": 2,
-          "readingList": 0
-        },
-        "coverless": true,
-        "slug": "boyd-s-laws-for-information-age-humans",
-        "translationSourcePostId": "",
-        "translationSourceCreatorId": "",
-        "isApprovedTranslation": false,
-        "inResponseToPostId": "",
-        "inResponseToRemovedAt": 0,
-        "isTitleSynthesized": true,
-        "allowResponses": true,
-        "importedUrl": "",
-        "importedPublishedAt": 0,
-        "visibility": 0,
-        "uniqueSlug": "boyd-s-laws-for-information-age-humans-7ebb921b8c98",
-        "previewContent": {
-          "bodyModel": {
-            "paragraphs": [
-              {
-                "name": "6f37",
-                "type": 2,
-                "text": "Boydâ€™s Laws for Information Age Humans",
-                "markups": [],
-                "alignment": 1
-              },
-              {
-                "name": "e977",
-                "type": 1,
-                "text": "Updating my guidance for decision makers wrestling with the future",
-                "markups": [],
-                "alignment": 1
-              },
-              {
-                "name": "0cf4",
-                "type": 4,
-                "text": "",
-                "markups": [],
-                "layout": 9,
-                "metadata": {
-                  "id": "1*25k8zVg2PqIuhHx6CiEnSA.jpeg",
-                  "originalWidth": 1755,
-                  "originalHeight": 1010
-                }
-              }
-            ],
-            "sections": [
-              {
-                "startIndex": 0
-              }
-            ]
-          },
-          "isFullContent": false
-        },
-        "license": 0,
-        "inResponseToMediaResourceId": "",
-        "canonicalUrl": "",
-        "approvedHomeCollectionId": "",
-        "newsletterId": "",
-        "webCanonicalUrl": "",
-        "mediumUrl": "",
-        "migrationId": "",
-        "notifyFollowers": true,
-        "notifyTwitter": false,
-        "isSponsored": false,
-        "isRequestToPubDisabled": false,
-        "notifyFacebook": false,
-        "responseHiddenOnParentPostAt": 0,
-        "isSeries": false,
-        "isSubscriptionLocked": false,
-        "seriesLastAppendedAt": 0,
-        "audioVersionDurationSec": 0,
-        "sequenceId": "",
-        "isNsfw": false,
-        "isEligibleForRevenue": false,
-        "isBlockedFromHightower": false,
-        "deletedAt": 0,
-        "lockedPostSource": 0,
-        "hightowerMinimumGuaranteeStartsAt": 0,
-        "hightowerMinimumGuaranteeEndsAt": 0,
-        "featureLockRequestAcceptedAt": 0,
-        "featureLockRequestMinimumGuaranteeAmount": 0,
-        "isElevate": false,
-        "mongerRequestType": 1,
-        "type": "Post"
-      },
-      "64ece75436f0": {
-        "id": "64ece75436f0",
-        "versionId": "1feddbaf37d4",
-        "creatorId": "3fdd6fb58a80",
-        "homeCollectionId": "",
-        "title": "How does Nomi think?",
-        "detectedLanguage": "en",
-        "latestVersion": "1feddbaf37d4",
-        "latestPublishedVersion": "1feddbaf37d4",
-        "hasUnpublishedEdits": false,
-        "latestRev": 406,
-        "createdAt": 1434552263701,
-        "updatedAt": 1506006075770,
-        "acceptedAt": 0,
-        "firstPublishedAt": 1434554203430,
-        "latestPublishedAt": 1434555407321,
-        "vote": false,
-        "experimentalCss": "",
-        "displayAuthor": "",
-        "content": {
-          "subtitle": "Many Nomibot users have pinged me wondering what happens when they like or dislike or share something from the Nomibot app. I went to ourâ€¦",
-          "postDisplay": {
-            "coverless": true
-          }
-        },
-        "virtuals": {
-          "allowNotes": true,
-          "previewImage": {
-            "imageId": "1*Hfb8U3nxo2oNkc3YJMj08w.jpeg",
-            "filter": "",
-            "backgroundSize": "",
-            "originalWidth": 1368,
-            "originalHeight": 936,
-            "strategy": "resample",
-            "height": 0,
-            "width": 0
-          },
-          "wordCount": 1138,
-          "imageCount": 5,
-          "readingTime": 5.127672955974843,
-          "subtitle": "Many Nomibot users have pinged me wondering what happens when they like or dislike or share something from the Nomibot app. I went to ourâ€¦",
-          "usersBySocialRecommends": [],
-          "recommends": 1,
-          "isBookmarked": false,
-          "tags": [
-            {
-              "slug": "artificial-intelligence",
-              "name": "Artificial Intelligence",
-              "postCount": 41671,
-              "virtuals": {
-                "isFollowing": false
-              },
-              "metadata": {
-                "followerCount": 674497,
-                "postCount": 41671,
-                "coverImage": {
-                  "id": "1*gAn_BSffVBcwCIR6bDgK1g.jpeg"
-                }
-              },
-              "type": "Tag"
-            },
-            {
-              "slug": "news",
-              "name": "News",
-              "postCount": 128719,
-              "virtuals": {
-                "isFollowing": false
-              },
-              "metadata": {
-                "followerCount": 139780,
-                "postCount": 128719,
-                "coverImage": {
-                  "id": "1*d89229fzAT5Im-xJlgNnJg.jpeg",
-                  "originalWidth": 1000,
-                  "originalHeight": 478
-                }
-              },
-              "type": "Tag"
-            },
-            {
-              "slug": "youtube",
-              "name": "YouTube",
-              "postCount": 27421,
-              "virtuals": {
-                "isFollowing": false
-              },
-              "metadata": {
-                "followerCount": 1055,
-                "postCount": 27421,
-                "coverImage": {
-                  "id": "1*0d3kUy4d2FFZLjeLhFSrqQ.png",
-                  "originalWidth": 600,
-                  "originalHeight": 240
-                }
-              },
-              "type": "Tag"
-            }
-          ],
-          "socialRecommendsCount": 0,
-          "responsesCreatedCount": 0,
-          "links": {
-            "entries": [],
-            "version": "0.3",
-            "generatedAt": 1473340491937
-          },
-          "isLockedPreviewOnly": false,
-          "takeoverId": "",
-          "metaDescription": "",
-          "totalClapCount": 1,
-          "sectionCount": 1,
-          "readingList": 0
-        },
-        "coverless": true,
-        "slug": "how-does-nomi-think",
-        "translationSourcePostId": "",
-        "translationSourceCreatorId": "",
-        "isApprovedTranslation": false,
-        "inResponseToPostId": "",
-        "inResponseToRemovedAt": 0,
-        "isTitleSynthesized": true,
-        "allowResponses": true,
-        "importedUrl": "",
-        "importedPublishedAt": 0,
-        "visibility": 0,
-        "uniqueSlug": "how-does-nomi-think-64ece75436f0",
-        "previewContent": {
-          "bodyModel": {
-            "paragraphs": [
-              {
-                "name": "0ebc",
-                "type": 3,
-                "text": "How does Nomi think?",
-                "markups": [],
-                "alignment": 1
-              },
-              {
-                "name": "ab9e",
-                "type": 1,
-                "text": "Many Nomibot users have pinged me wondering what happens when they like or dislike or share something from the Nomibot app. I went to our engineers to get the answer. Here is how I have distilled it into humanspeak.",
-                "markups": [
-                  {
-                    "type": 3,
-                    "start": 111,
-                    "end": 118,
-                    "href": "http://www.nomibot.com",
-                    "title": "",
-                    "rel": "",
-                    "anchorType": 0
+                    "type":3,
+                    "url":"twitter://user?screen_name=bitcoinprivate"
                   }
                 ],
-                "alignment": 1
-              }
-            ],
-            "sections": [
-              {
-                "startIndex": 0
-              }
-            ]
-          },
-          "isFullContent": false
-        },
-        "license": 0,
-        "inResponseToMediaResourceId": "",
-        "canonicalUrl": "",
-        "approvedHomeCollectionId": "",
-        "newsletterId": "",
-        "webCanonicalUrl": "",
-        "mediumUrl": "",
-        "migrationId": "",
-        "notifyFollowers": true,
-        "notifyTwitter": false,
-        "isSponsored": false,
-        "isRequestToPubDisabled": false,
-        "notifyFacebook": false,
-        "responseHiddenOnParentPostAt": 0,
-        "isSeries": false,
-        "isSubscriptionLocked": false,
-        "seriesLastAppendedAt": 0,
-        "audioVersionDurationSec": 0,
-        "sequenceId": "",
-        "isNsfw": false,
-        "isEligibleForRevenue": false,
-        "isBlockedFromHightower": false,
-        "deletedAt": 0,
-        "lockedPostSource": 0,
-        "hightowerMinimumGuaranteeStartsAt": 0,
-        "hightowerMinimumGuaranteeEndsAt": 0,
-        "featureLockRequestAcceptedAt": 0,
-        "featureLockRequestMinimumGuaranteeAmount": 0,
-        "isElevate": false,
-        "mongerRequestType": 1,
-        "type": "Post"
-      },
-      "3888720bf9de": {
-        "id": "3888720bf9de",
-        "versionId": "4b54b2d002ca",
-        "creatorId": "3fdd6fb58a80",
-        "homeCollectionId": "",
-        "title": "Massively Parallel Problem Solving",
-        "detectedLanguage": "en",
-        "latestVersion": "4b54b2d002ca",
-        "latestPublishedVersion": "4b54b2d002ca",
-        "hasUnpublishedEdits": false,
-        "latestRev": 209,
-        "createdAt": 1433269587923,
-        "updatedAt": 1505221759791,
-        "acceptedAt": 0,
-        "firstPublishedAt": 1433270521917,
-        "latestPublishedAt": 1433270521917,
-        "vote": false,
-        "experimentalCss": "",
-        "displayAuthor": "",
-        "content": {
-          "subtitle": "Small Pieces Loosely Joined",
-          "postDisplay": {
-            "coverless": true
-          }
-        },
-        "virtuals": {
-          "allowNotes": true,
-          "previewImage": {
-            "imageId": "1*tKbPjiW5t-afaNnJjscV3Q.jpeg",
-            "filter": "",
-            "backgroundSize": "",
-            "originalWidth": 1755,
-            "originalHeight": 1010,
-            "strategy": "resample",
-            "height": 0,
-            "width": 0
-          },
-          "wordCount": 2291,
-          "imageCount": 2,
-          "readingTime": 9.028616352201258,
-          "subtitle": "Small Pieces Loosely Joined",
-          "usersBySocialRecommends": [],
-          "recommends": 3,
-          "isBookmarked": false,
-          "tags": [],
-          "socialRecommendsCount": 0,
-          "responsesCreatedCount": 0,
-          "links": {
-            "entries": [],
-            "version": "0.3",
-            "generatedAt": 1472746303253
-          },
-          "isLockedPreviewOnly": false,
-          "takeoverId": "",
-          "metaDescription": "",
-          "totalClapCount": 3,
-          "sectionCount": 1,
-          "readingList": 0
-        },
-        "coverless": true,
-        "slug": "massively-parallel-problem-solving",
-        "translationSourcePostId": "",
-        "translationSourceCreatorId": "",
-        "isApprovedTranslation": false,
-        "inResponseToPostId": "",
-        "inResponseToRemovedAt": 0,
-        "isTitleSynthesized": true,
-        "allowResponses": true,
-        "importedUrl": "",
-        "importedPublishedAt": 0,
-        "visibility": 0,
-        "uniqueSlug": "massively-parallel-problem-solving-3888720bf9de",
-        "previewContent": {
-          "bodyModel": {
-            "paragraphs": [
-              {
-                "name": "2cde",
-                "type": 3,
-                "text": "Massively Parallel Problem Solving",
-                "markups": [],
-                "alignment": 1
+                "httpStatus":200
               },
               {
-                "name": "6cb3",
-                "type": 4,
-                "text": "",
-                "markups": [],
-                "layout": 10,
-                "metadata": {
-                  "id": "1*tKbPjiW5t-afaNnJjscV3Q.jpeg",
-                  "originalWidth": 1755,
-                  "originalHeight": 1010
+                "url":"https://docs.google.com/forms/d/1P_XFTtyjWtXptpYn1bH28gdYd9j5vYqDdNbvd447N9I/edit",
+                "alts":[
+
+                ],
+                "httpStatus":200
+              },
+              {
+                "url":"https://www.newegg.com/",
+                "alts":[
+
+                ],
+                "httpStatus":200
+              }
+            ],
+            "version":"0.3",
+            "generatedAt":1520383152417
+          },
+          "isLockedPreviewOnly":false,
+          "takeoverId":"",
+          "metaDescription":"",
+          "totalClapCount":3889,
+          "sectionCount":1,
+          "readingList":0
+        },
+        "coverless":true,
+        "slug":"community-update-1-setting-up-our-long-term-strategy",
+        "translationSourcePostId":"",
+        "translationSourceCreatorId":"",
+        "isApprovedTranslation":false,
+        "inResponseToPostId":"",
+        "inResponseToRemovedAt":0,
+        "isTitleSynthesized":true,
+        "allowResponses":true,
+        "importedUrl":"",
+        "importedPublishedAt":0,
+        "visibility":0,
+        "uniqueSlug":"community-update-1-setting-up-our-long-term-strategy-485ab308e132",
+        "previewContent":{
+          "bodyModel":{
+            "paragraphs":[
+              {
+                "name":"c1e4",
+                "type":3,
+                "text":"Community Update 1 - Setting up our Long-Term Strategy",
+                "markups":[
+
+                ],
+                "alignment":1
+              },
+              {
+                "name":"f701",
+                "type":4,
+                "text":"",
+                "markups":[
+
+                ],
+                "layout":10,
+                "metadata":{
+                  "id":"1*3zhhXJBj9VOmNF3TwsEOdA.jpeg",
+                  "originalWidth":1832,
+                  "originalHeight":428
                 }
-              },
-              {
-                "name": "529d",
-                "type": 3,
-                "text": "Small Pieces Loosely Joined",
-                "markups": [],
-                "alignment": 1
               }
             ],
-            "sections": [
+            "sections":[
               {
-                "startIndex": 0
+                "startIndex":0
               }
             ]
           },
-          "isFullContent": false
+          "isFullContent":false
         },
-        "license": 0,
-        "inResponseToMediaResourceId": "",
-        "canonicalUrl": "",
-        "approvedHomeCollectionId": "",
-        "newsletterId": "",
-        "webCanonicalUrl": "",
-        "mediumUrl": "",
-        "migrationId": "",
-        "notifyFollowers": true,
-        "notifyTwitter": false,
-        "isSponsored": false,
-        "isRequestToPubDisabled": false,
-        "notifyFacebook": false,
-        "responseHiddenOnParentPostAt": 0,
-        "isSeries": false,
-        "isSubscriptionLocked": false,
-        "seriesLastAppendedAt": 0,
-        "audioVersionDurationSec": 0,
-        "sequenceId": "",
-        "isNsfw": false,
-        "isEligibleForRevenue": false,
-        "isBlockedFromHightower": false,
-        "deletedAt": 0,
-        "lockedPostSource": 0,
-        "hightowerMinimumGuaranteeStartsAt": 0,
-        "hightowerMinimumGuaranteeEndsAt": 0,
-        "featureLockRequestAcceptedAt": 0,
-        "featureLockRequestMinimumGuaranteeAmount": 0,
-        "isElevate": false,
-        "mongerRequestType": 1,
-        "type": "Post"
+        "license":0,
+        "inResponseToMediaResourceId":"",
+        "canonicalUrl":"",
+        "approvedHomeCollectionId":"",
+        "newsletterId":"",
+        "webCanonicalUrl":"",
+        "mediumUrl":"",
+        "migrationId":"",
+        "notifyFollowers":true,
+        "notifyTwitter":false,
+        "isSponsored":false,
+        "isRequestToPubDisabled":false,
+        "notifyFacebook":false,
+        "responseHiddenOnParentPostAt":0,
+        "isSeries":false,
+        "isSubscriptionLocked":false,
+        "seriesLastAppendedAt":0,
+        "audioVersionDurationSec":0,
+        "sequenceId":"",
+        "isNsfw":false,
+        "isEligibleForRevenue":false,
+        "isBlockedFromHightower":false,
+        "deletedAt":0,
+        "lockedPostSource":0,
+        "hightowerMinimumGuaranteeStartsAt":0,
+        "hightowerMinimumGuaranteeEndsAt":0,
+        "featureLockRequestAcceptedAt":0,
+        "featureLockRequestMinimumGuaranteeAmount":0,
+        "isElevate":false,
+        "mongerRequestType":1,
+        "type":"Post"
       }
     },
-    "Social": {
-      "3fdd6fb58a80": {
-        "userId": "lo_rBxBiAjSjBmL",
-        "targetUserId": "3fdd6fb58a80",
-        "type": "Social"
+    "Social":{
+      "7767273138e5":{
+        "userId":"lo_dnt_c007223f7613",
+        "targetUserId":"7767273138e5",
+        "type":"Social"
       }
     },
-    "SocialStats": {
-      "3fdd6fb58a80": {
-        "userId": "3fdd6fb58a80",
-        "usersFollowedCount": 2331,
-        "usersFollowedByCount": 954,
-        "type": "SocialStats"
+    "SocialStats":{
+      "7767273138e5":{
+        "userId":"7767273138e5",
+        "usersFollowedCount":1,
+        "usersFollowedByCount":1241,
+        "type":"SocialStats"
       }
     }
   },
-  "paging": {
-    "path": "https://medium.com/_/api/users/3fdd6fb58a80/profile/stream",
-    "next": {
-      "limit": 10,
-      "to": "1433270521917",
-      "source": "latest",
-      "page": 1
+  "paging":{
+    "path":"https://medium.com/_/api/users/7767273138e5/profile/stream",
+    "next":{
+      "limit":10,
+      "to":"1520382220364",
+      "source":"latest",
+      "page":1
     }
   }
 }
