@@ -82,6 +82,14 @@
   }
 }
 
+.color-medium {
+  color: $color-medium !important;
+
+  &:hover {
+    color: darken($color-medium, 15%) !important;
+  }
+}
+
 .font-weight-bold {
   font-weight: 500;
 }

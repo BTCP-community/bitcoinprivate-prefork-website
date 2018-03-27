@@ -441,6 +441,77 @@ body {
 	}
 }
 
+#blog {
+  background: $color-layout-gray;
+
+  a {
+	  color: $color-black;
+    text-decoration: none;
+  }
+
+  img {
+	  height: 50px;
+		width: 50px;
+    border: 4px solid white;
+    border-radius: 25px;
+  }
+
+  p {
+	  font-size: 1.5em;
+		line-height: 2;
+	}
+
+  .blog-page {
+    padding-top: 120px;
+  }
+
+  .post-avatar {
+	  float: left;
+		margin-right: 10px;
+	}
+
+  .post-meta {
+	  font-size: 1.3em;
+	}
+
+  .post-author {
+	  color: $color-primary;
+	}
+
+  .post-time {
+	  color: $color-secondary;
+	}
+
+  .post-date {
+	  float: left;
+	}
+
+  .post-divider {
+	  float: left;
+		margin-left: 8px;
+		margin-right: 8px;
+	}
+
+  .post-article {
+	  background-color: white;
+		border: 1px solid gray;
+		border-radius: 4px;
+		margin: 25px 0px;
+		padding: 25px;
+	}
+
+  .post-body {
+	  margin-top: 20px;
+	}
+
+  .post-footer {
+	  a {
+		  font-size: 1.3em;
+		  color: $color-secondary;
+		}
+	}
+}
+
 .wallets {
 	background: rgba(117, 160, 213, 0.25);
 
