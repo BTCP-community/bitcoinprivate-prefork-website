@@ -1,10 +1,9 @@
 $(function(){
   //var url = (window.location.hostname == 'localhost') ? 'http://anyorigin.com/go?url=https%3A//www.medium.com/@bitcoinprivate/latest%3Fformat%3Djson' : 'https://medium.com/@bitcoinprivate/latest?format=json';
-  //var url = (window.location.hostname == 'localhost') ? 'http://anyorigin.com/go?url=https%3A//www.medium.com/@metaversial/latest%3Fformat%3Djson' : 'https://medium.com/@metaversial/latest?format=json';
 	var url = '/javascript/posts.json';
   $.getJSON(url).done(function(response){
-    //var contents = decodeURIComponent(escape(response.contents));
-    //var data = JSON.parse(contents.replace("])}while(1);</x>", '')).payload;
+    //var contents = decodeURIComponent(escape(response.contents.replace("])}while(1);</x>", '')));
+    //var data = JSON.parse(contents).payload;
 		var data = response;
 
     // Users data
@@ -32,15 +31,19 @@ $(function(){
 			var publishDate = (currentYear == publishYear) ? moment(post.latestPublishedAt).format('MMM Do') : moment(post.latestPublishedAt).format('MMM Do, YYYY');
 			var readTime = Math.round(post.virtuals.readingTime);
 			var title = post.title;
+			var subtitle = post.virtuals.subtitle;
 
       // Post body
-			var paragraphs = post.previewContent.bodyModel.paragraphs;
+			//var paragraphs = post.previewContent.bodyModel.paragraphs;
+			//var postBody = '';
+			//paragraphs.forEach(function(paragraph){
+			//	var text = paragraph.text.replace("\n", '<br/>');
+			//	paragraphText = '<p>' + text + '</p>';
+			//	postBody += paragraphText;
+			//});
 			var postBody = '';
-			paragraphs.forEach(function(paragraph){
-				var text = paragraph.text.replace("\n", '<br/>');
-				paragraphText = '<p>' + text + '</p>';
-				postBody += paragraphText;
-			});
+			postBody += '<p>' + title + '</p>';
+			postBody += '<p>' + subtitle + '</p>';
 
       // Post HTML
       var postHtml = '<div class="post-article">'
