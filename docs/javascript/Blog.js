@@ -1,6 +1,5 @@
 $(function(){
   //var url = (window.location.hostname == 'localhost') ? 'http://anyorigin.com/go?url=https%3A//www.medium.com/@bitcoinprivate/latest%3Fformat%3Djson' : 'https://medium.com/@bitcoinprivate/latest?format=json';
-  //var url = (window.location.hostname == 'localhost') ? 'http://anyorigin.com/go?url=https%3A//www.medium.com/@metaversial/latest%3Fformat%3Djson' : 'https://medium.com/@metaversial/latest?format=json';
 	var url = '/javascript/posts.json';
   $.getJSON(url).done(function(response){
     //var contents = decodeURIComponent(escape(response.contents));
