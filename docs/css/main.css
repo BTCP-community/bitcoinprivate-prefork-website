@@ -8718,11 +8718,6 @@ body {
   #blog a {
     color: #000000;
     text-decoration: none; }
-  #blog img {
-    height: 50px;
-    width: 50px;
-    border: 4px solid white;
-    border-radius: 25px; }
   #blog p {
     font-size: 1.5em;
     line-height: 2; }
@@ -8731,6 +8726,11 @@ body {
   #blog .post-avatar {
     float: left;
     margin-right: 10px; }
+    #blog .post-avatar img {
+      height: 50px;
+      width: 50px;
+      border: 4px solid white;
+      border-radius: 25px; }
   #blog .post-meta {
     font-size: 1.3em; }
   #blog .post-author {
@@ -8751,6 +8751,13 @@ body {
     padding: 25px; }
   #blog .post-body {
     margin-top: 20px; }
+    #blog .post-body img {
+      width: 100%;
+      margin-top: 15px;
+      margin-bottom: 25px; }
+  #blog .post-title {
+    font-size: 2.5em;
+    margin-bottom: 20px; }
   #blog .post-footer a {
     font-size: 1.3em;
     color: #75A0D5; }

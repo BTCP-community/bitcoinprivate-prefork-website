@@ -1,10 +1,7 @@
 $(function(){
-  //var url = (window.location.hostname == 'localhost') ? 'http://anyorigin.com/go?url=https%3A//www.medium.com/@bitcoinprivate/latest%3Fformat%3Djson' : 'https://medium.com/@bitcoinprivate/latest?format=json';
-	var url = '/javascript/posts.json';
+  var url = (window.location.hostname == 'localhost') ? '/javascript/posts.json' : 'https://medium.com/@bitcoinprivate/latest?format=json';
   $.getJSON(url).done(function(response){
-    //var contents = decodeURIComponent(escape(response.contents.replace("])}while(1);</x>", '')));
-    //var data = JSON.parse(contents).payload;
-		var data = response;
+		var data = (window.location.hostname == 'localhost') ? response : JSON.parse(response.contents.replace("])}while(1);</x>", '')).payload;
 
     // Users data
 		var users = data.references.User;
@@ -30,6 +27,8 @@ $(function(){
 			var publishYear = moment(post.latestPublishedAt).year();
 			var publishDate = (currentYear == publishYear) ? moment(post.latestPublishedAt).format('MMM Do') : moment(post.latestPublishedAt).format('MMM Do, YYYY');
 			var readTime = Math.round(post.virtuals.readingTime);
+			var image = post.virtuals.previewImage;
+			var imageUrl = 'https://cdn-images-1.medium.com/fit/c/' + image.originalWidth + '/' + image.originalHeight + '/' + image.imageId;
 			var title = post.title;
 			var subtitle = post.virtuals.subtitle;
 
@@ -41,9 +40,11 @@ $(function(){
 			//	paragraphText = '<p>' + text + '</p>';
 			//	postBody += paragraphText;
 			//});
+
 			var postBody = '';
-			postBody += '<p>' + title + '</p>';
-			postBody += '<p>' + subtitle + '</p>';
+			postBody += '<div class="post-image"><img src="' + imageUrl + '"></div>';
+			postBody += '<div class="post-title">' + title + '</div>';
+			postBody += '<div class="post-subtitle"><p>' + subtitle + '</p></div>';
 
       // Post HTML
       var postHtml = '<div class="post-article">'
