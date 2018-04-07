@@ -41,17 +41,17 @@
 	<title localization-tag="page-title">
 		Bitcoin Private
 	</title>
-	<link href="css/main.css?cachebreaker=78844" rel="stylesheet" type="text/css" />
+	<link href="css/main.css?cachebreaker=942312" rel="stylesheet" type="text/css" />
 	<script type="text/javascript" src="dependencies/jquery/dist/jquery.min.js"></script>
 	<script type="text/javascript" src="dependencies/bootstrap-sass/assets/javascripts/bootstrap.min.js"></script>
-	<script type="text/javascript" src="/dependencies/js-url/url.min.js"></script>
-	<script type="text/javascript" src="/dependencies/moment/min/moment.min.js"></script>
-	<script type="text/javascript" src="javascript/Localizations.js?cachbreaker=2437"></script>
-	<script type="text/javascript" src="javascript/Main.js?cachbreaker=861159"></script>
-	<script type="text/javascript" src="javascript/Countdown.js?cachbreaker=943863" defer></script>
+	<script type="text/javascript" src="dependencies/js-url/url.min.js"></script>
+	<!-- <script type="text/javascript" src="dependencies/moment/min/moment.min.js"></script> -->
+ 	<script type="text/javascript" src="javascript/Localizations.js?cachbreaker=845668"></script>
+	<script type="text/javascript" src="javascript/Main.js?cachbreaker=313632"></script>
+	<script type="text/javascript" src="javascript/Countdown.js?cachbreaker=865503" defer></script>
 	<script type="text/javascript" src="javascript/slideout.min.js"></script>
 	<script type="text/javascript" src="javascript/noty/noty.min.js"></script>
-	<script type="text/javascript" src="javascript/Blog.js?cachbreaker=557569" defer></script>
+	<!-- <script type="text/javascript" src="javascript/Blog.js?cachbreaker=629207" defer></script> -->
 </head>
 
 <body>
@@ -93,7 +93,7 @@
 			<!-- Donate : Wallets -->
 			<div class="donate-content row">
 				<div class="donate-intro col-xs-12">
-					<p localization-tag="resources-donate-text">
+					<p localization-tag="donate-text">
 						Please considering donating to our contribution/development team. A big thank you to everyone that has already shown their support!
 					</p>
 				</div>
@@ -108,16 +108,25 @@
 					<div class="donate-content-title col-xs-12">
 						<h3 localization-tag="donate-content-title-btcp">BTCP</h3>
 					</div>
-					<div class="donate-content-card card col-sm-10 col-sm-offset-1 col-xs-12">
-						<ul class="list-group">
-							<span>Shielded:</span><li class="list-group-item">zkEyLYc45LdNmzjJ84aGFAJ8CW959FCARYNso64SPmzymozageLS9YJ6HKbHSoqjXsV7bjrDEzXVLnMQtUCTeETKehPDPU4
-						</li>
-						</ul>
 
-						<ul class="list-group">
-							<span>Transparent:</span><li class="list-group-item">b1RXUJgnuxtzHyJ5UTWerh4pNBWcVikESZe</li>
-						</ul>
+					<div class="donate-content-card card col-sm-8 col-sm-offset-2 col-xs-12">
+						<div class="card-body">
+							<h5 class="card-title" localization-tag="donate-shielded">Shielded</h5>
+							<ul class="list-group">
+								<li class="list-group-item">zkEyLYc45LdNmzjJ84aGFAJ8CW959FCARYNso64SPmzymozageLS9YJ6HKbHSoqjXsV7bjrDEzXVLnMQtUCTeETKehPDPU4</li>
+							</ul>
+						</div>
 					</div>
+
+					<div class="donate-content-card card col-sm-8 col-sm-offset-2 col-xs-12">
+						<div class="card-body">
+							<h5 class="card-title" localization-tag="donate-transparent">Transparent</h5>
+							<ul class="list-group">
+								<li class="list-group-item">b1RXUJgnuxtzHyJ5UTWerh4pNBWcVikESZe</li>
+							</ul>
+						</div>
+					</div>
+
 				</div>
 			</div>
 
@@ -125,8 +134,37 @@
 	</div>
 
 				<div id="footer" class="footer row">
+
 					<div class="footer-upper container-fluid">
-						<div class="footer-upper-inner">
+
+						<div class="footer-donate">
+							<h5 class="footer-donate-message" localization-tag="donate-message">
+								Please considering donating to our contribution/development team. A big thank you to everyone that has already shown their support!
+							</h5>
+
+							<div class="donate-content-card card col-sm-6 col-xs-12">
+								<div class="card-body">
+									<h5 class="card-title" localization-tag="donate-shielded">Shielded</h5>
+									<ul class="list-group">
+										<li class="list-group-item">zkEyLYc45LdNmzjJ84aGFAJ8CW959FCARYNso64SPmzymozageLS9YJ6HKbHSoqjXsV7bjrDEzXVLnMQtUCTeETKehPDPU4</li>
+									</ul>
+								</div>
+							</div>
+
+							<div class="donate-content-card card col-sm-6 col-xs-12">
+								<div class="card-body">
+									<h5 class="card-title" localization-tag="donate-transparent">Transparent</h5>
+									<ul class="list-group">
+										<li class="list-group-item">b1RXUJgnuxtzHyJ5UTWerh4pNBWcVikESZe</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+
+					</div>
+
+					<div class="footer-lower container-fluid">
+						<div class="footer-lower-inner">
 							<div class="col-xs-12 col-sm-6 col-xs-12">
 								<a href="/#hero">
 									<img class="footer-logo" src="images/branding/logo-white.svg">
