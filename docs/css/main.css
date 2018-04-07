@@ -8805,6 +8805,27 @@ body {
   #press .row > div:not(:last-child) {
     margin-bottom: 40px; }
 
+.donate-title h1 {
+  margin: 3.5rem auto !important; }
+
+.donate-intro {
+  margin: 2.5rem auto;
+  text-align: center; }
+
+.donate .icon {
+  width: 5rem;
+  height: 5rem; }
+
+.donate-wallet {
+  margin: 2.5rem auto;
+  text-align: center; }
+
+.donate-content-title h3 {
+  margin: 1rem 0 !important; }
+
+.donate-content-card {
+  text-align: center; }
+
 .pools-title h1 {
   margin: 60px 0; }
   @media (max-width: 768px) {
