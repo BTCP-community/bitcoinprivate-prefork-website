@@ -781,6 +781,16 @@ body {
 		}
 	}
 
+	&-lower {
+
+		&-inner {
+			display: flex;
+			align-items: center;
+			padding: 2rem 1.5rem 1.5rem;
+			border-top: 1px solid $color-primary-shade;
+		}
+	}
+
 	&-legals {
 
 		a {
@@ -798,6 +808,25 @@ body {
 			&:hover {
 				color: $color-white;
 			}
+		}
+	}
+
+	&-donate {
+
+		&-message {
+			text-align: center;
+			text-transform: none;
+		}
+
+		.card-title {
+			margin: 0.5rem 0.5rem 0.25rem;
+			text-transform: none;
+		}
+
+		.list-group-item {
+			color: $color-white;
+			background-color: $color-primary;
+			border-color: $color-primary-shade;
 		}
 	}
 }

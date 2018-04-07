@@ -8911,6 +8911,11 @@ html, body {
   .footer-upper-inner {
     display: flex;
     align-items: center; }
+  .footer-lower-inner {
+    display: flex;
+    align-items: center;
+    padding: 2rem 1.5rem 1.5rem;
+    border-top: 1px solid #12142B; }
   .footer-legals a {
     margin: 0 1rem;
     text-decoration: none; }
@@ -8920,6 +8925,16 @@ html, body {
       margin-right: 0; }
     .footer-legals a:hover {
       color: #FFFFFF; }
+  .footer-donate-message {
+    text-align: center;
+    text-transform: none; }
+  .footer-donate .card-title {
+    margin: 0.5rem 0.5rem 0.25rem;
+    text-transform: none; }
+  .footer-donate .list-group-item {
+    color: #FFFFFF;
+    background-color: #272D63;
+    border-color: #12142B; }
 
 #support-button i {
   position: absolute;
