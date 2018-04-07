@@ -599,6 +599,45 @@ body {
 	}
 }
 
+.donate {
+
+	&-title {
+
+		h1 {
+			margin: 3.5rem auto!important;
+		}
+	}
+
+	&-intro {
+		margin: 2.5rem auto;
+		text-align: center;
+	}
+
+	.icon {
+		width: 5rem;
+		height: 5rem;
+	}
+
+	&-wallet {
+		margin: 2.5rem auto;
+		text-align: center;
+	}
+
+	&-content {
+
+		&-title {
+
+			h3 {
+				margin: 1rem 0!important;
+			}
+		}
+
+		&-card {
+			text-align: center;
+		}
+	}
+}
+
 .pools {
 
 	&-title {
