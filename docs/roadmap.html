@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="cleartype" content="on">
+	<meta name="MobileOptimized" content="320">
+	<meta name="HandheldFriendly" content="True">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+	<meta name="description" content="Bitcoin Private is a hard fork of Bitcoin combined with the privacy of zk-snarks." />
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="Bitcoin Private">
+	<meta property="og:description" content="Bitcoin Private is a hard fork of Bitcoin combined with the privacy of zk-snarks.">
+	<meta property="og:image" content=" https://raw.githubusercontent.com/BTCP-community/bitcoinprivate-prefork-website/master/src/images/thumbnail.png">
+	<meta property="og:url" content="https://btcprivate.org/">
+	<meta name="twitter:site" content="@bitcoinprivate">
+	<meta name="twitter:title" content="Bitcoin Private">
+	<meta name="twitter:description" content="Bitcoin Private is a hard fork of Bitcoin combined with the privacy of zk-snarks.">
+	<meta name="twitter:image" content="https://raw.githubusercontent.com/BTCP-community/bitcoinprivate-prefork-website/master/src/images/thumbnail.png">
+	<meta name="twitter:card" content="summary_large_image">
+	<link rel="apple-touch-icon" sizes="57x57" href="favicons/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="favicons/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="favicons/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="favicons/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="favicons/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="favicons/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="favicons/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="favicons/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="favicons/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="favicons/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+	<link rel="manifest" href="favicons/manifest.json">
+	<title localization-tag="page-title">
+		Bitcoin Private
+	</title>
+	<link href="css/main.css?cachebreaker=328900" rel="stylesheet" type="text/css" />
+	<script type="text/javascript" src="dependencies/jquery/dist/jquery.min.js"></script>
+	<script type="text/javascript" src="dependencies/bootstrap-sass/assets/javascripts/bootstrap.min.js"></script>
+	<script type="text/javascript" src="dependencies/js-url/url.min.js"></script>
+	<!-- <script type="text/javascript" src="dependencies/moment/min/moment.min.js"></script> -->
+ 	<script type="text/javascript" src="javascript/Localizations.js?cachbreaker=833294"></script>
+	<script type="text/javascript" src="javascript/Main.js?cachbreaker=209641"></script>
+	<script type="text/javascript" src="javascript/Countdown.js?cachbreaker=155670" defer></script>
+	<script type="text/javascript" src="javascript/slideout.min.js"></script>
+	<script type="text/javascript" src="javascript/noty/noty.min.js"></script>
+	<!-- <script type="text/javascript" src="javascript/Blog.js?cachbreaker=272984" defer></script> -->
+
+    <link href='https://fonts.googleapis.com/css?family=Playfair+Display:700,900|Fira+Sans:400,400italic' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+    <script src="javascript/modernizr.js"></script> <!-- Modernizr -->
+</head>
+
+<body>
+	<!-- Confetti -->
+	<canvas class="confetti-canvas" id="confetti"></canvas>
+
+	<!-- Main Containeri -->
+	<div id="main" class="main">
+
+		<!-- Navigation -->
+		<nav class="navbar navbar-default">
+			<div class="container-fluid">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+					<a class="navbar-brand" href="/">
+						<img id="logo" class="logo" src="images/branding/logo.svg" />
+					</a>
+				</div>
+				<button type="button" class="navbar-toggle menu-toggle" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+			</div>
+		</nav>
+
+		<!-- Panel -->
+		<div id="panel" class="content-panel col-xs-12" data-slideout-ignore>
+			<div class="content-panel-inner container-fluid">
+				  <div id="team" class="team row section">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 team-page">
+          <h1 class="team__heading section-heading text-center" localization-tag="why-btcp-header-title"><span class="color-primary">Development</span> <span class="color-secondary">Roadmap</span></h1>
+        </div>
+      </div>
+
+      <div class="row">
+
+        <div class="cd-horizontal-timeline">
+          <div class="timeline">
+            <div class="events-wrapper">
+              <div class="events">
+                <ol>
+                  <li><a href="#0" data-date="30/10/2017" class="year2017">Dec</a></li>
+                  <li><a href="#0" data-date="15/01/2018">Jan</a></li>
+                  <li><a href="#0" data-date="15/02/2018" class="snapshot">Feb</a></li>
+                  <li><a href="#0" data-date="15/03/2018">Mar</a></li>
+                  <li><a href="#0" data-date="15/04/2018" class="selected wearehere">Apr</a></li>
+                  <li><a href="#0" data-date="01/07/2018">Q2</a></li>
+                  <li><a href="#0" data-date="01/10/2018" class="year2018">Q3</a></li>
+                  <li><a href="#0" data-date="15/12/2018">Q4</a></li>
+                  <li><a href="#0" data-date="01/05/2019" class="year2019">&nbsp;</a></li>
+
+                </ol>
+
+                <span class="filling-line" aria-hidden="true"></span>
+              </div> <!-- .events -->
+            </div> <!-- .events-wrapper -->
+
+            <ul class="cd-timeline-navigation">
+              <li><a href="#0" class="prev">Prev</a></li> <!-- class inactive -->
+              <li><a href="#0" class="next">Next</a></li>
+            </ul> <!-- .cd-timeline-navigation -->
+          </div> <!-- .timeline -->
+
+          <div class="events-content">
+            <ol>
+              <li data-date="30/10/2017">
+                <h2>DECEMBER 2017</h2>
+                <br/>
+                <div class="taskList">
+                  <p class="task">
+                    <i class="fas fa-check-circle light-blue-icon">&nbsp;&nbsp;&nbsp;&nbsp;</i>
+                    <span class="task-text">First pull request made, Dec 24</span>
+                  </p>
+                </div>
+              </li>
+
+              <li data-date="15/01/2018">
+                <h2>JANUARY 2018</h2>
+                <br/>
+                <div class="taskList">
+                  <p class="task">
+                    <i class="fas fa-check-circle light-blue-icon">&nbsp;&nbsp;&nbsp;&nbsp;</i>
+                    <span class="task-text">Replay Protection, Jan 5</span>
+                  </p>
+                  <p class="task">
+                    <i class="fas fa-check-circle light-blue-icon">&nbsp;&nbsp;&nbsp;&nbsp;</i>
+                    <span class="task-text">BTC UTXO integration, Jan 7</span>
+                  </p>
+                  <p class="task">
+                    <i class="fas fa-check-circle light-blue-icon">&nbsp;&nbsp;&nbsp;&nbsp;</i>
+                    <span class="task-text">Eleos wallet, Jan 8</span>
+                  </p class="task">
+                  <p class="task">
+                    <i class="fas fa-check-circle light-blue-icon">&nbsp;&nbsp;&nbsp;&nbsp;</i>
+                    <span class="task-text">Release of Electrum Wallet, Jan 27</span>
+                  </p>
+                  <p class="task">
+                    <i class="fas fa-check-circle light-blue-icon">&nbsp;&nbsp;&nbsp;&nbsp;</i>
+                    <span class="task-text">First fork simulation and testnet, Jan 28</span>
+                  </p>
+                </div>
+              </li>
+
+              <li data-date="15/02/2018">
+                <h2>FEBRUARY 2018</h2>
+                <br/>
+                <div class="taskList">
+                  <p class="task">
+                    <i class="fas fa-check-circle light-blue-icon">&nbsp;&nbsp;&nbsp;&nbsp;</i>
+                    <span class="task-text">Replay Protection Upgraded, Feb 18</span>
+                  </p>
+                  <p class="task">
+                    <i class="fas fa-check-circle light-blue-icon">&nbsp;&nbsp;&nbsp;&nbsp;</i>
+                    <span class="task-text">Full Node Desktop Wallet, Feb 20</span>
+                  </p>
+                  <p class="task">
+                    <i class="fas fa-check-circle light-blue-icon">&nbsp;&nbsp;&nbsp;&nbsp;</i>
+                    <span class="task-text">BIP9, Feb 23</span>
+                  </p>
+                  <p class="task">
+                    <i class="fas fa-check-circle light-blue-icon">&nbsp;&nbsp;&nbsp;&nbsp;</i>
+                    <span class="task-text">Second Testnet, Feb 23</span>
+                  </p>
+                  <p class="task">
+                    <i class="fas fa-check-circle light-blue-icon">&nbsp;&nbsp;&nbsp;&nbsp;</i>
+                    <span class="task-text">Partial SegWit Support, Feb 25</span>
+                  </p>
+                  <p class="task">
+                    <i class="fas fa-check-circle light-blue-icon">&nbsp;&nbsp;&nbsp;&nbsp;</i>
+                    <span class="task-text">Final Testnet, Feb 26</span>
+                  </p>
+                  <span class="subTask"><i class="fas fa-genderless blue-icon">&nbsp;&nbsp;</i> Allowed coin claim testing</span>
+                  <p class="task">
+                    <i class="fas fa-check-circle light-blue-icon">&nbsp;&nbsp;&nbsp;&nbsp;</i>
+                    <span class="task-text">Snapshot of BTC and ZCL, Feb 28</span>
+                  </p>
+                </div>
+              </li>
+
+              <li data-date="15/03/2018">
+                <h2>MARCH 2018</h2>
+                <br/>
+                <div class="taskList">
+                  <p class="task">
+                    <i class="fas fa-check-circle light-blue-icon">&nbsp;&nbsp;&nbsp;&nbsp;</i>
+                    <span class="task-text">Fork-merge and Mainnet Launch, March 2-3</span>
+                  </p>
+                  <p class="task">
+                    <i class="fas fa-check-circle light-blue-icon">&nbsp;&nbsp;&nbsp;&nbsp;</i>
+                    <span class="task-text">First BTCP Trezor txn, March 9</span>
+                  </p>
+                  <p class="task">
+                    <i class="fas fa-check-circle light-blue-icon">&nbsp;&nbsp;&nbsp;&nbsp;</i>
+                    <span class="task-text">First BTCP Ledger Nano S txn, March 16</span>
+                  </p>
+                </div>
+              </li>
+
+              <li data-date="15/04/2018" class="selected">
+                <h2>APRIL 2018</h2>
+                <br/>
+                <div class="taskList">
+                  <p class="task">
+                    <i class="fas fa-check-circle light-blue-icon">&nbsp;&nbsp;&nbsp;&nbsp;</i>
+                    <span class="task-text">Enable SegWit coin claiming, April 11</span>
+                  </p>
+                  <p class="task">
+                    <i class="fas fa-check-circle light-blue-icon">&nbsp;&nbsp;&nbsp;&nbsp;</i>
+                    <span class="task-text">Ledger Nano S support, April 16</span>
+                  </p>
+                  <p class="task">
+                    <i class="fas fa-check-circle light-blue-icon">&nbsp;&nbsp;&nbsp;&nbsp;</i>
+                    <span class="task-text">Electrum release for Ledger Nano S, April 19</span>
+                  </p>
+                  <p class="task">
+                    <i class="fas fa-check-circle light-blue-icon">&nbsp;&nbsp;&nbsp;&nbsp;</i>
+                    <span class="task-text">Trezor code merged, April 23</span>
+                  </p>
+                  <p class="task">
+                    <i class="fas fa-flag yellow-icon">&nbsp;&nbsp;&nbsp;&nbsp;</i>
+                    <span class="task-text">BTCP Rebase Begins [MAJOR]</span>
+                  </p>
+                  <span class="subTask"><i class="fas fa-genderless blue-icon">&nbsp;&nbsp;</i> Rebase BTCP from ZEC to BTC codebase. ZEC codebase 3 years behind BTC</span>
+                  <span class="subTask"><i class="fas fa-genderless blue-icon">&nbsp;&nbsp;</i> Also enables facile upgrading of the BTCP node with BTC upstream merges</span>
+                  <span class="subTask"><i class="fas fa-genderless blue-icon">&nbsp;&nbsp;</i> Major upgrades include:</span>
+                  <span class="subTask2"><i class="fas fa-genderless blue-icon">&nbsp;&nbsp;</i> BIP32</span>
+                  <span class="subTask2"><i class="fas fa-genderless blue-icon">&nbsp;&nbsp;</i> SegWit</span>
+                  <span class="subTask2"><i class="fas fa-genderless blue-icon">&nbsp;&nbsp;</i> Lightning Network</span>
+                  <span class="subTask2"><i class="fas fa-genderless blue-icon">&nbsp;&nbsp;</i> Many more</span>
+                  <p class="task">
+                    <i class="fas fa-genderless blue-icon">&nbsp;&nbsp;&nbsp;&nbsp;</i>
+                    <span class="task-text">Closed Beta Merchant Platform Release</span>
+                  </p>
+                </div>
+              </li>
+
+              <li data-date="01/07/2018">
+                <h2>Q2 2018</h2>
+                <br/>
+                <div class="taskList">
+                  <p class="task">
+                    <i class="fas fa-genderless blue-icon">&nbsp;&nbsp;&nbsp;&nbsp;</i>
+                    <span class="task-text">Open Beta Merchant Platform Release</span>
+                  </p>
+                  <p class="task">
+                    <i class="fas fa-genderless blue-icon">&nbsp;&nbsp;&nbsp;&nbsp;</i>
+                    <span class="task-text">BTCP Google Chrome extension</span>
+                  </p>
+                  <p class="task">
+                    <i class="fas fa-genderless blue-icon">&nbsp;&nbsp;&nbsp;&nbsp;</i>
+                    <span class="task-text">Seed tor nodes</span>
+                  </p>
+                  <p class="task">
+                    <i class="fas fa-genderless blue-icon">&nbsp;&nbsp;&nbsp;&nbsp;</i>
+                    <span class="task-text">One-click miner</span>
+                  </p>
+                  <span class="subTask"><i class="fas fa-genderless blue-icon">&nbsp;&nbsp;</i> Allows users to easily mine BTCP at their mining pool of choice or solo mining</span>
+                  <p class="task">
+                    <i class="fas fa-genderless blue-icon">&nbsp;&nbsp;&nbsp;&nbsp;</i>
+                    <span class="task-text">Translated wallets</span>
+                  </p>
+                  <span class="subTask"><i class="fas fa-genderless blue-icon">&nbsp;&nbsp;</i> Will include all the languages present on our website</span>
+                  <p class="task">
+                    <i class="fas fa-genderless blue-icon">&nbsp;&nbsp;&nbsp;&nbsp;</i>
+                    <span class="task-text">Merchant Platform Phase 2</span>
+                  </p>
+                </div>
+              </li>
+
+              <li data-date="01/10/2018">
+                <h2>Q3 2018</h2>
+                <br/>
+                <div class="taskList">
+                  <p class="task">
+                    <i class="fas fa-genderless blue-icon">&nbsp;&nbsp;&nbsp;&nbsp;</i>
+                    <span class="task-text">Finish rebasing of BTCP - release new core node</span>
+                  </p>
+                  <p class="task">
+                    <i class="fas fa-genderless blue-icon">&nbsp;&nbsp;&nbsp;&nbsp;</i>
+                    <span class="task-text">Initiate soft fork for full SegWit support</span>
+                  </p>
+                  <p class="task">
+                    <i class="fas fa-genderless blue-icon">&nbsp;&nbsp;&nbsp;&nbsp;</i>
+                    <span class="task-text">Lightning Network Initiated</span>
+                  </p>
+                  <p class="task">
+                    <i class="fas fa-genderless blue-icon">&nbsp;&nbsp;&nbsp;&nbsp;</i>
+                    <span class="task-text">Shielded Electrum Wallet</span>
+                  </p>
+                  <p class="task">
+                    <i class="fas fa-genderless blue-icon">&nbsp;&nbsp;&nbsp;&nbsp;</i>
+                    <span class="task-text">Embedded Tor / Tor by default</span>
+                  </p>
+                  <p class="task">
+                    <i class="fas fa-genderless blue-icon">&nbsp;&nbsp;&nbsp;&nbsp;</i>
+                    <span class="task-text">Tor Wallet</span>
+                  </p>
+                  <span class="subTask"><i class="fas fa-genderless blue-icon">&nbsp;&nbsp;</i> Complements embedded Tor</span>
+                  <p class="task">
+                    <i class="fas fa-genderless blue-icon">&nbsp;&nbsp;&nbsp;&nbsp;</i>
+                    <span class="task-text">Merchant Platform Phase 2 & 3</span>
+                  </p>
+                  <span class="subTask"><i class="fas fa-genderless blue-icon">&nbsp;&nbsp;</i> E-comerce plugins integration (Shopify, Magento, WHMCS, 3dCart, Woocommerce, PrestaShop, Bigcommerce, etc)</span>
+                </div>
+              </li>
+
+              <li data-date="15/12/2018">
+                <h2>Q4 2018</h2>
+                <br/>
+                <div class="taskList">
+                  <p class="task">
+                    <i class="fas fa-genderless blue-icon">&nbsp;&nbsp;&nbsp;&nbsp;</i>
+                    <span class="task-text">Dandelion privacy protocol</span>
+                  </p>
+                  <span class="subTask"><i class="fas fa-genderless blue-icon">&nbsp;&nbsp;</i> Superior obfuscation technique involving the “stem” and the “fluff” <br/> that will help to further privatize Bitcoin Private’s transparent txns</span>
+                  <p class="task">
+                    <i class="fas fa-genderless blue-iconn">&nbsp;&nbsp;&nbsp;&nbsp;</i>
+                    <span class="task-text">Default Privacy</span>
+                  </p>
+                  <span class="subTask"><i class="fas fa-genderless blue-icon">&nbsp;&nbsp;</i> Make shielded txns default in all wallets</span>
+                  <p class="task">
+                    <i class="fas fa-genderless blue-icon">&nbsp;&nbsp;&nbsp;&nbsp;</i>
+                    <span class="task-text">Merchant Platform Phase 3 & 4</span>
+                  </p>
+                  <span class="subTask"><i class="fas fa-genderless blue-icon">&nbsp;&nbsp;</i> Payment Gateway Integration</span>
+                  <p class="task">
+                    <i class="fas fa-genderless blue-icon">&nbsp;&nbsp;&nbsp;&nbsp;</i>
+                    <span class="task-text">Upgraded Wallet UI/UX</span>
+                  </p>
+                </div>
+              </li>
+
+              <li data-date="01/05/2019">
+                <h2>2019</h2>
+                <br/>
+                <div class="taskList">
+                  <p class="task">
+                    <i class="fas fa-genderless blue-icon">&nbsp;&nbsp;&nbsp;&nbsp;</i>
+                    <span class="task-text">Evaluate alternate proofs of work</span>
+                  </p>
+                  <p class="task">
+                    <i class="fas fa-genderless blue-icon">&nbsp;&nbsp;&nbsp;&nbsp;</i>
+                    <span class="task-text">BTCP DEx</span>
+                  </p>
+                  <p class="task">
+                    <i class="fas fa-genderless blue-icon">&nbsp;&nbsp;&nbsp;&nbsp;</i>
+                    <span class="task-text">Incorporate new Jubjub / Sapling enhancements</span>
+                  </p>
+                  <span class="subTask"><i class="fas fa-genderless blue-icon">&nbsp;&nbsp;</i> iOS wallet with shielded txns</span>
+                  <span class="subTask"><i class="fas fa-genderless blue-icon">&nbsp;&nbsp;</i> Merchant platform with shielded txns</span>
+                  <p class="task">
+                    <i class="fas fa-genderless blue-icon">&nbsp;&nbsp;&nbsp;&nbsp;</i>
+                    <span class="task-text">Shielded Transactions become default</span>
+                  </p>
+                  <p class="task">
+                    <i class="fas fa-genderless blue-icon">&nbsp;&nbsp;&nbsp;&nbsp;</i>
+                    <span class="task-text">Evaluate making shielded transactions mandatory</span>
+                  </p>
+                </div>
+              </li>
+
+            </ol>
+          </div> <!-- .events-content -->
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+
+				<div id="footer" class="footer row">
+
+					<div class="footer-upper container-fluid">
+
+						<div class="footer-donate">
+							<h5 class="footer-donate-message" localization-tag="donate-message">
+								Please consider contributing to our contribution/development team. A big thank you to everyone that has already shown their support!
+							</h5>
+
+							<div class="donate-content-card card col-sm-6 col-xs-12">
+								<div class="card-body">
+									<h5 class="card-title" localization-tag="donate-shielded">Shielded</h5>
+									<ul class="list-group">
+										<li class="list-group-item">zkEyLYc45LdNmzjJ84aGFAJ8CW959FCARYNso64SPmzymozageLS9YJ6HKbHSoqjXsV7bjrDEzXVLnMQtUCTeETKehPDPU4</li>
+									</ul>
+								</div>
+							</div>
+
+							<div class="donate-content-card card col-sm-6 col-xs-12">
+								<div class="card-body">
+									<h5 class="card-title" localization-tag="donate-transparent">Transparent</h5>
+									<ul class="list-group">
+										<li class="list-group-item">b1RXUJgnuxtzHyJ5UTWerh4pNBWcVikESZe</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+
+					</div>
+
+					<div class="footer-lower container-fluid">
+						<div class="footer-lower-inner">
+							<div class="col-xs-12 col-sm-6 col-xs-12">
+								<a href="/#hero">
+									<img class="footer-logo" src="images/branding/logo-white.svg">
+								</a>
+							</div>
+							<div class="footer-legals colsm-6 col-xs-12 text-right">
+								<a id='privacylink' href="privacy.html" localization-tag="navigation-privacy">Privacy</a>
+								<a id='disclaimerlink' href="disclaimer.html" localization-tag="navigation-disclaimer">Disclaimer</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Menu -->
+		<div id="menu" class="sidebar">
+			<div class="sidebar-inner">
+				<ul class="sidebar-list list-unstyled components">
+					<li><a class="menu-toggle" href="/" id="headerHome" localization-tag="navigation-home">Home</a></li>
+					<li><a class="menu-toggle" href="/#why-btcp" id="headerWhyBTCP" localization-tag="navigation-about">About</a></li>
+					<li><a class="menu-toggle" href="/#hard-fork" id="headerHardFork" localization-tag="navigation-hard-fork">Hard Fork</a></li>
+					<li><a class="menu-toggle" href="/#wallets" id="headerWallets" localization-tag="navigation-wallets">Wallets</a></li>
+					<li><a href="/pools.html" localization-tag="navigation-press">Pools</a></li>
+					<li><a href="/donate.html" localization-tag="navigation-donate">Donate</a></li>
+					<li><a href="https://explorer.btcprivate.org" target="_blank" localization-tag="navigation-explorer">Block Explorer</a></li>
+					<li><a id='teamlink1' href="/team.html" localization-tag="navigation-team">BTCP Team</a></li>
+                    <li><a id='roadmaplink1' href="/roadmap.html" localization-tag="navigation-roadmap">Roadmap</a></li>
+					<li><a href="/press.html" localization-tag="navigation-press">Press</a></li>
+					<li><a href="/research_proposals.pdf" localization-tag="navigation-research-proposals">Research Proposals</a></li>
+					<li class="sidebar-collapse">
+						<a href="#sidebarSupport" id="support-button" data-toggle="collapse" aria-expanded="false" localization-tag="navigation-support"><span>Support</span> <i class="fa fa-caret-down"></i></a>
+						<ul class="collapse list-unstyled" id="sidebarSupport">
+							<li><a href="https://support.btcprivate.org/" target="_blank" localization-tag="navigation-support-portal">Support Portal</a></li>
+							<li><a class="menu-toggle" href="/#faq" id="headerFAQ" localization-tag="navigation-faq">FAQ</a></li>
+							<li><a class="menu-toggle" href="/#resources" id="headerResources" localization-tag="navigation-resources">Resources</a></li>
+						</ul>
+					</li>
+					<li class="sidebar-collapse">
+						<a href="#sidebarLanguages" id="support-button" data-toggle="collapse" aria-expanded="false" localization-tag="navigation-language"><span>English</span> <i class="fa fa-caret-down"></i></a>
+						<ul class="collapse list-unstyled" id="sidebarLanguages">
+							<li><a href="/?lang=en">English</a></li>
+							<li><a href="/?lang=zh_cn">简体中文</a></li>
+							<li><a href="/?lang=ru">Pу́сский</a></li>
+							<li><a href="/?lang=nl">Nederlands</a></li>
+							<li><a href="/?lang=ar">العربية</a></li>
+							<li><a href="/?lang=he">עִבְרִית</a></li>
+							<li><a href="/?lang=ms">Malay</a></li>
+							<li><a href="/?lang=pt">Português</a></li>
+							<li><a href="/?lang=tr">Türkçe</a></li>
+							<li><a href="/?lang=ja">日本語</a></li>
+							<li><a href="/?lang=el">ελληνικά</a></li>
+							<li><a href="/?lang=de">Deutsch</a></li>
+							<li><a href="/?lang=ko">한국어</a></li>
+							<li><a href="/?lang=fr">Français</a></li>
+							<li><a href="/?lang=es">Español</a></li>
+							<li><a href="/?lang=sr">српски</a></li>
+							<li><a href="/?lang=id">Bahasa Indonesia</a></li>
+							<li><a href="/?lang=hu">Magyar</a></li>
+							<li><a href="/?lang=it">Italiano</a></li>
+							<li><a href="/?lang=ur">اُردُو‬‎</a></li>
+							<li><a href="/?lang=ro">Română</a></li>
+							<li><a href="/?lang=vi">Tiếng Việt</a></li>
+							<li><a href="/?lang=bg">български</a></li>
+							<li><a href="/?lang=fi">Suomi</a></li>
+							<li><a href="/?lang=cz">Česky</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-111728706-1"></script>
+	<script>
+	window.dataLayer = window.dataLayer || [];
+
+	function gtag() { dataLayer.push(arguments); }
+	gtag('js', new Date());
+	gtag('config', 'UA-111728706-1');
+	</script>
+
+	<script src="javascript/jquery-2.1.4.js"></script>
+  <script src="javascript/jquery.mobile.custom.min.js"></script>
+  <script src="javascript/roadmap-main.js"></script> <!-- Resource jQuery -->
+</body>
+
+</html>
