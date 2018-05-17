@@ -9358,7 +9358,7 @@ body {
 .cd-horizontal-timeline .events-content p {
   font-size: 1.7rem;
   color: #050607;
-  font-family: "" Ubuntu Medium ", serif"; }
+  font-family: "Ubuntu", sans-serif; }
 
 .cd-horizontal-timeline .events-content em, .cd-horizontal-timeline .events-content p {
   line-height: 1.6; }
@@ -9366,7 +9366,7 @@ body {
 @media only screen and (min-width: 768px) {
   .cd-horizontal-timeline .events-content h2 {
     font-size: 3rem;
-    font-family: "" Ubuntu Medium ", serif"; }
+    font-family: "Ubuntu", sans-serif; }
   .cd-horizontal-timeline .events-content em {
     font-size: 2rem; }
   .cd-horizontal-timeline .events-content p {
@@ -9444,7 +9444,7 @@ body {
 
 .mainTitle {
   font-size: 2.5em;
-  font-family: "Ubuntu Light", verdana, sans-serif;
+  font-family: "Ubuntu", sans-serif;
   margin: auto;
   text-align: center;
   color: #272D63;
@@ -9472,14 +9472,14 @@ body {
 
 .taskList {
   padding-left: 3%;
-  font-family: "Ubuntu Light", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-style: normal; }
 
 .subTask {
   color: #888;
   padding-left: 40px;
   font-size: 14px;
-  font-family: "Ubuntu Light", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   display: block;
   line-height: 21px; }
 
@@ -9488,7 +9488,7 @@ body {
   padding-left: 60px;
   line-height: 22px;
   font-size: 14px;
-  font-family: "Ubuntu Light", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   display: block;
   line-height: 21px; }
 
