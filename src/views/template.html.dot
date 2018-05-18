@@ -142,7 +142,7 @@
 					<li><a class="menu-toggle" href="/#why-btcp" id="headerWhyBTCP" localization-tag="navigation-about">About</a></li>
 					<li><a class="menu-toggle" href="/#hard-fork" id="headerHardFork" localization-tag="navigation-hard-fork">Hard Fork</a></li>
 					<li><a class="menu-toggle" href="/#wallets" id="headerWallets" localization-tag="navigation-wallets">Wallets</a></li>
-					<li><a class="menu-toggle" href="#road-map" id="headerRoadMap" localization-tag="navigation-roadmap">Roadmap</a></li>
+					<li><a class="menu-toggle" href="#roadmap" id="headerRoadMap" localization-tag="navigation-roadmap">Roadmap</a></li>
 					<li><a href="/pools.html" localization-tag="navigation-press">Pools</a></li>
 					<li><a href="/donate.html" localization-tag="navigation-donate">Donate</a></li>
 					<li><a href="https://explorer.btcprivate.org" target="_blank" localization-tag="navigation-explorer">Block Explorer</a></li>
