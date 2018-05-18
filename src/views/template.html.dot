@@ -147,6 +147,7 @@
 					<li><a href="/donate.html" localization-tag="navigation-donate">Donate</a></li>
 					<li><a href="https://explorer.btcprivate.org" target="_blank" localization-tag="navigation-explorer">Block Explorer</a></li>
 					<li><a id='teamlink1' href="/team.html" localization-tag="navigation-team">BTCP Team</a></li>
+					<li><a id='ambassadorLinkMenu' href="https://ambassadors.btcprivate.org/" target="_blank" localization-tag="navigation-ambassador-program">Ambassador Progam</a></li>
 					<li><a href="/press.html" localization-tag="navigation-press">Press</a></li>
 					<li><a href="/research_proposals.pdf" localization-tag="navigation-research-proposals">Research Proposals</a></li>
 					<li class="sidebar-collapse">
