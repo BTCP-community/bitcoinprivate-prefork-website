@@ -309,9 +309,12 @@ body {
 		color: $color-primary;
 	}
 }
+#roadmap, #team, #faq {
+	background: rgba(117, 160, 213, 0.25);
+}
 
 #hard-fork {
-	background: rgba(117, 160, 213, 0.25);
+	//background: rgba(117, 160, 213, 0.25);
 
 	@media (max-width: $screen-sm-min) {
 		img {
@@ -513,7 +516,7 @@ body {
 }
 
 .wallets {
-	background: rgba(117, 160, 213, 0.25);
+	//background: rgba(117, 160, 213, 0.25);
 
 
 	.wallet {
