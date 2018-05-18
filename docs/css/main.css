@@ -8640,13 +8640,15 @@ body {
 #why-btcp .visual-grouping .content h3 {
   color: #272D63; }
 
-#hard-fork {
+#road-map, #team, #faq {
   background: rgba(117, 160, 213, 0.25); }
-  @media (max-width: 768px) {
-    #hard-fork img {
-      margin-bottom: 40px; } }
-  #hard-fork h3:not(:first-child) {
-    margin-top: 40px; }
+
+@media (max-width: 768px) {
+  #hard-fork img {
+    margin-bottom: 40px; } }
+
+#hard-fork h3:not(:first-child) {
+  margin-top: 40px; }
 
 #faq h3:not(:first-child) {
   margin-top: 40px; }
@@ -8755,10 +8757,8 @@ body {
     font-size: 1.3em;
     color: #75A0D5; }
 
-.wallets {
-  background: rgba(117, 160, 213, 0.25); }
-  .wallets .wallet-content p {
-    min-height: 21px; }
+.wallets .wallet-content p {
+  min-height: 21px; }
 
 #resources {
   background: #EEEEEE; }
