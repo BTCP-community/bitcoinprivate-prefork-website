@@ -24,12 +24,12 @@
     "url.jquery.json"
   ],
   "dependencies": {},
-  "version": "2.5.2",
-  "_release": "2.5.2",
+  "version": "2.5.3",
+  "_release": "2.5.3",
   "_resolution": {
     "type": "version",
-    "tag": "v2.5.2",
-    "commit": "97a02744bea1ea47095d5742bb6c700950720f8a"
+    "tag": "v2.5.3",
+    "commit": "13a3d2725c8a6d59f7d7287f4abb1638801a5dde"
   },
   "_source": "https://github.com/websanova/js-url.git",
   "_target": "^2.5.2",
