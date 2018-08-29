@@ -34,6 +34,14 @@
   color: $color-white !important;
 }
 
+.color-youtube {
+  color: $color-youtube !important;
+
+  &:hover {
+    color: darken($color-youtube, 15%) !important;
+  }
+}
+
 .color-facebook {
   color: $color-facebook !important;
 

@@ -8301,6 +8301,11 @@ p {
 .color-white {
   color: #FFFFFF !important; }
 
+.color-youtube {
+  color: #FF0000 !important; }
+  .color-youtube:hover {
+    color: #b30000 !important; }
+
 .color-facebook {
   color: #3b5998 !important; }
   .color-facebook:hover {
